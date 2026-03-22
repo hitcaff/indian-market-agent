@@ -1,0 +1,16 @@
+{
+  "total_trades": 0,
+  "wins": 0,
+  "losses": 0,
+  "breakeven": 0,
+  "win_rate": 0.0,
+  "total_pnl_points": 0,
+  "total_pnl_inr": 0,
+  "avg_pnl_per_trade": 0,
+  "best_trade": null,
+  "worst_trade": null,
+  "current_streak": 0,
+  "streak_type": null,
+  "nifty_stats": {"trades": 0, "wins": 0, "pnl_points": 0},
+  "banknifty_stats": {"trades": 0, "wins": 0, "pnl_points": 0}
+}

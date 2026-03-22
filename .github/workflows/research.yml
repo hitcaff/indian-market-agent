@@ -1,0 +1,36 @@
+name: Indian Market Agent
+
+on:
+  schedule:
+    - cron: '30 0 * * 1-5'   # 6:00 AM IST (Mon-Fri)
+    - cron: '0 6 * * 1-5'    # 11:30 AM IST (Mon-Fri)
+    - cron: '0 9 * * 1-5'    # 2:30 PM IST (Mon-Fri)
+    - cron: '0 12 * * 1-5'   # 5:30 PM IST (Mon-Fri)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install requests feedparser python-dotenv
+      - name: Run research
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python research.py
+      - name: Commit signal
+        run: |
+          git config user.name "market-bot"
+          git config user.email "bot@market.ai"
+          git add data/
+          git diff --cached --quiet || git commit -m "signal: $(date +'%Y-%m-%d %H:%M')"
+          git push

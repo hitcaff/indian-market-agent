@@ -1,0 +1,8 @@
+{
+  "global": 0.25,
+  "technical": 0.35,
+  "options": 0.25,
+  "sentiment": 0.15,
+  "last_updated": "2026-01-01",
+  "trades_since_last_update": 0
+}

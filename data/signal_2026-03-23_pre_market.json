@@ -1,0 +1,49 @@
+{
+  "session": "pre_market",
+  "date": "2026-03-23",
+  "timestamp": "03:41 IST",
+  "market_bias": "neutral",
+  "bias_strength": "moderate",
+  "reasoning": {
+    "global_analysis": "Nasdaq futures are showing notable weakness (-0.78%), suggesting potential pressure on Indian IT stocks. Other major global indices (Dow, Nikkei, Hang Seng) are largely flat. Escalating Mideast tensions and the associated rise in crude oil prices are significant geopolitical concerns that could weigh on sentiment.",
+    "technical_analysis": "Both Nifty 50 (RSI 28.49) and Bank Nifty (RSI 19.16) are in deeply oversold territory, which typically signals a potential for a bounce or reversal. However, the trend for both indices is currently neutral, and EMA9/EMA21 are flat, indicating consolidation or a lack of clear directional momentum.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from the options market. The absence of Max Pain, Call Resistance, and Put Support data limits a comprehensive understanding of immediate options-derived sentiment and key levels.",
+    "sentiment_analysis": "FII/DII data is neutral for the pre-market. Market news presents a highly mixed picture: positive stock-specific news (HDFC Bank, Bajaj Finance, Real Estate sector) is overshadowed by significant macroeconomic headwinds such as the rupee touching a record low, rising oil prices due to Mideast escalation, and a warning of 'ongoing chaos' in the near term.",
+    "confluence_summary": "While the deeply oversold RSI for both Nifty and Bank Nifty suggests a technical bounce is plausible, the overall market regime is characterized by high volatility and a caution signal. Significant geopolitical risks (Mideast war, crude oil spikes) and domestic currency depreciation create strong headwinds. The lack of clear directional cues from global markets (beyond Nasdaq), options data, and FII/DII flows leads to insufficient confluence for a high-conviction directional trade, warranting a neutral and cautious stance."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": null,
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": null,
+    "key_levels_to_watch": [],
+    "invalidation": null
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": null,
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": null,
+    "key_levels_to_watch": [],
+    "invalidation": null
+  },
+  "what_to_watch": [
+    "Movement of Crude Oil prices and any further escalation in the Mideast conflict.",
+    "USD-INR exchange rate, especially if the rupee continues to depreciate towards 100 per dollar.",
+    "FII and DII activity during market hours for fresh institutional flow insights.",
+    "Performance of the IT sector given the weakness in Nasdaq futures.",
+    "Nifty's ability to hold the 23000-23050 support zone if selling pressure emerges."
+  ],
+  "risk_factors": [
+    "Further escalation of geopolitical tensions, particularly in the Middle East, impacting global markets and crude oil prices.",
+    "Continued and rapid depreciation of the Indian Rupee, leading to imported inflation and potential FII outflows.",
+    "Sustained weakness in global technology stocks, which could drag down Indian IT majors.",
+    "High market volatility (ATR% 1.35%) implies rapid price swings, increasing risk for directional trades."
+  ]
+}
