@@ -270,6 +270,205 @@ def save_fvg_zones(nifty_fvgs: list, bnf_fvgs: list):
         json.dump(data, f, indent=2)
     print(f"[INFO] Saved {len(nifty_fvgs)} Nifty + {len(bnf_fvgs)} BNF FVGs to data/fvg_zones.json")
 
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# ADDED FEATURES
+# ══════════════════════════════════════════════════════════════════════════════
+
+def compute_orb(symbol: str) -> dict:
+    """
+    Opening Range Breakout — captures first 15min high/low as key levels.
+    Called once at ~9:30 AM IST.
+    """
+    try:
+        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
+        params = {"interval": "5m", "range": "1d"}
+        resp = requests.get(url, params=params, headers=HEADERS, timeout=15)
+        resp.raise_for_status()
+        result = resp.json()["chart"]["result"][0]
+        quotes = result["indicators"]["quote"][0]
+        highs  = [h for h in quotes.get("high",  []) if h is not None]
+        lows   = [l for l in quotes.get("low",   []) if l is not None]
+        # First 3 x 5min candles = 15 minutes
+        orb_high = max(highs[:3]) if len(highs) >= 3 else (max(highs) if highs else 0)
+        orb_low  = min(lows[:3])  if len(lows)  >= 3 else (min(lows)  if lows  else 0)
+        return {
+            "orb_high": round(orb_high, 2),
+            "orb_low":  round(orb_low,  2),
+            "orb_range": round(orb_high - orb_low, 2),
+            "computed": True,
+        }
+    except Exception as e:
+        print(f"[WARN] ORB failed for {symbol}: {e}")
+        return {"computed": False}
+
+
+def check_orb_breakout(price: float, orb: dict, prev_price: float) -> str:
+    """Returns 'breakout_up', 'breakout_down', or None."""
+    if not orb.get("computed"):
+        return None
+    if prev_price and prev_price <= orb["orb_high"] and price > orb["orb_high"]:
+        return "breakout_up"
+    if prev_price and prev_price >= orb["orb_low"] and price < orb["orb_low"]:
+        return "breakout_down"
+    return None
+
+
+def check_volume_spike(symbol: str, threshold: float = 2.0) -> dict:
+    """Detect if current 15min candle volume is spike_threshold x average."""
+    try:
+        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
+        params = {"interval": "15m", "range": "5d"}
+        resp = requests.get(url, params=params, headers=HEADERS, timeout=15)
+        resp.raise_for_status()
+        result = resp.json()["chart"]["result"][0]
+        volumes = [v for v in result["indicators"]["quote"][0].get("volume", []) if v]
+        if len(volumes) < 5:
+            return {"spike": False}
+        avg_vol = sum(volumes[:-1]) / len(volumes[:-1])
+        current_vol = volumes[-1]
+        ratio = current_vol / avg_vol if avg_vol else 0
+        return {
+            "spike": ratio >= threshold,
+            "ratio": round(ratio, 2),
+            "current_vol": current_vol,
+            "avg_vol": round(avg_vol),
+        }
+    except Exception as e:
+        print(f"[WARN] Volume check failed: {e}")
+        return {"spike": False}
+
+
+def compute_trailing_sl(trade: dict, current_price: float, t1_hit: bool) -> dict:
+    """
+    Once T1 is hit, trail SL to entry (risk-free).
+    Returns updated SL and whether it changed.
+    """
+    if not t1_hit:
+        return {"updated": False, "new_sl": trade.get("stop_loss", 0)}
+
+    entry = trade.get("entry_mid", 0)
+    current_sl = trade.get("stop_loss", 0)
+    direction = trade.get("direction", "")
+
+    if direction == "LONG":
+        # Trail SL to entry once T1 hit
+        new_sl = max(current_sl, entry)
+        # Further trail: if price moved 50% toward T2, move SL to T1
+        t1 = trade.get("target_1", 0)
+        t2 = trade.get("target_2", 0)
+        if t2 and current_price >= t1 + (t2 - t1) * 0.5:
+            new_sl = max(new_sl, t1)
+    elif direction == "SHORT":
+        new_sl = min(current_sl, entry) if entry else current_sl
+        t1 = trade.get("target_1", 0)
+        t2 = trade.get("target_2", 0)
+        if t2 and current_price <= t1 - (t1 - t2) * 0.5:
+            new_sl = min(new_sl, t1)
+    else:
+        return {"updated": False, "new_sl": current_sl}
+
+    updated = new_sl != current_sl
+    return {"updated": updated, "new_sl": round(new_sl, 2), "old_sl": current_sl}
+
+
+def fetch_gift_nifty_gap(nifty_prev_close: float) -> dict:
+    """Check Gift Nifty vs previous close at market open for gap analysis."""
+    try:
+        resp = requests.get(
+            "https://query1.finance.yahoo.com/v8/finance/chart/^NSEI",
+            params={"interval": "1m", "range": "1d"},
+            headers=HEADERS, timeout=10
+        )
+        if resp.ok:
+            result = resp.json()["chart"]["result"][0]
+            opens = [o for o in result["indicators"]["quote"][0].get("open", []) if o]
+            if opens and nifty_prev_close:
+                gap = opens[0] - nifty_prev_close
+                gap_pct = gap / nifty_prev_close * 100
+                gap_type = "gap_up" if gap_pct > 0.3 else "gap_down" if gap_pct < -0.3 else "flat"
+                return {
+                    "open_price": round(opens[0], 2),
+                    "prev_close": round(nifty_prev_close, 2),
+                    "gap_points": round(gap, 2),
+                    "gap_pct": round(gap_pct, 2),
+                    "gap_type": gap_type,
+                }
+    except Exception as e:
+        print(f"[WARN] Gift Nifty gap failed: {e}")
+    return {}
+
+
+def check_bnf_nifty_ratio(nifty_price: float, bnf_price: float,
+                           nifty_prev: float, bnf_prev: float) -> dict:
+    """
+    Track BNF vs Nifty relative performance.
+    Divergence signals sector-specific weakness/strength.
+    """
+    if not all([nifty_price, bnf_price, nifty_prev, bnf_prev]):
+        return {}
+    nifty_chg = (nifty_price - nifty_prev) / nifty_prev * 100
+    bnf_chg   = (bnf_price   - bnf_prev)   / bnf_prev   * 100
+    divergence = bnf_chg - nifty_chg
+    signal = "bnf_outperforming" if divergence > 0.5 else              "bnf_underperforming" if divergence < -0.5 else "in_sync"
+    return {
+        "nifty_chg_pct": round(nifty_chg, 2),
+        "bnf_chg_pct":   round(bnf_chg,   2),
+        "divergence":    round(divergence, 2),
+        "signal":        signal,
+    }
+
+
+def check_sr_breach(price: float, prev_price: float, levels: dict) -> list:
+    """Check if price breached any key support/resistance level."""
+    breaches = []
+    for name, level in levels.items():
+        if not level:
+            continue
+        # Upward breach
+        if prev_price and prev_price < level <= price:
+            breaches.append({"level": name, "value": level, "direction": "above"})
+        # Downward breach
+        elif prev_price and prev_price > level >= price:
+            breaches.append({"level": name, "value": level, "direction": "below"})
+    return breaches
+
+
+def send_eod_summary(nifty_trade: dict, bnf_trade: dict,
+                     nifty_status: str, bnf_status: str,
+                     nifty_price: float, bnf_price: float,
+                     nifty_prev: float, bnf_prev: float,
+                     bot_token: str, chat_id: str):
+    """Send EOD summary at 3:25 PM IST — 5 min before close."""
+    nifty_chg = round((nifty_price - nifty_prev) / nifty_prev * 100, 2) if nifty_prev else 0
+    bnf_chg   = round((bnf_price   - bnf_prev)   / bnf_prev   * 100, 2) if bnf_prev   else 0
+
+    def trade_summary(trade, status, price, prev):
+        direction = trade.get("direction", "NO TRADE")
+        if direction == "NO TRADE":
+            return "_No trade today_"
+        entry = trade.get("entry_mid", 0)
+        current_pnl = (price - entry) if direction == "LONG" else (entry - price)
+        return f"{direction} | Status: {status} | Unrealized: {current_pnl:+.0f} pts"
+
+    lines = [
+        f"📊 *EOD Summary — {get_ist_now().strftime('%d %b %Y, %H:%M IST')}*",
+        f"",
+        f"NIFTY: `{nifty_price:,.2f}` ({nifty_chg:+.2f}%)",
+        f"_{trade_summary(nifty_trade, nifty_status, nifty_price, nifty_prev)}_",
+        f"",
+        f"BNF: `{bnf_price:,.2f}` ({bnf_chg:+.2f}%)",
+        f"_{trade_summary(bnf_trade, bnf_status, bnf_price, bnf_prev)}_",
+        f"",
+        f"_P&L report at 4:00 PM IST_",
+    ]
+    msg = "\n".join(lines)
+    resp = requests.post(f"https://api.telegram.org/bot{bot_token}/sendMessage",
+        json={"chat_id": chat_id, "text": msg, "parse_mode": "Markdown"}, timeout=10)
+    if resp.ok:
+        print("[INFO] EOD summary sent.")
+
 def run_live_monitor():
     """Main live monitoring loop."""
     bot_token = os.getenv("TELEGRAM_BOT_TOKEN")
