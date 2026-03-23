@@ -1,58 +1,57 @@
 {
   "session": "post_market",
   "date": "2026-03-23",
-  "timestamp": "15:21 IST",
-  "market_bias": "bearish",
-  "bias_strength": "moderate",
+  "timestamp": "18:08 IST",
+  "market_bias": "bullish",
+  "bias_strength": "strong",
   "reasoning": {
-    "global_analysis": "Global markets, including SGX Nifty, Dow, Nasdaq, Nikkei, and Hang Seng, have seen significant declines, largely due to escalating Middle East conflict and rising crude oil prices. This widespread global bearishness is a major drag on Indian markets, setting a negative tone for the next trading session.",
-    "technical_analysis": "Both Nifty and Bank Nifty witnessed a sharp sell-off, closing down 2.71% and 3.90% respectively. Their RSIs are deeply oversold (Nifty 18.07, Bank Nifty 10.15), indicating extreme bearish momentum but also a high probability of a technical bounce from these levels. Both indices are trading significantly below their EMAs, confirming the strong downtrend for the day despite the 'neutral' trend indicator.",
-    "options_analysis": "The provided PCR of 1.0 for both Nifty and Bank Nifty is neutral. However, the Max Pain, Call Resistance, and Put Support values are all 0, indicating insufficient or missing options data to draw concrete conclusions on immediate support/resistance from options chains. This limits the options-based analysis significantly for directional conviction.",
-    "sentiment_analysis": "FII/DII data is neutral (\u20b90 Cr), offering no immediate directional cues. Market news is overwhelmingly negative, highlighting global geopolitical tensions, rising bond yields, crude price worries, and a significant market crash in India. The overall sentiment is clearly risk-off and highly bearish, driven by external factors.",
-    "confluence_summary": "The market is under severe pressure from global geopolitical tensions and a broad risk-off sentiment, leading to a significant crash today. While both Nifty and Bank Nifty are technically deeply oversold, the overwhelming bearish global cues and news flow suggest that any bounce might be short-lived, and the overall bias remains bearish. High volatility and caution signal further reinforce this complex environment, making immediate directional trades risky."
+    "global_analysis": "Despite initial negative global cues for today's session, the post-market development of Trump postponing military strikes on Iran has dramatically shifted sentiment. US stock futures are soaring (Dow +1.80%, Nasdaq +0.89%), crude oil has plunged over 7%, and most importantly, Gift Nifty has jumped 4-4.5%, signaling a strong bullish opening for Indian markets tomorrow.",
+    "technical_analysis": "Nifty and Bank Nifty both experienced sharp declines today, closing down -2.60% and -3.72% respectively, pushing their RSIs deep into oversold territory (Nifty 18.32, Bank Nifty 10.37). This oversold condition, combined with the significant positive global news, creates a strong technical setup for a substantial gap-up opening and potential short covering.",
+    "options_analysis": "The current PCR for both Nifty and Bank Nifty is neutral at 1.0, with Max Pain, Call Resistance, and Put Support showing 0. This indicates that the options data for today's close does not reflect a clear directional bias, likely due to the sharp intraday fall and the post-market geopolitical shift. This data is currently less informative given the expected gap-up.",
+    "sentiment_analysis": "FII/DII data for today is neutral. However, market news is overwhelmingly positive, highlighting the de-escalation of US-Iran tensions and the subsequent strong rally in global futures and Gift Nifty. This significant geopolitical relief is a powerful bullish catalyst, overriding any immediate negative sentiment from today's market action.",
+    "confluence_summary": "The deep oversold technical conditions in Nifty and Bank Nifty, coupled with the dramatic de-escalation of US-Iran conflict, the sharp fall in crude oil, and the significant jump in Gift Nifty (4-4.5%), create a strong bullish confluence. A substantial gap-up opening is highly probable, and the market is likely to attempt to recover a significant portion of today's losses."
   },
   "nifty_trade": {
-    "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 50,
-    "risk_reward": "N/A",
+    "direction": "LONG",
+    "entry_zone": "23300 - 23400",
+    "stop_loss": 23150,
+    "target_1": 23600,
+    "target_2": 23750,
+    "confidence_pct": 75,
+    "risk_reward": "1:1.25 to 1:2",
     "key_levels_to_watch": [
-      "22356 (Immediate Support)",
-      "22223 (Strong Support)",
-      "22736 (Immediate Resistance)",
-      "22984 (Strong Resistance)"
+      "23000 (previous resistance turned support)",
+      "23200 (potential gap support)",
+      "23500 (psychological resistance)"
     ],
-    "invalidation": "A clear break and sustenance above 22750 or below 22200, or a significant shift in global sentiment."
+    "invalidation": "Nifty fails to sustain above the expected gap-up opening levels and closes below 23150, indicating significant profit booking or renewed negative news."
   },
   "banknifty_trade": {
-    "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 50,
-    "risk_reward": "N/A",
+    "direction": "LONG",
+    "entry_zone": "53200 - 53300",
+    "stop_loss": 52900,
+    "target_1": 53800,
+    "target_2": 54200,
+    "confidence_pct": 75,
+    "risk_reward": "1:1.5 to 1:2.7",
     "key_levels_to_watch": [
-      "51000 (Psychological Support)",
-      "51800 (Potential Resistance for bounce)",
-      "50500 (Strong Support)"
+      "52000 (previous resistance turned support)",
+      "53000 (potential gap support)",
+      "53500 (psychological resistance)"
     ],
-    "invalidation": "A clear break and sustenance above 52000 or below 51000, or a significant shift in global sentiment."
+    "invalidation": "Bank Nifty fails to sustain above the expected gap-up opening levels and closes below 52900, signaling weakness or aggressive profit booking."
   },
   "what_to_watch": [
-    "Global market cues, especially US futures and Asian markets performance overnight, for directional clarity at market open.",
-    "Crude oil prices and any further developments in the Middle East conflict, as they are key drivers of current sentiment.",
-    "FII/DII activity at market open for signs of conviction or reversal, as today's data was neutral.",
-    "Nifty's ability to hold the 22356 support level or initiate a bounce from its deeply oversold territory.",
-    "Bank Nifty's ability to hold psychological support around 51000 and the strength of any potential bounce, given its extremely oversold RSI."
+    "Sustainability of the geopolitical de-escalation between US and Iran.",
+    "Performance of global markets, especially US markets tonight, for confirmation of strength.",
+    "FII/DII activity tomorrow; a turn to net buying would reinforce bullish sentiment.",
+    "Crude oil price movement; further declines would be positive for India.",
+    "Price action around the gap-up levels for signs of consolidation or profit booking after the initial surge."
   ],
   "risk_factors": [
-    "Escalation of geopolitical tensions (Iran-US war, Middle East conflict) leading to further global risk-off sentiment and market declines.",
-    "Sustained high crude oil prices impacting inflation, corporate margins, and overall economic outlook, potentially leading to further selling.",
-    "Further FII selling pressure if global risk-off sentiment persists, exacerbating market declines in India.",
-    "High volatility leading to sharp, unpredictable moves, making risk management challenging for derivatives traders, especially after a significant crash."
+    "Potential for significant profit booking after a large gap-up, especially if initial gains are not sustained.",
+    "Any unexpected renewed escalation of geopolitical tensions.",
+    "The 'buy the rumor, sell the news' phenomenon, where the market might not sustain the initial euphoria.",
+    "High volatility expected at market open due to the large gap."
   ]
 }
