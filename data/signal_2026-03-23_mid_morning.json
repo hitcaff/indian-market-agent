@@ -1,56 +1,54 @@
 {
   "session": "mid_morning",
   "date": "2026-03-23",
-  "timestamp": "08:58 IST",
+  "timestamp": "12:38 IST",
   "market_bias": "bearish",
-  "bias_strength": "moderate",
+  "bias_strength": "strong",
   "reasoning": {
-    "global_analysis": "Asian markets (Nikkei, Hang Seng) are down significantly, and Nasdaq futures are also showing a notable decline, pointing to a strong negative sentiment globally. Crude oil's rise adds to inflationary concerns, while gold's sharp fall suggests risk-off sentiment or fears of rate hikes.",
-    "technical_analysis": "Both Nifty and Bank Nifty are exhibiting deeply oversold RSI readings (28.49 and 19.16 respectively) at current pre-market levels. However, the trend is neutral, and EMAs are flat, indicating a lack of recent directional momentum. Nifty's immediate support lies at 23006.35 and 22898.2.",
-    "options_analysis": "The provided options data (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) is typical for pre-market conditions before open interest has significantly built up. Consequently, this data offers no reliable directional insights for the current session.",
-    "sentiment_analysis": "FII/DII data is neutral, offering no clear directional signal. Market news is mixed, with some bullish stock-specific recommendations juxtaposed against broader concerns like gold's fall due to rate hike fears and geopolitical tensions (Middle East, Trump's ultimatum). The 'high_volatility' regime and 'caution' signal further underscore market uncertainty.",
-    "confluence_summary": "The dominant factor is the strong negative global sentiment, which points to a likely gap-down opening for Indian indices. However, the deeply oversold RSI on both Nifty and Bank Nifty suggests that a significant gap down could attract buying interest or trigger short covering, potentially limiting further downside or leading to a bounce from key support levels. Given the pre-market timing and conflicting signals, a 'NO TRADE' stance is prudent until market open."
+    "global_analysis": "Global markets are in a deep red, with SGX Nifty, Nikkei, and Hang Seng down 2.4-4.1%, signaling a broad risk-off sentiment. Dow and Nasdaq futures also show significant weakness, exacerbated by rising crude oil prices and escalating US-Iran tensions.",
+    "technical_analysis": "Both Nifty and Bank Nifty have witnessed a sharp decline, falling over 2.4% and 3% respectively, with current prices breaking below recent averages. Their RSIs are deeply oversold (Nifty 18.74, Bank Nifty 11.31), indicating extreme selling pressure but also a high probability of a technical bounce from these levels.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty is at 1.0, typically considered neutral. However, the Max Pain, Call Resistance, and Put Support are all reported as 0, making a comprehensive options analysis impossible with the provided data and limiting insights into immediate option chain positioning.",
+    "sentiment_analysis": "FII/DII data is neutral, but market news paints a grim picture of a 'Dalal Street Bloodbath' with significant wealth erosion. Geopolitical tensions (US-Iran) and an impending 'oil shock' are dominating headlines, creating a strong negative sentiment among investors.",
+    "confluence_summary": "The market is under severe pressure from global risk-off sentiment and geopolitical tensions, leading to a sharp sell-off and high volatility. While technicals show deeply oversold conditions, suggesting a potential for a relief rally, the overwhelming negative news flow and bearish global cues indicate continued caution for fresh directional bets."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "entry_zone": "",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 0,
-    "risk_reward": "N/A",
+    "risk_reward": "",
     "key_levels_to_watch": [
-      "23006.35 (Support 1)",
-      "22898.2 (Support 2)",
-      "23283.9 (Resistance 1)"
+      "22401 (critical support)",
+      "22775 (immediate resistance for bounce)"
     ],
-    "invalidation": "Clear directional move post-open with strong volume breaking key support/resistance levels, or significant change in global cues."
+    "invalidation": "A sustained break below 22400 could open doors for further downside, potentially prompting short positions. A strong, sustained bounce above 22775 could signal a temporary relief rally, potentially prompting cautious long positions."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "entry_zone": "",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 0,
-    "risk_reward": "N/A",
+    "risk_reward": "",
     "key_levels_to_watch": [
-      "53427.05 (Current/EMA9/EMA21)",
-      "Observation of Nifty's support/resistance reactions"
+      "51500 (psychological support)",
+      "52500 (potential resistance for bounce)"
     ],
-    "invalidation": "Clear directional move post-open with strong volume breaking key support/resistance levels, or significant change in global cues."
+    "invalidation": "A sustained break below 51500 could open doors for further downside, potentially prompting short positions. A strong, sustained bounce above 52500 could signal a temporary relief rally, potentially prompting cautious long positions."
   },
   "what_to_watch": [
-    "Nifty and Bank Nifty opening price and the size of any gap.",
-    "Price action and volume around Nifty's key support levels (23006, 22898) immediately after open.",
-    "How European markets open and react to global cues.",
-    "Initial FII/DII activity and the build-up of Open Interest in options contracts post-open.",
-    "Any further news regarding geopolitical tensions or economic data."
+    "Global market recovery or further weakness, especially US futures.",
+    "Crude oil price movement and any de-escalation/escalation of US-Iran geopolitical tensions.",
+    "Nifty's ability to hold the critical support level of 22400.",
+    "Any signs of short covering or institutional buying emerging from deeply oversold levels."
   ],
   "risk_factors": [
-    "High volatility: The market is in a high volatility regime, implying potential for rapid and unpredictable price swings.",
-    "Negative global sentiment: Further deterioration in global markets, especially Asian and US futures, could intensify selling pressure.",
-    "Geopolitical risks: Escalation of Middle East tensions (Trump's ultimatum to Iran) could lead to sharp reactions in crude oil and equity markets.",
-    "Lack of pre-market clarity: Flat EMAs and absent options data make pre-open directional calls highly speculative and prone to error."
+    "Escalation of US-Iran tensions leading to further global market instability.",
+    "Continued and sustained high crude oil prices, negatively impacting India's economy and inflation.",
+    "Further global market sell-off, especially in developed markets.",
+    "High volatility leading to sharp, unpredictable price swings, increasing trading risk."
   ]
 }
