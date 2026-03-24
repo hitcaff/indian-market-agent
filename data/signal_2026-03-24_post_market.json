@@ -1,57 +1,57 @@
 {
   "session": "post_market",
   "date": "2026-03-24",
-  "timestamp": "15:13 IST",
+  "timestamp": "18:11 IST",
   "market_bias": "bullish",
   "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Asian markets, including SGX Nifty, Nikkei, and Hang Seng, closed significantly higher, indicating positive global sentiment. While US futures show slight negativity, the overall international mood is supportive, though rising crude oil prices bear watching for potential inflationary pressures.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed strongly positive, with their 9-day and 21-day EMAs converging at the current price, suggesting a robust recovery or strong single-day move. However, the RSI for both indices is deeply oversold (Nifty 26.72, Bank Nifty 22.69), indicating a potential for a bounce back, which appears to have materialized today. The 'neutral' trend and 'high_volatility' regime warrant caution despite the strong close.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a neutral 1.0. The absence of Max Pain, Call Resistance, and Put Support data makes options analysis inconclusive for immediate directional bias, limiting its contribution to overall market conviction.",
-    "sentiment_analysis": "FII/DII data is neutral. However, market news features strong bullish sentiment from experts like DSP Mutual Fund and Pankaj Murarka, who view the current market as a 'once-in-a-bull-market buying opportunity' post correction. This expert conviction, despite the system's 'caution' signal, points to an underlying positive shift in sentiment.",
-    "confluence_summary": "The market closed with significant gains, supported by deeply oversold RSIs suggesting a bounce, and overwhelmingly bullish expert sentiment. While the technical trend remains neutral and volatility is high, the strong positive close and expert views indicate a potential bottoming out post-correction. We lean cautiously bullish for a continuation of this bounce, or buying on dips, adjusting from the system's conservative 'NO TRADE' suggestion."
+    "global_analysis": "Strong positive cues from SGX Nifty, Nikkei, and Hang Seng indicate a significant gap-up open for Indian indices tomorrow. While US futures are subdued and crude oil is up, the Asian market strength is the dominant factor for the immediate open.",
+    "technical_analysis": "Both Nifty and Bank Nifty are showing an implied strong gap-up from previously oversold RSI levels (Nifty 27.1, Bank Nifty 23.1). This suggests a powerful bounce from recent lows. However, the 'neutral' trend and 'high_volatility' regime warrant caution post-gap, as profit booking or consolidation could occur.",
+    "options_analysis": "The provided options data (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) is incomplete and cannot be used for a meaningful analysis of immediate support/resistance from derivatives. This limits our ability to gauge precise option-chain-driven levels.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. Market news presents a mixed bag, with positive domestic corporate developments (IPOs, real estate) alongside global geopolitical concerns (Middle East, US futures). Brokerage calls are predominantly 'Buy', indicating underlying positive sentiment.",
+    "confluence_summary": "The strong global positive cues, particularly from SGX Nifty, point to a significant bullish gap-up open for Nifty and Bank Nifty, likely driven by a rebound from previously oversold conditions. While the initial bias is bullish, the high volatility regime and lack of comprehensive options data suggest that sustained upward momentum might face challenges, and traders should be prepared for potential profit booking or consolidation after the initial surge."
   },
   "nifty_trade": {
     "direction": "LONG",
-    "entry_zone": "22850 - 22900",
-    "stop_loss": 22650,
-    "target_1": 23100,
-    "target_2": 23300,
+    "entry_zone": "22950 - 23000",
+    "stop_loss": 22850,
+    "target_1": 23105,
+    "target_2": 23297,
     "confidence_pct": 65,
     "risk_reward": "1:1.5",
     "key_levels_to_watch": [
-      "22902 (Close)",
-      "23098 (Resistance 1)",
-      "22665 (Support 1)"
+      "22912 (Implied Open)",
+      "23105 (Resistance 1)",
+      "22671 (Support 1)"
     ],
-    "invalidation": "A sustained close below 22650 would invalidate this bullish outlook."
+    "invalidation": "Sustained trading below 22800 post-open, or a failure to hold the gap-up gains within the first hour."
   },
   "banknifty_trade": {
     "direction": "LONG",
-    "entry_zone": "52450 - 52550",
-    "stop_loss": 52000,
+    "entry_zone": "52650 - 52750",
+    "stop_loss": 52400,
     "target_1": 53000,
-    "target_2": 53500,
-    "confidence_pct": 65,
-    "risk_reward": "1:1.5",
+    "target_2": 53300,
+    "confidence_pct": 60,
+    "risk_reward": "1:1.8",
     "key_levels_to_watch": [
-      "52578 (Close)",
+      "52605 (Implied Open)",
       "53000 (Psychological Resistance)",
-      "52000 (Psychological Support)"
+      "52400 (Intraday Support)"
     ],
-    "invalidation": "A sustained close below 52000 would invalidate this bullish outlook."
+    "invalidation": "Sustained trading below 52400 post-open, or a significant retracement of the gap-up."
   },
   "what_to_watch": [
-    "Global market cues, especially US futures performance overnight and European market opening.",
-    "Crude oil price movements, as a significant rise could fuel inflation concerns.",
-    "FII/DII activity for confirmation of institutional sentiment and sustained buying interest.",
-    "Follow-through buying in Nifty and Bank Nifty, particularly if they sustain above today's closing levels.",
-    "Any fresh geopolitical developments, especially concerning the Middle East."
+    "Price action and sustainability of the gap-up in the first hour of trading.",
+    "Global market sentiment, especially US futures and any fresh developments in the Middle East.",
+    "Crude oil price movement and its potential impact on inflation concerns.",
+    "FII/DII cash market flows post-open for directional conviction.",
+    "India VIX movement, given the current high volatility regime."
   ],
   "risk_factors": [
-    "The 'high_volatility' regime could lead to sharp reversals, increasing trading risk.",
-    "RSI being deeply oversold implies a significant bounce has already occurred, raising the possibility of exhaustion or consolidation.",
-    "Lack of comprehensive options data (Max Pain, OI) reduces the overall conviction for directional trades.",
-    "Any unexpected negative global market developments could quickly negate domestic bullishness."
+    "Geopolitical tensions in the Middle East could quickly reverse positive sentiment.",
+    "A sustained rise in crude oil prices could fuel inflation and impact corporate earnings.",
+    "Significant profit booking after the large implied gap-up, especially if the underlying trend remains neutral.",
+    "Incomplete options data makes it challenging to gauge immediate derivative-based support and resistance, increasing uncertainty."
   ]
 }
