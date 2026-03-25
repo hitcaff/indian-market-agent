@@ -1,50 +1,57 @@
 {
   "session": "post_market",
   "date": "2026-03-25",
-  "timestamp": "15:11 IST",
-  "market_bias": "bullish",
+  "timestamp": "18:09 IST",
+  "market_bias": "moderate_bullish",
   "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global cues are overwhelmingly positive, with SGX Nifty, US futures, and major Asian markets all showing significant gains. The drop in crude oil prices is also a positive catalyst for the Indian economy, indicating a risk-on sentiment globally.",
-    "technical_analysis": "Nifty and Bank Nifty both closed with substantial gains today, indicating strong buying interest at current levels. However, both indices are in a 'neutral' trend with high volatility (VIX near 25), and their EMAs are currently at the closing price, suggesting a sharp daily move rather than a sustained trend. Nifty's RSI is bullish, while Bank Nifty's is neutral.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from options traders. With Max Pain, Call Resistance, and Put Support showing 0, the options data for the upcoming expiry is either not yet robust or not provided, making it inconclusive for directional bias.",
-    "sentiment_analysis": "FII/DII data is neutral for the day. Market news presents a mixed bag, with positive stock-specific developments alongside warnings of potential Nifty corrections and high VIX levels. Crucially, Indian equity markets will be closed tomorrow, March 26th, for Shri Ram Navami, adding a layer of uncertainty for the next trading session.",
-    "confluence_summary": "Despite strong global tailwinds and significant positive closes for Indian indices, the prevailing high volatility regime (VIX near 25), neutral options data, and the upcoming market holiday on March 26th warrant extreme caution. The system's 'NO TRADE' recommendation is prudent, as the next trading day will be March 27th, requiring a fresh assessment of global cues and market sentiment post-holiday."
+    "global_analysis": "Global cues are strongly positive, with SGX Nifty, US futures, and Asian markets all showing significant gains, primarily driven by hopes of a Mideast ceasefire. The notable drop in crude oil prices further supports a positive risk-on sentiment across markets.",
+    "technical_analysis": "Nifty and Bank Nifty closed with substantial gains of +1.72% and +2.10% respectively, indicating strong buying interest. Nifty's RSI at 60.09 is bullish, while Bank Nifty's at 53.0 is neutral but improving. Both indices saw their EMA9 and EMA21 align with the current price, reflecting the day's powerful upward move, though the system flags a 'neutral' trend and 'high_volatility' regime.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0 (neutral), with Max Pain and Call/Put data showing zero. This suggests the options data provided is not conclusive for deriving a strong directional bias for the upcoming expiry, making it less useful for immediate trade decisions.",
+    "sentiment_analysis": "FII/DII data is neutral for the day, indicating no significant institutional flow. Market news is predominantly positive, highlighting global ceasefire hopes and specific large-cap stocks like HDFC Bank and L&T powering the Nifty rally. Analyst recommendations are mostly bullish on individual stocks, reinforcing positive sentiment.",
+    "confluence_summary": "The overall market sentiment is bullish, fueled by strong global tailwinds and significant positive closes for Indian benchmarks. However, the market is currently in a high-volatility regime, and the substantial move already made today, coupled with neutral FII/DII and inconclusive options data, warrants caution for initiating fresh entries."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "0 - 0",
+    "entry_zone": "N/A",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 85,
+    "confidence_pct": 60,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23493.2 (Resistance)",
-      "23091.05 (Support)"
+      "23091 (Support)",
+      "23493 (Resistance)",
+      "23680 (Resistance)"
     ],
-    "invalidation": "Market closed on March 26th. Re-evaluate on March 27th opening based on fresh global cues and FII/DII data."
+    "invalidation": "A sustained break and close below 23000 would negate the immediate bullish outlook."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "0 - 0",
+    "entry_zone": "N/A",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 85,
+    "confidence_pct": 60,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "53702.85 (Current Price)"
+      "53708 (Today's Close)",
+      "53400 (Inferred Support)",
+      "54000 (Inferred Resistance)"
     ],
-    "invalidation": "Market closed on March 26th. Re-evaluate on March 27th opening based on fresh global cues and FII/DII data."
+    "invalidation": "A sustained break and close below 53000 would negate the immediate bullish outlook."
   },
   "what_to_watch": [
-    "Global market performance overnight and during the Indian market holiday (March 26th).",
-    "Movement of India VIX, which is currently near 25, indicating high volatility.",
-    "FII/DII activity when markets reopen on March 27th for clearer directional cues."
+    "Continuation of positive global sentiment, especially US market performance overnight and Asian market openings.",
+    "Any fresh developments or official announcements regarding the Mideast ceasefire talks.",
+    "FII/DII activity for the next trading session to confirm institutional participation after today's neutral stance.",
+    "Crude oil price movements, as they can influence bond yields and overall market sentiment.",
+    "Sectoral rotation and the performance of banking and financial stocks, which were key drivers today."
   ],
   "risk_factors": [
-    "High market volatility, as indicated by India VIX near 25, can lead to sharp, unpredictable moves.",
-    "Uncertainty regarding global events and their impact on Indian markets during the holiday period, potentially leading to significant gap-up or gap-down openings on March 27th."
+    "High volatility (ATR% 1.63%) could lead to sharp intraday reversals or significant profit booking after the strong rally.",
+    "Potential for a 'buy the rumor, sell the news' event if Mideast ceasefire hopes don't materialize or are already fully priced in.",
+    "Lack of strong FII buying could cap upside potential despite positive global cues.",
+    "Any unexpected negative global economic data or geopolitical escalation could quickly reverse sentiment."
   ]
 }
