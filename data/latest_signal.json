@@ -1,54 +1,57 @@
 {
   "session": "mid_morning",
   "date": "2026-03-25",
-  "timestamp": "08:53 IST",
-  "market_bias": "neutral",
+  "timestamp": "12:30 IST",
+  "market_bias": "bullish",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are largely positive, with US futures and most Asian markets trading higher. The significant drop in crude oil prices, driven by hopes of an Iran war ceasefire, is a positive for the Indian economy, while gold's surge indicates underlying geopolitical or economic uncertainties that warrant caution.",
-    "technical_analysis": "Nifty is expected to open flat on its short-term EMAs (9 & 21) at 22,912.40, indicating immediate neutrality. Bank Nifty also opens flat on its EMAs but shows a bearish RSI of 36.71, suggesting underlying weakness in the banking sector. The overall market regime signals high volatility and a non-trending environment, urging caution.",
-    "options_analysis": "PCR for both Nifty and Bank Nifty stands at a perfectly neutral 1.0, indicating balanced call and put activity. The absence of specific Max Pain, Call Resistance, and Put Support data prevents a deeper institutional positioning analysis, reinforcing a neutral options outlook.",
-    "sentiment_analysis": "FII/DII activity is neutral, offering no directional conviction. Market news highlights a potential gap-up (already reflected in Gift Nifty's current value), positive breakouts in select stocks, and easing geopolitical tensions. However, the 'caution' signal from the market regime tempers overall bullish sentiment.",
-    "confluence_summary": "Despite supportive global cues and a potential flat-to-positive opening, Nifty's technicals are neutral, and Bank Nifty exhibits bearish RSI. The prevailing high volatility and non-trending market regime, coupled with neutral FII/DII and options data, create a lack of strong directional conviction, making a 'NO TRADE' stance prudent."
+    "global_analysis": "Global markets are displaying strong bullish sentiment, with SGX Nifty, US futures, and Asian indices all showing significant gains. The substantial drop in crude oil prices below $90 is a major positive for India, potentially easing inflationary pressures and boosting corporate margins, despite gold's concurrent rise suggesting some underlying risk aversion.",
+    "technical_analysis": "Both Nifty 50 and Bank Nifty have surged impressively, up over 2% each, with their RSIs firmly in bullish territory. However, the system flags a 'neutral' trend, 'high_volatility' regime, and a 'caution' signal. Nifty is also trading near its first resistance level after this sharp move, indicating potential for profit booking or consolidation.",
+    "options_analysis": "The options data for both indices is currently neutral, with PCR at 1.0 and Max Pain/OI data showing zero. This lack of clear directional conviction or defined support/resistance from the options chain means we cannot rely on this segment for strong trading signals at this juncture.",
+    "sentiment_analysis": "Overall sentiment is positive, buoyed by global ceasefire hopes, RBI's intervention to support the rupee, and market experts deeming Indian equities 'cheap' with several buy recommendations. While FII/DII data is neutral for the day, the prevailing news flow supports a bullish undertone, though the 'high_volatility' regime warrants a cautious approach.",
+    "confluence_summary": "The market is experiencing a powerful upward momentum, driven by favorable global cues and a significant drop in crude oil prices. Despite this bullish thrust, the system's internal warnings of 'high_volatility' and 'caution,' coupled with Nifty nearing resistance and unfavorable risk-reward ratios for fresh entries, strongly advise against initiating new directional trades at this point. Prudence is key."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "",
-    "stop_loss": null,
-    "target_1": null,
-    "target_2": null,
-    "confidence_pct": 0,
-    "risk_reward": "",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 30,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23105.07 (Resistance)",
-      "22671.97 (Support)"
+      "23559 (Immediate Resistance)",
+      "23172 (Immediate Support)",
+      "23400 (Psychological Level)"
     ],
-    "invalidation": "A sustained break above 23105.07 with strong volume or a decisive breakdown below 22671.97 would invalidate the neutral stance and suggest a new directional bias."
+    "invalidation": "A sustained break below 23172 or any significant negative shift in global sentiment."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "",
-    "stop_loss": null,
-    "target_1": null,
-    "target_2": null,
-    "confidence_pct": 0,
-    "risk_reward": "",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 30,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "No specific levels provided in data, but watch for 53000 (psychological resistance) and 52000 (psychological support)"
+      "54000 (Psychological Level)",
+      "53500 (Potential Support)"
     ],
-    "invalidation": "A strong move above 53000 or a decisive break below 52000 would invalidate the neutral stance and indicate a potential directional shift."
+    "invalidation": "A sharp reversal in Nifty or any adverse news specifically impacting the banking sector."
   },
   "what_to_watch": [
-    "Initial price action and volume post-open to confirm any directional bias.",
-    "Bank Nifty's performance, especially given its bearish RSI, for signs of recovery or further weakness.",
-    "Crude oil price movements for their impact on inflation and energy sector stocks.",
-    "Gold price stability as a gauge of underlying market sentiment and geopolitical risk perception.",
-    "FII/DII activity throughout the day for any significant directional flows."
+    "The sustainability of the global market rally, particularly US equity futures.",
+    "Crude oil price action; a continued decline below $90 would be a significant positive.",
+    "Nifty's ability to decisively break and sustain above the 23559 resistance level.",
+    "Any fresh FII/DII activity data released later in the trading session.",
+    "Further developments regarding Mideast ceasefire prospects and their broader geopolitical impact."
   ],
   "risk_factors": [
-    "The 'high_volatility' and 'caution' signals from the market regime indicate increased risk for directional trades.",
-    "Conflicting signals between positive global cues and neutral/bearish domestic technicals create uncertainty.",
-    "Geopolitical developments related to the Iran situation, despite ceasefire hopes, can change rapidly.",
-    "Absence of detailed options data (Max Pain, OI) limits insight into institutional positioning and potential traps."
+    "The 'high_volatility' regime increases the potential for sharp reversals and profit booking after a significant rally.",
+    "Nifty is trading near its immediate resistance, limiting the upside potential for fresh long positions.",
+    "The absence of clear options data (Max Pain, Call/Put OI) reduces conviction for directional trades.",
+    "The system's explicit 'caution' signal and unfavorable R:R ratios for proposed trades.",
+    "Geopolitical events, particularly in the Middle East, could quickly reverse positive market sentiment."
   ]
 }
