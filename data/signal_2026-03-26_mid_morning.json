@@ -1,55 +1,52 @@
 {
   "session": "mid_morning",
   "date": "2026-03-26",
-  "timestamp": "09:05 IST",
+  "timestamp": "12:36 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed to slightly negative, with Dow/Nasdaq futures and Nikkei showing minor dips, and Hang Seng significantly down. Crude oil's surge above $100 due to geopolitical tensions is a significant inflationary concern, though some reports suggest de-escalation hopes. SGX Nifty being flat suggests a neutral open for the Indian market.",
-    "technical_analysis": "Both Nifty and Bank Nifty are opening flat, with their current prices matching EMA9 and EMA21, indicating a lack of immediate trend. RSI for Nifty is bullish but not strong (56.88), while Bank Nifty's RSI is neutral (53.3). Both indices are flagged as 'neutral' in trend, suggesting range-bound movement.",
-    "options_analysis": "The provided options data (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) is incomplete or indicates a very early stage of data aggregation for the expiry day. This makes a concrete options analysis impossible at this exact timestamp, reinforcing the 'no trade' stance due to lack of confluence.",
-    "sentiment_analysis": "FII/DII data is neutral (0 Cr). Market news presents a mixed bag: concerns over crude oil prices and geopolitical tensions, alongside some positive analyst calls for specific stocks. The overarching sentiment is cautious due to the monthly expiry and high volatility regime.",
-    "confluence_summary": "The market is poised for a neutral open on a high-risk monthly expiry day, characterized by high volatility and a lack of clear directional cues from global markets, technical indicators, or FII/DII flows. The absence of meaningful options data further strengthens the 'no trade' recommendation at this early hour, prioritizing capital preservation."
+    "global_analysis": "Global cues are mixed to slightly negative, with US futures and most Asian markets (especially Hang Seng) showing weakness. Crude oil is up, while gold is down, indicating some risk-off sentiment but not a strong directional push for Indian markets.",
+    "technical_analysis": "Nifty and Bank Nifty show current prices exactly matching their 9 and 21-period EMAs, and a 0.00% change, which is highly unusual for a live market and suggests stale data. If taken literally, this implies a completely flat, non-trending market. Nifty's RSI is bullish, while Bank Nifty's is neutral, with both trends flagged as neutral.",
+    "options_analysis": "PCRs are at 1.0 for both indices, indicating neutrality. However, the Max Pain, Call Resistance, and Put Support are all reported as 0, which is highly improbable and suggests incomplete or erroneous options data for a monthly expiry day. This makes it impossible to derive meaningful insights from options.",
+    "sentiment_analysis": "FII/DII data is neutral. The market is explicitly flagged as a 'HIGH RISK DAY: MONTHLY_EXPIRY' with 'high_volatility' and a 'caution' signal. News flow is mixed, covering geopolitical tensions, stock-specific recommendations, and IPOs, without a clear overall market sentiment.",
+    "confluence_summary": "The confluence of a high-risk monthly expiry day, a high-volatility regime, and the lack of clear, reliable directional signals from global cues, technicals (due to potentially stale data), and options (due to incomplete data) leads to a strong recommendation for extreme caution and no directional trades."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23493.47 (Resistance 1)",
-      "23091.32 (Support 1)",
-      "23306.45 (Current/EMA)"
+      "23091.32 (Support)",
+      "23493.47 (Resistance)"
     ],
-    "invalidation": "N/A - No trade initiated"
+    "invalidation": "N/A - No trade proposed due to high risk and insufficient confluence."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "53708.10 (Current/EMA) - Awaiting clear S/R levels to emerge"
+      "53708.10 (Current Level)"
     ],
-    "invalidation": "N/A - No trade initiated"
+    "invalidation": "N/A - No trade proposed due to high risk and insufficient confluence."
   },
   "what_to_watch": [
-    "Price action around Nifty's immediate support (23091) and resistance (23493) for directional cues.",
-    "Development of options chain data (OI build-up for calls/puts) as the day progresses to gauge Max Pain and key strike levels.",
-    "FII/DII activity later in the day for any significant flows.",
-    "Global market reactions, especially to crude oil prices and geopolitical developments.",
-    "Any sector-specific strength or weakness emerging post-open, particularly in banking stocks."
+    "Actual live price action and volatility around the current levels, especially post 1 PM.",
+    "Development of options chain data (OI for calls/puts) to identify Max Pain and significant strikes, as the provided data is incomplete.",
+    "Global market movements, particularly US futures and crude oil prices.",
+    "Any significant FII/DII activity later in the day, which could provide directional cues."
   ],
   "risk_factors": [
-    "High volatility and potential for sharp, unpredictable moves due to monthly expiry.",
-    "Conflicting global signals, particularly regarding crude oil and geopolitical tensions.",
-    "Lack of clear directional bias from technicals and options data at the open.",
-    "Risk of whipsaws and false breakouts in a range-bound, high-volatility environment."
+    "Extreme volatility and unpredictable price swings typical of monthly expiry, especially in the last hour of trading.",
+    "Incomplete or potentially stale data provided for Nifty/Bank Nifty current values and options, making accurate analysis challenging.",
+    "Geopolitical tensions (US-Iran talks, war-led volatility) adding to overall market uncertainty."
   ]
 }
