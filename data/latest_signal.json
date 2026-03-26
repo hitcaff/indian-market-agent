@@ -1,50 +1,52 @@
 {
   "session": "post_market",
   "date": "2026-03-26",
-  "timestamp": "15:19 IST",
+  "timestamp": "18:15 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed to negative, with US futures (Dow, Nasdaq) showing declines and Asian markets (Nikkei, Hang Seng) also down. Crude oil surged significantly (+3.50%), while gold saw a sharp drop (-2.76%), indicating shifts in risk perception and potential inflation concerns. SGX Nifty, however, remained flat, offering no clear directional lead for the domestic market.",
-    "technical_analysis": "Both Nifty 50 and Bank Nifty closed flat on a monthly expiry day, with EMA9 and EMA21 converging, signaling a lack of clear trend. RSI for both indices is in the neutral zone (Nifty 56.88, Bank Nifty 53.3), further confirming the absence of strong directional momentum. The market remains in a neutral trend with high volatility, suggesting caution.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, and Max Pain, Call Resistance, and Put Support are all at 0. This data, particularly on a monthly expiry, indicates an extremely flat close with no significant open interest build-up suggesting a strong directional bias for the immediate future. The options market reflects the overall neutrality and lack of conviction.",
-    "sentiment_analysis": "FII/DII data is neutral with zero net flows, offering no fresh sentiment. Market news presents a mixed bag: Goldman Sachs' downgrade of India and warnings of earnings cuts are bearish, while some analysts see compelling valuations in the banking sector post-correction. Geopolitical uncertainties (US-Iran) and concerns about debt (JPMorgan) add to the cautious sentiment, despite specific stock recommendations.",
-    "confluence_summary": "The confluence of a flat monthly expiry close, neutral technical indicators, ambiguous options data, and mixed global/domestic sentiment points to a market lacking clear conviction. The prevailing 'high_volatility' regime and 'caution' signal reinforce the need to avoid directional trades until a clearer trend emerges, especially after such a non-committal expiry."
+    "global_analysis": "US futures (Dow, Nasdaq) are showing significant weakness, down nearly 1% and 1.16% respectively, while Asian markets also closed lower. Crude oil surged over 4.5%, suggesting heightened geopolitical risks, which could weigh on global sentiment and impact Indian markets. Gold's sharp decline also indicates shifting risk perceptions.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed flat on monthly expiry, with their current prices coinciding with both 9-period and 21-period EMAs, indicating strong indecision. While Nifty's RSI is bullish, its trend is neutral, mirroring Bank Nifty's neutral RSI and trend, all within a high volatility, non-trending regime.",
+    "options_analysis": "The PCR for both indices stands at 1.0, reflecting a perfectly balanced options market post-expiry. The reported Max Pain, Call Resistance, and Put Support at 0 suggest a reset of options data, rendering immediate options chain analysis for directional cues ineffective.",
+    "sentiment_analysis": "FII and DII activity was neutral with zero net flows, offering no clear directional bias. Market news highlights a recent sharp rally in Nifty (800 points in two sessions), raising questions about its sustainability amidst ongoing US-Iran geopolitical concerns and a general 'caution' signal from the market regime.",
+    "confluence_summary": "The market's flat close on a high-risk monthly expiry, coupled with significant negative global cues and a high volatility regime, points to extreme indecision. The absence of clear directional signals from technicals, options data, and FII/DII flows strongly advises against taking new positions."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
+    "entry_zone": "",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
     "confidence_pct": 0,
-    "risk_reward": "N/A",
-    "key_levels_to_watch": [],
-    "invalidation": "N/A"
+    "risk_reward": "0:0",
+    "key_levels_to_watch": [
+      "23091.32 (Support)",
+      "23493.47 (Resistance)"
+    ],
+    "invalidation": "Market remains highly volatile with no clear directional bias and negative global cues persist."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
+    "entry_zone": "",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
     "confidence_pct": 0,
-    "risk_reward": "N/A",
+    "risk_reward": "0:0",
     "key_levels_to_watch": [],
-    "invalidation": "N/A"
+    "invalidation": "Market remains highly volatile with no clear directional bias and negative global cues persist."
   },
   "what_to_watch": [
-    "Overnight performance of US and Asian markets for fresh global cues, especially given the negative US futures.",
-    "Crude oil and Gold price movements, particularly the follow-through after today's significant shifts.",
-    "Any fresh FII/DII activity in the next trading session, as their flows often dictate short-term direction.",
-    "Nifty's ability to hold above 23091 (Support 1) and Bank Nifty's reaction around the 53700 level.",
-    "Further developments regarding the Goldman Sachs downgrade and its potential impact on broader market sentiment."
+    "Global market performance, especially US futures and Asian indices, for directional cues.",
+    "Crude oil price trajectory and its potential impact on inflation and corporate earnings.",
+    "FII/DII cash market activity in the coming sessions for fresh institutional sentiment.",
+    "Any further geopolitical developments concerning US-Iran tensions.",
+    "Nifty's ability to establish a clear trend above 23500 or below 23000."
   ],
   "risk_factors": [
-    "The market is in a 'high_volatility' regime, increasing the risk of sharp, unpredictable moves and whipsaws.",
-    "Lingering geopolitical uncertainties (US-Iran ceasefire) can trigger sudden market reactions, especially with crude oil's surge.",
-    "Goldman Sachs' downgrade of India and warnings of earnings cuts could weigh heavily on investor sentiment in the coming days.",
-    "Lack of clear directional bias post-monthly expiry can lead to range-bound trading or false breakouts.",
-    "Potential for significant gap-up or gap-down openings based on evolving global news, making entry/exit challenging."
+    "Escalation of geopolitical tensions (US-Iran conflict).",
+    "High market volatility (ATR% 1.63%), leading to unpredictable price swings.",
+    "Lack of clear directional catalysts post-monthly expiry.",
+    "Potential for global market weakness to spill over into domestic indices."
   ]
 }
