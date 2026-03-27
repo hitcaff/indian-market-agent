@@ -1,54 +1,57 @@
 {
   "session": "post_market",
   "date": "2026-03-27",
-  "timestamp": "15:12 IST",
+  "timestamp": "18:06 IST",
   "market_bias": "bearish",
-  "bias_strength": "moderate",
+  "bias_strength": "strong",
   "reasoning": {
-    "global_analysis": "SGX Nifty's sharp 2% decline signals significant negative sentiment, likely exacerbated by rising crude oil and gold prices indicating a risk-off environment. Geopolitical tensions (Iran/US) and global inflation concerns (Japanese bond yields) add to the uncertainty, despite relatively flat US futures.",
-    "technical_analysis": "Both Nifty and Bank Nifty experienced substantial declines of over 2% and 2.6% respectively, closing with strong bearish momentum. The RSI for both indices is in bearish territory (Nifty 42.28, Bank Nifty 40.11), confirming selling pressure. The market is in a high volatility regime, suggesting choppy price action ahead.",
-    "options_analysis": "The PCR of 1.0 for both indices is neutral, but the absence of Max Pain, Call Resistance, and Put Support data makes a comprehensive options-based assessment impossible. This lack of specific OI data limits actionable insights from the options chain for defining precise levels.",
-    "sentiment_analysis": "News of 'Foreign investors flee Indian assets at record pace on oil shock' is a major bearish sentiment driver, despite the FII Net being reported as \u20b90 Cr for the day. Rising bond yields impacting PSU banks and general geopolitical uncertainty further weigh heavily on market sentiment.",
-    "confluence_summary": "The market is clearly in a bearish mood following a substantial sell-off, driven by global risk-off factors and reported FII outflows. While the 'NO TRADE' proposal is prudent given the high volatility and lack of clear options levels, the underlying bias for the next session is bearish, suggesting caution and potential shorting opportunities on rallies."
+    "global_analysis": "Global markets are under significant pressure, with SGX Nifty, US futures, and Nikkei all trading sharply lower. The rise in crude oil and gold prices signals a strong risk-off sentiment, exacerbated by ongoing geopolitical tensions related to the US-Iran conflict, which is explicitly mentioned as a major market driver. This widespread negativity sets a deeply bearish tone for the coming sessions.",
+    "technical_analysis": "Both Nifty 50 and Bank Nifty witnessed substantial declines of over 2% and 2.5% respectively, with their EMA9 and EMA21 converging at current price levels, indicating strong bearish momentum. Bearish RSI readings (Nifty 42.17, Bank Nifty 39.88) further confirm the downside pressure, pushing both indices towards immediate support zones. The sharp fall suggests a potential breach of crucial levels.",
+    "options_analysis": "The options data for PCR, Max Pain, Call Resistance, and Put Support are all showing neutral or zero values, suggesting a lack of clear directional conviction from this data point or potential data latency after such a sharp move. This makes options analysis less conclusive for immediate directional bias, and we cannot derive strong support or resistance from it today.",
+    "sentiment_analysis": "Despite neutral FII/DII activity for the day, market sentiment is overwhelmingly negative, driven by news of a significant market crash, numerous stocks hitting 52-week lows, and a massive wealth erosion on D-Street since the US-Iran war began. This points to widespread panic and risk aversion among investors, with fear dominating the trading landscape.",
+    "confluence_summary": "A strong bearish bias dominates the market, stemming from escalating geopolitical tensions, a broad-based global sell-off, and significant technical weakness across Indian indices. The high volatility regime and 'caution' signal underscore the precarious market conditions, making fresh directional trades highly risky. It's a market for extreme caution and capital preservation."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 65,
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "22696.3 (Immediate Support)",
-      "23069.45 (Immediate Resistance)"
+      "22687.4 (Support 1)",
+      "22555.2 (Support 2)",
+      "23068.95 (Resistance 1)"
     ],
-    "invalidation": "Sustained positive global cues or Nifty closing strongly above 23069.45."
+    "invalidation": "A sustained close above 23000 or a significant de-escalation of geopolitical tensions that reverses global sentiment."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 65,
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "52307.2 (Immediate Reference)"
+      "52000 (Psychological Support)",
+      "51500 (Potential Support)",
+      "52500 (Immediate Resistance)"
     ],
-    "invalidation": "Strong positive price action or global cues reversing the current bearish sentiment."
+    "invalidation": "A sustained close above 52500 or a significant de-escalation of geopolitical tensions that reverses global sentiment."
   },
   "what_to_watch": [
-    "Global market performance, especially US markets overnight and Asian markets opening.",
-    "Crude oil price movements and their impact on inflation and FII flows.",
-    "Any further geopolitical developments or statements from central banks.",
-    "FII/DII activity for the next trading session to confirm selling pressure.",
-    "Nifty's reaction around its immediate support (22696.3) and resistance (23069.45) levels."
+    "Developments in the US-Iran conflict and broader geopolitical landscape, as this is the primary market driver.",
+    "Performance of global markets, especially US futures and European indices, for signs of stabilization or further weakness.",
+    "Crude oil price movements; sustained high prices can exacerbate inflation concerns and impact corporate earnings.",
+    "Nifty 50 and Bank Nifty's reaction to immediate support levels; a break below these could trigger further selling.",
+    "Any fresh FII/DII activity data once available, as their flows can significantly influence market direction."
   ],
   "risk_factors": [
-    "Elevated market volatility leading to unpredictable price swings.",
-    "Escalation of geopolitical tensions (e.g., Middle East).",
-    "Continued and significant FII selling pressure.",
-    "Sharp reversal in global risk sentiment leading to short covering."
+    "Further escalation of geopolitical tensions leading to a deeper and more prolonged market correction.",
+    "High market volatility resulting in sharp, unpredictable price swings and increased slippage, making trade management challenging.",
+    "Global economic slowdown fears intensifying due to prolonged conflict and supply chain disruptions.",
+    "Potential for sharp short-covering rallies that could trap aggressive short sellers, especially after significant declines."
   ]
 }
