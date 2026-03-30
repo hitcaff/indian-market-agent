@@ -1,59 +1,58 @@
 {
   "session": "post_market",
   "date": "2026-03-30",
-  "timestamp": "15:34 IST",
+  "timestamp": "18:18 IST",
   "market_bias": "bearish",
   "bias_strength": "strong",
   "reasoning": {
-    "global_analysis": "Global markets, particularly Asian indices (Nikkei -2.79%, Hang Seng -0.81%) and SGX Nifty (-2.14%), closed significantly lower, indicating a strong risk-off sentiment. The escalating US-Iran war is driving crude oil prices higher (+1.97%) and gold (+1.58%), further confirming global risk aversion despite slightly positive US futures.",
-    "technical_analysis": "Both Nifty and Bank Nifty witnessed a sharp decline today, with Nifty down 2.14% and Bank Nifty plunging 3.82%. Their RSIs are firmly in bearish territory (Nifty 44.88, Bank Nifty 39.81). While the trend is marked neutral, the price action and high volatility regime clearly signal strong selling pressure, with Nifty currently at its EMA9 and EMA21, poised for a potential breakdown.",
-    "options_analysis": "The provided options data (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) appears incomplete or not updated for the current closing. Therefore, a conclusive options analysis cannot be performed, and this factor's weight is effectively diminished for this session.",
-    "sentiment_analysis": "Market news is overwhelmingly negative, dominated by fears of the 'US-Iran war', a 'blood bath' from a '$12 billion FII exodus', and the rupee slipping past the 95 mark. Rising petcoke costs for cement and adverse war impact warnings from companies like Kalpataru Projects further dampen sentiment, indicating widespread panic and economic concerns.",
-    "confluence_summary": "The confluence of sharp market declines, bearish technical indicators, and extremely negative global and domestic news flow (geopolitical tensions, FII exodus, rupee depreciation, rising crude) points to a strong bearish bias. The high volatility regime and 'caution' signal reinforce this outlook, overriding the system's 'neutral' trend and proposed 'NO TRADE' due to the overwhelming negative sentiment."
+    "global_analysis": "Asian markets, including SGX Nifty, Nikkei, and Hang Seng, closed significantly lower, indicating a broad risk-off sentiment globally. Rising crude oil and gold prices, coupled with the ongoing US-Iran war, further amplify global uncertainty and signal a flight to safety among investors.",
+    "technical_analysis": "Both Nifty and Bank Nifty experienced sharp declines of over 2% and 3.8% respectively, with their RSIs firmly in bearish territory (Nifty 44.88, Bank Nifty 39.81). Despite the 'neutral' trend tag, the substantial price action and bearish RSI indicate underlying weakness, suggesting a potential continuation of the downtrend or selling on rallies.",
+    "options_analysis": "The PCR of 1.0 for both Nifty and Bank Nifty, along with zero values for Max Pain and Call/Put OI, indicates a reset or incomplete options data for the upcoming series. This renders options analysis inconclusive for immediate directional bias, effectively making it a neutral factor in this assessment.",
+    "sentiment_analysis": "Market news is overwhelmingly negative, reporting a 'stock market crash,' significant investor losses, and over 1,500 stocks hitting 52-week lows. The Indian Rupee's record depreciation against the USD further compounds the pessimistic sentiment, overshadowing the neutral FII/DII data for the day.",
+    "confluence_summary": "The confluence of sharp price declines, bearish technical indicators (RSI), negative global cues, and extremely pessimistic market news strongly points towards a bearish market bias. The high volatility regime and 'caution' signal reinforce the need for a cautious, bearish approach, favoring selling opportunities on any potential bounces."
   },
   "nifty_trade": {
     "direction": "SHORT",
-    "entry_zone": "22300 - 22350",
-    "stop_loss": 22450,
-    "target_1": 22170,
-    "target_2": 22010,
-    "confidence_pct": 70,
-    "risk_reward": "1:1.2 to 1:2.5",
+    "entry_zone": "22500 - 22550",
+    "stop_loss": 22650,
+    "target_1": 22200,
+    "target_2": 22050,
+    "confidence_pct": 60,
+    "risk_reward": "1:2",
     "key_levels_to_watch": [
-      "22172 (Support 1)",
-      "22012 (Support 2)",
-      "22331 (EMA9/21)"
+      "22172 (Support)",
+      "22602 (Resistance)"
     ],
-    "invalidation": "Nifty sustaining above 22450 or a significant de-escalation in geopolitical tensions."
+    "invalidation": "Sustained trading or closing above 22650"
   },
   "banknifty_trade": {
     "direction": "SHORT",
-    "entry_zone": "50400 - 50600",
+    "entry_zone": "50500 - 50650",
     "stop_loss": 50800,
     "target_1": 50000,
     "target_2": 49700,
-    "confidence_pct": 70,
-    "risk_reward": "1:1.6 to 1:2.6",
+    "confidence_pct": 65,
+    "risk_reward": "1:1.6",
     "key_levels_to_watch": [
-      "50000 (Psychological Support)",
-      "49700 (Further Support)",
-      "50800 (Resistance)"
+      "50275 (Current)",
+      "50000 (Psychological Support)"
     ],
-    "invalidation": "Bank Nifty sustaining above 50800 or a significant de-escalation in geopolitical tensions."
+    "invalidation": "Sustained trading or closing above 50800"
   },
   "what_to_watch": [
-    "Developments in the US-Iran conflict and broader Middle East geopolitical situation.",
-    "Movement in crude oil prices (Brent Crude) and its impact on inflation and corporate costs.",
-    "The Indian Rupee's performance against the US Dollar, especially around the 95-100 mark.",
-    "FII and DII activity on the next trading day for signs of reversal or continuation of selling.",
-    "Global market cues, particularly from US and European markets during the holiday period.",
-    "Any official statements or interventions from the Indian government or RBI regarding the economic situation."
+    "Global market sentiment, particularly US futures and Asian market performance overnight.",
+    "Movement of the Indian Rupee against the USD, given its recent record lows.",
+    "Crude oil and Gold price action as key indicators of risk appetite.",
+    "FII/DII activity for the next trading session to gauge institutional flow.",
+    "Any new developments regarding the US-Iran geopolitical situation.",
+    "Impact of STT hike on F&O from April 1st on trading volumes and sentiment."
   ],
   "risk_factors": [
-    "High market volatility can lead to rapid price swings and increased stop-loss hunting.",
-    "Sudden positive news or de-escalation of geopolitical tensions could trigger sharp short covering.",
-    "A significant gap-up opening on the next trading day could invalidate the proposed short trades.",
-    "The market holiday (Mahavir Jayanti) means a longer break, allowing more time for news to accumulate, potentially leading to an unpredictable opening on the next trading day (April 1st).",
-    "Lack of complete options data reduces visibility on immediate support and resistance levels from an options perspective."
+    "High market volatility (ATR% 1.82%), increasing the risk of sharp reversals and whipsaws.",
+    "Geopolitical tensions (US-Iran war) can lead to sudden and unpredictable market shifts.",
+    "Continued depreciation of the Indian Rupee could further dampen investor confidence and exacerbate FII outflows.",
+    "Potential for sharp short-covering rallies due to oversold conditions, especially after a significant fall.",
+    "Unreliable options data (Max Pain/OI 0) makes gauging market positioning and potential support/resistance levels difficult.",
+    "The upcoming STT hike on F&O from April 1st could impact trading behavior and liquidity."
   ]
 }
