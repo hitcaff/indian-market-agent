@@ -1,55 +1,55 @@
 {
   "session": "mid_morning",
   "date": "2026-03-30",
-  "timestamp": "09:17 IST",
+  "timestamp": "12:56 IST",
   "market_bias": "bearish",
   "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global markets are predominantly negative, with Asian indices experiencing significant declines. The ongoing US-Iran conflict has pushed crude oil prices above $100, fueling inflation concerns and dampening overall market sentiment.",
-    "technical_analysis": "Both Nifty and Bank Nifty have opened with substantial gaps down and are trading significantly lower, with Bank Nifty showing greater weakness. While EMA9/EMA21 are at current price and RSI is neutral, the sharp price action clearly indicates strong bearish momentum testing immediate support levels.",
-    "options_analysis": "PCR for both indices stands at 1.0, suggesting a neutral stance from options participants, possibly due to unwinding or fresh writing at current levels. However, the absence of Max Pain and detailed OI data limits a comprehensive options-based view for strong support/resistance identification.",
-    "sentiment_analysis": "Geopolitical tensions from the US-Iran war and the surge in crude oil prices are the primary drivers of negative sentiment. News of experts reducing exposure to financials further weighs on Bank Nifty. FII/DII data is neutral for the day so far, offering no clear directional bias from institutional flows.",
-    "confluence_summary": "The confluence of negative global cues, significant price declines in both indices, and geopolitical risks points to a strong bearish undertone. However, the market has already witnessed a sharp fall, and neutral technical indicators near immediate support levels warrant caution for aggressive fresh entries at current levels."
+    "global_analysis": "Global markets are largely negative, with SGX Nifty, Nikkei, and Hang Seng showing significant cuts, indicating broad risk-off sentiment. Crude oil and Gold are rising, signaling increased geopolitical risk (Iran war fears) and potential stagflation, which is a negative for equities.",
+    "technical_analysis": "Nifty is down 1.38% and Bank Nifty a sharp 2.82%, reflecting strong intraday selling pressure. While Nifty's RSI is neutral, Bank Nifty's RSI is bearish, confirming its weakness. Both indices are trading around their short-term EMAs after a significant fall, suggesting a potential for further downside if supports break.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty is 1.0 (neutral). However, Max Pain, Call Resistance, and Put Support are all reported as 0, indicating a lack of reliable open interest data for precise options-based directional cues or key levels at this moment.",
+    "sentiment_analysis": "FII/DII data is neutral, offering no immediate directional bias. Market news is predominantly negative, highlighting 'Markets to stay under pressure,' 'Oil shock... global growth crisis,' and HDFC Bank's decline, reinforcing a cautious and bearish sentiment. The 'high_volatility' regime with a 'caution' signal further underscores market nervousness.",
+    "confluence_summary": "The confluence of significant intraday drops in key Indian indices, broad global market weakness, rising commodity prices driven by geopolitical fears, and a predominantly negative news flow points to a clear bearish bias. Despite some neutral technical indicators and unreliable options data, the price action and overall sentiment are strongly negative, suggesting downside pressure."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 40,
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "22430 (Support)",
-      "22578 (Resistance)"
+      "22400.4",
+      "22296.15",
+      "22661.5"
     ],
     "invalidation": "N/A"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 40,
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "51000 (Psychological Support)",
-      "51250 (Potential Resistance)"
+      "50500 (approx)",
+      "51000 (approx)"
     ],
     "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Crude oil price movement and any further developments in the US-Iran conflict.",
-    "Nifty's ability to hold the immediate support of 22430 or a decisive break below it.",
-    "Bank Nifty's performance around the psychological 51,000 mark, given its significant underperformance.",
-    "Any fresh FII/DII data updates later in the day for institutional flow direction.",
-    "Global market reaction to the sustained high crude oil prices."
+    "Global market cues, especially SGX Nifty and US futures, for any signs of reversal or further weakness.",
+    "Crude oil and Gold price movements, as they are key indicators of geopolitical risk and inflation concerns.",
+    "Nifty's reaction at the immediate support of 22400.4; a break could accelerate selling.",
+    "Any fresh FII/DII data updates or significant news regarding geopolitical tensions (Iran war)."
   ],
   "risk_factors": [
-    "High volatility leading to sharp intraday reversals or short covering rallies after the significant fall.",
-    "Unpredictable geopolitical developments (US-Iran war) causing sudden market shifts.",
-    "Lack of clear and detailed options data for strong support/resistance identification, increasing uncertainty.",
-    "Potential for a bounce from oversold levels on an intraday basis, despite the overall bearish sentiment."
+    "High volatility in the market can lead to sharp reversals and whipsaws, making directional trades risky.",
+    "Escalation or de-escalation of geopolitical tensions (Iran war) could rapidly alter market sentiment.",
+    "Lack of clear options data for precise support/resistance levels increases uncertainty.",
+    "The significant intraday fall already makes fresh short entries less favorable for risk-reward without a clear bounce or breakdown."
   ]
 }
