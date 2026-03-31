@@ -1,57 +1,57 @@
 {
   "session": "post_market",
   "date": "2026-03-31",
-  "timestamp": "15:23 IST",
-  "market_bias": "bearish",
-  "bias_strength": "moderate",
+  "timestamp": "18:16 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are largely negative, with SGX Nifty down significantly (-2.14%) and Nikkei experiencing its worst month since 2008 due to the Mideast crisis. European markets are also struggling, indicating a broad risk-off sentiment. While US futures show some positivity, the immediate Asian and derivative signals for India are bearish, further supported by rising crude and gold prices.",
-    "technical_analysis": "Both Nifty and Bank Nifty witnessed a sharp sell-off today, with Nifty down 2.14% and Bank Nifty plunging 3.82%. Their RSIs are firmly in bearish territory (Nifty 44.88, Bank Nifty 39.81), indicating strong selling pressure. While the trend is marked neutral, the significant price action suggests a breakdown, with both indices closing below their short-term EMAs.",
-    "options_analysis": "The options data for both Nifty and Bank Nifty shows a PCR of 1.0, with Max Pain, Call Resistance, and Put Support all at 0. This suggests either end-of-day data limitations or a lack of strong conviction from options traders at these levels. Given the sharp fall, this data does not provide clear directional cues for aggressive positioning.",
-    "sentiment_analysis": "FII/DII data is neutral for the day, offering no immediate directional insight. Market news highlights global geopolitical concerns impacting markets, reinforcing a cautious sentiment. The 'high_volatility' regime and 'caution' signal from the system align with the overall bearish price action, despite some positive stock-specific news.",
-    "confluence_summary": "The market closed with a significant bearish bias, driven by sharp declines in both Nifty and Bank Nifty, coupled with bearish RSI readings and negative global cues. While options data is inconclusive and the trend is marked neutral, the high volatility and price action suggest underlying weakness. Prudence dictates waiting for confirmation before initiating fresh directional trades."
+    "global_analysis": "Global cues are mixed; while SGX Nifty and Nikkei reflect today's weakness, US futures are showing strength on hopes of Mideast de-escalation, potentially leading to a positive opening for Indian markets. However, rising Gold prices suggest underlying global risk aversion persists.",
+    "technical_analysis": "Nifty and Bank Nifty both experienced significant corrections today, closing down 2.14% and 3.82% respectively. Both indices have bearish RSI readings (Nifty 44.88, Bank Nifty 39.81) and are trading below their short-term EMAs, indicating underlying weakness despite the 'neutral' trend signal. High volatility is a key characteristic.",
+    "options_analysis": "The provided options data (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) is insufficient to draw any meaningful conclusions regarding immediate support or resistance from the options chain. This lack of data significantly limits a comprehensive options-based analysis.",
+    "sentiment_analysis": "Sentiment is highly volatile and mixed. News of 'Mideast de-escalation hopes' is positive, but the market is still reeling from a 'March massacre' and '11% crash'. FII/DII data is neutral for the day. Analyst calls for specific stocks don't provide a broad market direction, and rising gold indicates risk-off sentiment.",
+    "confluence_summary": "The market is in a high volatility regime, having witnessed a sharp correction. While positive global cues might lead to a gap-up opening, the underlying technical weakness and bearish RSI suggest caution. The critical absence of robust options data and neutral FII/DII activity prevents a strong directional conviction, making 'NO TRADE' the most prudent approach for now."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "Not Applicable",
-    "stop_loss": "Not Applicable",
-    "target_1": "Not Applicable",
-    "target_2": "Not Applicable",
-    "confidence_pct": 40,
-    "risk_reward": "Not Applicable",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "22172.13 (Support 1)",
-      "22012.87 (Support 2)",
-      "22602.38 (Resistance 1)"
+      "22172.13 (Support)",
+      "22602.38 (Resistance)"
     ],
-    "invalidation": "A strong gap-up opening above 22600 with sustained buying, or a clear reversal pattern on lower timeframes after the open."
+    "invalidation": "N/A - No trade proposed due to insufficient confluence and high volatility."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "Not Applicable",
-    "stop_loss": "Not Applicable",
-    "target_1": "Not Applicable",
-    "target_2": "Not Applicable",
-    "confidence_pct": 35,
-    "risk_reward": "Not Applicable",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
       "50000 (Psychological Support)",
-      "50500 (Immediate Resistance)"
+      "50275.35 (Current Level)"
     ],
-    "invalidation": "A strong gap-up opening above 51000 with significant banking sector outperformance, or a clear reversal pattern on lower timeframes after the open."
+    "invalidation": "N/A - No trade proposed due to insufficient confluence and high volatility."
   },
   "what_to_watch": [
-    "Opening behavior of Nifty and Bank Nifty tomorrow, especially if there's a significant gap down as indicated by SGX Nifty.",
-    "Global market performance overnight, particularly US markets and Asian markets tomorrow morning.",
-    "Crude oil price movement, as it's currently elevated and can impact inflation outlook.",
-    "FII/DII activity post-market open for fresh directional cues.",
-    "Sectoral performance, especially the banking sector given Bank Nifty's sharp fall."
+    "Global geopolitical developments, especially regarding the Mideast situation and its impact on crude oil.",
+    "Performance of US markets (Dow, Nasdaq) tomorrow, as their futures are currently positive.",
+    "Nifty's ability to sustain above its immediate support of 22172.13 if a gap-up occurs.",
+    "Bank Nifty's relative strength/weakness compared to Nifty, given its sharper fall today.",
+    "Fresh FII/DII activity data for directional cues.",
+    "Options chain build-up for the upcoming expiry to identify Max Pain, Call Resistance, and Put Support."
   ],
   "risk_factors": [
-    "Escalating geopolitical tensions in the Middle East, which could further dampen global sentiment.",
-    "High market volatility (ATR% at 1.82%) leading to unpredictable price swings.",
-    "Potential for sharp reversals or short covering rallies after significant single-day falls.",
-    "Inconclusive options data, making it difficult to gauge immediate support/resistance from option chains.",
-    "Settlement holiday on April 1, which might affect liquidity and trading dynamics."
+    "Sudden escalation of geopolitical tensions, negating current de-escalation hopes.",
+    "Continued high market volatility leading to whipsaw movements and increased risk for derivatives traders.",
+    "Sustained selling pressure from FIIs if they turn net sellers.",
+    "Global economic slowdown concerns impacting corporate earnings and market sentiment.",
+    "Lack of clear directional cues and insufficient options data making informed decisions challenging."
   ]
 }
