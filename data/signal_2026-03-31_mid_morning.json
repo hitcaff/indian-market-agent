@@ -1,58 +1,57 @@
 {
   "session": "mid_morning",
   "date": "2026-03-31",
-  "timestamp": "09:08 IST",
+  "timestamp": "12:42 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "SGX Nifty indicates a significant gap-down opening for Indian markets, aligning with negative sentiment in broader Asian markets due to reported war escalation. However, positive US futures provide a glimmer of hope for potential recovery, while rising gold prices signal increased safe-haven demand amidst geopolitical tensions.",
-    "technical_analysis": "Both Nifty and Bank Nifty are showing substantial gap-downs, with Nifty down 2.14% and Bank Nifty a sharper 3.82%. Bearish RSI readings for both indices confirm the immediate selling pressure, yet the 'neutral' trend and EMAs at current price suggest a lack of established direction post-open.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a neutral 1.0. Crucially, the absence of Max Pain, Call Resistance, and Put Support data severely limits any meaningful options-based analysis, preventing the identification of key support or resistance derived from open interest.",
-    "sentiment_analysis": "FII/DII data is neutral for the session opening, offering no immediate directional cues. News flow is highly contradictory, with reports of war escalation and market cap drops clashing with a potentially bullish headline about Trump ending the Iran war, creating extreme uncertainty and contributing to the 'high_volatility' regime.",
-    "confluence_summary": "The market is poised for a significant gap-down opening, driven by bearish technicals and negative Asian cues, compounded by geopolitical fears. However, the lack of robust options and FII/DII data, combined with conflicting global news and positive US futures, creates a highly uncertain and volatile environment, making a clear directional trade extremely risky."
+    "global_analysis": "SGX Nifty, Nikkei, and Hang Seng are all in the red, reflecting a generally cautious Asian market sentiment. However, US futures (Dow, Nasdaq) are showing a strong positive bounce, driven by reports of Trump's plans to exit the Iran war, which is a significant geopolitical de-escalation and a strong bullish cue for global markets. Crude oil is stable, while gold is up, indicating some lingering uncertainty.",
+    "technical_analysis": "Nifty 50 is down over 2%, currently trading at 22,331.40, with a bearish RSI of 44.88. Bank Nifty has seen a much sharper cut of nearly 4%, trading at 50,275.35, with its RSI at a more bearish 39.81, nearing oversold conditions. Both indices are technically in a 'neutral' trend despite the sharp intraday fall, suggesting the broader structure might still be intact or that this is a sharp correction within a range. Key support for Nifty is at 22172 and 22012.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0 (neutral), and Max Pain, Call Resistance, and Put Support are all reported as 0. This indicates a lack of strong directional conviction from the options market at this specific point, possibly due to it being early in the expiry cycle or incomplete data, making it less reliable for immediate directional cues.",
+    "sentiment_analysis": "FII/DII activity is neutral for the day so far. Market news presents a mixed picture: strong positive global sentiment from US futures due to geopolitical de-escalation is a major bullish factor. Domestically, there's some negative news regarding housing sales, but analyst recommendations for specific stocks are predominantly 'Buy', suggesting underlying confidence in corporate earnings. The LiveMint article on Nifty's April seasonality and 'US-Iran war clouds' is relevant, with the current global news suggesting those clouds may be dissipating.",
+    "confluence_summary": "The Indian indices are experiencing a significant mid-morning sell-off, pushing Nifty into bearish RSI territory and Bank Nifty towards oversold levels. However, this sharp domestic correction is juxtaposed against a strong positive global sentiment, with US futures rallying on reports of de-escalation in geopolitical tensions. Given the high volatility regime, this divergence presents a potential opportunity for a bounce from current depressed levels, especially if global optimism sustains and domestic selling pressure subsides."
   },
   "nifty_trade": {
-    "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 0,
-    "risk_reward": "0:0",
+    "direction": "LONG",
+    "entry_zone": "22250 - 22300",
+    "stop_loss": 22150,
+    "target_1": 22450,
+    "target_2": 22600,
+    "confidence_pct": 60,
+    "risk_reward": "1:1.4",
     "key_levels_to_watch": [
       "22172 (Support 1)",
-      "22602 (Resistance 1)",
-      "22331 (Current Price)"
+      "22331 (Current Price)",
+      "22602 (Resistance 1)"
     ],
-    "invalidation": "A clear directional bias emerges with strong confluence from multiple factors, or geopolitical clarity reduces uncertainty."
+    "invalidation": "Nifty breaking decisively below 22150 and sustaining for 15-30 minutes, indicating continued bearish momentum."
   },
   "banknifty_trade": {
-    "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 0,
-    "risk_reward": "0:0",
+    "direction": "LONG",
+    "entry_zone": "50150 - 50250",
+    "stop_loss": 49900,
+    "target_1": 50600,
+    "target_2": 51000,
+    "confidence_pct": 65,
+    "risk_reward": "1:1.3",
     "key_levels_to_watch": [
-      "50000 (Psychological Level)",
-      "50275 (Current Price)"
+      "50000 (Psychological Support)",
+      "50275 (Current Price)",
+      "50500",
+      "51000"
     ],
-    "invalidation": "A clear directional bias emerges with strong confluence from multiple factors, or geopolitical clarity reduces uncertainty."
+    "invalidation": "Bank Nifty breaking decisively below 49900 and sustaining for 15-30 minutes, negating the bounce potential."
   },
   "what_to_watch": [
-    "Confirmation and clarity on geopolitical developments (US-Iran war, Trump's reported plans).",
-    "FII/DII activity post-market open for directional cues.",
-    "Options chain build-up throughout the day, especially changes in OI, Max Pain, and PCR.",
-    "Nifty's ability to hold immediate support levels (22172) or reclaim resistance (22602).",
-    "Bank Nifty's reaction around the crucial 50,000 psychological level.",
-    "Global market reaction, particularly US market open, to the evolving geopolitical narrative."
+    "Sustenance of positive global cues, particularly the performance of US futures and any further geopolitical developments.",
+    "Nifty's ability to hold its immediate support levels around 22172 and 22012.",
+    "Bank Nifty's recovery momentum, given its sharper fall and proximity to oversold RSI levels.",
+    "Any significant shift in FII/DII flows later in the day."
   ],
   "risk_factors": [
-    "Extreme geopolitical uncertainty leading to rapid shifts in market sentiment and news flow.",
-    "High volatility (ATR% 1.82%) causing sharp, unpredictable price swings and potential stop-loss hunting.",
-    "Lack of clear directional cues from options and FII/DII data, making conviction difficult.",
-    "Continued rupee depreciation (past 95/$) potentially impacting FII sentiment and capital outflow.",
-    "Risk of significant gap-up/down if geopolitical news changes drastically during market hours."
+    "The market is in a 'high_volatility' regime, meaning sharp and unpredictable moves are possible, increasing execution risk.",
+    "Geopolitical developments, while currently positive, can be highly fluid and reverse sentiment quickly.",
+    "Lack of strong options data (Max Pain, OI) means less clarity on immediate market positioning from derivative participants.",
+    "Despite global optimism, domestic selling pressure might persist, especially if profit-booking continues into month-end."
   ]
 }
