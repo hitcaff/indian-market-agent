@@ -1,54 +1,58 @@
 {
   "session": "post_market",
   "date": "2026-04-01",
-  "timestamp": "15:26 IST",
-  "market_bias": "neutral",
-  "bias_strength": "weak",
+  "timestamp": "18:20 IST",
+  "market_bias": "moderate_bullish",
+  "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global markets are showing strong bullish momentum with SGX Nifty, Dow, Nasdaq, Nikkei, and Hang Seng all posting significant gains, setting a positive tone for the next session. Crude oil saw a slight dip while gold gained, indicating some risk-off sentiment in commodities but overall equity optimism.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed with substantial gains (+1.59% and +2.40% respectively), indicating strong buying interest for the day. However, the RSI for both indices remains in bearish territory (Nifty 43.48, Bank Nifty 40.23), and the trend is marked as neutral, suggesting a divergence between price action and underlying momentum. The market is also flagged as high volatility with a caution signal.",
-    "options_analysis": "The provided options data (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) appears incomplete or invalid for both Nifty and Bank Nifty. This lack of reliable options chain data makes it impossible to gauge immediate support/resistance from option writers or assess market sentiment based on open interest.",
-    "sentiment_analysis": "FII/DII data is neutral for the day. Market news includes positive coverage on specific stocks (e.g., Meesho, HDFC Bank, Tejas, Bajaj Finance, PSU banks) and some IPO updates, indicating selective sector-specific optimism. The overall sentiment is mixed, with stock-specific positive news but no broad FII/DII directional conviction.",
-    "confluence_summary": "Despite strong positive closes and robust global cues, the market exhibits significant internal contradictions. Bearish RSI readings, a neutral trend, high volatility, and missing options data prevent a clear directional bias, leading to a cautious stance. The current price action seems to be driven more by global optimism rather than strong underlying domestic momentum."
+    "global_analysis": "Global markets are showing strong positive momentum, with SGX Nifty, Dow, Nasdaq, Nikkei, and Hang Seng all posting significant gains. Optimism regarding Mideast peace talks and de-escalation of US-Iran tensions is a primary driver, further supported by a decline in crude oil prices, which is a positive for India.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed with substantial gains today (+1.56% and +2.33% respectively). However, the RSI for both indices remains in bearish territory (Nifty 43.22, Bank Nifty 39.87), and the trend is indicated as neutral. The EMA values matching the current price suggest a sharp recent move but do not provide clear trend confirmation.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty is neutral at 1.0. Crucially, Max Pain, Call Resistance, and Put Support data are reported as 0, which means this vital component of options analysis is unavailable, significantly limiting our ability to gauge market positioning and potential turning points.",
+    "sentiment_analysis": "FII and DII activity was neutral today, offering no clear directional bias from institutional flows. Market news is mixed; while global headlines highlight optimism over de-escalation, domestic news points to high volatility and potential impacts of geopolitical events on sectors like real estate, suggesting underlying caution despite the global cheer.",
+    "confluence_summary": "While strong global bullish cues and significant daily gains provide a positive backdrop for the next session, the internal technical indicators (bearish RSI, neutral trend) and the critical absence of comprehensive options data create insufficient confluence for high-conviction directional trades. The prevailing market regime of 'high_volatility' and a 'caution' signal further advise prudence, leading to a 'NO TRADE' stance despite the moderate bullish bias."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 40,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "22879.7 (Resistance)",
-      "22557.0 (Support)"
+      "22551.57 (Support 1)",
+      "22423.73 (Support 2)",
+      "22874.27 (Resistance 1)",
+      "23069.13 (Resistance 2)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "Lack of strong internal technical confirmation (bearish RSI, neutral trend) combined with high volatility and incomplete options data invalidates a high-conviction directional trade."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 40,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "51483.5 (Current Level)"
+      "51000 (Psychological Support)",
+      "51500 (Psychological Resistance)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "Similar to Nifty, the strong daily move is not backed by strong internal technical confluence (more bearish RSI at 39.87, neutral trend), high volatility, and incomplete options data, making a directional trade too risky."
   },
   "what_to_watch": [
-    "Resolution of the divergence between strong price action and bearish RSI.",
-    "Confirmation of trend (from neutral to trending) in Nifty and Bank Nifty.",
-    "Availability and interpretation of reliable options data (PCR, Max Pain, OI) for future sessions.",
-    "FII/DII flow for directional conviction in the coming days.",
-    "Continuation of global market momentum, especially US futures overnight."
+    "Global market performance, especially US futures and European markets, for sustained optimism.",
+    "Crude oil price movements and their potential impact on inflation expectations.",
+    "FII/DII activity in the next trading session for clearer directional conviction.",
+    "Nifty's ability to sustain above 22800 and Bank Nifty above 51500 if they open with a gap up.",
+    "Any further concrete developments regarding the Mideast geopolitical situation and peace talks."
   ],
   "risk_factors": [
-    "High volatility as indicated by the market regime and ATR%.",
-    "Lack of clear directional conviction from technical indicators (RSI, Trend).",
-    "Incomplete/unreliable options data leading to blind spots in market sentiment.",
-    "Potential for profit booking after a strong single-day up move, especially if global cues turn negative."
+    "High market volatility (ATR% 1.74%) can lead to sharp reversals and increased risk.",
+    "Bearish RSI despite strong price gains indicates underlying weakness or potential for profit booking.",
+    "Geopolitical risks, even with de-escalation hopes, can quickly resurface and impact market sentiment.",
+    "Incomplete options data (Max Pain, Call/Put Support at 0) limits comprehensive market understanding and risk assessment.",
+    "Potential for a 'buy the rumour, sell the news' event if Mideast peace talks do not yield concrete positive outcomes."
   ]
 }
