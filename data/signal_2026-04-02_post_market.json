@@ -1,54 +1,57 @@
 {
   "session": "post_market",
   "date": "2026-04-02",
-  "timestamp": "15:19 IST",
-  "market_bias": "neutral",
-  "bias_strength": "weak",
+  "timestamp": "18:13 IST",
+  "market_bias": "bearish",
+  "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global markets present a mixed to negative picture; while SGX Nifty is positive, major indices like Dow, Nasdaq, Nikkei, and Hang Seng are down significantly. A concerning spike in Crude Oil (+7.74%) due to escalating Iran tensions poses a major inflationary risk and headwind for India, an oil importer.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed marginally positive but are exhibiting oversold RSI readings (Nifty 29.72, Bank Nifty 28.37), which often precedes a bounce or consolidation. However, the trend for both indices is explicitly stated as neutral, and EMA9/EMA21 are at the current price, indicating a lack of clear short-term direction.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from the options market perspective. Max Pain, Call Resistance, and Put Support are reported as 0, likely due to it being a weekly expiry day and data resetting, thus limiting deeper options insights for the next session.",
-    "sentiment_analysis": "FII/DII flows are neutral for the day, offering no clear institutional direction. Market news is mixed, with some analysts advocating selective buying and long-term bullish targets, while others warn of crude hitting $140 amid geopolitical tensions, aligning with the current crude spike and adding a layer of caution.",
-    "confluence_summary": "The market is in a high volatility, non-trending regime, with oversold technicals conflicting with significant global headwinds, particularly the crude oil surge. The absence of clear institutional flows and limited options data post-expiry, combined with the 'HIGH RISK DAY' warning, points towards extreme caution and a lack of strong directional conviction."
+    "global_analysis": "Global markets are showing significant risk-off sentiment, with US and Asian futures trading sharply lower. Crude oil has surged over 10% due to the US-Iran war fallout, indicating heightened geopolitical tensions and potential inflationary pressures. Gold has also seen a sharp decline, which is unusual but attributed to the oil surge and dimming hopes for peace.",
+    "technical_analysis": "Both Nifty 50 and Bank Nifty are exhibiting deeply oversold RSI levels (28.13 and 27.06 respectively), which typically suggests a potential for a short-term bounce or exhaustion of selling pressure. However, the EMA9 and EMA21 are identical to the current price, indicating a lack of clear directional trend or consolidation after the weekly expiry. Support and resistance levels are well-defined but untested in this context.",
+    "options_analysis": "The PCR for both indices is neutral at 1.0. However, the Max Pain, Call Resistance, and Put Support data are all reported as 0, which makes a comprehensive options analysis for directional bias impossible to derive from the provided data, likely due to it being a weekly expiry day. This limits our ability to gauge immediate options-based support or resistance.",
+    "sentiment_analysis": "While FII/DII activity was neutral for the day, FIIs have been significant net sellers (\u20b91.3 lakh crore) since late February, primarily driven by the US-Iran war fallout. Market news is dominated by geopolitical concerns, analyst warnings against long positions, and high-risk warnings for the expiry day, reinforcing a cautious to bearish sentiment.",
+    "confluence_summary": "The overall market bias leans bearish due to strong negative global cues, surging crude oil prices, and persistent FII selling pressure stemming from geopolitical tensions. Although Nifty and Bank Nifty RSIs are deeply oversold, suggesting potential for a bounce, the high volatility regime and lack of clear technical trend, coupled with the absence of reliable options data, warrant extreme caution rather than initiating fresh directional trades."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "entry_zone": "XXXXX - XXXXX",
+    "stop_loss": "XXXXX",
+    "target_1": "XXXXX",
+    "target_2": "XXXXX",
     "confidence_pct": 0,
-    "risk_reward": "N/A",
+    "risk_reward": "0:0",
     "key_levels_to_watch": [
-      "22356.73 (Support)",
-      "22956.48 (Resistance)"
+      "22336.33 (Support 1)",
+      "22936.08 (Resistance 1)",
+      "22713.10 (Current Price)"
     ],
-    "invalidation": "N/A - No trade proposed due to insufficient confluence and high risk."
+    "invalidation": "N/A - No trade proposed"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "entry_zone": "XXXXX - XXXXX",
+    "stop_loss": "XXXXX",
+    "target_1": "XXXXX",
+    "target_2": "XXXXX",
     "confidence_pct": 0,
-    "risk_reward": "N/A",
+    "risk_reward": "0:0",
     "key_levels_to_watch": [
-      "51635.00 (Current Level)"
+      "51000 (Psychological Support)",
+      "51548.75 (Current Price)"
     ],
-    "invalidation": "N/A - No trade proposed due to insufficient confluence and high risk."
+    "invalidation": "N/A - No trade proposed"
   },
   "what_to_watch": [
-    "Global market performance overnight, especially US indices, for directional cues.",
-    "Crude oil prices and any further escalation in geopolitical tensions, which could significantly impact Indian markets.",
-    "FII/DII activity for April 03, 2026, to gauge institutional sentiment.",
-    "How Nifty and Bank Nifty react to their immediate support and resistance levels given the oversold RSI.",
-    "Any fresh economic data or policy announcements that could influence market sentiment."
+    "Developments in the US-Iran conflict and its impact on global crude oil prices.",
+    "FII/DII flow data for the upcoming sessions to gauge institutional sentiment and potential reversals.",
+    "Global market performance, especially US futures and Asian indices, for directional cues at market open.",
+    "Nifty and Bank Nifty's reaction to deeply oversold RSI levels; monitoring for signs of short covering or further capitulation.",
+    "Key support levels for Nifty (22336) and Bank Nifty (51000) for signs of demand and potential reversal points."
   ],
   "risk_factors": [
-    "Escalating geopolitical tensions leading to further crude oil price spikes, impacting inflation and corporate earnings.",
-    "High market volatility and the current non-trending regime increasing the risk of whipsaws.",
-    "Potential for sharp moves due to oversold conditions clashing with negative global news flow.",
-    "Uncertainty from the lack of clear institutional buying/selling interest."
+    "Escalation of geopolitical tensions leading to further global market instability and increased risk aversion.",
+    "Sustained high crude oil prices impacting India's import bill, potentially fueling inflation and eroding corporate margins.",
+    "Continued significant FII outflows exerting sustained downward pressure on Indian equities.",
+    "High market volatility making risk management challenging and increasing the probability of stop-loss triggers.",
+    "Uncertainty surrounding the upcoming corporate earnings season, with key results like Adani Energy Solutions' Q4 approaching, potentially adding to market choppiness."
   ]
 }
