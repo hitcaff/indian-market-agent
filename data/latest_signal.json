@@ -1,15 +1,15 @@
 {
   "session": "mid_morning",
   "date": "2026-04-02",
-  "timestamp": "09:00 IST",
-  "market_bias": "neutral",
-  "bias_strength": "weak",
+  "timestamp": "12:40 IST",
+  "market_bias": "bearish",
+  "bias_strength": "strong",
   "reasoning": {
-    "global_analysis": "Global markets are under significant pressure, with US futures and Asian indices (Nikkei, Hang Seng) trading sharply lower, primarily due to escalating US-Iran tensions and a substantial spike in crude oil prices. Initial reports of Gift Nifty signaling a gap-down were prevalent. However, the Indian market has opened with a remarkable and strong bullish gap, defying these strong negative international cues, indicating domestic resilience or aggressive short covering.",
-    "technical_analysis": "Nifty 50 and Bank Nifty have opened with significant bullish gaps of +1.56% and +2.33% respectively. Despite this strong price action, the RSI for both indices remains in bearish territory (Nifty 43.22, Bank Nifty 39.87) and the trend is marked as neutral. This presents a stark contradiction between price movement and momentum indicators, warranting extreme caution. EMAs are precisely at current price, suggesting a very recent strong move or consolidation at these levels.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a neutral 1.0. Crucially, Max Pain, Call Resistance, and Put Support data are reported as zero, making it impossible to derive meaningful insights into options-derived support and resistance levels for this weekly expiry day. This lack of critical options data further compounds the uncertainty.",
-    "sentiment_analysis": "FII/DII data is neutral for the day, offering no fresh directional cues from institutional flows. Market news is heavily dominated by geopolitical tensions and their impact on commodities like crude oil and gold. The strong market open, despite the overwhelming negative global news flow and initial 'Gift Nifty crash' reports, suggests either strong domestic buying conviction or a significant short-covering rally.",
-    "confluence_summary": "The Indian market has demonstrated exceptional strength with a significant gap-up opening, completely defying the prevailing negative global cues and geopolitical risks. However, this bullish price action is contradicted by internal technical indicators (bearish RSI, neutral trend) and the absence of reliable options data. Coupled with the 'high_volatility' regime and the 'WEEKLY_EXPIRY' event, this creates an extremely high-risk, non-trending environment where directional conviction is very low. Prudence dictates a cautious, wait-and-watch approach."
+    "global_analysis": "Global markets are in a significant risk-off mode, with major indices down 1-2.5%, driven by escalating geopolitical tensions. The sharp surge in crude oil prices (+5.89%) to $106.02, fueled by the US-Iran conflict and Trump's signals, is a major negative for oil-importing economies like India, indicating potential inflationary pressures and higher import bills.",
+    "technical_analysis": "Both Nifty and Bank Nifty have experienced sharp cuts, down 1.44% and 2.09% respectively, trading well below their EMAs. Crucially, both indices are deeply oversold on their RSIs (Nifty 21.1, Bank Nifty 20.66), which typically suggests a potential for a short-term bounce or consolidation, but this is overshadowed by the intense bearish sentiment.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a neutral 1.0. However, the absence of specific Max Pain, Call Resistance, and Put Support data for this weekly expiry limits a comprehensive options-based directional view. The neutral PCR might indicate a balanced open interest after the initial fall, rather than a lack of underlying directional pressure.",
+    "sentiment_analysis": "FII/DII data is neutral, offering no immediate directional cues. Market news is overwhelmingly negative, dominated by geopolitical risks (US-Iran war, crude spike, tariff threats) and specific stock concerns (Sun Pharma, HDFC Bank). The 10-year bond yield crossing 7% due to high oil prices further reinforces the negative domestic sentiment.",
+    "confluence_summary": "The market is under severe pressure from a confluence of global risk-off sentiment, escalating geopolitical tensions, and a sharp surge in crude oil prices, creating a strong bearish backdrop. While Nifty and Bank Nifty are deeply oversold on RSI, suggesting a potential for a technical bounce, the high volatility and elevated risk on a weekly expiry day, coupled with the lack of clear options data, make high-conviction directional trades extremely risky."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -17,14 +17,13 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 30,
+    "confidence_pct": 10,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "22679.40 (Current Price)",
-      "22551.57 (Immediate Support)",
-      "22874.27 (Immediate Resistance)"
+      "22225.38 (Support 1)",
+      "22437.48 (Resistance 1)"
     ],
-    "invalidation": "N/A - No trade initiated due to high risk, conflicting technical signals, and elevated geopolitical uncertainty on a weekly expiry day."
+    "invalidation": "N/A - No trade initiated due to high risk and conflicting signals."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -32,24 +31,23 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 30,
+    "confidence_pct": 10,
     "risk_reward": "N/A",
-    "key_levels_to_watch": [
-      "51448.65 (Current Price)"
-    ],
-    "invalidation": "N/A - No trade initiated due to high risk, conflicting technical signals, and elevated geopolitical uncertainty on a weekly expiry day."
+    "key_levels_to_watch": [],
+    "invalidation": "N/A - No trade initiated due to high risk and conflicting signals."
   },
   "what_to_watch": [
-    "Further developments in the US-Iran geopolitical situation and any de-escalation or escalation news.",
-    "The trajectory of crude oil prices, as a sustained rise could impact inflation and corporate earnings.",
-    "Sustainability of the current bullish momentum in Nifty and Bank Nifty, especially given the contradictory technical indicators.",
-    "Expiry-related volatility and potential for sharp unwinding of positions around key psychological levels.",
-    "Any updated FII/DII flow data later in the day, which could provide fresh institutional sentiment."
+    "Crude oil price movements, especially around the $106 level, for signs of stabilization or further escalation.",
+    "Any fresh developments or de-escalation signals regarding the US-Iran conflict and Trump's statements.",
+    "Global market performance, particularly Dow and Nasdaq futures, for signs of broader market sentiment shift.",
+    "Nifty and Bank Nifty's ability to hold current oversold levels or show any signs of meaningful short covering/reversal into the expiry close.",
+    "The 10-year Indian bond yield movement as it reflects domestic inflationary and borrowing cost concerns."
   ],
   "risk_factors": [
-    "Elevated geopolitical risk due to US-Iran conflict, which can trigger sudden and sharp market reversals.",
-    "High volatility and potential for whipsaws due to weekly expiry, exacerbated by conflicting market signals.",
-    "Contradictory technical indicators (strong price action vs. bearish RSI) creating significant uncertainty and making trend identification difficult.",
-    "Risk of profit booking after the significant gap-up, especially if global cues remain negative or worsen."
+    "Further escalation of geopolitical tensions leading to a deeper global risk-off wave.",
+    "A continued surge in crude oil prices, severely impacting India's economy and corporate earnings.",
+    "Extreme volatility and potential whipsaws on this weekly expiry day, making trade management challenging.",
+    "Lack of FII/DII buying support to cushion the fall or initiate a recovery.",
+    "Any negative surprises from domestic or international economic data releases."
   ]
 }
