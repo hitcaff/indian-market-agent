@@ -1,55 +1,57 @@
 {
   "session": "mid_morning",
   "date": "2026-04-03",
-  "timestamp": "09:03 IST",
+  "timestamp": "12:36 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed, with Asian markets generally higher, led by Nikkei, while US futures show a slight negative bias. The most critical factor is the massive 11.93% surge in crude oil prices, which will likely fuel inflationary concerns and could negatively impact India's economy, despite benefiting oil exploration stocks.",
-    "technical_analysis": "Both Nifty and Bank Nifty are opening flat with their 9-period and 21-period EMAs converging at the current price, indicating a lack of immediate directional conviction. However, both indices are showing extremely oversold RSI readings (Nifty 28.13, Bank Nifty 27.06), suggesting a strong potential for a short-term technical bounce from these levels.",
-    "options_analysis": "At 09:03 IST, the options data for both Nifty and Bank Nifty (PCR, Max Pain, Call/Put Resistance/Support) is largely uninformative, showing neutral values of 1.0 and 0 respectively. This is typical for market open and does not provide any actionable insights into immediate support or resistance based on open interest.",
-    "sentiment_analysis": "FII/DII data is neutral at market open. News flow highlights mixed global sentiment, lingering Iran war worries, and the significant jump in crude oil prices. While there are positive analyst calls for specific stocks, the overall sentiment is cautious due to high volatility and the potential economic impact of surging crude, with some global markets closed for Good Friday potentially impacting liquidity.",
-    "confluence_summary": "While the deeply oversold RSI in both Nifty and Bank Nifty presents a strong contrarian signal for a potential bounce, the overwhelming 11.93% surge in crude oil prices introduces a major bearish macro factor for India. Coupled with a high-volatility regime, flat EMAs at market open, and uninformative options data, the overall confluence is insufficient for a high-conviction directional trade at this precise moment. Prudence dictates waiting for clearer price action."
+    "global_analysis": "Global cues are mixed with SGX Nifty and Nikkei showing positive momentum, while US futures and Hang Seng are in the red. A significant surge in crude oil prices (+11.93%) is a notable concern for India, potentially dampening sentiment.",
+    "technical_analysis": "Both Nifty and Bank Nifty are showing marginal positive movement but are technically oversold on their respective RSIs (28.13 and 27.06), suggesting a potential for a short-term bounce. However, EMAs are flat, indicating short-term consolidation and a lack of clear trend.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty stands at a neutral 1.0. Crucially, the absence of Max Pain, Call Resistance, and Put Support data makes a comprehensive options-based analysis impossible, significantly reducing conviction for any directional trade.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. Market news presents a mixed bag, with some positive stock-specific recommendations alongside macro concerns like capital gains tax discussions and the impact of de-dollarisation. The 'high_volatility' and 'caution' regime further advises prudence.",
+    "confluence_summary": "The market is currently in a high volatility, non-trending regime. While oversold RSIs hint at a potential bounce, this signal lacks strong confirmation from flat EMAs, neutral PCR, and critically, detailed options data. Given the mixed global cues, rising crude, and overall caution signal, a 'NO TRADE' approach is the most prudent strategy at this juncture."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "0 - 0",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 0,
-    "risk_reward": "0:0",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 70,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "22700 (current pivot)",
-      "22936 (immediate resistance)",
-      "22600 (intraday support)"
+      "22336.33 (Support)",
+      "22936.08 (Resistance)",
+      "22713.10 (Current)"
     ],
-    "invalidation": "N/A as no directional trade is proposed."
+    "invalidation": "N/A - Market conditions do not support a high-conviction directional trade."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "0 - 0",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 0,
-    "risk_reward": "0:0",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 70,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "51500 (current pivot)",
-      "51800 (intraday resistance)",
-      "51300 (intraday support)"
+      "51548.75 (Current)",
+      "Watch for significant breaks above/below current levels"
     ],
-    "invalidation": "N/A as no directional trade is proposed."
+    "invalidation": "N/A - Market conditions do not support a high-conviction directional trade."
   },
   "what_to_watch": [
-    "Crude oil price action and its sustained impact on energy stocks versus the broader market due to inflationary pressures.",
-    "Nifty and Bank Nifty's ability to sustain above their opening levels, especially given the deeply oversold RSI, indicating potential for a technical bounce.",
-    "FII/DII activity once the data becomes available later in the day, as their flows can significantly influence market direction.",
-    "Global market sentiment, particularly US futures and European markets once they open, considering the Good Friday holidays in some major Asian and Western markets."
+    "Movement in US and other Asian markets for global sentiment cues.",
+    "Crude oil price action; sustained high prices could be a significant headwind.",
+    "Any fresh FII/DII flow data updates later in the day.",
+    "Nifty and Bank Nifty's ability to sustain above current levels or confirm the RSI bounce.",
+    "Updates on the capital gains tax discussion mentioned in news."
   ],
   "risk_factors": [
-    "Sudden market reversal due to the significant crude oil price jump or any escalating geopolitical news related to Iran war worries.",
-    "High volatility (ATR% 1.88%) leading to sharp, unpredictable swings and potential stop-loss hunting.",
-    "Potentially lower liquidity due to Good Friday holidays in several global markets, which could amplify price movements."
+    "High volatility regime (ATR% 1.88%) increases risk for directional trades.",
+    "Sharp spike in crude oil prices could trigger inflation concerns and FII outflows.",
+    "Incomplete options data limits the ability to gauge market participant positioning.",
+    "Mixed global cues and potential for sudden shifts in sentiment.",
+    "Uncertainty around potential policy changes (e.g., capital gains tax)."
   ]
 }
