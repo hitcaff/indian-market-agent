@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-04-03",
-  "timestamp": "15:11 IST",
+  "timestamp": "18:06 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed, with Nikkei showing strength while Hang Seng and US futures are slightly negative. SGX Nifty is marginally positive, suggesting a flat to slightly positive open for tomorrow. A significant drop in crude oil prices could be a positive for India, while rising gold prices indicate some underlying risk aversion.",
-    "technical_analysis": "Both Nifty and Bank Nifty are showing deeply oversold RSI values (below 30), which typically signals a potential for a bounce or consolidation. However, the trend is explicitly neutral, and the EMA9 and EMA21 are identical to the current price, indicating a lack of clear short-term directional momentum or a data anomaly. The market is in a high-volatility regime but not trending.",
-    "options_analysis": "The PCR for both indices is neutral at 1.0. However, the Max Pain, Call Resistance, and Put Support values are reported as 0, which is highly unusual and makes a comprehensive options chain analysis impossible. This lack of clear options data prevents deriving strong directional cues from this segment.",
-    "sentiment_analysis": "FII/DII data is neutral for the day. Market news presents a mixed picture, with some analyst recommendations for specific stocks but also warnings about geopolitical risks (Iran war), potential capital gains tax changes, and significant corrections in midcap stocks. The overall sentiment appears cautious, reinforced by the 'high_volatility' regime and 'caution' signal.",
-    "confluence_summary": "Despite deeply oversold RSI suggesting a potential bounce, the market lacks strong directional conviction due to a neutral trend, high volatility, mixed global cues, and inconclusive options data. The absence of FII/DII activity further contributes to the uncertainty. Prudence dictates a 'NO TRADE' stance given the conflicting signals and lack of clear confluence."
+    "global_analysis": "Global cues are mixed with SGX Nifty slightly positive, while US futures show a marginal dip. The significant crude oil crash (-28.57%) and gold surge (+2.65%) are strong indicators of heightened global risk aversion and potential demand concerns, despite the crude fall being beneficial for India's import bill. Geopolitical tensions also add to the global uncertainty.",
+    "technical_analysis": "Both Nifty 50 and Bank Nifty are exhibiting oversold RSI levels (28.13 and 27.06 respectively), which typically suggests a potential for a technical bounce or short covering. However, their trends are officially neutral, with EMA9 and EMA21 converging at current price levels, indicating a lack of clear directional momentum and a consolidating phase.",
+    "options_analysis": "The provided options data for PCR, Max Pain, Call Resistance, and Put Support are all zero, rendering a detailed options analysis impossible. This lack of data prevents us from gauging immediate sentiment and positioning from the derivatives market.",
+    "sentiment_analysis": "FII/DII flows are neutral, offering no directional cues. Crucially, market news highlights a 'deepening banking rout' with Bank Nifty down 16% in 5 weeks and 8 index stocks in bear territory, which is a significant fundamental negative for the banking sector. The overall market regime is flagged as 'high_volatility' with a 'caution' signal, reinforcing a prudent approach.",
+    "confluence_summary": "Despite Nifty and Bank Nifty being in oversold territory, suggesting a potential technical bounce, the confluence of factors points to extreme caution. The 'high_volatility' regime, explicit fundamental weakness in the banking sector, and global risk-off signals from crude and gold prices outweigh the immediate bullish implication of oversold RSI. The absence of reliable options data further limits conviction, making aggressive directional trades ill-advised."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -20,11 +20,10 @@
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "22713 (Current/EMA confluence)",
-      "22336 (Immediate Support)",
-      "22936 (Immediate Resistance)"
+      "22336.33 (Support)",
+      "22936.08 (Resistance)"
     ],
-    "invalidation": "N/A - No trade initiated"
+    "invalidation": "Lack of clear directional conviction due to conflicting signals and high volatility."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -35,23 +34,23 @@
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "51548 (Current/EMA confluence)",
-      "Potential bounce from oversold RSI levels"
+      "51000 (Psychological Support)",
+      "52000 (Psychological Resistance)"
     ],
-    "invalidation": "N/A - No trade initiated"
+    "invalidation": "Deepening banking rout and high volatility override oversold technicals, making directional trades too risky."
   },
   "what_to_watch": [
-    "Global market performance, especially US futures and Asian markets, for directional cues.",
-    "FII/DII activity for fresh capital flows, which could provide a clearer trend.",
-    "Any further developments on geopolitical tensions (e.g., Iran war) or domestic policy changes (capital gains tax).",
-    "How Nifty and Bank Nifty react to their immediate support and resistance levels, particularly if the oversold RSI leads to a bounce.",
-    "The market's ability to sustain any upward move given the high volatility regime."
+    "Global crude oil price movements and their implications for global economic health.",
+    "Gold prices as a barometer for global risk sentiment.",
+    "Any further developments regarding the 'deepening banking rout' and its impact on Bank Nifty.",
+    "FII/DII activity for signs of institutional conviction.",
+    "Nifty and Bank Nifty's reaction to their oversold RSI levels \u2013 whether a bounce materializes or if selling pressure persists."
   ],
   "risk_factors": [
-    "High market volatility (ATR% 1.88%) can lead to sharp, unpredictable moves.",
-    "Geopolitical risks, specifically the 'Iran war' mentioned in news, could escalate and impact global markets.",
-    "Uncertainty surrounding FII/DII flows and potential policy changes like capital gains tax.",
-    "Lack of clear directional trend and conflicting signals from technical indicators (oversold RSI vs. neutral trend).",
-    "The unusual '0' values for options data (Max Pain, Call/Put Support) indicate a potential data anomaly or lack of clear options-based support/resistance, increasing uncertainty."
+    "Escalation of geopolitical tensions (US-Israel-Iran war).",
+    "Further deterioration in the global economic outlook, impacting demand.",
+    "Continued fundamental weakness and negative news flow for the Indian banking sector.",
+    "High market volatility leading to potential whipsaws and rapid trend reversals.",
+    "Lack of clear institutional participation or directional cues."
   ]
 }
