@@ -1,55 +1,55 @@
 {
   "session": "mid_morning",
   "date": "2026-04-06",
-  "timestamp": "09:16 IST",
+  "timestamp": "12:58 IST",
   "market_bias": "neutral",
-  "bias_strength": "weak",
+  "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global cues are mixed, with US futures slightly negative and Asian markets split. Rising crude and gold prices, coupled with news of the US-Iran war and fading Fed rate cut hopes, suggest underlying geopolitical and macroeconomic concerns, adding a cautious tone to the market.",
-    "technical_analysis": "Both Nifty and Bank Nifty are trading flat, hovering around their short-term EMAs, indicating a neutral trend. However, their RSIs are in bearish territory (Nifty 43.11, Bank Nifty 37.76), suggesting underlying weakness, especially in the banking sector. The market is currently operating in a high volatility regime.",
-    "options_analysis": "PCR for both indices is 1.0, indicating neutrality. Crucially, Max Pain, Call Resistance, and Put Support data are all zero, rendering options analysis for specific levels ineffective and preventing a strong directional bias from this component.",
-    "sentiment_analysis": "FII/DII data is neutral, offering no immediate directional cues. Market news is a mixed bag; while there are positive corporate updates and analyst recommendations for specific stocks, the broader sentiment is dampened by geopolitical tensions (US-Iran war) and the fading prospects of US Fed rate cuts, which could impact global liquidity.",
-    "confluence_summary": "The market is characterized by high volatility and a neutral trend, with underlying bearish momentum indicated by RSIs. Global geopolitical risks and macroeconomic concerns are significant overhangs. The lack of clear directional signals from technicals (beyond RSI weakness) and unreliable options data, combined with neutral institutional flows, points towards a cautious 'NO TRADE' stance at this juncture."
+    "global_analysis": "Global cues are mixed, offering no strong directional conviction. While SGX Nifty and Nikkei show slight positivity, US futures and Hang Seng are marginally negative, creating a balanced external environment for Indian markets.",
+    "technical_analysis": "Both Nifty and Bank Nifty are trading precisely at their 9-day and 21-day EMAs, indicating extreme neutrality and a lack of clear trend. RSI for both indices hovers in the neutral zone (46-48), further reinforcing the absence of strong momentum in either direction.",
+    "options_analysis": "The Put-Call Ratio (PCR) for both Nifty and Bank Nifty stands at 1.0, signaling a perfect equilibrium between call and put options. The reported zero values for Max Pain, Call Resistance, and Put Support suggest no significant open interest build-up at specific strikes to guide directional bias from options data at this moment.",
+    "sentiment_analysis": "Institutional activity (FII/DII) is flat, indicating a wait-and-watch approach from big players. Market news is a mixed bag, with some positive stock-specific recommendations for banking and finance, but also warnings about US tariffs and general market volatility, contributing to an overall cautious sentiment.",
+    "confluence_summary": "The strong confluence of neutral technical indicators (EMAs, RSI, Trend), balanced options data (PCR 1.0), and institutional inactivity points to a market lacking clear directional conviction. The 'high_volatility' and 'not_trending' regime further suggests choppy, range-bound action, making high-conviction directional trades risky at this juncture."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": null,
-    "stop_loss": null,
-    "target_1": null,
-    "target_2": null,
-    "confidence_pct": 0,
-    "risk_reward": "1:0",
+    "entry_zone": "0",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 20,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "22661 (Support)",
-      "22766 (Resistance)"
+      "22874.18 (Resistance)",
+      "22618.88 (Support)"
     ],
-    "invalidation": "A clear breakout above 22766 or breakdown below 22661 with strong volume and follow-through."
+    "invalidation": "A clear breakout or breakdown from the current consolidation range with strong volume."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": null,
-    "stop_loss": null,
-    "target_1": null,
-    "target_2": null,
-    "confidence_pct": 0,
-    "risk_reward": "1:0",
+    "entry_zone": "0",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 20,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "51400 (Psychological Support)",
-      "51500 (Resistance)"
+      "52200 (Implied Resistance)",
+      "51800 (Implied Support)"
     ],
-    "invalidation": "A clear breakout above 51500 or breakdown below 51400 with strong volume and follow-through."
+    "invalidation": "A decisive move above 52200 or below 51800 with sustained momentum."
   },
   "what_to_watch": [
-    "Further developments regarding the US-Iran geopolitical situation.",
-    "Movement in Crude Oil and Gold prices as indicators of risk sentiment.",
-    "Global market cues, particularly US futures performance during the day.",
-    "Nifty's ability to hold the immediate support of 22661 and Bank Nifty's 51400 level.",
-    "Any fresh FII/DII data that might emerge later in the day."
+    "Any significant shift in FII/DII flows in the latter half of the session.",
+    "Nifty's ability to sustain above or break below its immediate EMA levels (22784.5).",
+    "Bank Nifty's relative strength; a sustained move above 52000 could indicate underlying bullishness in the banking sector.",
+    "Global market performance, especially US markets, for cues on overnight sentiment.",
+    "Development of option chain data for clearer Max Pain and OI levels."
   ],
   "risk_factors": [
-    "Escalation of the US-Iran conflict, potentially leading to increased volatility and risk aversion.",
-    "A strengthening US Dollar, which could put pressure on emerging market currencies and capital flows.",
-    "Further fading of US Fed rate cut hopes, impacting global liquidity and investor sentiment.",
-    "The prevailing high market volatility (ATR% 1.62%) increases the risk of sharp, unpredictable moves."
+    "The 'high_volatility' and 'not_trending' regime increases the risk of whipsaws and false breakouts.",
+    "Lack of clear institutional direction (FII/DII) can lead to choppy and unpredictable price action.",
+    "Geopolitical developments, as hinted by news regarding 'Trump Deadline' and 'Ceasefire Push', could introduce sudden market volatility.",
+    "Absence of clear options-derived support/resistance levels makes range-bound trading more challenging."
   ]
 }
