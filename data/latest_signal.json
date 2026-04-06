@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-04-06",
-  "timestamp": "15:27 IST",
-  "market_bias": "bullish",
+  "timestamp": "18:12 IST",
+  "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Positive global cues from SGX Nifty, Dow, Nasdaq, and Nikkei suggest a risk-on sentiment for the next session, though Hang Seng was negative. Falling crude oil is generally beneficial for India, easing inflationary pressures.",
-    "technical_analysis": "Nifty and Bank Nifty witnessed strong upward moves today, with Nifty's RSI turning bullish (56.54). However, both indices remain in a 'neutral' trend with high volatility (ATR% 1.91%), suggesting the bounce might be a relief rally rather than a confirmed trend reversal.",
-    "options_analysis": "PCR for both Nifty and Bank Nifty stands at a perfectly neutral 1.0. The absence of specific Max Pain, Call Resistance, and Put Support data limits a strong options-based directional conviction for immediate trades.",
-    "sentiment_analysis": "FII/DII data is neutral. News flow highlights a significant market rally driven by global factors (Iran-US ceasefire framework) and an 'oversold' perception, with some analysts recommending buys. However, warnings about a financial reset and FII stake reduction in HDFC Bank introduce caution.",
-    "confluence_summary": "Despite a strong bullish close today and positive global cues, the market remains in a high-volatility regime with a neutral underlying trend and inconclusive options data. This confluence suggests caution, making fresh directional trades risky, even with the positive momentum, hence a weak bullish bias."
+    "global_analysis": "SGX Nifty mirrors Nifty's strong close, indicating alignment with today's domestic strength. However, US futures are mixed, and while Mideast de-escalation news is positive, crude oil is down and gold is up, suggesting underlying global caution. Overall, global cues are not providing a strong directional push for tomorrow, beyond reflecting today's Indian market strength.",
+    "technical_analysis": "Both Nifty and Bank Nifty witnessed significant bullish moves today, closing strongly above 1% and 2% respectively. Prices are at their EMA9 and EMA21, indicating strong short-term momentum. However, the broader trend remains neutral, and the market is in a high volatility regime with a 'caution' signal, suggesting potential for sharp reversals or consolidation. Nifty is approaching immediate resistance at 23130.",
+    "options_analysis": "PCR at 1.0 for both indices suggests a neutral options sentiment. The absence of Max Pain, Call Resistance, and Put Support data limits a comprehensive options-based assessment, making it difficult to gauge strong conviction from this segment. We cannot rely on options data for directional bias today.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. News flow is mixed, with positive developments on Mideast peace proposals and bond markets, but concerns regarding rupee weakness and a potential RBI rate hike persist. The upcoming earnings season will be a key sentiment driver, adding to the uncertainty.",
+    "confluence_summary": "Despite strong bullish closes for Nifty and Bank Nifty today, the market's underlying high volatility regime, neutral trend, and mixed global/domestic sentiment (beyond today's price action) warrant caution. The lack of clear options data further reduces conviction for aggressive trades. Therefore, a 'NO TRADE' stance is prudent given the conflicting signals and elevated risk."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -20,10 +20,10 @@
     "confidence_pct": 60,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "22673.55 (Support)",
-      "23128.95 (Resistance)"
+      "22674.68 (Support)",
+      "23130.08 (Resistance)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "High volatility persists and no clear directional bias emerges from global cues or FII/DII data."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -34,24 +34,21 @@
     "confidence_pct": 60,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "52618.10 (Current Close)",
-      "52000 (Psychological Support)",
-      "53000 (Psychological Resistance)"
+      "52609.10 (Current Price - acts as short-term reference)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "High volatility persists and no clear directional bias emerges from global cues or FII/DII data."
   },
   "what_to_watch": [
-    "Global market performance overnight, especially US futures.",
-    "FII/DII activity for directional cues in the next session.",
-    "Nifty's ability to sustain above 23,000 and Bank Nifty above 52,500.",
-    "Any new geopolitical developments, particularly regarding the Iran-US situation.",
-    "India VIX movement, given the high volatility regime."
+    "Global market cues, especially US market performance overnight and Asian markets tomorrow morning.",
+    "Any further developments on the Mideast geopolitical situation and its impact on crude oil prices.",
+    "FII/DII activity for directional conviction, as today's data was neutral.",
+    "Initial reactions to the Q4 earnings season kick-off and sector-specific performance.",
+    "Nifty's price action around the immediate resistance level of 23130.08."
   ],
   "risk_factors": [
-    "Persistent high volatility (ATR% at 1.91%) could lead to sharp reversals.",
-    "Geopolitical tensions (Iran-US) remain a potential overhang, despite today's positive news.",
-    "Lack of strong conviction from options data and neutral FII/DII flows.",
-    "Potential for profit booking after today's significant rally, especially at resistance levels.",
-    "Global economic slowdown concerns as highlighted by some analysts (e.g., Robert Kiyosaki's warning)."
+    "High market volatility (ATR% at 1.91%) increases the risk of sharp, unpredictable moves.",
+    "Ongoing geopolitical uncertainties in the Middle East, despite recent de-escalation news, can quickly change sentiment.",
+    "Potential for a surprise RBI rate hike, as speculated in some news, could negatively impact market sentiment.",
+    "Weakness in the Indian rupee could deter FII inflows and put pressure on the market."
   ]
 }
