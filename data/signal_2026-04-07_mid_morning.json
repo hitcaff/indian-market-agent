@@ -1,56 +1,53 @@
 {
   "session": "mid_morning",
   "date": "2026-04-07",
-  "timestamp": "09:06 IST",
-  "market_bias": "neutral",
-  "bias_strength": "weak",
+  "timestamp": "12:44 IST",
+  "market_bias": "neutral_to_slightly_bearish",
+  "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Indian markets opened with a strong positive gap, mirroring the SGX Nifty's +1.12% gain. However, this bullish sentiment is not universally supported, as US futures (Dow, Nasdaq) are down, and other Asian markets (Nikkei, Hang Seng) are also in negative territory. A significant surge in crude oil prices (+2.54%) presents a potential headwind for India, an oil-importing nation.",
-    "technical_analysis": "Both Nifty 50 and Bank Nifty have opened with substantial positive gaps (+1.12% and +2.06% respectively), indicating initial bullish momentum. Nifty's RSI is bullish (56.61), while Bank Nifty's RSI is neutral (53.86). The EMA9 and EMA21 for both indices are currently at the opening price, suggesting a fresh start. Despite the strong opening, the overall trend is flagged as 'neutral' and the market regime as 'high_volatility', warranting caution.",
-    "options_analysis": "At 09:06 IST, the options data for both Nifty and Bank Nifty (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) is not yet meaningful. This lack of established options chain data makes it impossible to derive clear support/resistance levels or gauge participant positioning from derivatives, significantly reducing confidence in directional trades.",
-    "sentiment_analysis": "FII/DII flows are neutral, offering no directional cues from institutional activity. Market news presents a mixed bag: several bullish stock recommendations are present, but there's also a mention of 'Gift Nifty falls' (contradicting the provided SGX Nifty data) and a significant geopolitical risk of 'US-Iran war' from LiveMint, which could introduce substantial uncertainty and volatility. The overall sentiment is cautious due to these conflicting signals and potential risks.",
-    "confluence_summary": "While the Indian market has opened with a strong positive gap, driven by SGX Nifty, the broader global cues are mixed to negative, and crude oil is surging. Technicals show initial bullishness but the trend remains neutral with high volatility. Crucially, the absence of meaningful options data, neutral institutional flows, and the mention of geopolitical risks create an environment of high uncertainty. Therefore, despite the strong open, a 'NO TRADE' stance is prudent until more clarity emerges and data builds up."
+    "global_analysis": "Global cues are mixed to slightly negative, with US futures showing a minor dip and Asian markets largely flat. A significant concern is the sharp rise in Crude Oil prices (+2.20%), which could fuel inflationary pressures and impact India's economy as a net importer.",
+    "technical_analysis": "Nifty 50 is trading near its all-time highs, but the RSI at an extreme 97.15 signals severely overbought conditions, making fresh long positions highly risky. Despite this, the trend is neutral, suggesting consolidation or a potential reversal rather than a strong directional move. Bank Nifty is also overbought (RSI 84.23) and underperforming Nifty, indicating relative weakness.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a neutral 1.0, indicating no strong directional bias from options traders. The absence of specific Max Pain, Call Resistance, and Put Support data prevents a detailed options-derived level analysis, suggesting no significant open interest build-up at specific strikes.",
+    "sentiment_analysis": "FII/DII flows are neutral for the day, offering no fresh directional cues. Market news highlights concerns about oil shocks and the debate around Nifty nearing 23,000, suggesting caution. The market regime signals high volatility and a 'caution' warning, reinforcing the need for prudence.",
+    "confluence_summary": "The confluence of extremely overbought RSI levels across both indices, particularly Nifty's 97.15, combined with high volatility, a neutral trend, rising crude oil, and mixed global cues, creates a high-risk environment. A pullback or consolidation is highly probable from these levels, making fresh directional trades unadvisable without clear confirmation. The current market state warrants a cautious 'NO TRADE' approach."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "0 - 0",
+    "entry_zone": "N/A",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "22968.25 (Open)",
-      "23130.08 (Resistance 1)",
-      "22674.68 (Support 1)"
+      "23054.43 (Resistance)",
+      "22782.03 (Support)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "Sustained break and close above 23054.43 would negate immediate bearish bias; sustained break and close below 22782.03 would confirm a deeper correction."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "0 - 0",
+    "entry_zone": "N/A",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "52609.10 (Open)"
+      "52172.05 (Current Price)",
+      "52500 (Psychological Resistance)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "Clear directional break with significant volume and follow-through price action."
   },
   "what_to_watch": [
-    "Development of Nifty and Bank Nifty options chain (OI build-up, PCR changes) for clearer support/resistance.",
-    "FII/DII cash market activity throughout the day to gauge institutional sentiment.",
-    "Global market performance, especially US futures and European market opening.",
-    "Crude oil price movements and their potential impact on Indian equities.",
-    "Any further updates or clarifications regarding the 'US-Iran war' geopolitical risk."
+    "Nifty's price action around the 23000-23050 resistance zone for signs of reversal or consolidation.",
+    "Crude oil price movements and their potential impact on Indian equities and inflation outlook.",
+    "FII/DII flows later in the day to gauge institutional sentiment and potential directional bias.",
+    "Bank Nifty's relative performance to Nifty 50, as its underperformance could signal broader market weakness."
   ],
   "risk_factors": [
-    "High market volatility (ATR% 1.91%) leading to sharp, unpredictable moves.",
-    "Potential geopolitical risks (US-Iran war mentioned in news) that could trigger market instability.",
-    "Lack of reliable options data at the market open, hindering informed decision-making.",
-    "Mixed global cues, creating uncertainty about sustained market direction.",
-    "Rising crude oil prices, which could negatively impact India's economy and corporate earnings."
+    "Extreme overbought conditions (Nifty RSI 97.15) significantly increase the risk of a sharp and sudden correction.",
+    "High market volatility (ATR% 1.81%) can lead to rapid price swings and whipsaws, making trade management challenging.",
+    "Rising crude oil prices pose a macroeconomic risk for India, potentially impacting corporate earnings and overall market sentiment."
   ]
 }
