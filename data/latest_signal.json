@@ -1,49 +1,56 @@
 {
   "session": "post_market",
   "date": "2026-04-07",
-  "timestamp": "15:26 IST",
+  "timestamp": "18:23 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed to mildly positive, with SGX Nifty and US futures showing gains, while Hang Seng is down. Crude oil is slightly negative and gold is positive, indicating a nuanced risk sentiment globally.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed positive, but their RSIs are at extreme overbought levels (99.01 and 100.0 respectively), signaling a high probability of a correction or consolidation. The EMA9 and EMA21 are at the current price, offering limited directional insight, and the stated 'Trend: neutral' contradicts 'Trending: True' from the market regime.",
-    "options_analysis": "PCR at 1.0 for both indices suggests a neutral options sentiment. However, the absence of Max Pain, Call Resistance, and Put Support data makes a comprehensive options analysis impossible, limiting conviction from this segment.",
-    "sentiment_analysis": "FII/DII flows are neutral. Market news is a mix of positive corporate updates and cautionary tales regarding smallcaps and Nifty's historical performance. The 'high_volatility' and 'caution' signal from the market regime further underscore the underlying uncertainty and potential for sharp moves.",
-    "confluence_summary": "While the market closed positive, the extreme overbought conditions indicated by RSI for both Nifty and Bank Nifty are a significant red flag. This, combined with conflicting trend signals (neutral vs. trending true) and a 'caution' signal from the market regime, suggests that the current upward momentum is fragile and a pullback or consolidation is highly probable. Therefore, a cautious 'NO TRADE' stance is warranted."
+    "global_analysis": "Global cues are mixed with SGX Nifty indicating a positive opening, while US futures (Dow, Nasdaq) are down, suggesting potential global weakness. Geopolitical tensions are clearly escalating, evidenced by rising crude oil and gold prices, and explicit news mentions of 'war fears' and a 'US-Iran war', which could weigh heavily on sentiment.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed higher, with Nifty sustaining above 23,100 and Sensex extending its rally for a fourth consecutive day. However, both indices are showing extremely overbought RSI levels (Nifty 100.0, Bank Nifty 99.01), indicating a high probability of profit-booking or consolidation. The 'neutral' trend signal, despite the price action, suggests underlying indecision.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0 (neutral), and the absence of specific Max Pain, Call Resistance, or Put Support data makes it challenging to derive a clear directional bias from the options chain. This lack of conviction from derivatives data adds to the overall neutral stance.",
+    "sentiment_analysis": "FII/DII flows are neutral for the day. Domestic market sentiment appears robust with positive news regarding the ongoing rally and specific stock recommendations. However, this is overshadowed by significant global geopolitical risks, and the market regime's 'high_volatility' and 'caution' signals suggest underlying nervousness despite the domestic strength.",
+    "confluence_summary": "While the domestic market shows strong upward momentum and Nifty is above 23,100, this is heavily counterbalanced by extremely overbought RSI levels, neutral options data, and significant global geopolitical risks. The 'high_volatility' regime and 'caution' signal reinforce a wait-and-watch approach, as the market is at a critical juncture with conflicting signals."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "0 - 0",
+    "entry_zone": "N/A",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
     "confidence_pct": 0,
     "risk_reward": "N/A",
-    "key_levels_to_watch": [],
-    "invalidation": "N/A"
+    "key_levels_to_watch": [
+      "23278.57 (Resistance)",
+      "22844.02 (Support)",
+      "23100 (Psychological Level)"
+    ],
+    "invalidation": "No trade initiated due to insufficient confluence and high risk from overbought conditions and global uncertainties."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "0 - 0",
+    "entry_zone": "N/A",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
     "confidence_pct": 0,
     "risk_reward": "N/A",
-    "key_levels_to_watch": [],
-    "invalidation": "N/A"
+    "key_levels_to_watch": [
+      "53000 (Psychological Resistance)",
+      "52500 (Immediate Support)"
+    ],
+    "invalidation": "No trade initiated due to insufficient confluence, overbought RSI, and the prevailing high-volatility, cautious market regime."
   },
   "what_to_watch": [
-    "Global market performance, especially US futures overnight, for directional cues.",
-    "Nifty and Bank Nifty's reaction to extreme overbought RSI levels; watch for signs of consolidation or pullback.",
-    "FII/DII activity for clearer sentiment, as current data is neutral.",
-    "Any fresh corporate earnings or economic data releases that could impact market direction.",
-    "Nifty's immediate resistance at 23286.97 and Bank Nifty's ability to sustain current levels."
+    "Developments in global geopolitical tensions, particularly concerning the US-Iran situation and its impact on crude oil prices.",
+    "The upcoming RBI policy decision, which could influence market liquidity and sentiment.",
+    "Nifty's ability to sustain above the 23,100 mark and its reaction to the immediate resistance of 23278.57.",
+    "FII/DII activity for clearer directional cues, as current flows are neutral.",
+    "Q4 earnings reports from key Nifty companies for sector-specific insights."
   ],
   "risk_factors": [
-    "Extreme overbought conditions (RSI > 99) significantly increase the probability of a sharp pullback or correction.",
-    "High volatility (ATR% 1.93%) indicates potential for rapid and unpredictable price swings.",
-    "Conflicting technical signals (neutral trend vs. trending true, caution signal) create uncertainty.",
-    "Incomplete options data (Max Pain, Call/Put Support at 0) limits the ability to gauge market depth and potential turning points."
+    "Escalation of geopolitical conflicts leading to a sharp global market sell-off.",
+    "Significant profit booking in Indian indices due to the extremely overbought RSI levels.",
+    "Any hawkish stance or unexpected announcements from the RBI policy decision.",
+    "The 'high_volatility' market regime, which can lead to rapid and unpredictable price swings."
   ]
 }
