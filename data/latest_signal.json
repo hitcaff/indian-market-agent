@@ -1,15 +1,15 @@
 {
   "session": "mid_morning",
   "date": "2026-04-09",
-  "timestamp": "09:04 IST",
+  "timestamp": "12:50 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are predominantly bullish, with SGX Nifty indicating a significant gap-up (+4.48%) for the Indian market, supported by strong performances in Nikkei (+4.81%) and Hang Seng (+2.66%). US futures are slightly negative, but unlikely to negate the strong Asian momentum. Crude oil's rebound close to $100 adds a potential inflationary undertone.",
-    "technical_analysis": "Both Nifty and Bank Nifty are poised for substantial gap-ups, opening well above their short-term EMAs and previous resistance levels. However, the RSI for both indices is at an extreme 99.01, signaling severely overbought conditions which often precede profit-booking or consolidation. The 'neutral' trend contradicts the implied gap-up, suggesting caution.",
-    "options_analysis": "The absence of meaningful options data (Max Pain, Call Resistance, Put Support all at 0) for a weekly expiry day is a critical missing piece. While PCR is neutral at 1.0, the lack of specific strike data makes it impossible to gauge immediate support and resistance from the option chain, especially on a high-volatility expiry day.",
-    "sentiment_analysis": "FII/DII data is neutral for the day. Market news presents a mixed bag, with positive stock-specific recommendations and general market strength indicators, but also geopolitical uncertainties surrounding the US-Iran ceasefire. The 'HIGH RISK DAY' warning due to RBI announcements and weekly expiry significantly dampens overall sentiment, despite the strong global open.",
-    "confluence_summary": "Despite strong global bullish cues indicating a significant gap-up, the market faces extreme overbought conditions (RSI 99.01), a high-risk event calendar (RBI, weekly expiry), and a complete lack of actionable options data. This confluence creates a highly uncertain and volatile environment, making any directional trade extremely risky at the open. A 'NO TRADE' stance is prudent until more clarity emerges post-open."
+    "global_analysis": "Asian markets, particularly Nikkei and Hang Seng, have shown exceptional strength, driving a significant bullish sentiment globally. However, US futures are slightly negative, indicating some caution. Crude oil's rise could be a minor headwind for India.",
+    "technical_analysis": "Both Nifty 50 and Bank Nifty have gapped up massively (+2.96% and +4.34% respectively), pushing their RSIs to an extreme 100.0, indicating severely overbought conditions. While the market is trending up, this extreme level often precedes a pullback or consolidation. The EMAs being at current price points reflect the sharp gap-up rather than a sustained trend from a base.",
+    "options_analysis": "The PCR for both indices stands at 1.0, suggesting a neutral balance between calls and puts despite the strong upward move, which is unusual. Crucially, Max Pain, Call Resistance, and Put Support are all reported as 0, rendering options data incomplete and unreliable for making informed derivatives trading decisions, especially on a weekly expiry day.",
+    "sentiment_analysis": "FII/DII data is neutral for the day, offering no fresh directional cues. Market news is mixed, with some positive analyst calls on specific stocks but also warnings about bond yields and a newly listed stock hitting lower circuits. The 'caution' signal from the market regime is paramount given the current setup.",
+    "confluence_summary": "Despite the strong bullish gap-up driven by global cues, the confluence of an extremely overbought RSI (100), high volatility, incomplete options data, and critical events (RBI policy, weekly expiry) points towards extreme caution. The risk-reward for initiating fresh directional trades is highly unfavorable, making a 'NO TRADE' stance the most prudent approach for derivatives."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -17,14 +17,14 @@
     "stop_loss": "N/A",
     "target_1": "N/A",
     "target_2": "N/A",
-    "confidence_pct": 20,
+    "confidence_pct": 10,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23997 (Implied Open)",
-      "23855 (Previous Resistance/New Support)",
-      "24000 (Psychological Level)"
+      "23946.22 (Resistance)",
+      "23714.92 (Support)",
+      "Day's High/Low"
     ],
-    "invalidation": "N/A - No trade proposed"
+    "invalidation": "Any clear directional bias post RBI policy with strong option chain build-up."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -32,25 +32,26 @@
     "stop_loss": "N/A",
     "target_1": "N/A",
     "target_2": "N/A",
-    "confidence_pct": 20,
+    "confidence_pct": 10,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "55703 (Implied Open)",
-      "55500 (Psychological Level)"
+      "Day's High/Low",
+      "55000 (Psychological Level)"
     ],
-    "invalidation": "N/A - No trade proposed"
+    "invalidation": "Any clear directional bias post RBI policy with strong option chain build-up."
   },
   "what_to_watch": [
-    "Sustainability of the initial gap-up and subsequent price action for signs of profit-booking.",
-    "RBI announcements and their immediate impact on banking and financial stocks.",
-    "Real-time option chain build-up for Nifty and Bank Nifty weekly expiry to identify fresh support/resistance.",
-    "Global geopolitical developments, particularly concerning the US-Iran ceasefire talks.",
-    "Volatility Index (India VIX) movement post-open, which is currently in a 'high_volatility' regime."
+    "RBI Monetary Policy Committee (MPC) announcement and Governor's commentary for future rate outlook.",
+    "Price action around the day's high and low for Nifty and Bank Nifty, especially post-RBI.",
+    "Option chain build-up and changes in PCR for the current weekly expiry as the day progresses (if data becomes available).",
+    "Any fresh FII/DII activity data if released later in the day.",
+    "Global market reaction to crude oil prices and any geopolitical developments."
   ],
   "risk_factors": [
-    "Extreme overbought RSI (99.01) for both indices, increasing the probability of sharp corrections or consolidation.",
-    "High volatility expected due to RBI event and weekly options expiry.",
-    "Lack of reliable options data at the open, making it difficult to gauge immediate market sentiment and levels.",
-    "Geopolitical uncertainties (US-Iran ceasefire) can introduce sudden market swings."
+    "Unexpected hawkish or dovish stance from the RBI, leading to sharp market reversals.",
+    "Extreme overbought conditions (RSI 100) making the market vulnerable to profit booking.",
+    "High volatility on weekly expiry day, potentially leading to whipsaws and stop-loss hunting.",
+    "Incomplete options data preventing accurate assessment of open interest support/resistance.",
+    "Geopolitical tensions (Mideast) impacting crude oil and global sentiment."
   ]
 }
