@@ -1,54 +1,55 @@
 {
   "session": "post_market",
   "date": "2026-04-13",
-  "timestamp": "15:55 IST",
-  "market_bias": "neutral",
-  "bias_strength": "weak",
+  "timestamp": "18:26 IST",
+  "market_bias": "bearish",
+  "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global markets are displaying a clear bearish sentiment, with SGX Nifty, US futures, and major Asian indices all trading in negative territory. The significant surge in crude oil prices by over 8% is a major concern, potentially fueling inflation and impacting India's import bill, adding a strong bearish undertone.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed lower, with their RSIs firmly in the overbought zone (Nifty 72.76, Bank Nifty 77.42), signaling a potential for pullback or consolidation. Despite this, the 'trend' is marked as neutral, and EMAs are at current price, suggesting a lack of clear short-term directional momentum from these indicators. High volatility (ATR% 1.27%) further complicates directional bets.",
-    "options_analysis": "The options data provided is highly ambiguous, with PCR at 1.0 (neutral) for both indices and Max Pain, Call Resistance, and Put Support all showing 0. This lack of clear data from the options chain makes it impossible to derive strong directional cues or identify significant support/resistance levels based on open interest, contributing to the 'no trade' stance.",
-    "sentiment_analysis": "FII/DII data is neutral (\u20b90 Cr), offering no directional conviction from institutional flows. Market news highlights geopolitical risks (US-Iran conflict), which can induce caution, alongside mixed analyst recommendations on individual stocks. The overall sentiment appears cautious, especially given the 'high_volatility' regime and 'caution' signal.",
-    "confluence_summary": "The market is currently in a high-volatility, non-trending regime with a 'caution' signal. While global cues are bearish and RSIs are overbought, the neutral technical trend, ambiguous options data, and lack of FII/DII conviction create insufficient confluence for a high-conviction directional trade. The significant crude oil spike and geopolitical tensions further amplify uncertainty, validating a 'NO TRADE' approach for derivatives."
+    "global_analysis": "Global markets are showing significant weakness, with SGX Nifty, Dow, Nasdaq, Nikkei, and Hang Seng all closing in the red. The surge in Crude Oil (+7.31%) due to escalating US-Iran geopolitical tensions is a major inflationary concern and a strong negative overhang for oil-importing economies like India.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed negative and are in deeply overbought territory with RSI values of 72.76 and 77.42 respectively, indicating a high probability of correction or consolidation. While the trend is stated as 'neutral', the immediate momentum from the daily close and overbought conditions points to short-term weakness.",
+    "options_analysis": "The PCR of 1.0 for both indices suggests a neutral stance from options traders. However, the absence of Max Pain, Call Resistance, and Put Support data (all showing 0) makes a comprehensive options-based analysis inconclusive for specific levels or strong directional bias.",
+    "sentiment_analysis": "FII/DII flows are neutral for the day, offering no clear institutional direction. Market news is dominated by geopolitical tensions and surging crude, which is a significant negative sentiment driver, overshadowing some positive stock-specific recommendations. The 'high_volatility' and 'caution' market regime further reinforces a cautious to negative sentiment.",
+    "confluence_summary": "The confluence of deeply overbought domestic indices, strong negative global cues, surging crude oil prices due to geopolitical risks, and a 'caution' market signal strongly suggests a bearish bias for the upcoming session. Despite the 'neutral' trend and inconclusive options data, the overwhelming external and technical factors point towards a potential correction."
   },
   "nifty_trade": {
-    "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 0,
-    "risk_reward": "N/A",
+    "direction": "SHORT",
+    "entry_zone": "23780 - 23820",
+    "stop_loss": 23920,
+    "target_1": 23630,
+    "target_2": 23420,
+    "confidence_pct": 65,
+    "risk_reward": "1:1.4 - 1:3.1",
     "key_levels_to_watch": [
-      "23629.7 (Support 1)",
-      "23981.5 (Resistance 1)"
+      "23629.7 (Support)",
+      "23981.5 (Resistance)"
     ],
-    "invalidation": "N/A - No trade proposed due to lack of confluence."
+    "invalidation": "Sustained move above 23981.5 or a significant de-escalation in global geopolitical tensions leading to a sharp reversal in global markets."
   },
   "banknifty_trade": {
-    "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 0,
-    "risk_reward": "N/A",
+    "direction": "SHORT",
+    "entry_zone": "55500 - 55600",
+    "stop_loss": 55800,
+    "target_1": 55300,
+    "target_2": 55000,
+    "confidence_pct": 65,
+    "risk_reward": "1:1 - 1:2.2",
     "key_levels_to_watch": [
-      "55605.05 (Current Price - watch for reaction around this level)"
+      "55000 (Psychological Support)",
+      "55800 (Immediate Resistance)"
     ],
-    "invalidation": "N/A - No trade proposed due to lack of confluence."
+    "invalidation": "Sustained move above 55800 or a significant de-escalation in global geopolitical tensions leading to a sharp reversal in global markets."
   },
   "what_to_watch": [
-    "Global market performance, especially US and Asian indices, for directional cues.",
-    "Crude oil price movements; sustained high prices could weigh heavily on market sentiment.",
-    "Any fresh FII/DII flow data for institutional conviction.",
-    "Developments regarding the US-Iran conflict and its potential impact on global stability.",
-    "Nifty and Bank Nifty's reaction to their immediate support and resistance levels for potential trend formation."
+    "Global market opening, especially US futures and SGX Nifty (Gift Nifty) performance overnight.",
+    "Crude oil price movements; continued surge will exacerbate negative sentiment.",
+    "Further developments in US-Iran geopolitical tensions and their impact on global markets.",
+    "Nifty and Bank Nifty's opening behavior (potential gap down) and initial price action.",
+    "FII/DII activity for any significant directional flows."
   ],
   "risk_factors": [
-    "Escalation of geopolitical tensions (US-Iran conflict) leading to global risk aversion.",
-    "Sustained high crude oil prices impacting corporate profitability and macroeconomic stability.",
-    "Potential for sharp corrections given the overbought RSI levels and negative global cues.",
-    "High market volatility leading to increased whipsaws and difficulty in directional trading."
+    "Rapid de-escalation of geopolitical tensions, leading to a sharp rebound in global markets.",
+    "Unexpected positive domestic news or strong DII buying offsetting global weakness.",
+    "Market opening significantly below proposed entry zones, making short trades less favorable.",
+    "The absence of comprehensive options data limits precise level identification and sentiment gauging."
   ]
 }
