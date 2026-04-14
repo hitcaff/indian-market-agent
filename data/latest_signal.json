@@ -1,57 +1,55 @@
 {
   "session": "mid_morning",
   "date": "2026-04-14",
-  "timestamp": "09:18 IST",
+  "timestamp": "12:59 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed but generally positive for Asian markets, with Nikkei and Hang Seng rallying on hopes of US-Iran de-escalation and falling crude oil prices. However, SGX Nifty is indicating a significant gap-down opening for Indian markets, suggesting some initial domestic weakness or profit booking despite the broader positive sentiment.",
-    "technical_analysis": "Both Nifty and Bank Nifty are showing a likely gap-down opening (implied by SGX Nifty and Bank Nifty current values) and are in overbought territory with RSIs above 70. The EMA9 and EMA21 are currently at the same level as the current price, indicating either pre-open data or the very early minutes of trading, thus not yet providing clear trend confirmation. The overall trend is marked as neutral.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty is 1.0, indicating a neutral stance. Max Pain, Call Resistance, and Put Support are all zero, which means options data is not yet mature or available for meaningful analysis at this early hour (09:18 IST). This severely limits options-based insights for immediate directional trades.",
-    "sentiment_analysis": "FII/DII data is neutral for the day, as expected at market open. Market news highlights positive developments like falling crude oil prices and strong Asian market sentiment, alongside specific stock recommendations and LIC's bonus issue. However, the initial negative indication from SGX Nifty suggests a cautious sentiment locally, potentially driven by profit booking after a strong run.",
-    "confluence_summary": "The market is opening with a likely gap down, indicated by SGX Nifty, despite positive global cues like falling crude and strong Asian markets. Both indices are technically overbought, suggesting potential for profit booking. The lack of mature options data and neutral FII/DII activity further contributes to an uncertain early morning picture, warranting caution and a 'NO TRADE' stance until clearer direction emerges."
+    "global_analysis": "SGX Nifty is showing significant weakness, down 0.86%, indicating a negative sentiment for Indian markets. However, US futures are slightly positive, and other Asian markets like Nikkei and Hang Seng are trading in the green, creating a mixed global picture. Crude oil's decline is a positive for India, while rising gold prices suggest some risk aversion globally.",
+    "technical_analysis": "Both Nifty and Bank Nifty are trading lower mid-morning, with their RSIs deeply in overbought territory (Nifty 72.76, Bank Nifty 77.42) despite the current dip. This suggests potential for further profit booking or a deeper pullback from extended levels. The EMA9 and EMA21 are at the current price, indicating short-term indecision and a lack of clear momentum.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a perfectly neutral stance from options participants. The absence of specific Max Pain, Call Resistance, and Put Support values (all reported as 0) suggests either incomplete data or a highly balanced open interest distribution, further reinforcing the lack of clear directional conviction from the options front.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. Market news presents a mixed bag, with positive long-term outlooks for specific sectors and stocks, alongside warnings about market volatility and potential corrections. The 'high_volatility' regime and 'caution' signal from the system align with this mixed sentiment, advising against aggressive directional bets.",
+    "confluence_summary": "Despite the current intraday dip, the overbought RSIs for both indices suggest caution and potential for further profit booking. The neutral PCR, FII/DII data, and the prevailing high volatility regime with a 'caution' signal collectively indicate a lack of strong directional conviction. Therefore, a 'NO TRADE' stance is prudent for the mid-morning session, awaiting clearer signals."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 30,
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23629.7 (Support)",
+      "23842.65 (Current)",
       "23981.5 (Resistance)",
-      "23842.65 (Open/Current)"
+      "23629.7 (Support)"
     ],
-    "invalidation": "Sustained break below 23600 or strong reversal above 23900 with volume."
+    "invalidation": "N/A - No trade initiated"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 30,
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "55500 (Psychological Support)",
-      "55700 (Psychological Resistance)",
-      "Previous day's close"
+      "55605.05 (Current)"
     ],
-    "invalidation": "Sustained break below 55400 or strong reversal above 55800 with volume."
+    "invalidation": "N/A - No trade initiated"
   },
   "what_to_watch": [
-    "Initial price action and volume post-market open (first 30-60 minutes) to confirm direction.",
-    "Development of Nifty and Bank Nifty options chain data, especially changes in OI, PCR, and Max Pain.",
-    "Nifty's reaction to the 23600-23650 support zone and Bank Nifty's reaction around 55500.",
-    "Global crude oil prices for sustained weakness, which could be a tailwind for Indian markets.",
-    "FII/DII cash market activity as the day progresses."
+    "Global market performance, especially US and European market openings, for directional cues.",
+    "Any significant FII/DII activity updates later in the day that could shift sentiment.",
+    "Nifty and Bank Nifty's ability to hold their immediate support levels or break above resistance.",
+    "Development of option chain data for clearer Max Pain, Call/Put OI build-up.",
+    "Crude oil price movements and their potential impact on Indian equities."
   ],
   "risk_factors": [
-    "High volatility regime, increasing potential for sharp moves in either direction.",
-    "Both Nifty and Bank Nifty are in overbought RSI territory, indicating potential for profit booking or correction.",
-    "Conflicting signals from global markets (positive) and SGX Nifty (negative gap down).",
-    "Lack of mature options data at market open limits conviction for directional trades."
+    "The market is in a 'high_volatility' regime, increasing the risk of sharp, unpredictable moves.",
+    "Both Nifty and Bank Nifty RSIs are in overbought territory, indicating a higher probability of a correction or profit booking.",
+    "Lack of clear directional cues from options data (neutral PCR, zero Max Pain/OI levels) creates uncertainty.",
+    "Mixed global sentiment and conflicting news flows could lead to choppy trading."
   ]
 }
