@@ -1,60 +1,55 @@
 {
   "session": "post_market",
   "date": "2026-04-15",
-  "timestamp": "15:35 IST",
-  "market_bias": "bullish",
+  "timestamp": "18:25 IST",
+  "market_bias": "moderate bullish",
   "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global cues are largely supportive, with SGX Nifty showing a significant positive jump of +1.63%, indicating strong positive sentiment for the Indian market. Other Asian markets also closed in the green, while US futures were marginally negative, suggesting a mixed but generally favorable global backdrop.",
-    "technical_analysis": "Both Nifty and Bank Nifty demonstrated strong bullish momentum today, closing up +1.63% and +1.25% respectively, with their RSIs firmly in bullish territory above 60. Nifty has successfully reclaimed the crucial 24,000 mark, and both indices closed exactly at their 9 and 21-period EMAs, signaling a robust daily close.",
-    "options_analysis": "The options data for both Nifty and Bank Nifty shows a neutral PCR of 1.0, with Max Pain, Call Resistance, and Put Support all at 0. This indicates a lack of clear directional conviction from the options chain, possibly due to it being a fresh expiry or limited data, making it less influential in today's analysis.",
-    "sentiment_analysis": "Market news highlights a significant 8% rebound in Nifty for April, reclaiming 24,000, and positive developments for PSU banks with a substantial recovery in the Sterling Biotech case. While FII/DII data is neutral for the day, the overall news flow suggests improving market sentiment and specific sector tailwinds.",
-    "confluence_summary": "Despite the system indicating a 'neutral' trend and 'ranging' regime, the strong bullish price action, positive global cues (especially SGX Nifty), and supportive news flow point towards a bullish bias. However, the absence of clear options conviction and the 'ranging' regime temper the strength, suggesting a moderate bullish outlook rather than an immediate breakout."
+    "global_analysis": "Global cues are largely positive, with SGX Nifty mirroring Nifty's strong close (+1.63%) and other major indices like Dow, Nasdaq, Nikkei, and Hang Seng showing modest gains. This provides a supportive backdrop for the Indian market's opening tomorrow.",
+    "technical_analysis": "Nifty 50 and Bank Nifty both closed significantly higher (+1.63% and +1.25% respectively), with their current prices aligning perfectly with both EMA9 and EMA21, indicating strong bullish momentum into the close. RSIs for both are in the bullish zone (Nifty 60.69, Bank Nifty 60.04). However, the system indicates a 'neutral' trend and 'ranging' regime, suggesting that while the day was strong, a clear sustained trend might not yet be established.",
+    "options_analysis": "The options data provided (PCR 1.0 for both, Max Pain/Call Resistance/Put Support at 0) is highly unusual and inconclusive. It prevents any meaningful analysis of open interest build-up or potential support/resistance from the options chain, thus limiting our ability to gauge market sentiment from this crucial segment.",
+    "sentiment_analysis": "FII/DII data is neutral for the day (\u20b90 Cr). Market news highlights positive corporate earnings (HDB Financial) and general optimism around US markets. While there are mentions of potential long-term headwinds from crude oil, the immediate sentiment appears cautiously positive, supported by earnings and global cues, but lacking strong institutional conviction.",
+    "confluence_summary": "Despite a strong positive close for both Nifty and Bank Nifty, supported by bullish RSIs and positive global cues, the internal 'neutral' trend and 'ranging' market regime, coupled with inconclusive options data, suggest a lack of strong conviction for a sustained directional move. The market might consolidate or experience whipsaws before establishing a clear trend, warranting a cautious approach."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
     "confidence_pct": 60,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24157.77 (Support)",
-      "24292.87 (Resistance)",
-      "24084.23 (Strong Support)",
-      "24354.43 (Strong Resistance)"
+      "24292.87 (Immediate Resistance)",
+      "24157.77 (Immediate Support)",
+      "24354.43 (Next Resistance)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "N/A (No trade proposed)"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
     "confidence_pct": 60,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "56000 (Immediate Support)",
-      "56500 (Immediate Resistance)",
-      "55800 (Strong Support)",
-      "56700 (Strong Resistance)"
+      "56301.95 (Current Close - Watch for intraday support/resistance)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "N/A (No trade proposed)"
   },
   "what_to_watch": [
-    "Follow-through of today's bullish momentum in Nifty and Bank Nifty.",
-    "Nifty's ability to sustain above 24,200 and challenge the 24,300-24,350 resistance zone.",
-    "Bank Nifty's performance, especially around the 56,500 level, given the positive news for PSU banks.",
-    "Global market cues overnight, particularly US futures, for any significant shifts in sentiment.",
-    "FII/DII activity for the next trading session to gauge institutional conviction.",
-    "Options chain build-up for the upcoming expiry to identify fresh support and resistance levels."
+    "Nifty's ability to sustain above 24,231.30 and challenge immediate resistance at 24,292.87.",
+    "Bank Nifty's follow-through buying interest after a strong close, and its ability to establish new support/resistance levels.",
+    "FII/DII activity post-market open for fresh directional cues and conviction.",
+    "Global market sentiment, especially US futures and Asian markets, during tomorrow's trading hours.",
+    "Any fresh news flow regarding corporate earnings or economic data releases."
   ],
   "risk_factors": [
-    "Potential profit booking after today's strong rally, especially if global cues turn negative.",
-    "The market remaining in a 'ranging' regime despite today's strong move, leading to whipsaws.",
-    "Lack of sustained FII participation, which could cap further upside.",
-    "Any unexpected geopolitical developments or domestic news that could alter market sentiment."
+    "The inconclusive options data (PCR, Max Pain, OI at 0) significantly limits comprehensive analysis and increases uncertainty.",
+    "Contradictory signals from technicals (strong positive close vs. 'neutral' trend and 'ranging' regime) suggest potential for whipsaws or consolidation.",
+    "The mention of crude oil prices above $90-100 as a potential medium-term headwind for Nifty 50.",
+    "Lack of strong directional conviction from FII/DII flows (neutral data)."
   ]
 }
