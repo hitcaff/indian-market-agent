@@ -1,55 +1,57 @@
 {
   "session": "post_market",
   "date": "2026-04-16",
-  "timestamp": "15:35 IST",
+  "timestamp": "18:30 IST",
   "market_bias": "neutral",
-  "bias_strength": "weak",
+  "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global cues are mixed; Asian markets like Nikkei and Hang Seng showed strong positive momentum, while US futures were flat to slightly positive. SGX Nifty closed marginally negative, indicating a cautious sentiment from the Indian market perspective despite broader Asian strength.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed slightly negative, with their current prices converging with EMA9 and EMA21, suggesting a lack of clear directional momentum post-intraday recovery. RSIs for both indices are in overbought territory (Nifty 73.25, Bank Nifty 77.36), which, combined with a 'neutral' trend and 'ranging' market regime, signals potential for consolidation or a pullback.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a neutral 1.0. However, the absence of Max Pain, Call Resistance, and Put Support data, especially on a weekly expiry day, limits a comprehensive options-based directional assessment. The neutral PCR aligns with the ranging market regime.",
-    "sentiment_analysis": "FII/DII data is neutral for the day. Market news indicates a fight back by bulls intraday with Nifty reclaiming 24,200, but also faced resistance at 24,400. There's mixed sentiment with positive sector-specific news alongside warnings of resistance and cost headwinds for some companies.",
-    "confluence_summary": "The confluence of overbought technicals, a neutral PCR, ranging market regime, and mixed global/domestic sentiment post-weekly expiry points to a lack of strong directional conviction. The market appears poised for consolidation or a cautious move, making a 'NO TRADE' stance prudent for the immediate short term."
+    "global_analysis": "Global cues are mixed to slightly positive, with strong gains in Asian markets (Nikkei, Hang Seng) and positive US futures. The decline in crude oil prices is a positive for India, potentially easing inflationary pressures and improving trade balance.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed flat, precisely on their 9 and 21-period EMAs, indicating significant indecision. Crucially, both indices are deep in overbought territory (Nifty RSI 73.25, Bank Nifty RSI 77.36), suggesting limited upside and a high probability of consolidation or a minor pullback.",
+    "options_analysis": "Post-weekly expiry, the PCR for both Nifty and Bank Nifty stands at a perfectly neutral 1.0 for the new series. The absence of specific Max Pain or strong Call/Put OI build-up (due to expiry reset) provides no clear directional conviction from the options front.",
+    "sentiment_analysis": "FII and DII flows were neutral for the day, offering no fresh directional impetus. Market news is mixed; while global sentiment is slightly positive and some financial/commodity stocks show strength, the IT sector (Wipro, Persistent) is facing pressure due to disappointing Q4 earnings.",
+    "confluence_summary": "The market is firmly in a ranging regime with a neutral trend, despite mildly positive global cues. The overbought RSI levels across both Nifty and Bank Nifty, coupled with neutral FII/DII activity and options data post-expiry, strongly indicate a lack of directional conviction. Given the 'HIGH RISK DAY: WEEKLY_EXPIRY' and the current technical setup, a defensive 'NO TRADE' stance is prudent."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24364.2 (Resistance)",
-      "24066.05 (Support)"
+      "24066 (Support)",
+      "24364 (Resistance)",
+      "24196 (EMA confluence)"
     ],
     "invalidation": "N/A"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "56086.4 (Current/EMA confluence)",
-      "RSI 77.36 (Overbought)"
+      "56086 (EMA confluence)",
+      "55800 (Psychological Support)",
+      "56300 (Immediate Resistance)"
     ],
     "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Global market performance overnight and Asian market cues tomorrow morning.",
-    "FII/DII activity for fresh directional conviction.",
-    "Nifty's ability to sustain above 24,200 or break 24,400 resistance.",
-    "Bank Nifty's reaction to its overbought RSI and any fresh momentum.",
-    "Build-up of Open Interest for the new weekly expiry series."
+    "Global market sentiment, especially US futures and Asian market opening for the next session.",
+    "FII/DII activity for the next few days to gauge institutional conviction post-expiry.",
+    "Any significant shifts in crude oil prices, which can impact domestic sentiment.",
+    "Further corporate earnings announcements and their sector-specific impact, particularly from the IT and financial sectors.",
+    "How Nifty and Bank Nifty react to their overbought RSI levels; a sustained move above current resistance or a sharp breakdown below support would be key."
   ],
   "risk_factors": [
-    "Elevated global geopolitical risks, despite positive news on Middle East peace prospects.",
-    "Potential for profit booking given the overbought RSI levels in both indices.",
-    "Volatility associated with the start of a new weekly expiry series.",
-    "Any unexpected domestic or international economic data releases."
+    "Elevated RSI levels across both indices suggest a potential for profit booking or consolidation, limiting immediate upside.",
+    "The 'ranging' market regime indicates higher chances of whipsaws and false breakouts/breakdowns.",
+    "Geopolitical developments, particularly regarding Mideast diplomacy, could quickly shift global sentiment.",
+    "Lack of clear FII/DII direction and options data post-expiry means the market lacks strong conviction from major participants."
   ]
 }
