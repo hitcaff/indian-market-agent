@@ -1,55 +1,56 @@
 {
   "session": "post_market",
   "date": "2026-04-17",
-  "timestamp": "15:32 IST",
-  "market_bias": "neutral",
-  "bias_strength": "moderate",
+  "timestamp": "18:22 IST",
+  "market_bias": "weak bullish",
+  "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed but generally supportive for India, with SGX Nifty, Dow, and Nasdaq futures showing positive momentum. Crucially, a significant drop in crude oil prices is a strong positive for the Indian economy, potentially offsetting some inflation concerns despite warnings about the West Asia crisis. However, key Asian markets like Nikkei and Hang Seng closed in the red.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed with decent gains and exhibit strong bullish RSI readings, indicating underlying momentum. However, the trend is explicitly stated as 'neutral' and the market regime is 'ranging' with low ATR%, suggesting consolidation rather than a strong directional move. EMAs are aligned with the current price, suggesting recent consolidation around these levels, with Nifty approaching its immediate resistance at 24451.",
-    "options_analysis": "The provided options data for PCR, Max Pain, Call Resistance, and Put Support are all neutral (1.0) or zero, indicating a lack of clear directional signals from the derivatives segment. This absence of actionable options data prevents forming a strong conviction based on open interest or participant positioning.",
-    "sentiment_analysis": "FII/DII activity is neutral for the day, offering no fresh directional cues. Market news is mixed; while there are positive stock-specific developments and IPO talks, experts warn of Nifty facing resistance at 24,400 and anticipate market consolidation through 2026. Geopolitical risks from West Asia also remain a concern.",
-    "confluence_summary": "Despite positive closing for both indices and bullish RSI, the overarching 'neutral' trend, 'ranging' market regime, and the absence of clear options data prevent a high-conviction directional trade. Nifty is also nearing a significant resistance zone, and expert sentiment points towards consolidation. Therefore, a cautious 'NO TRADE' stance is prudent given the conflicting signals and lack of strong confluence."
+    "global_analysis": "Global cues are mixed but lean positive, with US futures showing strength on Middle East peace hopes and a significant drop in crude oil prices, which is a strong positive for India. However, Asian markets like Nikkei and Hang Seng closed in the red, tempering overall optimism.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed with decent gains and exhibit bullish RSI readings (near 70), indicating positive momentum. Despite this, the 'neutral' trend and 'ranging' market regime, coupled with EMA9 and EMA21 converging at the current price, suggest consolidation or indecision rather than a strong directional breakout.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a neutral 1.0. Crucially, the absence of specific Max Pain, Call Resistance, and Put Support data severely limits our ability to derive strong directional cues from the options chain, making conviction difficult.",
+    "sentiment_analysis": "FII/DII flows were neutral for the day, providing no clear directional bias. Market news highlights positive sentiment in US markets and some domestic midcap strength, but the overall sentiment remains cautious given the conflicting technical signals and lack of institutional conviction.",
+    "confluence_summary": "While the market closed positive with bullish RSI, the underlying trend remains neutral within a ranging regime, indicating a lack of strong conviction. The absence of significant FII/DII flows and limited options data, combined with mixed global cues, suggests caution and a lack of clear directional opportunity for aggressive trades."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
+    "entry_zone": "NO TRADE",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
-    "risk_reward": "0:0",
+    "confidence_pct": 60,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24451.62 (Resistance 1)",
-      "24175.77 (Support 1)"
+      "24175.77 (Support)",
+      "24451.62 (Resistance)"
     ],
-    "invalidation": "N/A - No trade proposed"
+    "invalidation": "A decisive breakout above 24451.62 with strong volume or a clear breakdown below 24175.77 would invalidate the 'NO TRADE' stance and warrant re-evaluation."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
+    "entry_zone": "NO TRADE",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
-    "risk_reward": "0:0",
+    "confidence_pct": 60,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "56800 (Psychological Resistance)",
-      "56200 (Immediate Support)"
+      "56565.70 (Current Price/Pivot)",
+      "Immediate support/resistance zones"
     ],
-    "invalidation": "N/A - No trade proposed"
+    "invalidation": "A decisive breakout above immediate resistance or a clear breakdown below immediate support with strong volume would invalidate the 'NO TRADE' stance and warrant re-evaluation."
   },
   "what_to_watch": [
-    "Nifty's ability to decisively break and sustain above the 24400-24450 resistance zone.",
-    "Global market performance overnight, particularly US indices, for fresh directional cues.",
-    "Further FII/DII activity for any significant shift in institutional sentiment.",
-    "Crude oil price movements; continued softness would be a tailwind for India.",
-    "Developments regarding the West Asia crisis and its potential impact on inflation."
+    "Global market sentiment, particularly US futures performance and any shifts in Asian market trends.",
+    "Crude oil price stability; continued weakness would be a significant positive for India.",
+    "FII/DII investment flows for the next session to gauge institutional conviction.",
+    "Nifty's ability to decisively break and sustain above 24451 or below 24175.",
+    "Any fresh central bank commentary (globally and domestically) or key economic data releases."
   ],
   "risk_factors": [
-    "Geopolitical tensions in West Asia could escalate, leading to increased market volatility.",
-    "The risk of 'second-order inflation pain' as warned by experts, despite falling crude prices.",
-    "Lack of strong FII participation could cap upside potential.",
-    "Market consolidation, as suggested by experts, may lead to choppy and range-bound price action, making directional trades difficult."
+    "Geopolitical developments, especially in the Middle East, can quickly reverse market sentiment.",
+    "The lack of a clear trend and ranging market conditions could lead to increased volatility and whipsaws.",
+    "Absence of strong FII/DII participation might keep the market range-bound and lack conviction.",
+    "Uncertainty regarding global central bank monetary policies (e.g., Fed's stance on liquidity).",
+    "Potential for profit booking at higher levels after the recent gains, especially near resistance zones."
   ]
 }
