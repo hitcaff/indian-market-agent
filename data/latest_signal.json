@@ -1,52 +1,55 @@
 {
   "session": "post_market",
   "date": "2026-04-21",
-  "timestamp": "15:38 IST",
+  "timestamp": "18:26 IST",
   "market_bias": "bullish",
-  "bias_strength": "moderate",
+  "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are largely positive with SGX Nifty, US futures, and most Asian markets showing gains. A significant drop in crude oil prices by over 3% is a strong positive catalyst for the Indian economy and markets, potentially easing inflationary pressures.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed with strong positive momentum, gaining +0.87% and +1.39% respectively, indicating underlying strength. However, their RSIs are deeply in overbought territory (Nifty 91.66, Bank Nifty 85.64), suggesting the market is stretched and due for consolidation or a minor pullback. The EMA9 and EMA21 being at the current price points to strong immediate momentum to these levels.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from an options perspective. The absence of Max Pain, Call Resistance, and Put Support data makes it challenging to identify immediate derivative-based support and resistance levels, limiting the depth of options-based insights for the upcoming session.",
-    "sentiment_analysis": "FII/DII data is neutral for the day, offering no clear directional bias from institutional flows. Market news suggests a generally positive sentiment with indices jumping significantly and specific sectors/stocks showing strength, supported by a 'trending' market regime and 'favorable' signal. News on US-Iran peace talks could influence oil prices and broader sentiment.",
-    "confluence_summary": "The market closed with strong bullish momentum, supported by positive global cues and a favorable trending regime. However, the extremely overbought RSI for both indices signals caution, indicating that fresh long positions carry elevated risk. While the underlying sentiment is bullish, a period of consolidation or a minor pullback is likely before further significant upside."
+    "global_analysis": "Global markets are showing strong positive momentum, with SGX Nifty, US futures, and major Asian indices all trading significantly higher. The decline in crude oil prices further adds to the positive sentiment for the Indian economy, setting a bullish tone for the next trading session.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed with strong gains, indicating underlying buying interest. However, their RSIs are deeply in overbought territory (Nifty 91.66, Bank Nifty 85.64), signaling that the market is stretched and due for a potential pullback or consolidation. The stated 'neutral' trend for both indices, despite the 'trending' market regime, adds to the caution.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from the options market participants. The absence of specific Max Pain, Call Resistance, and Put Support data (values at 0) further suggests a lack of clear directional conviction from the options chain, reinforcing the neutral options outlook.",
+    "sentiment_analysis": "FII/DII activity was neutral today, offering no clear directional bias from institutional flows. Positive corporate earnings from HCL Tech and Persistent Systems, along with bullish analyst calls on key stocks like HDFC Bank and Bajaj Finance, contribute to a positive stock-specific sentiment. US market optimism driven by AI and earnings also supports overall market sentiment.",
+    "confluence_summary": "While strong global cues and positive corporate news provide a bullish backdrop, the extremely overbought RSI levels for both Nifty and Bank Nifty are a significant red flag. The neutral PCR and lack of clear options data, coupled with the 'neutral' trend status, suggest that the current strong momentum might be unsustainable in the short term, making fresh directional trades risky."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "0",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 75,
-    "risk_reward": "0",
+    "entry_zone": null,
+    "stop_loss": null,
+    "target_1": null,
+    "target_2": null,
+    "confidence_pct": 20,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24667 (Immediate Resistance)",
-      "24420 (Immediate Support)"
+      "24667.23 (Resistance 1)",
+      "24420.43 (Support 1)"
     ],
-    "invalidation": "A sustained break above 24757 or a sharp correction below 24264 would warrant re-evaluation of the market structure."
+    "invalidation": "Any sustained break below 24420.43 or a sharp reversal from 24667.23."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "0",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 70,
-    "risk_reward": "0",
+    "entry_zone": null,
+    "stop_loss": null,
+    "target_1": null,
+    "target_2": null,
+    "confidence_pct": 20,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "57371 (Current Price - potential consolidation zone)"
+      "57500 (Psychological Resistance)",
+      "57000 (Psychological Support)"
     ],
-    "invalidation": "A clear breakout above 57500 or a significant drop below 57000 would change the immediate outlook."
+    "invalidation": "A significant drop below 57000 or failure to sustain above 57500."
   },
   "what_to_watch": [
-    "Global market performance overnight, especially US markets, for sustained positive momentum.",
-    "FII/DII activity for the next session to gauge institutional conviction.",
-    "Crude oil price movements, particularly in light of US-Iran peace talks, for its impact on Indian markets.",
-    "Nifty and Bank Nifty's ability to sustain above their immediate support levels or consolidate without a sharp correction, given the overbought RSI."
+    "Global market opening and continuation of positive momentum.",
+    "Any significant FII/DII activity in the upcoming session.",
+    "Nifty's ability to sustain above 24500 and approach the 24667 resistance level.",
+    "Bank Nifty's relative performance and ability to hold its gains.",
+    "Further corporate earnings announcements and their market impact."
   ],
   "risk_factors": [
-    "Extremely overbought RSI levels for both Nifty and Bank Nifty, increasing the probability of profit booking or a minor correction.",
-    "Lack of clear options data (Max Pain, OI) for immediate support/resistance, making derivative-based analysis difficult.",
-    "Potential for global market reversals or negative geopolitical developments (e.g., US-Iran talks breakdown) that could dampen sentiment."
+    "Extreme overbought conditions (RSI) for both indices, increasing the probability of profit booking or a sharp correction.",
+    "Lack of clear directional conviction from options data (Max Pain, OI), making market direction uncertain.",
+    "Potential for geopolitical events to resurface and impact global sentiment.",
+    "Any unexpected shift in global liquidity or central bank commentary."
   ]
 }
