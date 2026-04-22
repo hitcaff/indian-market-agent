@@ -1,55 +1,56 @@
 {
   "session": "post_market",
   "date": "2026-04-22",
-  "timestamp": "15:38 IST",
+  "timestamp": "18:26 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "SGX Nifty's negative close (-0.81%) suggests a cautious opening for Indian markets tomorrow. While US futures show some positivity, mixed Asian cues and conflicting crude oil data (current price down, but news reports a spike above $100 due to geopolitical events) create global uncertainty. Gold's rise further indicates a risk-off sentiment.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed in the red, with Nifty seeing a more significant drop. Both indices are currently positioned at their short-term EMAs, indicating a lack of clear directional momentum. Bank Nifty's RSI is deeply overbought at 83.88, signaling potential exhaustion or a pullback, while Nifty's RSI, though bullish, is also approaching overbought levels.",
-    "options_analysis": "PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from options participants. The absence of specific Max Pain, Call Resistance, and Put Support values prevents a detailed options-based directional bias, reinforcing the overall neutrality.",
-    "sentiment_analysis": "FII/DII data for the day is neutral, offering no clear institutional flow signals. Market news is a mixed bag, with some positive stock-specific calls and optimism in the defence sector, but also significant concerns regarding a midcap meltdown, IT sector weakness, and geopolitical risks potentially impacting crude oil prices.",
-    "confluence_summary": "The market is clearly in a ranging regime with neutral trends for both Nifty and Bank Nifty. Technicals show a negative close and Bank Nifty's overbought RSI, while global cues are mixed with a negative SGX Nifty. The lack of strong directional conviction from options and institutional flows, combined with conflicting news and a 'NO TRADE' signal from the system, strongly advocates for a cautious, wait-and-watch approach."
+    "global_analysis": "US stock futures are showing positive momentum, reportedly due to an extension of the Iran ceasefire, which is a positive geopolitical development. However, Asian markets like SGX Nifty and Hang Seng closed in the red, indicating a mixed global sentiment. Crude oil is down while gold is up, suggesting some underlying risk aversion despite the US optimism.",
+    "technical_analysis": "Nifty closed down 0.81%, hovering precisely at its 9 and 21 EMAs, indicating a lack of clear directional conviction despite a bullish RSI of 65.68. Bank Nifty also saw a decline of 0.43%, with an extremely overbought RSI of 83.88, suggesting potential for consolidation or a pullback, while also resting at its key EMAs. Both indices are in a 'ranging' regime with a neutral trend.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a perfectly neutral sentiment from the options market participants. The reported Max Pain, Call Resistance, and Put Support values are all zero, which suggests incomplete data for these specific metrics, making it challenging to derive strong directional cues from the options chain.",
+    "sentiment_analysis": "FII/DII flows are neutral for the day, offering no clear institutional directional bias. Market news includes positive analyst calls on specific stocks and mixed Q4 results (Sunteck Realty up, Tata Communications down). The overall sentiment appears cautious and stock-specific, lacking a broad market-moving catalyst.",
+    "confluence_summary": "The market is firmly in a ranging regime, characterized by mixed global cues and neutral FII/DII activity. Technically, both Nifty and Bank Nifty are at their key EMAs, struggling for clear direction, with Bank Nifty's overbought RSI warranting caution. The absence of strong signals across technicals, options, and sentiment reinforces a neutral and cautious outlook for the near term."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
     "confidence_pct": 60,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24315.35 (Support)",
-      "24478.4 (Resistance)"
+      "24315 (Support)",
+      "24478 (Resistance)",
+      "24378 (EMA9/21)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "N/A - No trade proposed"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
     "confidence_pct": 60,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "57000 (Psychological Support)",
-      "57200 (Immediate Resistance)"
+      "57124 (EMA9/21)",
+      "57000 (Psychological Support)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "N/A - No trade proposed"
   },
   "what_to_watch": [
-    "Global crude oil prices and any further developments in geopolitical tensions in the Middle East.",
-    "Overnight performance of US markets, particularly the tech-heavy Nasdaq, for global sentiment cues.",
-    "FII/DII activity for the next session to gauge institutional participation and directional bias.",
-    "Nifty's ability to hold its immediate support at 24315 and Bank Nifty's reaction to its highly overbought RSI.",
-    "Performance of the Midcap and IT sectors, which have shown signs of weakness, for broader market health."
+    "Global market performance, especially US indices, following the Iran ceasefire news for sustained positive momentum.",
+    "FII/DII activity for clearer institutional conviction in the coming sessions.",
+    "Nifty's ability to decisively break and sustain above 24478 or below 24315 for directional clarity.",
+    "Bank Nifty's reaction to its overbought RSI; whether it consolidates or sees profit booking.",
+    "Upcoming Q4 results from major companies like Infosys and Tata Power for sector-specific impacts."
   ],
   "risk_factors": [
-    "Escalation of geopolitical tensions could lead to a sharp spike in crude oil, negatively impacting Indian markets.",
-    "Potential profit booking in Bank Nifty due to its extremely overbought RSI, leading to a significant correction.",
-    "Continued underperformance or selling pressure in midcap stocks could dampen overall market sentiment.",
-    "Any renewed FII selling could put significant pressure on benchmark indices."
+    "Potential for renewed geopolitical tensions despite the ceasefire extension.",
+    "Volatility due to mixed global cues and lack of strong domestic directional drivers.",
+    "Profit booking in Bank Nifty given its overbought RSI levels.",
+    "Any unexpected FII/DII outflows could put pressure on the market."
   ]
 }
