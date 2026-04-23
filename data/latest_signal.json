@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-04-23",
-  "timestamp": "15:42 IST",
+  "timestamp": "18:26 IST",
   "market_bias": "bearish",
   "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global markets are showing significant weakness, with SGX Nifty, Dow, Nasdaq, Nikkei, and Hang Seng all trading down between -0.55% to -0.95%. This broad-based negative sentiment from international bourses is a strong bearish overhang for the Indian market for the next session.",
-    "technical_analysis": "Nifty 50 closed down 0.84% at 24,173.05, while Bank Nifty saw an even sharper cut of 1.43% to 56,305. Both indices exhibit bearish RSI readings (Nifty 35.6, Bank Nifty 43.04), indicating strong downward momentum. Nifty is hovering just above its immediate support of 24101.83, suggesting potential for further downside if this level breaks.",
-    "options_analysis": "Today being weekly expiry, the PCR for both Nifty and Bank Nifty stands at 1.0, rendering it neutral and less indicative for the upcoming session. Max Pain, Call Resistance, and Put Support data are all zero, providing no actionable insights post-expiry.",
-    "sentiment_analysis": "FII/DII data is neutral for the day, offering no directional cues from institutional flows. While corporate news is mixed with some positive results, the 'Top Losers' list includes significant banking names like Union Bank and Canara Bank, aligning with Bank Nifty's underperformance and reinforcing a cautious sentiment in the financial sector.",
-    "confluence_summary": "The confluence of strong negative global cues, significant price depreciation in both Nifty and Bank Nifty with bearish RSI, and the post-expiry volatility points towards a bearish bias. However, the sharp fall already witnessed and the lack of clear options data for the next session warrant caution, leading to a moderate bearish conviction rather than strong."
+    "global_analysis": "Global cues are distinctly bearish, with SGX Nifty, US futures, and major Asian markets all trading in negative territory. Rising crude oil prices and geopolitical tensions (Iran) are fueling a risk-off sentiment, indicating a likely weak opening for the Indian markets.",
+    "technical_analysis": "Nifty closed down 0.84% at 24,173, with its RSI at a bearish 35.6, indicating strong selling pressure. Bank Nifty saw an even sharper decline of 1.43% to 56,305, with its RSI at 43.04, also reflecting bearish momentum. Both indices are currently in a neutral trend but show significant intraday weakness.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0 (neutral), with Max Pain, Call Resistance, and Put Support all showing 0. This suggests the options data provided is likely for the next series or has reset post-weekly expiry, making a concrete options-based analysis for immediate direction challenging and inconclusive.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. However, significant negative news like Infosys ADRs crashing nearly 6% post-Q4 results, coupled with US futures declining due to geopolitical tensions and rising oil, points to a cautious to negative sentiment. Positive corporate results from Tata Capital and Adani Energy are overshadowed by broader market concerns.",
+    "confluence_summary": "The confluence of bearish global cues, significant daily declines in both Nifty and Bank Nifty with bearish RSI readings, and negative news flow from the IT sector and geopolitical front, strongly suggests a bearish bias for the market. While FII/DII is neutral and options data is inconclusive, the overall picture points to downside pressure, making a 'NO TRADE' stance prudent for now."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -20,10 +20,11 @@
     "confidence_pct": 50,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24100 (Immediate Support)",
-      "24277 (Immediate Resistance)"
+      "24101.83 (Support 1)",
+      "24030.62 (Support 2)",
+      "24277.23 (Resistance 1)"
     ],
-    "invalidation": "N/A - No trade proposed due to low confidence and post-expiry volatility."
+    "invalidation": "A strong gap-up opening above 24277.23 or sustained buying interest post-gap down, negating the current bearish sentiment."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -34,22 +35,21 @@
     "confidence_pct": 50,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "56200 (Potential Support)",
-      "56305 (Immediate Resistance)"
+      "56000 (Psychological Support)",
+      "56500 (Immediate Resistance)"
     ],
-    "invalidation": "N/A - No trade proposed due to low confidence and post-expiry volatility."
+    "invalidation": "A strong gap-up opening above 56500 or sustained buying interest post-gap down, indicating a shift in momentum."
   },
   "what_to_watch": [
-    "Opening of global markets, especially US and Asian indices, for directional cues.",
-    "Nifty and Bank Nifty's opening tomorrow (potential for gap down/up after today's fall).",
-    "FII/DII activity for the next session to gauge institutional sentiment.",
-    "Crude oil price movements, given its recent upward trend.",
-    "Nifty's ability to hold 24100 and Bank Nifty's reaction around 56200 levels."
+    "Opening price action of Nifty and Bank Nifty, especially after potential gap-downs due to global cues.",
+    "FII/DII activity for the next trading session to gauge institutional sentiment.",
+    "Crude oil price movements and any further geopolitical developments in the Middle East.",
+    "Performance of key sectors, particularly IT post Infosys results and the banking sector."
   ],
   "risk_factors": [
-    "Elevated global market volatility and potential for sharp overnight moves.",
-    "Possibility of short covering after today's significant fall, leading to a bounce.",
-    "Geopolitical developments (e.g., US-Iran war uncertainty) impacting market sentiment.",
-    "Lack of clear options data post-expiry, making immediate support/resistance less defined."
+    "Escalating geopolitical tensions (Iran/Middle East) impacting global markets and crude oil prices.",
+    "Higher crude oil prices potentially fueling inflation and impacting corporate margins.",
+    "Uncertainty surrounding the ongoing Q4 earnings season and company-specific guidance.",
+    "Global market contagion from a significant sell-off in US or other Asian markets."
   ]
 }
