@@ -112,5 +112,24 @@
     "win": true,
     "today_high": 55583.1015625,
     "today_low": 54626.8515625
+  },
+  {
+    "date": "2026-04-24",
+    "instrument": "NIFTY",
+    "direction": "LONG",
+    "entry_mid": 23875.0,
+    "stop_loss": 23700,
+    "target_1": 24130,
+    "target_2": 24250,
+    "confidence": 55,
+    "factor_signals": {},
+    "result": "T1_HIT",
+    "entry_price": 24100.55,
+    "exit_price": 24130,
+    "pnl_points": 29.45,
+    "pnl_inr": 4417,
+    "win": true,
+    "today_high": 24206.0,
+    "today_low": 23813.650390625
   }
 ]
