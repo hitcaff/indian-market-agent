@@ -1,56 +1,57 @@
 {
   "session": "post_market",
   "date": "2026-04-27",
-  "timestamp": "16:21 IST",
-  "market_bias": "moderate_bullish",
-  "bias_strength": "moderate",
+  "timestamp": "18:43 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed but leaning positive for India's opening, with SGX Nifty showing a significant gain (+0.81%) and Nikkei also strong. US futures are largely flat, while rising crude oil prices remain a key concern for the Indian economy.",
-    "technical_analysis": "Both Nifty and Bank Nifty are showing deeply oversold RSI values (22.3 and 11.99 respectively), suggesting a high probability of a bounce or mean reversion. The indices closed positive today, snapping a three-day losing streak, and are currently at their 9 and 21-period EMAs, indicating a potential pivot point.",
-    "options_analysis": "PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from the options market. The absence of specific Max Pain, Call Resistance, and Put Support data limits deeper options insights, but the neutral PCR doesn't contradict a potential bounce.",
-    "sentiment_analysis": "FII/DII data is neutral for the day. Market news highlights Nifty eyeing 24,800 after correction, indicating underlying bullish sentiment from some analysts. However, rising crude oil prices and their potential impact on fuel costs and specific sectors present a cautionary note.",
-    "confluence_summary": "The primary driver for a tactical bullish bias is the deeply oversold RSI across both indices, coupled with a positive close and strong SGX Nifty indicating a gap-up opening. While the market regime is 'ranging' and PCR is neutral, the technical setup strongly favors a short-term bounce from current levels, warranting a cautious long position."
+    "global_analysis": "Global cues are mixed with SGX Nifty and Nikkei showing positive momentum, suggesting a potentially firm open for Indian markets. However, US futures are slightly negative, and rising crude oil prices, linked to stalled US-Iran talks, present a potential headwind.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed positive, breaking a three-day losing streak. Crucially, their RSIs are deeply oversold (Nifty 22.3, Bank Nifty 11.99), indicating a strong potential for a technical bounce. Despite this, EMAs are flat, and the overall trend remains neutral within a ranging market regime.",
+    "options_analysis": "The PCR for both indices stands at 1.0, suggesting a neutral stance among options participants. However, the absence of specific Max Pain, Call Resistance, and Put Support data (all reported as 0) severely limits a comprehensive options-based directional conviction.",
+    "sentiment_analysis": "FII/DII activity was neutral today, offering no clear directional bias from institutional flows. Market news includes positive analyst calls for several stocks and some strong Q4 results, but the broader sentiment remains cautious given the mixed global signals and geopolitical developments.",
+    "confluence_summary": "The market is currently in a ranging regime with neutral technicals, despite the deeply oversold RSI levels which suggest a potential for a bounce. Mixed global cues and insufficient options data prevent a strong directional conviction, leading to a cautious, neutral outlook for the immediate term."
   },
   "nifty_trade": {
-    "direction": "LONG",
-    "entry_zone": "24050 - 24080",
-    "stop_loss": 23960,
-    "target_1": 24170,
-    "target_2": 24240,
-    "confidence_pct": 65,
-    "risk_reward": "1:1.66",
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 30,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23975",
-      "24170",
-      "24247"
+      "23975.7 (Support)",
+      "24170.2 (Resistance)",
+      "24000 (Psychological)"
     ],
-    "invalidation": "Sustained trading below 23950 or a sharp negative turn in global markets."
+    "invalidation": "Lack of clear directional confluence from technicals, options, and FII/DII data. The ranging market regime and missing options data make high-conviction trades difficult."
   },
   "banknifty_trade": {
-    "direction": "LONG",
-    "entry_zone": "56200 - 56280",
-    "stop_loss": 56050,
-    "target_1": 56450,
-    "target_2": 56650,
-    "confidence_pct": 65,
-    "risk_reward": "1:2.15",
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 30,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "56000",
-      "56450",
-      "56650"
+      "56000 (Psychological Support)",
+      "56264.3 (Current Level)"
     ],
-    "invalidation": "Sustained trading below 56000 or a sharp negative turn in global markets."
+    "invalidation": "Extreme oversold RSI suggests a bounce is due, but the absence of specific support/resistance levels and comprehensive options data prevents a high-conviction trade setup. The overall neutral market regime also advises caution."
   },
   "what_to_watch": [
-    "Opening of European and US markets for sustained global sentiment.",
-    "Movement in crude oil prices; a sustained rise above $96 could dampen sentiment.",
-    "FII/DII activity for the next session to confirm institutional participation.",
-    "Nifty and Bank Nifty's price action around the initial resistance levels after a potential gap-up."
+    "Global market performance, especially US futures and Asian markets, for early cues.",
+    "FII/DII activity for any significant directional shift in institutional flows.",
+    "Any fresh options data (Max Pain, significant OI build-up at strikes) for clearer support/resistance zones.",
+    "Nifty's ability to sustain above 24000 and Bank Nifty above 56000.",
+    "Crude oil price movements and developments regarding US-Iran talks."
   ],
   "risk_factors": [
-    "Persistent rise in crude oil prices could fuel inflation concerns and impact corporate earnings.",
-    "Any escalation in global geopolitical tensions, particularly US-Iran talks, could trigger risk-off sentiment.",
-    "Lack of strong follow-through buying from FIIs could limit the upside potential of the bounce.",
-    "The 'ranging' market regime suggests that any bounce might be short-lived and confined within a broader range."
+    "The market is in a ranging regime, which can lead to whipsaws and false breakouts.",
+    "Insufficient options data (Max Pain, Call/Put Support/Resistance) reduces conviction for directional trades.",
+    "Mixed global cues (positive Asia, negative US futures, rising crude) create uncertainty.",
+    "Geopolitical developments (US-Iran talks) could introduce sudden volatility.",
+    "While RSI is oversold, there's no guarantee of an immediate strong bounce without other supporting factors."
   ]
 }
