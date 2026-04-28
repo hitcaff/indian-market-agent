@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-04-28",
-  "timestamp": "16:21 IST",
-  "market_bias": "bearish",
-  "bias_strength": "moderate",
+  "timestamp": "18:53 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed to negative, with Asian markets (Nikkei, Hang Seng, SGX Nifty) showing weakness and crude oil prices surging significantly by over 3%. While Dow futures are slightly positive, Nasdaq futures are negative, and the upcoming US Fed meeting adds to global uncertainty and caution.",
-    "technical_analysis": "Nifty closed below 24,000, indicating weakness, but its RSI is in the oversold zone (25.23), suggesting a potential for a bounce or consolidation. Bank Nifty showed significant underperformance, falling 1.54%, and is extremely oversold with an RSI of 8.42, making it ripe for a relief rally. Both indices are currently in a neutral trend and ranging regime.",
-    "options_analysis": "PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance in terms of call and put open interest. However, the provided Max Pain, Call Resistance, and Put Support values are zero, which limits a detailed options-based level analysis for immediate trading decisions.",
-    "sentiment_analysis": "Market sentiment is bearish, driven by geopolitical concerns ('fading peace hopes') and surging crude oil prices, as highlighted by Nifty closing below 24,000. FII/DII activity was neutral today, offering no clear directional bias. The US Fed meeting outcome is a key event in focus, potentially influencing global markets.",
-    "confluence_summary": "The market is under bearish pressure from global cues and rising crude, pushing indices lower. However, both Nifty and especially Bank Nifty are deeply oversold on RSI, suggesting that immediate downside might be limited, and a bounce or consolidation is highly probable. The ranging regime and neutral PCR indicate a lack of strong conviction for a sustained directional move right now, warranting caution."
+    "global_analysis": "Global markets are exhibiting weakness, with significant declines in Asian indices and US Nasdaq futures. The sharp surge in crude oil prices above $100 is a major concern, potentially exacerbating inflation and widening India's current account deficit, creating a negative overhang.",
+    "technical_analysis": "Both Nifty and Bank Nifty are trading precisely at their 9 and 21-period EMAs, indicating a tight consolidation or recent sharp move. Crucially, their RSIs are deeply oversold (Nifty 25.23, Bank Nifty 8.42), suggesting a strong potential for a technical bounce or mean reversion from these extreme levels.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a neutral 1.0. However, the Max Pain, Call Resistance, and Put Support data are reported as zero, which means there's no clear directional signal or significant open interest build-up to derive a strong options-based bias.",
+    "sentiment_analysis": "FIIs are implied to be net sellers, as indicated by recent news highlighting their 'selling spree,' which weighs negatively on market sentiment. DII activity is neutral for the day. While some corporate earnings are positive, concerns about AI fears in US tech and rising crude prices are dampening overall sentiment.",
+    "confluence_summary": "Despite the strong technical signal from deeply oversold RSIs, which typically suggests a bounce, the significant global headwinds from rising crude oil and weak international markets, coupled with implied FII selling, create conflicting forces. The market is in a ranging regime with neutral options data, leading to insufficient confluence for a high-conviction directional trade."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -20,12 +20,11 @@
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23907.9 (Immediate Support)",
-      "23820.1 (Strong Support)",
-      "24132.65 (Immediate Resistance)",
-      "24269.6 (Strong Resistance)"
+      "23907.9 (Support)",
+      "23995.7 (EMA/Current)",
+      "24132.65 (Resistance)"
     ],
-    "invalidation": "No clear directional setup with strong confluence due to conflicting signals (bearish sentiment vs. oversold RSI) and a ranging market regime."
+    "invalidation": "N/A - No trade initiated"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -37,23 +36,22 @@
     "risk_reward": "N/A",
     "key_levels_to_watch": [
       "55000 (Psychological Support)",
-      "55400 (Current Level)",
-      "55800 (Potential Resistance for bounce)"
+      "55400.35 (EMA/Current)",
+      "55600 (Resistance)"
     ],
-    "invalidation": "Extreme oversold conditions (RSI 8.42) suggest a bounce is imminent, but significant underlying weakness and lack of clear support/resistance levels make a high-conviction directional trade risky."
+    "invalidation": "N/A - No trade initiated"
   },
   "what_to_watch": [
-    "Outcome of the US Fed meeting and Jerome Powell's commentary for global market direction.",
-    "Movement in crude oil prices, as sustained high levels can impact inflation and corporate margins.",
-    "Geopolitical developments, particularly US-Iran tensions and any updates on 'peace hopes'.",
-    "FII/DII flow data for fresh directional cues, as today's data was neutral.",
-    "Nifty's ability to hold above the 23900-23800 support zone and Bank Nifty's reaction from its extremely oversold levels."
+    "Global market performance, particularly US tech indices and Asian peers, for directional cues.",
+    "Movement in crude oil prices; a sustained rise above $100-$110 will be a significant negative for India.",
+    "FII and DII flow data for any reversal in FII selling trend.",
+    "Nifty and Bank Nifty's reaction to their deeply oversold RSI levels; watch for any strong bounce signals.",
+    "Any fresh economic data or corporate earnings announcements that could provide catalysts."
   ],
   "risk_factors": [
-    "Further escalation in geopolitical tensions leading to increased global market instability and risk-off sentiment.",
-    "Sustained high crude oil prices impacting India's import bill, inflation, and corporate earnings.",
-    "A hawkish stance from the US Fed, potentially leading to global liquidity tightening and FII outflows.",
-    "Lack of clear market direction due to conflicting technical (oversold) and sentiment (bearish) indicators, leading to choppy price action.",
-    "Any unexpected domestic or global economic data releases that could alter market expectations."
+    "Sustained high crude oil prices leading to inflationary pressures and potential widening of India's current account deficit.",
+    "Continued FII selling pressure could cap any upside and lead to further downside.",
+    "Global economic slowdown, particularly in major economies, impacting India's export-oriented sectors.",
+    "Lack of clear directional momentum in a ranging market, increasing the risk of whipsaws and false breakouts."
   ]
 }
