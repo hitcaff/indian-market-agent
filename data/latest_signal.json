@@ -1,54 +1,58 @@
 {
   "session": "post_market",
   "date": "2026-04-29",
-  "timestamp": "16:15 IST",
-  "market_bias": "neutral",
-  "bias_strength": "weak",
+  "timestamp": "18:47 IST",
+  "market_bias": "bullish",
+  "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global cues are mixed; US futures and Hang Seng are positive, while Nikkei is down. Critically, SGX Nifty is strong, suggesting a positive opening for Indian markets, but the significant surge in crude oil prices to $115 and the rupee hitting a record low are major macroeconomic headwinds.",
-    "technical_analysis": "Nifty closed positive but off day's highs, with neutral EMA and RSI indicating indecision. Bank Nifty significantly underperformed, closing flat, but its RSI is deeply oversold at 14.14, suggesting a potential bounce, though its trend remains neutral.",
-    "options_analysis": "PCR for both Nifty and Bank Nifty is at a neutral 1.0. The absence of Max Pain and specific OI data prevents a deeper options-based directional conviction, reinforcing a neutral stance from this perspective.",
-    "sentiment_analysis": "FII/DII data is neutral for the day, but news highlights 'persistent outflows' impacting the rupee. Corporate results are mixed positive, but the overarching concern of surging crude and a depreciating rupee creates a cautious sentiment despite smallcap outperformance.",
-    "confluence_summary": "While SGX Nifty points to a positive open, the neutral technicals for Nifty, Bank Nifty's underperformance despite being oversold, and the significant macro risks from crude oil and rupee depreciation create a highly uncertain environment. Profit booking at higher levels further suggests caution, making a clear directional trade difficult."
+    "global_analysis": "Global cues are cautiously positive with SGX Nifty and US futures showing strength, indicating a potential strong opening for Indian markets. However, the significant surge in crude oil prices and the impending US Fed meeting outcome introduce an element of caution and potential volatility.",
+    "technical_analysis": "Nifty closed strongly, aligning with its short-term EMAs, but its RSI is neutral, allowing for further directional movement. Bank Nifty, despite a flat close, shows a deeply oversold RSI (14.14), suggesting a high probability of a technical bounce from these levels.",
+    "options_analysis": "The options data for both Nifty and Bank Nifty shows a neutral PCR of 1.0 and zero values for Max Pain, Call Resistance, and Put Support. This indicates a lack of clear directional conviction from the options chain for the immediate expiry, making it less useful for short-term bias.",
+    "sentiment_analysis": "FII/DII data is neutral, offering no clear directional lead. Market news presents a mixed bag with positive corporate earnings (Bajaj Finance, Man Infraconstruction) and expert bullish calls for Nifty, but also concerns around the Fed meeting, rising crude, and insurance firms cutting large-cap stakes.",
+    "confluence_summary": "Nifty exhibits bullish momentum from its strong close and positive SGX Nifty, while Bank Nifty's oversold RSI signals a potential bounce. The 'trending' regime and 'favorable' signal support a bullish outlook. However, global uncertainties from the Fed meeting and crude oil, coupled with neutral FII/DII and options data, necessitate a cautious approach."
   },
   "nifty_trade": {
-    "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 0,
-    "risk_reward": "N/A",
+    "direction": "LONG",
+    "entry_zone": "24160 - 24200",
+    "stop_loss": 24040,
+    "target_1": 24320,
+    "target_2": 24460,
+    "confidence_pct": 65,
+    "risk_reward": "1:2",
     "key_levels_to_watch": [
-      "24321.58 (Resistance)",
-      "24046.83 (Support)"
+      "24046 (Support 1)",
+      "24321 (Resistance 1)",
+      "24465 (Resistance 2)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "A sustained break and close below 24000 would invalidate this bullish setup."
   },
   "banknifty_trade": {
-    "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 0,
-    "risk_reward": "N/A",
+    "direction": "LONG",
+    "entry_zone": "55350 - 55450",
+    "stop_loss": 55180,
+    "target_1": 55950,
+    "target_2": 56250,
+    "confidence_pct": 60,
+    "risk_reward": "1:3.8",
     "key_levels_to_watch": [
-      "55403.60 (Current Price - Oversold RSI)"
+      "55180 (Immediate Support)",
+      "55400 (Current Level)",
+      "55950 (Bounce Target 1)",
+      "56250 (Bounce Target 2)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "A sustained break and close below 55000 would negate the oversold bounce thesis and indicate further weakness."
   },
   "what_to_watch": [
-    "Crude Oil prices and their impact on the Rupee's stability.",
-    "Global market opening performance, especially US and Asian markets.",
-    "FII/DII flows for directional cues, particularly after the rupee's depreciation.",
-    "Nifty's ability to sustain above 24200-24300 levels after a potential gap-up.",
-    "Bank Nifty's reaction to its deeply oversold RSI (14.14) for any signs of a bounce."
+    "Outcome of the US Fed meeting and Chairman Powell's commentary on interest rates and economic outlook.",
+    "Movement in crude oil prices, as a continued surge could impact inflation and bond yields.",
+    "FII/DII activity for fresh directional cues and conviction in market trends.",
+    "Nifty's ability to sustain above the 24200 mark and Bank Nifty's follow-through on the oversold bounce.",
+    "Any further geopolitical developments, especially concerning the US-Iran situation."
   ],
   "risk_factors": [
-    "Further escalation in crude oil prices due to geopolitical tensions (Hormuz chokehold intensifying).",
-    "Continued rupee depreciation, which could fuel inflation and impact corporate earnings.",
-    "Global market volatility, particularly if US markets turn negative, impacting FII sentiment and domestic liquidity.",
-    "Any unexpected policy announcements or economic data releases that could exacerbate current macro concerns."
+    "A more hawkish-than-expected stance from the US Federal Reserve could trigger global market corrections.",
+    "Continued escalation in crude oil prices could fuel inflation concerns and impact corporate margins.",
+    "Any negative surprises from ongoing corporate earnings reports.",
+    "Lack of sustained buying interest from institutional investors (FIIs/DIIs)."
   ]
 }
