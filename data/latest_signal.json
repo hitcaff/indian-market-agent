@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-04-30",
-  "timestamp": "16:14 IST",
+  "timestamp": "18:46 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Asian markets, including SGX Nifty, Nikkei, and Hang Seng, closed with a negative bias, indicating cautious sentiment. While US futures show a slight positive uptick, the significant surge in Gold prices (+2.35%) and crude oil holding above $100 points towards escalating geopolitical tensions (US-Iran war) which could act as a drag on global equities.",
-    "technical_analysis": "Nifty closed down 0.74% at 23,997.55, precisely at its EMA9 and EMA21, suggesting indecision and a pivot point. Its RSI is bullish at 57.62, but the overall trend is neutral. Bank Nifty experienced a sharper decline of 0.98% to 54,863.35, also converging with its EMAs. Critically, Bank Nifty's RSI is extremely oversold at 11.24, hinting at a potential bounce, yet its trend remains neutral.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance. However, the Max Pain, Call Resistance, and Put Support values are all reported as 0, which is highly unusual and likely a data anomaly or reflects the post-monthly expiry scenario where new series data is not yet fully populated or reliable. Therefore, actionable insights from options data for the next series are currently inconclusive.",
-    "sentiment_analysis": "FII/DII flows are neutral for the day. Market news highlights negative factors like the Rupee's record fall, Adani Ent's Q4 loss, and Edelweiss's profit drop. While some analysts suggest Nifty dips are buying opportunities, the overarching sentiment is cautious due to geopolitical tensions (US-Iran war) driving up safe-haven assets like gold.",
-    "confluence_summary": "The market closed lower on a high-risk monthly expiry day, with mixed to negative global cues. While Nifty's RSI is bullish, Bank Nifty is deeply oversold, suggesting a potential technical rebound. However, the overall market regime is ranging and neutral, with geopolitical risks adding significant uncertainty. The lack of reliable options data for the new series and neutral FII/DII flows prevent a strong directional conviction, validating a 'NO TRADE' stance."
+    "global_analysis": "SGX Nifty's decline suggests a weak opening for the Indian market. However, positive US futures provide a glimmer of hope, potentially limiting downside. Crude oil's fall is a positive for India, while rising gold indicates some global risk aversion, leading to mixed global cues.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed negative with their EMA9 and EMA21 converging at the current price, indicating a lack of clear short-term trend and a post-expiry reset. Nifty's RSI is bullish at 57.62 despite the fall, while Bank Nifty's RSI is deeply oversold at 11.24, suggesting a potential bounce or at least a pause in selling pressure. The market is in a ranging regime, confirming indecision.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from the options market post-monthly expiry. The absence of specific Max Pain, Call Resistance, and Put Support values (showing as 0) prevents a deeper options chain analysis for the next series, reinforcing the neutral outlook.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. Global news is mixed, with US earnings optimism contrasting with Adani's Q4 loss and bond market volatility. The upcoming market holiday on May 1st means the next trading session will be on May 2nd, which could lead to fresh positioning and reduced activity.",
+    "confluence_summary": "The market exhibits significant indecision post-monthly expiry, with conflicting technical signals (negative close vs. bullish/oversold RSIs), neutral options data, and mixed global/domestic sentiment. The ranging market regime and upcoming holiday further reduce conviction for directional trades, warranting a cautious 'NO TRADE' approach."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -21,10 +21,9 @@
     "risk_reward": "N/A",
     "key_levels_to_watch": [
       "23833.78 (Support 1)",
-      "24124.38 (Resistance 1)",
-      "23997.55 (Pivot)"
+      "24124.38 (Resistance 1)"
     ],
-    "invalidation": "N/A - No trade proposed"
+    "invalidation": "N/A"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -35,23 +34,21 @@
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "54863.35 (Pivot, potential bounce from oversold RSI)"
+      "54863.35 (Current Price/Potential Bounce Zone)"
     ],
-    "invalidation": "N/A - No trade proposed"
+    "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Overnight performance of US markets (Dow, Nasdaq) for global sentiment.",
-    "Movement in Crude Oil and Gold prices, reflecting geopolitical developments.",
-    "Rupee's stability against the dollar, as its fall can impact FII sentiment.",
-    "FII/DII activity for the start of the new monthly series to gauge institutional conviction.",
-    "How Nifty and Bank Nifty open and react to immediate support/resistance levels in the new series.",
-    "Any fresh news or escalation regarding the US-Iran conflict."
+    "Global market performance overnight, especially US markets for directional cues.",
+    "Fresh FII/DII data for the next trading session (May 2nd) to gauge institutional flow.",
+    "Crude oil price movements, as a significant drop is positive for India.",
+    "How Bank Nifty reacts to its deeply oversold RSI level (11.24) on May 2nd, looking for a potential bounce.",
+    "Any fresh news flow or economic data releases over the market holiday."
   ],
   "risk_factors": [
-    "Heightened geopolitical tensions (US-Iran war) leading to increased volatility and risk aversion.",
-    "Continued depreciation of the Indian Rupee, impacting import costs and FII sentiment.",
-    "Lack of clear directional trend post-monthly expiry, increasing chances of whipsaws.",
-    "Potential for global market weakness to spill over into Indian equities.",
-    "Uncertainty from the ranging market regime, making sustained moves difficult."
+    "Continued global volatility, particularly from Asian markets, could weigh on sentiment.",
+    "The lack of a clear trend and the ranging market regime make directional trades inherently risky and prone to whipsaws.",
+    "Uncertainty post-monthly expiry and before a market holiday could lead to erratic price action.",
+    "Any significant shift in FII/DII flows on May 2nd could trigger sharp moves."
   ]
 }
