@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-05-01",
-  "timestamp": "15:43 IST",
+  "timestamp": "18:21 IST",
   "market_bias": "bearish",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed to negative, with SGX Nifty and Hang Seng showing weakness, while US futures and Nikkei are mixed. The rise in crude oil prices adds a layer of concern, indicating a cautious global backdrop for the Indian market.",
-    "technical_analysis": "Nifty closed significantly lower, slipping below the psychological 24,000 mark with its RSI in bearish territory at 39.64. Bank Nifty also witnessed a sharp decline, pushing its RSI to an extremely oversold level of 0.23, which often signals a potential bounce but also highlights severe selling pressure. Both indices are currently in a neutral trend within a ranging market.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from an options perspective. The absence of specific Max Pain, Call Resistance, and Put Support data points (showing 0) limits a detailed options analysis for immediate directional cues.",
-    "sentiment_analysis": "FII/DII activity was neutral for the day. Market news reflects a cautious to negative sentiment, with Nifty slipping below 24,000, analysts advising caution post-election results, and discussions around the 'Sell in May & Go Away' strategy gaining traction.",
-    "confluence_summary": "The significant fall in both Nifty and Bank Nifty, coupled with Nifty's bearish RSI and cautious market sentiment, points towards a bearish bias. However, Bank Nifty's extremely oversold RSI and the overall ranging market regime suggest that any further downside might be limited or met with buying interest, making strong directional conviction difficult at this juncture."
+    "global_analysis": "SGX Nifty's significant decline of 0.74% points to a negative opening for the Indian market, despite slightly positive US futures. Asian markets are mixed, and a notable drop in crude oil prices, while beneficial for India, also reflects broader global demand concerns. Geopolitical tensions around Iran and OPEC dynamics add a layer of uncertainty.",
+    "technical_analysis": "Both Nifty and Bank Nifty are expected to open lower, with their current values aligning with EMA9 and EMA21, suggesting a short-term equilibrium after a fall. Nifty's RSI at 39.64 is bearish, indicating weakness, while Bank Nifty's RSI at an extreme 0.23 is deeply oversold, hinting at a potential bounce from severely depressed levels. Both indices are currently in a neutral trend within a ranging market regime.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, signaling a neutral stance from an options perspective. The absence of specific data for Max Pain, Call Resistance, and Put Support means there are no strong directional cues from these particular metrics to influence our view.",
+    "sentiment_analysis": "FII/DII data is neutral, offering no clear institutional flow direction. Market news presents a mixed picture: positive sentiment from US market performance and specific Indian stock rallies (e.g., Ola Electric, capital market stocks) is tempered by analysts advising caution post-election results and ongoing global geopolitical risks.",
+    "confluence_summary": "The immediate outlook leans bearish due to the negative SGX Nifty and Nifty's bearish RSI. However, the extremely oversold Bank Nifty RSI, coupled with a neutral trend and ranging market regime, suggests that any downside might be limited or followed by a bounce. The lack of strong directional cues from options, FII/DII, and mixed news flow reinforces a cautious 'wait and watch' approach, validating the 'NO TRADE' recommendations."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -20,10 +20,11 @@
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
+      "23997.55 (current/EMA)",
       "23833.78 (Support 1)",
       "24124.38 (Resistance 1)"
     ],
-    "invalidation": "A sustained break and close above 24251 or below 23670 would invalidate the current ranging and cautious outlook."
+    "invalidation": "N/A"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -34,22 +35,23 @@
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "54863.35 (Current Level)"
+      "54863.35 (current/EMA)",
+      "54500 (psychological support)",
+      "55000 (psychological resistance)"
     ],
-    "invalidation": "A strong bullish reversal candle confirming a bounce or a decisive break below recent lows would provide clearer directional conviction."
+    "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Global market performance, especially US futures and SGX Nifty, for opening cues tomorrow.",
-    "Crude oil price movement, as sustained high prices could impact inflation and corporate earnings.",
-    "Nifty's ability to hold above its immediate support of 23833 and Bank Nifty's reaction to its extremely oversold RSI (potential for a bounce).",
-    "Any fresh FII/DII flow data for signs of directional conviction or profit booking.",
-    "Developments around state election results and their potential impact on market sentiment."
+    "Global market opening, particularly US and Asian indices, for sustained directional cues.",
+    "Crude oil price movements, especially in light of US-Iran tensions and potential UAE exit from OPEC.",
+    "FII/DII activity for any significant shifts in institutional sentiment.",
+    "Nifty's reaction around the 24000 psychological level and Bank Nifty's ability to bounce from its oversold condition.",
+    "Any fresh news or developments regarding state election results or geopolitical events."
   ],
   "risk_factors": [
-    "Sustained global market weakness or escalation of geopolitical tensions (e.g., US-Iran war mentioned in news).",
-    "Further spikes in crude oil prices, which could negatively impact the Indian economy and corporate margins.",
-    "Uncertainty surrounding state election results leading to increased market volatility and profit booking.",
-    "The 'Sell in May & Go Away' sentiment potentially leading to sustained selling pressure.",
-    "Lack of clear FII buying support, which has been a key driver for Indian markets."
+    "Escalation of geopolitical tensions (US-Iran, OPEC dynamics) which could impact crude prices and global markets.",
+    "Uncertainty surrounding state election results and their potential to trigger market volatility.",
+    "Global economic slowdown concerns, as reflected in falling crude prices and scrutiny on private credit.",
+    "Lack of strong institutional buying support (FII/DII neutral) which could lead to range-bound or volatile trading."
   ]
 }
