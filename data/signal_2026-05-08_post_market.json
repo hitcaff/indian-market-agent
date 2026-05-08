@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-05-08",
-  "timestamp": "15:44 IST",
+  "timestamp": "18:34 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed with SGX Nifty and other Asian markets showing weakness, while US futures indicate a positive opening. Crude oil and gold are marginally up, offering no strong directional bias for Indian markets.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed significantly lower today, settling precisely at their 9-day and 21-day EMAs, which are crucial support levels. Despite the sharp fall, their RSIs remain in bullish territory (Nifty 55.27, Bank Nifty 58.41), suggesting potential for a bounce or consolidation. The overall trend for both indices is currently neutral.",
-    "options_analysis": "The provided options data for PCR is neutral at 1.0 for both indices. However, Max Pain, Call Resistance, and Put Support are all reported as 0, rendering the options chain analysis incomplete and unreliable for drawing strong directional conclusions for the upcoming session.",
-    "sentiment_analysis": "FII/DII activity was neutral today. Market news indicates Nifty and Sensex fell, with banking stocks being a major drag, aligning with Bank Nifty's significant decline. Conversely, strong Q4 results from heavyweights like SBI and Titan, along with midcap outperformance, provide a positive underlying sentiment.",
-    "confluence_summary": "The market is in a ranging regime with a neutral signal, despite today's negative close. While technical indicators like RSI suggest underlying strength, the lack of clear options data, mixed global cues, and the system's poor R:R ratio for proposed trades advocate for a cautious, 'NO TRADE' stance for tomorrow's open."
+    "global_analysis": "Global cues are mixed with US futures showing strength on chip rebound, while Asian markets including SGX Nifty are largely negative. Crude and Gold are slightly positive, indicating some underlying commodity strength but not a clear directional push for equities.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed in the red, with Bank Nifty seeing a significant drop of 1.31%. Despite the negative price action, RSI for both indices remains in bullish territory. The market regime is clearly 'ranging' with a 'neutral' trend, and EMA9/EMA21 are at current price levels, reinforcing the lack of a strong short-term trend.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a perfectly neutral 1.0. The absence of specific Max Pain, Call Resistance, and Put Support data (showing as 0) means we cannot derive further directional conviction from options, leaving the overall options sentiment as neutral.",
+    "sentiment_analysis": "FII/DII activity was neutral today. Market news presents a mixed bag: some stocks like Bajaj Auto hit 52-week highs, while SBI tanked 7% post-Q4 results, impacting the banking sector. Corporate earnings are varied, and analyst calls are sector-specific, leading to an overall indecisive market sentiment.",
+    "confluence_summary": "The market is firmly in a ranging regime, lacking clear directional conviction from global, technical, or options fronts. While RSI shows underlying strength, the negative close and neutral FII/DII activity, coupled with mixed corporate news, suggest continued consolidation. The proposed 'NO TRADE' is prudent given the low R:R ratios and prevailing uncertainty."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -20,11 +20,11 @@
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24117 (Immediate Support)",
-      "24244 (Immediate Resistance)",
-      "24058 (Strong Support)"
+      "24117.27 (Support)",
+      "24244.42 (Resistance)",
+      "24058.38 (Strong Support)"
     ],
-    "invalidation": "A strong directional breakout above 24250 or below 24050 on higher volumes would invalidate the current ranging bias."
+    "invalidation": "A decisive close above 24312 or below 24058 on higher volumes would invalidate the ranging bias."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -35,23 +35,24 @@
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "55000 (Psychological Support)",
-      "55310 (EMA Support)",
-      "55500 (Resistance)"
+      "55310.55 (Current Level)",
+      "Previous day's low/high for range identification",
+      "55000 (Psychological Support)"
     ],
-    "invalidation": "A sustained move above 55500 or below 55000 on significant volume would invalidate the current neutral stance."
+    "invalidation": "A strong breakout above 55500 or below 55000 with conviction would suggest a new trend."
   },
   "what_to_watch": [
-    "Overnight performance of US markets (Dow & Nasdaq futures) for global sentiment.",
-    "How Nifty and Bank Nifty react to their EMA support levels at tomorrow's open, looking for signs of bounce or breakdown.",
-    "FII/DII cash market activity for fresh directional cues, as today was neutral.",
-    "Performance of banking stocks, especially SBI post strong Q4 results, as they were a major drag today and could lead a recovery.",
-    "Momentum in midcap and smallcap segments, given their recent outperformance and strong earnings growth."
+    "Global market performance, especially US futures and Asian markets for early cues.",
+    "FII/DII flow data for any significant directional shift.",
+    "Nifty's ability to hold the 24100-24050 support zone and Bank Nifty's reaction around 55000.",
+    "Further corporate earnings and their impact on sector-specific movements, particularly in banking after SBI's decline.",
+    "Any upcoming economic data releases, especially from the US (e.g., payrolls data mentioned in news)."
   ],
   "risk_factors": [
-    "Uncertainty stemming from mixed global market signals.",
-    "Lack of clear directional conviction due to the prevailing ranging market regime.",
-    "Incomplete options data (Max Pain, OI) making it difficult to gauge immediate expiry expectations and potential price magnets.",
-    "Potential for increased volatility around key EMA levels, which could lead to whipsaws."
+    "Continued global market volatility and mixed cues could lead to choppy trading.",
+    "The ranging market regime increases the risk of whipsaws for directional trades.",
+    "Sudden shifts in FII/DII sentiment could trigger sharp moves.",
+    "Uncertainty surrounding corporate earnings and their broader market impact.",
+    "Lack of clear options data beyond PCR makes gauging extreme sentiment difficult."
   ]
 }
