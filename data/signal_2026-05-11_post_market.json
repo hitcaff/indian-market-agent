@@ -1,57 +1,59 @@
 {
   "session": "post_market",
   "date": "2026-05-11",
-  "timestamp": "15:06 IST",
+  "timestamp": "17:24 IST",
   "market_bias": "bearish",
   "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "SGX Nifty's significant drop of nearly 1.5% indicates a strong negative sentiment carrying over from the Indian market's close, aligning with the domestic indices' sharp fall. While US futures are relatively flat, the broader Asian markets (Nikkei) also showed weakness, suggesting a cautious global environment. The rise in crude oil prices could be a concern for import-dependent India.",
-    "technical_analysis": "Both Nifty and Bank Nifty experienced sharp declines, with Nifty closing below its EMA9 and EMA21 (implied by EMA at current price after a significant drop). Nifty's RSI at 36.65 is firmly in bearish territory, suggesting further downside momentum. Bank Nifty's RSI is neutral, but its sharp fall cannot be ignored, indicating potential weakness.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty is 1.0 (neutral), and Max Pain/Call Resistance/Put Support are all reported as 0. This data is inconclusive for deriving strong directional cues from options, suggesting either no significant build-up or incomplete data. Therefore, options analysis does not provide a clear bias for the immediate future.",
-    "sentiment_analysis": "FII/DII data is neutral (\u20b90 Cr), which is unusual for a day with such a significant market move, implying balanced activity or delayed reporting. Market news is mixed: positive corporate earnings (PVR Inox, UPL) and brokerage 'Buy' calls offer some underlying support, but warnings of a 'prolonged energy shock' and SBI's continued sell-off add to the negative sentiment. The 'largecaps as safe harbour' comment suggests a flight to quality, which might not bode well for broader market sentiment.",
-    "confluence_summary": "The market closed significantly lower, driven by broad-based selling and negative global cues, particularly the sharp fall in SGX Nifty. Nifty's bearish RSI and the implied breach of key moving averages suggest continued downward pressure. While options data is inconclusive and FII/DII is neutral, the overall technical and global picture points to a moderate bearish bias for the near term, with critical support levels needing to hold."
+    "global_analysis": "SGX Nifty's significant drop of 1.49% signals a weak opening for the Indian markets tomorrow. While US futures are mixed, the sharp rise in Crude Oil prices (+2.56%) and the consequent depreciation of the Rupee are significant macro headwinds, indicating potential inflationary pressures and increased import bills.",
+    "technical_analysis": "Both Nifty 50 and Bank Nifty witnessed sharp declines of around 1.5% today, closing precisely at their 9 and 21 EMAs, which now act as critical levels. Nifty's RSI at 36.66 is bearish, confirming the underlying weakness, while Bank Nifty's RSI is neutral but likely to follow suit. The 'trending' market regime suggests momentum is in play, currently to the downside.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from options traders. However, the absence of Max Pain, Call Resistance, and Put Support data makes it challenging to derive strong directional cues from options, leading us to rely more on price action and other indicators.",
+    "sentiment_analysis": "The market sentiment is dampened by the rising crude oil prices and the rupee's record drop. While some individual stock news is positive (JSW Energy, specific buy calls), the broader sentiment is cautious, further impacted by a slight fall in equity fund inflows. FII/DII data being neutral (or unavailable) adds to the uncertainty regarding institutional positioning.",
+    "confluence_summary": "The confluence of a sharp domestic market fall, a negative SGX Nifty, bearish Nifty RSI, and macro headwinds from rising crude and a depreciating rupee strongly points towards a bearish outlook. Despite the neutral PCR and missing FII/DII data, the price action and global cues are compelling enough to warrant a cautious, bearish stance for the immediate term."
   },
   "nifty_trade": {
-    "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 60,
-    "risk_reward": "N/A",
+    "direction": "SHORT",
+    "entry_zone": "23730 - 23750",
+    "stop_loss": 23870,
+    "target_1": 23670,
+    "target_2": 23550,
+    "confidence_pct": 70,
+    "risk_reward": "1:1.46",
     "key_levels_to_watch": [
-      "23753.78 (Support 1)",
-      "23691.97 (Support 2)",
-      "23937.43 (Resistance 1)",
-      "24059.26 (Resistance 2)"
+      "23815.85 (EMA9/21)",
+      "23744.15 (Support 1)",
+      "23672.45 (Support 2)",
+      "23942.5 (Resistance 1)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "Nifty sustaining above 23942.5 (Resistance 1) on a closing basis."
   },
   "banknifty_trade": {
-    "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 50,
-    "risk_reward": "N/A",
+    "direction": "SHORT",
+    "entry_zone": "54280 - 54320",
+    "stop_loss": 54600,
+    "target_1": 54000,
+    "target_2": 53700,
+    "confidence_pct": 70,
+    "risk_reward": "1:2",
     "key_levels_to_watch": [
-      "54000 (Psychological Support)",
-      "54800 (Immediate Resistance)"
+      "54439.9 (EMA9/21)",
+      "54300 (Entry Trigger)",
+      "54000",
+      "53700"
     ],
-    "invalidation": "N/A"
+    "invalidation": "Bank Nifty sustaining above 54600 on a closing basis."
   },
   "what_to_watch": [
-    "Global market performance overnight, especially US and Asian markets for directional cues.",
-    "FII/DII activity for the next trading session to confirm institutional flow and market conviction.",
-    "Nifty's reaction to immediate support levels (23753 and 23691) and Bank Nifty's ability to hold above 54000.",
-    "Movement in crude oil prices, given the warning of a 'prolonged energy shock'.",
-    "Any further market-moving news or economic data releases."
+    "Global market opening, particularly US futures and Asian markets on Tuesday morning for directional cues.",
+    "Trajectory of Crude Oil prices; continued rise will exacerbate macro concerns.",
+    "Rupee vs. Dollar movement; further depreciation will be a negative for equities.",
+    "FII/DII activity for May 12th to gauge institutional sentiment and flows.",
+    "Nifty's reaction to the 23744 support level and Bank Nifty's reaction to the 54300 zone post-opening."
   ],
   "risk_factors": [
-    "Continued global market weakness, particularly from Asian and US markets.",
-    "Sustained high crude oil prices, which could impact India's inflation and corporate margins.",
-    "Lack of strong institutional buying support (FII/DII) on a down day, indicating potential further selling pressure.",
-    "Breakdown of key support levels for Nifty and Bank Nifty, leading to accelerated declines."
+    "A significant gap-down opening followed by sharp short covering could lead to a quick reversal.",
+    "Any sudden positive global news or de-escalation in geopolitical tensions (e.g., US-Iran stalemate) could trigger a bounce.",
+    "Strong DII buying could potentially offset any FII selling, if FIIs turn net sellers.",
+    "The absence of detailed options data and FII/DII figures could be masking underlying institutional positioning, leading to unexpected moves."
   ]
 }
