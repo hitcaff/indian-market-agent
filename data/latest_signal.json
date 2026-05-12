@@ -1,57 +1,56 @@
 {
   "session": "post_market",
   "date": "2026-05-12",
-  "timestamp": "16:39 IST",
+  "timestamp": "19:17 IST",
   "market_bias": "bearish",
   "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "SGX Nifty's significant drop of nearly 2% indicates a likely gap-down opening for the Indian markets tomorrow, aligning with negative cues from Nasdaq futures. Rising crude oil prices above $100 are a major concern for India's economy, potentially exacerbating inflation and putting pressure on the Rupee.",
-    "technical_analysis": "Both Nifty and Bank Nifty witnessed sharp declines, closing significantly lower. Crucially, both indices are showing extremely oversold RSI values (0.0 for Nifty, 2.59 for Bank Nifty), suggesting that while momentum is strongly bearish, a technical bounce from key support levels cannot be ruled out after a potential gap-down.",
-    "options_analysis": "The options data provided (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) appears incomplete or indicative of an extreme scenario, possibly a fresh expiry with no significant Open Interest build-up. This lack of reliable options data makes it challenging to gauge immediate market sentiment and potential support/resistance from the derivatives segment.",
-    "sentiment_analysis": "FII/DII activity is neutral for the day. News flow highlights concerns over the Rupee's weakness due to oil and outflows, and Modi's austerity pitch impacting consumer-facing stocks, adding to a cautious sentiment. Specific stock recommendations and Q4 results are mixed, but the broader macroeconomic concerns are weighing on sentiment.",
-    "confluence_summary": "The market closed with a strong bearish bias, reflected in the sharp declines of Nifty and Bank Nifty, and further reinforced by a negative SGX Nifty. While the extremely oversold RSI suggests a potential for a relief rally, the immediate outlook is for a gap-down. The absence of reliable options data and conflicting trend signals (neutral vs. trending) create high uncertainty, making aggressive directional trades risky."
+    "global_analysis": "SGX Nifty's sharp fall (-1.83%) and negative US futures, coupled with rising crude oil prices and accelerating US inflation, indicate a strong bearish global sentiment. Geopolitical tensions and rising bond yields further exacerbate concerns, suggesting a cautious opening for Indian markets.",
+    "technical_analysis": "Both Nifty and Bank Nifty experienced significant declines (-1.83% and -1.63% respectively), pushing their RSIs into extremely oversold territory (0.0 for Nifty, 2.59 for Bank Nifty). While the Nifty RSI of 0.0 is an anomaly, it strongly suggests intense selling pressure. The current price being at EMA9/EMA21 after such a drop is unusual, but the price action itself is clearly bearish.",
+    "options_analysis": "The provided options data (PCR 1.0, Max Pain 0, Call/Put Support/Resistance 0) appears incomplete or anomalous, rendering a reliable options-based analysis impossible. This lack of robust options data significantly reduces confluence for immediate directional trades.",
+    "sentiment_analysis": "FII/DII flows were neutral for the day. Market news highlights global inflation concerns, rising crude, and mixed corporate earnings, contributing to a cautious to negative sentiment. The overall market mood is likely to remain subdued given these macro headwinds.",
+    "confluence_summary": "The market witnessed a sharp sell-off driven by negative global cues and inflation fears, leading to extremely oversold conditions. However, the anomalous technical and options data creates significant uncertainty, making aggressive directional trades highly risky without further confirmation of price action at the open."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 0,
+    "entry_zone": "",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 40,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23232.78 (Immediate Support)",
-      "23086.02 (Strong Support)",
-      "23641.93 (Immediate Resistance)"
+      "23232.78 (Support 1)",
+      "23086.02 (Support 2)",
+      "23641.93 (Resistance 1)"
     ],
-    "invalidation": "A sustained close above 23650 or a strong bounce from 23000 with significant volume and FII buying would invalidate the immediate bearish outlook."
+    "invalidation": "A strong gap-up opening above 23600 or a sustained bounce from 23200 levels with significant volume would invalidate a bearish bias. Conversely, a clear break below 23200 would confirm further downside."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 0,
+    "entry_zone": "",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 40,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "53000 (Psychological Support)",
-      "54000 (Psychological Resistance)"
+      "53200 (approx. psychological support)",
+      "54000 (approx. psychological resistance)"
     ],
-    "invalidation": "A strong reversal above 54000 or a breakdown below 53000 with follow-through selling would define the next directional move."
+    "invalidation": "A strong gap-up opening above 54200 or a sustained bounce from 53200 levels with significant volume would invalidate a bearish bias. Conversely, a clear break below 53200 would confirm further downside."
   },
   "what_to_watch": [
-    "Global market performance, especially US futures and Asian markets, for cues on tomorrow's open.",
-    "Crude oil price movements and the Rupee's stability, as they are significant macroeconomic factors.",
-    "FII/DII activity for tomorrow to gauge institutional sentiment after today's sharp fall.",
-    "Nifty's reaction to the 23232.78 and 23086.02 support levels, especially after a potential gap-down.",
-    "Build-up of Open Interest in Nifty and Bank Nifty options for the next expiry to identify fresh support and resistance."
+    "Global market opening, especially US futures and SGX Nifty, for immediate sentiment.",
+    "Crude oil price movement, as sustained high levels can fuel inflation concerns.",
+    "India 10-year bond yields, which are reacting to rising oil and war jitters.",
+    "Nifty and Bank Nifty's opening behavior (gap up/down, consolidation) and initial price action around key support levels.",
+    "Any fresh FII/DII data or significant market-moving news."
   ],
   "risk_factors": [
-    "Further escalation in crude oil prices could severely impact India's economy and corporate earnings.",
-    "Continued FII outflows, if they resume, could put sustained pressure on the market.",
-    "Global economic slowdown concerns, particularly from major economies, could dampen investor appetite.",
-    "The unreliability of current options data makes it difficult to assess market depth and potential turning points.",
-    "High volatility expected due to potential gap-down and extremely oversold conditions, leading to whipsaws."
+    "Geopolitical tensions (Iran war jitters) could escalate, impacting global markets.",
+    "Accelerating US inflation and potential hawkish shifts from the Fed could trigger global risk-off sentiment.",
+    "High volatility due to extreme oversold conditions, which could lead to sharp relief rallies or further capitulation.",
+    "Uncertainty stemming from incomplete or anomalous options data, making it difficult to gauge market positioning."
   ]
 }
