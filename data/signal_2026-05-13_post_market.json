@@ -1,54 +1,54 @@
 {
   "session": "post_market",
   "date": "2026-05-13",
-  "timestamp": "16:52 IST",
-  "market_bias": "neutral",
+  "timestamp": "19:30 IST",
+  "market_bias": "weak bullish",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed to slightly positive. SGX Nifty, Nikkei, Hang Seng, and Nasdaq futures show positive momentum, while Dow futures are marginally negative. Crude oil is flat, and gold is up, indicating a cautious yet not overtly bearish global backdrop.",
-    "technical_analysis": "The technical data for both Nifty and Bank Nifty presents significant inconsistencies. The EMA9 and EMA21 values are identical to the current closing prices, which is highly unusual. Furthermore, the RSI for Nifty at 3.37 and Bank Nifty at 0.0 are extremely oversold readings that contradict the marginal price changes (+0.14% for Nifty, -0.18% for Bank Nifty) and the 'trending' market regime. These data points appear anomalous and make reliable technical analysis impossible.",
-    "options_analysis": "Options data for both indices shows a PCR of 1.0, indicating a neutral stance. However, the Max Pain, Call Resistance, and Put Support values are all reported as 0, which suggests incomplete or erroneous data. This lack of critical options chain information prevents any meaningful options-based analysis for directional bias or key levels.",
-    "sentiment_analysis": "FII/DII activity is neutral for the day. Market news indicates positive sentiment with strong corporate earnings (Tata Motors CV), bullish brokerage calls on several stocks (HDFC Bank, Tejas Networks, Bajaj Finance), and Morgan Stanley's bullish outlook on India. Mid and small-caps outperformed, suggesting broader market participation and underlying strength, despite the headline indices' muted performance.",
-    "confluence_summary": "The market is presenting highly conflicting signals. While the overall market regime is stated as 'trending' and 'favorable', and sentiment from news flow is cautiously positive, the core technical and options data provided is severely inconsistent and unreliable (especially RSI, EMA, and options chain details). This critical lack of dependable data prevents any confident directional bias or trade formulation."
+    "global_analysis": "Global cues are mixed, with Asian markets showing slight positive momentum while US futures are mildly negative. Crude oil and gold are slightly up, indicating some underlying commodity strength but providing no strong directional impetus for the Indian market.",
+    "technical_analysis": "Both Nifty and Bank Nifty are showing extremely oversold RSI readings (3.37 and 0.0 respectively), which is a strong contrarian indicator for a potential bounce. However, the stated 'neutral' trend and identical EMA9/21 to current price suggest a lack of clear momentum or potentially flawed data, making conviction difficult.",
+    "options_analysis": "The options data is largely inconclusive with PCR at 1.0 (neutral) for both indices and Max Pain, Call Resistance, and Put Support all showing 0. This indicates a lack of significant open interest data or a very balanced options chain, making it difficult to derive a strong directional bias from derivatives.",
+    "sentiment_analysis": "FII/DII data is neutral, indicating no significant institutional flow bias. Market news highlights some midcap rallies and specific stock recommendations, but no overarching sentiment for the broader market. The 'trending' regime with a 'favorable' signal contradicts the neutral technicals, adding to the ambiguity.",
+    "confluence_summary": "While the extremely oversold RSI suggests a potential bounce, the overall market lacks strong directional confluence. Neutral trends, inconclusive options data, and mixed global cues prevent a high-conviction trade setup, leading to a cautious 'NO TRADE' stance despite the oversold conditions."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23400 (psychological)",
-      "23255 (reported support)",
-      "23576 (reported resistance)"
+      "23255.78 (Support)",
+      "23576.18 (Resistance)"
     ],
-    "invalidation": "The current technical data is too inconsistent to formulate a reliable trade. Any trade based on this data would be highly speculative."
+    "invalidation": "N/A"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "53500 (psychological)"
+      "53456.15 (Current/Implied Support)"
     ],
-    "invalidation": "The current technical data is too inconsistent to formulate a reliable trade. Any trade based on this data would be highly speculative."
+    "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Resolution of the reported technical data inconsistencies (RSI, EMA values, and options chain data) for Nifty and Bank Nifty.",
-    "Global market performance overnight, especially US indices, for directional cues.",
-    "FII/DII activity for the next session to gauge institutional conviction.",
-    "Any significant corporate news or economic data releases that could impact market sentiment."
+    "Confirmation of a bounce from oversold levels through price action and volume.",
+    "Fresh FII/DII activity for directional institutional sentiment.",
+    "Global market performance, especially US futures and European markets.",
+    "Any updates on options chain data for clearer Max Pain and OI analysis.",
+    "Price action around Nifty's 23255 support and Bank Nifty's implied support."
   ],
   "risk_factors": [
-    "The severe inconsistencies in the provided technical and options data make any analysis and trade decision highly unreliable.",
-    "Mixed global cues could lead to increased volatility and uncertainty.",
-    "Lack of clear FII/DII directional flow indicates a wait-and-watch approach from institutions.",
-    "Potential for sudden shifts in sentiment due to unforeseen events, especially given the current data ambiguity."
+    "Incomplete or potentially flawed technical data (EMAs, Max Pain, OI).",
+    "Lack of strong directional confluence across multiple indicators.",
+    "Sudden shifts in global market sentiment or geopolitical events.",
+    "Potential for oversold conditions to persist or deepen without a bounce."
   ]
 }
