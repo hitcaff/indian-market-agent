@@ -1,57 +1,56 @@
 {
   "session": "post_market",
   "date": "2026-05-14",
-  "timestamp": "16:36 IST",
+  "timestamp": "18:54 IST",
   "market_bias": "bullish",
-  "bias_strength": "weak",
+  "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global cues are largely positive with SGX Nifty, Dow, and Nasdaq futures all showing gains, suggesting a positive sentiment for tomorrow's opening. Nikkei's decline is a minor counterpoint, but US markets and our own Gift Nifty are leading the way.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed strongly positive, gaining over 1% each, indicating a significant bounce. However, the RSI for both indices remains deeply oversold (Nifty 28.02, Bank Nifty 26.62) despite the rally, suggesting the underlying trend might still be weak or it was a sharp short-covering move from extreme lows. The 'neutral' trend and 'ranging' regime also contradict the strong daily move.",
-    "options_analysis": "As it was a weekly expiry day, PCR at 1.0 and Max Pain/OI values at 0 are expected post-market. These provide no forward-looking insights for the next session's directional bias.",
-    "sentiment_analysis": "FII/DII data is neutral for the day. Market news is predominantly positive, highlighting strong corporate earnings (JSW Steel, HUDCO), a broad-based rally across sectors (bank, metal, pharma), and positive global tech sentiment (Nvidia). The rupee's record low near 96 per USD due to energy risks remains a key concern.",
-    "confluence_summary": "Despite a strong positive close and supportive global cues, the deeply oversold RSI values for both indices after a significant rally present a conflicting picture. This suggests a potential bounce from extreme weakness rather than a confirmed trend reversal. The 'neutral' trend and 'ranging' regime further add to the cautious outlook, leading to a weak bullish bias for the next session, contingent on follow-through buying."
+    "global_analysis": "Global cues are largely positive with SGX Nifty mirroring Nifty's strong close and Dow Futures showing strength, though Nasdaq is slightly down. This suggests a supportive backdrop for Indian markets, potentially aiding a continuation of today's bounce.",
+    "technical_analysis": "Both Nifty and Bank Nifty witnessed strong positive closes (+1.18% and +1.26% respectively) from deeply oversold RSI levels (28.02 and 26.62). While the trend is noted as 'neutral' and regime 'ranging', this strong bounce from extreme lows indicates short-term bullish momentum, likely pushing prices above their short-term EMAs.",
+    "options_analysis": "The PCR for both indices is neutral at 1.0. However, Max Pain, Call Resistance, and Put Support data are zeroed out due to today's weekly expiry, making it impossible to derive insights from the options chain for the immediate future.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. Market news includes positive US market sentiment driven by AI stocks and mixed corporate results domestically. Brokerage calls are predominantly positive on key large-cap stocks like HDFC Bank and Bajaj Finance, adding a positive undertone.",
+    "confluence_summary": "The most compelling confluence is the strong positive price action on both Nifty and Bank Nifty occurring from deeply oversold RSI levels. This suggests a powerful bounce or potential reversal. Despite the 'neutral' trend and missing options data, the immediate short-term momentum, supported by positive global cues, leans towards a continuation of this recovery."
   },
   "nifty_trade": {
     "direction": "LONG",
     "entry_zone": "23650 - 23700",
-    "stop_loss": 23580,
+    "stop_loss": 23550,
     "target_1": 23835,
     "target_2": 23980,
-    "confidence_pct": 60,
-    "risk_reward": "1:1.7",
+    "confidence_pct": 65,
+    "risk_reward": "1:1.8",
     "key_levels_to_watch": [
-      "23750 (intraday resistance)",
-      "23835 (R1)",
-      "23580 (immediate support)"
+      "23485 (Support)",
+      "23835 (Resistance 1)",
+      "23980 (Resistance 2)"
     ],
-    "invalidation": "Sustained trading below 23580 or a significant negative global opening."
+    "invalidation": "A sustained break and close below 23550, or significant negative global cues overnight."
   },
   "banknifty_trade": {
     "direction": "LONG",
-    "entry_zone": "54000 - 54100",
-    "stop_loss": 53850,
-    "target_1": 54450,
-    "target_2": 54770,
-    "confidence_pct": 60,
-    "risk_reward": "1:2",
+    "entry_zone": "53950 - 54050",
+    "stop_loss": 53700,
+    "target_1": 54500,
+    "target_2": 54800,
+    "confidence_pct": 70,
+    "risk_reward": "1:2.1",
     "key_levels_to_watch": [
-      "54200 (intraday resistance)",
-      "54450 (inferred R1)",
-      "53850 (immediate support)"
+      "53700 (Support)",
+      "54500 (Resistance 1)",
+      "54800 (Resistance 2)"
     ],
-    "invalidation": "Sustained trading below 53850 or a significant negative global opening."
+    "invalidation": "A sustained break and close below 53700, or a sharp reversal in Nifty's momentum."
   },
   "what_to_watch": [
-    "Follow-through buying from FIIs and DIIs to confirm the rally.",
-    "Global market sentiment, especially US futures, for sustained positive cues.",
-    "Movement of the Indian Rupee, as its depreciation could impact sentiment and FII flows.",
-    "Nifty and Bank Nifty sustaining above their respective EMA9/21 levels.",
-    "RSI moving out of oversold territory to confirm strength."
+    "Overnight performance of US markets and fresh global cues.",
+    "FII/DII activity for the next trading session (to be released tomorrow post-market).",
+    "How Nifty and Bank Nifty react to immediate resistance levels, especially if there's a gap-up opening.",
+    "The formation of the new weekly option chain for insights into fresh OI build-up and Max Pain."
   ],
   "risk_factors": [
-    "The contradictory deeply oversold RSI despite a strong rally suggests underlying weakness or a potential 'dead cat bounce'.",
-    "Global geopolitical tensions or unexpected negative news could quickly reverse sentiment.",
-    "Further depreciation of the Rupee could lead to FII outflows and dampen market enthusiasm.",
-    "The 'ranging' market regime and 'neutral' trend could reassert themselves, leading to consolidation or a reversal of today's gains."
+    "The 'neutral' trend and 'ranging' regime suggest that this bounce might be a short-term recovery within a broader consolidation, rather than a sustained uptrend.",
+    "The absence of actionable options data for tomorrow's open makes gauging immediate sentiment and potential expiry-related moves challenging.",
+    "The anomalous EMA data (equal to current price) and 'oversold' RSI despite a strong positive close indicate a potentially volatile environment or a sharp V-shaped recovery, which can be tricky to trade.",
+    "The 'elevated' risk level and 'HIGH RISK DAY' warning (though for today's expiry) imply continued caution is warranted."
   ]
 }
