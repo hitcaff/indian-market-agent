@@ -1,55 +1,58 @@
 {
   "session": "post_market",
   "date": "2026-05-15",
-  "timestamp": "16:40 IST",
+  "timestamp": "18:53 IST",
   "market_bias": "bearish",
   "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global markets are showing significant weakness, with US futures, Nikkei, and Hang Seng all down, and South Korea's Kospi experiencing a major crash. Crude oil and gold also declined, reflecting widespread risk aversion and concerns over geopolitical tensions, particularly the Iran war, which is impacting European shares.",
-    "technical_analysis": "Nifty 50 and Bank Nifty both closed in negative territory, with Bank Nifty showing more pronounced weakness. Both indices exhibit bearish RSI readings (Nifty 39.13, Bank Nifty 32.42), indicating underlying selling pressure. The EMAs being flat around current price points suggest a lack of strong directional momentum after the day's decline.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from options participants. However, the absence of specific Max Pain, Call Resistance, and Put Support data limits a deeper options-based conviction, reinforcing a cautious outlook rather than providing clear directional signals.",
-    "sentiment_analysis": "FII/DII activity was neutral for the day, offering no clear directional bias from institutional investors. Market news highlights global concerns like the Kospi crash and European market tumble due to geopolitical risks, while domestic expert views suggest limited upside for 2026, contributing to an overall cautious to negative sentiment.",
-    "confluence_summary": "The confluence of negative global cues, bearish technical indicators (RSI), and a market operating under a high volatility regime with a 'caution' signal strongly suggests a bearish undertone. The lack of clear FII/DII direction and sparse options data further advocate for a cautious, 'no trade' approach for the immediate future, prioritizing capital preservation."
+    "global_analysis": "Major global indices, including Dow, Nasdaq, Nikkei, and Hang Seng, closed significantly lower, with US futures tumbling on renewed inflation worries. SGX Nifty also reflects this global weakness, indicating a negative opening sentiment for Indian markets. Crude oil and gold also saw declines, suggesting a broader risk-off environment.",
+    "technical_analysis": "Both Nifty and Bank Nifty exhibit bearish RSI readings (39.13 and 32.42 respectively), signaling underlying weakness. Bank Nifty's larger percentage drop and lower RSI indicate it's relatively weaker. While the trend is technically neutral, the EMAs being at the current price point to indecision or recent sharp moves, with bearish momentum dominating.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from the options market. The absence of specific Max Pain, Call Resistance, and Put Support values limits a deeper options-based directional conviction, but the neutral PCR doesn't negate the bearish technical and global cues.",
+    "sentiment_analysis": "FII/DII activity was neutral for the day. While some domestic corporate results (Tata Steel, Hindustan Copper) were strong, the overarching sentiment is cautious, as highlighted by an expert view suggesting no runaway rally in 2026 and the global inflation concerns impacting US markets. The high volatility regime further adds to the cautious outlook.",
+    "confluence_summary": "The strong bearish global cues, coupled with bearish technical indicators (RSI) for both Nifty and Bank Nifty, particularly Bank Nifty's relative weakness, point towards a moderate bearish bias. The high volatility regime and caution signal reinforce the need for prudence, making fresh directional trades risky despite the underlying bearish sentiment."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "entry_zone": "0 - 0",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23556.1 (Support)",
-      "23785.1 (Resistance)"
+      "23556.1 (Support 1)",
+      "23468.7 (Support 2)",
+      "23785.1 (Resistance 1)",
+      "23926.7 (Resistance 2)"
     ],
-    "invalidation": "The current market conditions, including high volatility and an unfavorable risk-reward ratio (0.87), do not support a high-conviction trade at this juncture."
+    "invalidation": "Market conditions remain highly volatile and uncertain, awaiting clearer directional cues or a sustained break of key support/resistance levels with conviction."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "entry_zone": "0 - 0",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
       "53500 (Psychological Support)",
-      "54000 (Psychological Resistance)"
+      "53000 (Strong Support)",
+      "54000 (Psychological Resistance)",
+      "54500 (Resistance)"
     ],
-    "invalidation": "High volatility regime and a confidence level below the threshold (60%) warrant skipping any directional trades for Bank Nifty at this time."
+    "invalidation": "High volatility persists, and a clear directional trend with strong volume is not established, making fresh trades risky. Awaiting confirmation of trend reversal or continuation."
   },
   "what_to_watch": [
-    "Global market sentiment, particularly US futures and Asian market performance, for directional cues.",
-    "Crude oil price movements, given the ongoing geopolitical tensions and their impact on inflation.",
-    "FII/DII flow data for the next session to gauge institutional participation and sentiment shifts.",
-    "Nifty's ability to hold the immediate support of 23556.1 and Bank Nifty's reaction around 53500 levels.",
-    "Any further developments regarding geopolitical tensions in the Middle East."
+    "Global market performance, especially US and Asian markets, for directional cues at opening.",
+    "FII/DII activity for the upcoming session to gauge institutional sentiment and potential flow direction.",
+    "Nifty and Bank Nifty's reaction to their immediate support and resistance levels, particularly if there's a gap down.",
+    "Any further news regarding global inflation or interest rate outlook, as this is currently driving global sentiment."
   ],
   "risk_factors": [
-    "Escalation of geopolitical tensions (Iran war) could trigger further global market sell-offs.",
-    "Sustained high volatility leading to unpredictable price swings and increased risk of whipsaws.",
-    "Lack of strong institutional buying support (FII/DII) could leave the market vulnerable to downside.",
-    "Potential for sharp downside if key support levels are breached, especially with bearish RSI readings."
+    "Elevated global market volatility leading to potential sharp gap-downs or gap-ups, making entries difficult.",
+    "Uncertainty surrounding global inflation and interest rate hikes, which could continue to impact investor sentiment negatively.",
+    "Lack of strong FII/DII conviction, which could lead to choppy and range-bound price action.",
+    "The market being in a 'high_volatility' regime increases the risk of stop-loss hunting and whipsaws."
   ]
 }
