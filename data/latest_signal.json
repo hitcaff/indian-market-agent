@@ -1,56 +1,57 @@
 {
   "session": "post_market",
   "date": "2026-05-18",
-  "timestamp": "17:48 IST",
+  "timestamp": "20:20 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed to negative, with Asian markets closing lower and US futures showing weakness. However, SGX Nifty is marginally positive, indicating some resilience. The significant drop in crude oil prices could be a positive for India's import bill but also signals broader global demand concerns.",
-    "technical_analysis": "Nifty 50 is trading at 23,649.95, showing a marginal gain, but its RSI at 87.29 indicates extreme overbought conditions, suggesting a potential for profit booking or consolidation. Bank Nifty closed slightly negative at 53,537.00 with a neutral RSI of 49.33. Both indices show a 'neutral' trend, and the EMA data suggests a lack of clear short-term momentum.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty is 1.0, indicating a neutral stance with balanced call and put activity. The absence of significant Max Pain, Call Resistance, and Put Support data (values at 0) prevents a strong options-derived directional bias, reinforcing the overall neutral outlook.",
-    "sentiment_analysis": "FII/DII data for the day is neutral. However, the broader sentiment is impacted by significant FPI selling (\u20b92 lakh crore year-to-date) and the rupee's slide, which are bearish undertones. Despite this, some individual stocks are hitting 52-week highs, and brokerages are issuing buy calls, indicating selective bullishness amidst a 'high volatility' and 'caution' market regime.",
-    "confluence_summary": "The market presents a complex and indecisive picture. Nifty's overbought RSI signals caution, while Bank Nifty remains neutral. Mixed global cues, flat FII/DII flows for the day (though FPIs are net sellers YTD), and neutral technical trends with inconclusive options data all point towards a lack of strong directional conviction. The high volatility and caution signal further advocate for a wait-and-watch approach."
+    "global_analysis": "Global cues are mixed, with SGX Nifty marginally positive, but major Asian markets like Nikkei and Hang Seng showing declines. US futures are also split, with Nasdaq down and Dow up. The significant drop in Crude Oil prices (-3.54%) could be a positive for India, but overall global sentiment lacks a strong directional conviction.",
+    "technical_analysis": "Nifty 50 is trading flat with an extremely high RSI of 87.29, indicating severe overbought conditions and suggesting a potential consolidation or pullback. Despite this, its trend is marked as 'neutral'. Bank Nifty also shows a 'neutral' trend with an RSI of 49.33, indicating no strong momentum or directional bias. Both indices have EMA9 and EMA21 at current price, reinforcing neutrality.",
+    "options_analysis": "The provided options data for both Nifty and Bank Nifty (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) is insufficient for a meaningful analysis of open interest build-up or key strike price activity. This critical lack of actionable options data prevents deriving any strong directional cues from the derivatives segment.",
+    "sentiment_analysis": "FII/DII activity is neutral with \u20b90 Cr net flow, indicating a lack of institutional conviction. Market news is mixed, featuring some positive stock-specific reports and global concerns like US stocks falling, though the provided crude data shows a drop. The 'GIFT Nifty jumps nearly 1%' news is positive, but the actual SGX Nifty is only +0.03%, creating a discrepancy.",
+    "confluence_summary": "The market is characterized by high volatility and a neutral trend across both Nifty and Bank Nifty. Nifty's overbought RSI suggests caution, while Bank Nifty remains range-bound. Mixed global cues, neutral FII/DII data, and critically, the absence of comprehensive options data, lead to insufficient confluence for any high-conviction directional trade. Therefore, a 'NO TRADE' stance is prudent."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23412.82",
-      "23791.37"
+      "23412.82 (Support)",
+      "23791.37 (Resistance)",
+      "23932.78 (Resistance)"
     ],
     "invalidation": "N/A"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "53000",
-      "54000"
+      "53537.00 (Current Level)"
     ],
     "invalidation": "N/A"
   },
   "what_to_watch": [
     "Global market performance, especially US and Asian indices, for directional cues.",
-    "FII/DII flows for any significant shift in institutional sentiment.",
-    "Crude oil price movements, as a significant drop could ease inflation concerns for India.",
-    "Nifty's ability to consolidate or correct from its overbought levels.",
-    "Rupee movement and global bond yields, which are impacting market sentiment."
+    "Crude oil price movements, given the significant drop, and its potential impact on Indian equities.",
+    "FII/DII activity for any signs of renewed institutional buying or selling.",
+    "Nifty's reaction to its extremely overbought RSI and how it interacts with key support and resistance levels.",
+    "Development of options chain data for Nifty and Bank Nifty to gauge market participants' positioning and identify key strike prices.",
+    "Any fresh geopolitical news or domestic economic data releases."
   ],
   "risk_factors": [
-    "Nifty's extremely overbought RSI (87.29) poses a significant risk of a sharp correction or profit booking.",
-    "Continued FPI selling pressure, as highlighted by the \u20b92 lakh crore outflow in 2026, could weigh heavily on the market.",
-    "Escalation of geopolitical tensions (Iran war) could lead to increased market volatility and impact global crude prices.",
-    "High market volatility, as indicated by the ATR%, increases the risk for derivative traders.",
-    "Global bond rout and persistent inflation fears could dampen investor confidence."
+    "High market volatility (ATR% 1.43%) can lead to sharp, unpredictable moves.",
+    "Nifty's severely overbought RSI (87.29) increases the risk of a sudden and significant correction.",
+    "Mixed global cues and neutral FII/DII flows contribute to uncertainty and lack of clear market direction.",
+    "The absence of comprehensive options data makes it challenging to assess market sentiment and potential turning points from the derivatives segment.",
+    "Discrepancy between 'GIFT Nifty jumps nearly 1%' news and actual SGX Nifty (+0.03%) could indicate conflicting information or delayed updates."
   ]
 }
