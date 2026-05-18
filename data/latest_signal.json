@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-05-18",
-  "timestamp": "15:29 IST",
+  "timestamp": "17:48 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global markets present a cautious picture with US and key Asian indices (Dow, Nasdaq, Nikkei, Hang Seng) trading in negative territory. While SGX Nifty is flat, the overall international sentiment suggests a subdued opening for Indian markets. The decline in crude oil prices, however, could offer some relief from recent inflation and bond yield concerns.",
-    "technical_analysis": "Nifty 50 closed flat, but its RSI at an extreme 87.13 indicates severely overbought conditions, signaling potential exhaustion or a sharp correction. Bank Nifty also closed relatively flat with a neutral RSI of 48.88. The identical EMA9 and EMA21 values for both indices suggest extreme consolidation around current levels or a potential data anomaly, reinforcing a non-trending environment.",
-    "options_analysis": "PCR for both Nifty and Bank Nifty stands at a neutral 1.0. However, critical options data points such as Max Pain, Call Resistance, and Put Support are reported as 0, rendering a comprehensive options chain analysis impossible and limiting insights into immediate support/resistance from options activity.",
-    "sentiment_analysis": "FII and DII flows were neutral for the day, indicating no significant institutional directional bias. Market news is mixed; while IT and some financial stocks show positive momentum, concerns persist regarding bond yields, rupee weakness, and potential risks to rural recovery. Specific stock news also presents a mixed bag of positive and negative catalysts.",
-    "confluence_summary": "Despite Nifty's flat close, the extremely overbought RSI (87.13) combined with negative global cues suggests a strong potential for a pullback or consolidation. The market is currently in a high-volatility, non-trending regime, making clear directional trades challenging without further confirmation. The overall bias remains neutral but with a strong underlying cautionary tone due to the overextended Nifty."
+    "global_analysis": "Global cues are mixed to negative, with Asian markets closing lower and US futures showing weakness. However, SGX Nifty is marginally positive, indicating some resilience. The significant drop in crude oil prices could be a positive for India's import bill but also signals broader global demand concerns.",
+    "technical_analysis": "Nifty 50 is trading at 23,649.95, showing a marginal gain, but its RSI at 87.29 indicates extreme overbought conditions, suggesting a potential for profit booking or consolidation. Bank Nifty closed slightly negative at 53,537.00 with a neutral RSI of 49.33. Both indices show a 'neutral' trend, and the EMA data suggests a lack of clear short-term momentum.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty is 1.0, indicating a neutral stance with balanced call and put activity. The absence of significant Max Pain, Call Resistance, and Put Support data (values at 0) prevents a strong options-derived directional bias, reinforcing the overall neutral outlook.",
+    "sentiment_analysis": "FII/DII data for the day is neutral. However, the broader sentiment is impacted by significant FPI selling (\u20b92 lakh crore year-to-date) and the rupee's slide, which are bearish undertones. Despite this, some individual stocks are hitting 52-week highs, and brokerages are issuing buy calls, indicating selective bullishness amidst a 'high volatility' and 'caution' market regime.",
+    "confluence_summary": "The market presents a complex and indecisive picture. Nifty's overbought RSI signals caution, while Bank Nifty remains neutral. Mixed global cues, flat FII/DII flows for the day (though FPIs are net sellers YTD), and neutral technical trends with inconclusive options data all point towards a lack of strong directional conviction. The high volatility and caution signal further advocate for a wait-and-watch approach."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -20,11 +20,10 @@
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23788.4 (Resistance)",
-      "23645.5 (Current/EMA)",
-      "23409.85 (Support)"
+      "23412.82",
+      "23791.37"
     ],
-    "invalidation": "N/A - No trade proposed due to lack of clear directional confluence and high risk from overbought conditions."
+    "invalidation": "N/A"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -35,21 +34,23 @@
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "53524.3 (Current/EMA)"
+      "53000",
+      "54000"
     ],
-    "invalidation": "N/A - No trade proposed due to lack of clear directional confluence and a non-trending, high-volatility regime."
+    "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Global market opening and performance of US and Asian indices tomorrow.",
-    "Nifty's reaction to the 23,600-23,700 zone, especially given the overbought RSI and potential for profit booking.",
-    "Any significant shifts in FII/DII flows in the upcoming sessions.",
-    "Movement in crude oil prices and its implications for Indian bond yields and inflation outlook.",
-    "Performance of key sectoral indices, particularly IT and Banking, which have seen mixed signals."
+    "Global market performance, especially US and Asian indices, for directional cues.",
+    "FII/DII flows for any significant shift in institutional sentiment.",
+    "Crude oil price movements, as a significant drop could ease inflation concerns for India.",
+    "Nifty's ability to consolidate or correct from its overbought levels.",
+    "Rupee movement and global bond yields, which are impacting market sentiment."
   ],
   "risk_factors": [
-    "Extreme overbought Nifty RSI (87.13) indicating a high probability of a sharp correction or consolidation.",
-    "Negative global market sentiment potentially weighing down domestic indices.",
-    "High volatility and non-trending market regime leading to choppy and unpredictable price action.",
-    "Unreliable options data (Max Pain, OI reported as 0) making it difficult to gauge immediate market sentiment and positioning."
+    "Nifty's extremely overbought RSI (87.29) poses a significant risk of a sharp correction or profit booking.",
+    "Continued FPI selling pressure, as highlighted by the \u20b92 lakh crore outflow in 2026, could weigh heavily on the market.",
+    "Escalation of geopolitical tensions (Iran war) could lead to increased market volatility and impact global crude prices.",
+    "High market volatility, as indicated by the ATR%, increases the risk for derivative traders.",
+    "Global bond rout and persistent inflation fears could dampen investor confidence."
   ]
 }
