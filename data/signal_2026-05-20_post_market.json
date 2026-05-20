@@ -1,57 +1,55 @@
 {
   "session": "post_market",
   "date": "2026-05-20",
-  "timestamp": "17:10 IST",
+  "timestamp": "19:59 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed with SGX Nifty, Dow, and Nasdaq futures showing mild positivity, while Asian markets like Nikkei and Hang Seng closed in the red. A significant drop in crude oil prices (-5.28%) adds a layer of complexity, potentially positive for India but also signaling global demand concerns.",
-    "technical_analysis": "Nifty closed marginally positive but exhibits a bearish RSI (37.81) and a neutral trend, with EMA9 and EMA21 converging at the current price, indicating indecision. Bank Nifty also closed positive, but its RSI is deeply oversold (17.53), suggesting a potential bounce, though its trend remains neutral with EMAs also converged.",
-    "options_analysis": "Both Nifty and Bank Nifty show a neutral PCR of 1.0, indicating a balanced sentiment between call and put writers. The absence of specific Max Pain, Call Resistance, and Put Support values (reported as 0) prevents a deeper options-based directional conviction.",
-    "sentiment_analysis": "FII/DII data is neutral for the day, offering no clear institutional flow direction. Market news is a mixed bag, with some positive stock-specific recommendations and Nifty's recovery, but also cautionary notes about FIIs returning and global investors being in a 'wait-and-watch' mode.",
-    "confluence_summary": "The market is characterized by high volatility and a non-trending regime, with technicals showing indecision for Nifty and an oversold condition for Bank Nifty. Coupled with mixed global cues, neutral institutional flows, and balanced options data, there's a clear lack of strong conviction for any directional trade at this juncture, warranting caution."
+    "global_analysis": "Global cues are mixed with positive US futures (Dow, Nasdaq) potentially driven by chip stocks ahead of Nvidia results, while Asian markets (Nikkei, Hang Seng) closed lower. A significant drop in Crude Oil prices (-6.85%) is a notable positive for India, potentially easing inflationary pressures.",
+    "technical_analysis": "Both Nifty and Bank Nifty are showing neutral trends, with prices hovering around their short-term EMAs (9 & 21), indicating a lack of clear direction. Nifty's RSI at 37.81 is in the bearish zone, while Bank Nifty's RSI is deeply oversold at 17.53, presenting conflicting signals. The market is explicitly in a high volatility regime, making directional trades inherently risky.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty is 1.0, indicating a perfectly neutral stance with balanced call and put activity. However, the Max Pain, Call Resistance, and Put Support data are all zero, which significantly limits a comprehensive options-based analysis for drawing strong directional conclusions.",
+    "sentiment_analysis": "FII/DII flows are neutral for the day, offering no clear institutional direction. Market news presents a mixed bag of positive corporate results (Apollo Hospitals), a significant crude oil price drop, but also regulatory discussions (crypto safeguards) and weak demand in RBI's VRR auction, indicating underlying liquidity concerns despite RBI efforts.",
+    "confluence_summary": "The market is characterized by high volatility and a non-trending regime, with neutral technicals and mixed global/domestic cues. The conflicting RSI signals between Nifty (bearish) and Bank Nifty (oversold), coupled with neutral FII/DII data and incomplete options insights, suggest a lack of strong conviction for any directional move. Given the 'caution' signal and high volatility, it's prudent to remain on the sidelines."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 60,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23473.9 (Support)",
-      "23767.5 (Resistance)",
-      "23600 (Psychological)"
+      "23473.9 (Immediate Support)",
+      "23767.5 (Immediate Resistance)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "A clear break and sustained move above 23767.5 or below 23473.9 with significant volume would invalidate the current neutral stance and signal a potential directional bias."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 60,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "53000 (Psychological)",
-      "53500 (Current level)",
-      "54000 (Potential bounce target)"
+      "53000 (Psychological Support)",
+      "54000 (Psychological Resistance)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "A clear break and sustained move above 54000 or below 53000 with significant volume would invalidate the current neutral stance and signal a potential directional bias."
   },
   "what_to_watch": [
-    "Global market performance overnight, especially US futures and Asian markets for tomorrow's open.",
-    "Crude oil price stability after today's significant drop, and its implications for inflation.",
-    "FII/DII activity for any signs of renewed institutional participation or selling pressure.",
-    "Nifty's ability to sustain above 23600 and Bank Nifty's reaction to its deeply oversold RSI.",
-    "Any fresh economic data or geopolitical developments that could impact market sentiment."
+    "Global market performance, especially US indices and their reaction to upcoming earnings (e.g., Nvidia).",
+    "Crude oil price movements, given today's significant drop and its implications for inflation and corporate margins.",
+    "FII/DII activity for clearer institutional sentiment and potential directional cues in the coming sessions.",
+    "Nifty and Bank Nifty's ability to hold or break immediate support and resistance levels, particularly in a high volatility environment.",
+    "RBI's $5 billion USD/INR forex swap auction on May 26 and its potential impact on banking system liquidity and bond yields."
   ],
   "risk_factors": [
-    "The prevailing 'high_volatility' market regime increases the risk of sharp, unpredictable moves.",
-    "Lack of a clear trending signal makes directional bets challenging and prone to whipsaws.",
-    "Mixed global cues and the 'wait-and-watch' stance of global investors could lead to continued uncertainty.",
-    "Absence of strong FII/DII flows indicates a lack of conviction from major players, leaving the market susceptible to news-driven moves."
+    "The market is currently in a high volatility regime, which increases the risk for any directional trades.",
+    "Lack of clear directional cues from technical indicators and neutral institutional flows (FII/DII) contribute to uncertainty.",
+    "Mixed global sentiment and incomplete options data make it challenging to establish a strong market bias.",
+    "Conflicting RSI signals between Nifty (bearish) and Bank Nifty (oversold) indicate internal market divergence and indecision."
   ]
 }
