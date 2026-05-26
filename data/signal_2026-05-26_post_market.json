@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-05-26",
-  "timestamp": "15:23 IST",
+  "timestamp": "20:03 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed; while SGX Nifty showed a slight dip, US futures are positive, indicating a cautious yet not entirely negative sentiment. A significant drop in crude oil prices is a positive for the Indian economy, potentially easing inflationary pressures.",
-    "technical_analysis": "Both Nifty and Bank Nifty exhibit a neutral trend, with EMA9 and EMA21 converging precisely at their current prices, strongly indicating a lack of clear directional momentum. However, their RSIs are deeply in overbought territory (Nifty 76.03, Bank Nifty 86.1), signaling a high probability of consolidation or a potential pullback in the near term.",
-    "options_analysis": "The provided options data (PCR 1.0 for both, Max Pain 0, Call Resistance 0, Put Support 0) is incomplete, making it difficult to derive specific support/resistance levels or strong directional bias from the options chain. The neutral PCR offers no additional directional conviction.",
-    "sentiment_analysis": "FII/DII activity is neutral for the day, indicating no strong institutional conviction. News flow is mixed, with positive stock-specific developments (housing, Sebi initiatives, MobiKwik) balanced by concerns about QSR margin pressures and the impact of STT hike on options volumes, leading to an overall non-directional sentiment.",
-    "confluence_summary": "The market is firmly in a ranging regime with both Nifty and Bank Nifty showing deeply overbought RSIs, suggesting extreme caution for aggressive directional trades. The lack of clear signals from technicals (converging EMAs), FII/DII flows, and incomplete options data, combined with mixed global cues, strongly points towards a period of consolidation rather than a sustained trend."
+    "global_analysis": "Global cues are mixed; while US futures, particularly Nasdaq, show significant strength on 'Iran deal hopes' and 'AI-led rally', Asian markets like SGX Nifty, Nikkei, and Hang Seng are trading in the red. Crude oil's significant drop could be a positive for India, but the overall picture lacks a strong directional push from global markets.",
+    "technical_analysis": "Both Nifty and Bank Nifty are exhibiting overbought conditions with RSIs at 75.51 and 85.14 respectively, suggesting a potential for consolidation or correction. The 'neutral' trend and 'ranging' market regime, coupled with EMA9 and EMA21 being identical to current prices, strongly indicate a lack of clear directional momentum for the Indian indices.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a perfectly neutral stance from options traders. The reported 'Max Pain: 0', 'Call Resistance: 0', and 'Put Support: 0' are highly unusual and suggest either incomplete data or an extreme lack of conviction/open interest at specific strikes, effectively rendering options data unhelpful for directional bias.",
+    "sentiment_analysis": "FII/DII data is neutral with zero net flow, offering no fresh directional insights. While US market news is positive, there are no significant domestic triggers or overwhelming sentiment to sway the market in a particular direction, reinforcing a cautious and range-bound outlook.",
+    "confluence_summary": "The confluence of overbought technicals, a confirmed ranging market regime, neutral FII/DII flows, and an absence of clear directional signals from options data or global cues points to a strong 'NO TRADE' scenario. The market is likely to remain choppy and range-bound until a significant catalyst emerges to break the current equilibrium."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -17,13 +17,13 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 50,
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23838.47 (Support 1)",
-      "24042.82 (Resistance 1)"
+      "23836.17 (Support)",
+      "24040.52 (Resistance)"
     ],
-    "invalidation": "N/A - No trade proposed due to market neutrality and overbought conditions."
+    "invalidation": "N/A - No trade proposed"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -31,24 +31,24 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 50,
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
       "55000 (Psychological Support)",
-      "55500 (Psychological Resistance)"
+      "55500 (Potential Resistance)"
     ],
-    "invalidation": "N/A - No trade proposed due to market neutrality and extreme overbought conditions."
+    "invalidation": "N/A - No trade proposed"
   },
   "what_to_watch": [
-    "Global market performance, especially US indices and crude oil price stability, for directional cues.",
-    "Sustained FII/DII activity in the coming sessions for clearer institutional conviction.",
-    "Nifty and Bank Nifty's price action around their respective overbought RSI levels; watch for signs of consolidation or correction.",
-    "Any further updates on SEBI's initiatives (DLT tokenisation, bond market) and their potential market impact."
+    "Nifty's reaction to its immediate support at 23836 and resistance at 24040 for potential range-bound play.",
+    "The opening performance of US markets and further developments in crude oil prices.",
+    "Any fresh FII/DII activity that could signal a shift in institutional sentiment.",
+    "Updates on domestic economic data or corporate news that could provide a catalyst for a breakout from the current ranging regime."
   ],
   "risk_factors": [
-    "Elevated RSI levels across both indices, significantly increasing the probability of a short-term correction or extended consolidation.",
-    "Lack of strong conviction from FII/DII flows, indicating institutional indecision and potential for choppy price action.",
-    "Incomplete options data hindering a comprehensive understanding of open interest-based support and resistance levels.",
-    "Potential for increased volatility if global cues turn sharply negative, especially given the current overbought state."
+    "The highly overbought RSI levels for both indices increase the probability of a sharp correction or prolonged consolidation.",
+    "Mixed global cues could lead to increased volatility and choppy price action, making directional trades challenging.",
+    "The absence of reliable options data (Max Pain/OI at 0) reduces visibility into market positioning and potential turning points.",
+    "A confirmed 'ranging' market regime implies higher risk for directional bets until a clear breakout or breakdown is established."
   ]
 }
