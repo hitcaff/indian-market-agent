@@ -1,55 +1,57 @@
 {
   "session": "post_market",
   "date": "2026-05-27",
-  "timestamp": "15:12 IST",
+  "timestamp": "20:20 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed, with US futures showing mild positivity while Asian markets are largely indecisive. SGX Nifty mirrors our domestic market's flat close. The significant drop in crude oil is a positive for India, but overall, there's no strong directional push from the international front.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed with marginal losses, with their current prices perfectly aligning with both EMA9 and EMA21, indicating a strong lack of short-term trend. RSIs are in overbought territory for both indices (Nifty 73.39, Bank Nifty 80.55), suggesting potential for consolidation or a minor pullback rather than a fresh rally.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, reflecting a perfectly neutral stance among options participants. The absence of Max Pain, Call Resistance, and Put Support data makes a deeper options analysis challenging, but the neutral PCR reinforces the current ranging market regime.",
-    "sentiment_analysis": "FII and DII flows were neutral for the day, offering no directional bias. While there's positive stock-specific news, broader market sentiment is cautious, with mentions of FII outflows in Q1 and concerns over rising bond yields and inflation, contributing to the overall indecisive market mood.",
-    "confluence_summary": "The market is clearly in a ranging regime with low volatility, as evidenced by neutral technical indicators (EMA alignment, neutral PCR), overbought RSIs suggesting caution, and mixed global/sentiment cues. There is no strong confluence for a directional trade, making a 'NO TRADE' stance prudent for tomorrow's session."
+    "global_analysis": "Global cues are mixed; US markets show strength on AI optimism and Mideast truce hopes, while crude oil and gold are significantly down, which is generally positive for India's import bill. However, Asian markets are mixed to negative, indicating no strong global directional push.",
+    "technical_analysis": "Both Nifty and Bank Nifty are exhibiting highly overbought RSI levels (75.17 and 80.83 respectively) in a neutral trend and ranging market regime. The EMAs being identical to the current price suggest extreme flatness or consolidation, indicating a lack of strong directional momentum and potential for a pause or minor pullback.",
+    "options_analysis": "PCR for both indices stands at 1.0, indicating a neutral stance. Crucial data points like Max Pain, Call Resistance, and Put Support are missing, which prevents a comprehensive options-based directional analysis.",
+    "sentiment_analysis": "FII and DII activity is neutral for the day, offering no institutional conviction. Market news is mixed, with global positives (US strength, lower oil) balanced by specific corporate news and a report flagging concerns for HDFC Bank, which could weigh on Bank Nifty.",
+    "confluence_summary": "The market is currently in a ranging regime with both Nifty and Bank Nifty showing overbought RSIs, suggesting caution and a potential for consolidation or a minor pullback. Despite some supportive global cues from lower crude, the absence of strong institutional flow, inconclusive options data, and neutral technical trends warrant a 'NO TRADE' stance for now."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
+    "entry_zone": "",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
     "confidence_pct": 0,
-    "risk_reward": "N/A",
+    "risk_reward": "",
     "key_levels_to_watch": [
-      "23841.1 (Support)",
-      "23966.05 (Resistance)"
+      "23974.15 (Immediate Resistance)",
+      "23849.2 (Immediate Support)",
+      "24041.15 (Higher Resistance)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "A sustained breakout above 24041.15 or a decisive breakdown below 23791.25 with significant volume would invalidate the neutral stance and suggest a new directional bias."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
+    "entry_zone": "",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
     "confidence_pct": 0,
-    "risk_reward": "N/A",
+    "risk_reward": "",
     "key_levels_to_watch": [
-      "54845.95 (Current Price & EMA confluence)",
-      "RSI 80.55 (Overbought)"
+      "54853.85 (Current Level)",
+      "55000 (Psychological Resistance)",
+      "54500 (Psychological Support)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "A clear breakout above 55000 or a sustained breakdown below 54500 with strong follow-through would invalidate the neutral stance and indicate a new directional move."
   },
   "what_to_watch": [
-    "Sustained FII/DII activity for directional cues in the coming days.",
-    "Global market performance, especially US indices, for any significant shifts.",
-    "Nifty and Bank Nifty breaking out of their current narrow ranges with conviction.",
-    "RSI cooling off from overbought zones, potentially indicating a healthy consolidation.",
-    "Crude oil price stability after today's significant drop."
+    "The sustainability of the US market rally, particularly in the tech sector, and its impact on global sentiment.",
+    "Further movements in crude oil prices, as continued decline would be beneficial for the Indian economy.",
+    "Any significant shift in FII/DII flows, which could provide fresh directional cues.",
+    "Nifty's ability to hold above its immediate support of 23849.2 and its reaction to the 24000 psychological level.",
+    "Bank Nifty's response to the HDFC Bank news and whether its overbought RSI leads to profit booking or consolidation."
   ],
   "risk_factors": [
-    "Sharp correction due to overbought RSI levels, especially in Bank Nifty.",
-    "Continued FII outflows, as highlighted in the news, impacting market liquidity and sentiment.",
-    "Global macroeconomic concerns like inflation and rising bond yields could resurface.",
-    "Sudden volatility spikes in a low ATR% environment, catching traders off guard."
+    "Sudden reversal in global market sentiment, especially from US markets or geopolitical events.",
+    "Escalation of Middle East tensions leading to a spike in crude oil prices.",
+    "Any unexpected negative domestic news or policy announcements.",
+    "Sharp profit booking in both indices due to the prevailing overbought conditions."
   ]
 }
