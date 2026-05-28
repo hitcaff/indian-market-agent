@@ -1,54 +1,55 @@
 {
   "session": "post_market",
   "date": "2026-05-28",
-  "timestamp": "17:47 IST",
+  "timestamp": "20:31 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global markets are showing a slight negative bias, with Dow, Nasdaq, Nikkei, and Hang Seng all in the red. A significant concern is the sharp rise in Crude Oil prices (+2.82%), which could fuel inflationary pressures and impact India's economy as a net importer.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed precisely on their 9-day and 21-day EMAs, indicating strong indecision and a lack of clear directional momentum post-expiry. The RSI for both indices is in the overbought zone (Nifty 71.5, Bank Nifty 73.79), suggesting a potential for consolidation or a minor pullback.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a neutral 1.0. The absence of Max Pain, Call Resistance, and Put Support values suggests the data pertains to the expired series or is incomplete for the new monthly series, thus offering no actionable insights for future direction.",
-    "sentiment_analysis": "FII/DII data is neutral for the day, providing no directional cues. While some corporate news like Ashok Leyland's strong Q4 results and Reliance Jio IPO speculation are positive, the overall sentiment is tempered by global geopolitical tensions and rising crude oil prices.",
-    "confluence_summary": "The market is in a ranging regime with a neutral trend post-monthly expiry, characterized by converging EMAs and overbought RSIs. Global headwinds, particularly rising crude oil, add a cautious undertone. The lack of clear options data for the new series and neutral FII/DII further contribute to an environment of low conviction, validating a 'NO TRADE' stance."
+    "global_analysis": "Global cues are mixed, with SGX Nifty flat and US futures showing minor movements, while Asian markets like Nikkei and Hang Seng are broadly negative. Rising crude oil and gold prices, coupled with news of higher US inflation, suggest underlying global inflation concerns which could dampen sentiment.",
+    "technical_analysis": "Both Nifty and Bank Nifty exhibit a neutral trend, with current prices aligning with their EMA9 and EMA21, indicating consolidation. However, both indices are in the overbought zone as per RSI (Nifty 71.5, Bank Nifty 73.79), suggesting a potential for profit booking or a pullback. The market regime is 'ranging' and 'not trending,' reinforcing the lack of clear directional momentum.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a perfectly neutral 1.0, indicating a balanced sentiment in the options market. While Max Pain, Call Resistance, and Put Support are reported as 0 (likely due to post-expiry data reset), the neutral PCR confirms no strong directional bias from options participants.",
+    "sentiment_analysis": "FII/DII flows are neutral for the day, offering no institutional conviction. Market news is a mix of corporate updates and analyst recommendations, but macroeconomic concerns like rising crude and inflation, as highlighted by global news, could create cautious sentiment. The high-risk monthly expiry day typically leads to increased volatility and indecision.",
+    "confluence_summary": "The confluence of neutral technical trends, overbought RSIs, perfectly balanced options data (PCR 1.0), flat institutional flows, and mixed global cues, all compounded by the high-risk monthly expiry, strongly suggests a 'NO TRADE' stance. The market is in a ranging regime, lacking clear directional conviction."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "entry_zone": "XXXXX - XXXXX",
+    "stop_loss": "XXXXX",
+    "target_1": "XXXXX",
+    "target_2": "XXXXX",
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
+      "23849.2 (Support)",
       "23974.15 (Resistance)",
-      "23849.2 (Support)"
+      "24041.15 (Strong Resistance)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "A clear breakout above 24041.15 or below 23791.25 on significant volume would invalidate the neutral stance."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "entry_zone": "XXXXX - XXXXX",
+    "stop_loss": "XXXXX",
+    "target_1": "XXXXX",
+    "target_2": "XXXXX",
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "55000 (Psychological Resistance)",
-      "54500 (Psychological Support)"
+      "54853.85 (Current Price - key reference)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "A clear directional move with strong volume breaking out of the current consolidation would invalidate the neutral stance."
   },
   "what_to_watch": [
-    "Global market opening and performance, especially US and Asian markets.",
-    "Movement in Crude Oil prices, as sustained high levels could impact domestic inflation and corporate earnings.",
-    "FII/DII activity for the new monthly series to gauge institutional sentiment.",
-    "Nifty and Bank Nifty's ability to sustain above or break below their respective EMA levels and established support/resistance zones."
+    "Global market performance, especially US futures and Asian indices, for early morning cues.",
+    "Crude oil price movements and their impact on inflation expectations.",
+    "FII/DII activity for fresh institutional positioning post-expiry.",
+    "Nifty's ability to sustain above or break below its immediate support/resistance levels.",
+    "Any significant news flow related to inflation or central bank policies."
   ],
   "risk_factors": [
-    "Continued weakness in global markets and escalating geopolitical tensions.",
-    "Persistent rise in crude oil prices, leading to higher input costs and potential interest rate hikes.",
-    "Overbought RSI levels in both indices, increasing the probability of profit booking or a minor correction.",
-    "Lack of clear directional cues post-monthly expiry, leading to choppy and range-bound trading."
+    "Potential for sharp movements due to post-expiry unwinding and fresh positioning.",
+    "Global inflation concerns driven by rising crude oil and gold prices.",
+    "Overbought RSI on both indices, increasing the probability of a corrective move.",
+    "Lack of clear directional catalyst, leading to potential whipsaws in a ranging market."
   ]
 }
