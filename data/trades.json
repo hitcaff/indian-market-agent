@@ -245,5 +245,43 @@
     "win": true,
     "today_high": 54393.75,
     "today_low": 53191.6015625
+  },
+  {
+    "date": "2026-05-29",
+    "instrument": "NIFTY",
+    "direction": "LONG",
+    "entry_mid": 23475.0,
+    "stop_loss": 23300,
+    "target_1": 23700,
+    "target_2": 23850,
+    "confidence": 60,
+    "factor_signals": {},
+    "result": "T2_HIT",
+    "entry_price": 23902.15,
+    "exit_price": 23850,
+    "pnl_points": -52.15,
+    "pnl_inr": -7823,
+    "win": false,
+    "today_high": 24002.80078125,
+    "today_low": 23484.75
+  },
+  {
+    "date": "2026-05-29",
+    "instrument": "BANKNIFTY",
+    "direction": "LONG",
+    "entry_mid": 54150.0,
+    "stop_loss": 53900,
+    "target_1": 54450,
+    "target_2": 54700,
+    "confidence": 55,
+    "factor_signals": {},
+    "result": "T2_HIT",
+    "entry_price": 54748.3,
+    "exit_price": 54700,
+    "pnl_points": -48.3,
+    "pnl_inr": -3381,
+    "win": false,
+    "today_high": 55184.44921875,
+    "today_low": 54116.1484375
   }
 ]
