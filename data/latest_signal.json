@@ -1,55 +1,56 @@
 {
   "session": "post_market",
   "date": "2026-05-29",
-  "timestamp": "17:30 IST",
+  "timestamp": "20:03 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "SGX Nifty's significant drop of 1.50% indicates a strong negative sentiment for the Indian market, despite positive cues from US futures and other Asian markets like Nikkei and Hang Seng. The decline in crude oil is a positive for India, while rising gold prices suggest some risk aversion globally.",
-    "technical_analysis": "Both Nifty and Bank Nifty have closed significantly lower, with Nifty down 1.50% and Bank Nifty down 1.12%. Crucially, both indices are showing an extremely oversold RSI of 0.0, which is a strong contrarian signal for a potential short-term bounce or at least a halt in the downtrend. The EMAs matching the current price suggest a recent sharp move or data anomaly, but the oversold RSI takes precedence.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty is 1.0, indicating a neutral stance from the options market. The absence of specific Max Pain, Call Resistance, and Put Support values (reported as 0) makes a detailed options-based directional analysis inconclusive, limiting the confluence from this segment.",
-    "sentiment_analysis": "FII/DII activity is neutral for the day. Market news is mixed, with negative corporate results from IndiGo and Natco Pharma, but also positive analyst calls for HDFC Bank and Bajaj Finance. The strengthening Rupee is a positive. The 'ranging' market regime and 'neutral' signal suggest a lack of strong underlying conviction despite the day's price action.",
-    "confluence_summary": "The primary confluence is the significant daily drop pushing both Nifty and Bank Nifty into extremely oversold territory (RSI 0.0). While the immediate momentum is bearish, the oversold condition strongly suggests a high probability of a short-term bounce or a pause in selling. However, the lack of strong FII/DII support and clear options data, coupled with mixed global cues, keeps the overall bias neutral with a weak strength."
+    "global_analysis": "SGX Nifty's significant drop of 1.50% indicates a strong bearish sentiment and a likely gap-down opening for Indian markets. This is partially offset by positive US and other Asian futures, creating a mixed global picture. Crude oil is down, while gold is up, reflecting cautious sentiment.",
+    "technical_analysis": "Both Nifty and Bank Nifty are showing an extremely oversold RSI of 0.0, which is a strong contrarian signal suggesting a potential bounce or at least a halt in selling pressure after the implied gap down. However, the trend is officially neutral, and the market regime is ranging, indicating a lack of clear directional conviction despite the overnight decline.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a neutral 1.0. Crucially, the absence of Max Pain, Call Resistance, and Put Support data (all reported as 0) severely limits the ability to perform a comprehensive options chain analysis, making it difficult to gauge conviction levels for specific strikes.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. Market news is mixed, with some positive corporate updates (Dell, sales bookings) alongside concerns about monsoon impact and falling non-MF retail ownership. The implied gap down from SGX Nifty will likely weigh on immediate market sentiment, despite the oversold technicals.",
+    "confluence_summary": "The market is at a critical juncture. The significant bearish gap indicated by SGX Nifty is strongly countered by extremely oversold RSI levels on both Nifty and Bank Nifty, suggesting potential for a recovery bounce. With neutral FII/DII and unreliable options data, the market lacks strong directional conviction, necessitating a cautious 'wait and watch' approach for the open."
   },
   "nifty_trade": {
-    "direction": "LONG",
-    "entry_zone": "23450 - 23500",
-    "stop_loss": 23300,
-    "target_1": 23700,
-    "target_2": 23850,
-    "confidence_pct": 60,
-    "risk_reward": "1:1.5",
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23354 (Support)",
-      "23872 (Resistance)"
+      "23354.07 (Support 1)",
+      "23160.38 (Support 2)",
+      "23872.12 (Resistance 1)"
     ],
-    "invalidation": "Sustained break below 23300 or failure to show buying interest after market open."
+    "invalidation": "N/A"
   },
   "banknifty_trade": {
-    "direction": "LONG",
-    "entry_zone": "54100 - 54200",
-    "stop_loss": 53900,
-    "target_1": 54450,
-    "target_2": 54700,
-    "confidence_pct": 55,
-    "risk_reward": "1:1.2",
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
       "54000 (Psychological Support)",
-      "54500 (Psychological Resistance)"
+      "54239.20 (Current Level)"
     ],
-    "invalidation": "Sustained break below 53900 or lack of upward momentum."
+    "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Global market opening performance (especially US and European futures) for directional cues.",
-    "Nifty and Bank Nifty's opening behavior and ability to hold initial support levels after the significant drop.",
-    "FII/DII cash market activity for the next trading day to gauge institutional sentiment.",
-    "Build-up in the options chain for the upcoming expiry to identify fresh support and resistance levels.",
-    "Any further news regarding the Jio IPO timeline or US-Iran peace deal updates."
+    "Nifty's reaction and price action at key support levels (23354, 23160) immediately after the implied gap-down open.",
+    "Global market cues, especially the performance of US markets and any further developments on the US-Iran peace deal.",
+    "FII/DII activity and their net flows in the initial hours of trading to gauge institutional sentiment.",
+    "Development of fresh options chain data (OI build-up) to identify new Max Pain, Call Resistance, and Put Support levels.",
+    "Any news updates regarding monsoon forecasts or their potential impact on earnings."
   ],
   "risk_factors": [
-    "Further negative global news or escalation of geopolitical tensions could override the oversold bounce potential.",
-    "Lack of follow-through buying interest could lead to consolidation or further downside despite the oversold RSI.",
-    "The absence of clear options data (Max Pain, Call/Put Support) limits the robustness of options-based analysis.",
-    "Volatility due to potential expiry week dynamics (if applicable for the next trading session)."
+    "High volatility is expected at the open due to the implied gap down and the extremely oversold RSI, which can lead to sharp reversals.",
+    "The lack of reliable options data (Max Pain, OI) significantly limits the ability to gauge market participant positioning and conviction.",
+    "Conflicting global cues (bearish SGX Nifty vs. bullish US/Asian futures) could lead to choppy and unpredictable price action.",
+    "Extreme oversold RSI (0.0) can signal a bounce, but also indicates severe underlying selling pressure, making aggressive directional bets risky."
   ]
 }
