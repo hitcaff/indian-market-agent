@@ -1,57 +1,57 @@
 {
   "session": "post_market",
   "date": "2026-06-02",
-  "timestamp": "18:02 IST",
+  "timestamp": "21:23 IST",
   "market_bias": "bullish",
   "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global cues are mixed with SGX Nifty showing a positive lead, while US futures are slightly negative. Hang Seng's strong performance offers some optimism, but overall, the global picture doesn't provide a strong directional bias, leaning slightly positive due to SGX Nifty.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed positive, yet their RSIs are extremely oversold (Nifty 16.14, Bank Nifty 5.58). This is a strong technical divergence, indicating a high probability of a bounce or mean reversion from these deeply oversold levels, despite the 'neutral' trend tag. The market regime signals high volatility and trending nature, supporting potential for sharp moves.",
-    "options_analysis": "The provided options data (PCR, Max Pain, Call Resistance, Put Support) is all zero, making it impossible to derive any insights from the options chain. This significantly reduces the confidence derived from this factor, forcing reliance on other indicators.",
-    "sentiment_analysis": "FII/DII data is neutral for the day. Market news is mixed, with positives like strong NHPC OFS subscription, RBI containing rupee fall, and small-cap resilience, balanced by slight dips in US futures. The strong IPO GMPs suggest underlying retail confidence, which is a positive sentiment indicator.",
-    "confluence_summary": "The primary driver for a bullish bias is the extremely oversold RSI levels in both Nifty and Bank Nifty, which often precede a strong bounce. While options data is missing and FII/DII is neutral, the positive close and resilience in broader markets, coupled with high volatility, suggest a short-term upward move is likely as the market corrects its oversold condition."
+    "global_analysis": "Global markets are showing a positive sentiment with SGX Nifty, US futures, and Asian indices all trading in the green. Crude oil is stable, and gold is up, indicating a generally risk-on but cautious environment. This positive global backdrop provides a tailwind for the Indian markets.",
+    "technical_analysis": "Both Nifty and Bank Nifty are exhibiting extremely oversold conditions with RSI values of 16.14 and 5.58 respectively, signaling a high probability of a technical bounce. While the trend is noted as neutral and EMAs are at current price, the severe oversold state suggests an imminent reversal or relief rally. Support levels for Nifty are identified, providing potential bounce zones.",
+    "options_analysis": "The PCR for both indices is neutral at 1.0, indicating no clear directional bias from options participants. Crucially, the Max Pain, Call Resistance, and Put Support data is reported as zero, which suggests missing or erroneous options data, preventing a comprehensive options-based assessment.",
+    "sentiment_analysis": "FII and DII activity is neutral for the day, offering no strong directional conviction from institutional flows. Market news presents a mixed bag, with some positive stock-specific recommendations but also general caution and geopolitical tensions mentioned, keeping overall sentiment balanced.",
+    "confluence_summary": "Despite the 'neutral' trend and high volatility, the overwhelmingly oversold RSI on both Nifty and Bank Nifty, coupled with positive global cues, strongly suggests a potential for a short-term bounce. The lack of clear options data and neutral FII/DII activity means the technical oversold condition is the primary driver for a bullish bias, albeit with moderate strength given the underlying caution."
   },
   "nifty_trade": {
     "direction": "LONG",
-    "entry_zone": "23450 - 23500",
-    "stop_loss": 23250,
-    "target_1": 23615,
+    "entry_zone": "23480 - 23520",
+    "stop_loss": 23280,
+    "target_1": 23620,
     "target_2": 23750,
-    "confidence_pct": 65,
-    "risk_reward": "1:1.1",
+    "confidence_pct": 70,
+    "risk_reward": "1:1.13",
     "key_levels_to_watch": [
-      "23500",
-      "23617",
-      "23751"
+      "23289 (Support)",
+      "23617 (Resistance)",
+      "23751 (Resistance)"
     ],
-    "invalidation": "A sustained close below 23250 would invalidate this bullish setup, indicating further downside."
+    "invalidation": "Nifty sustaining below 23280 with conviction"
   },
   "banknifty_trade": {
     "direction": "LONG",
-    "entry_zone": "53650 - 53750",
-    "stop_loss": 53200,
+    "entry_zone": "53700 - 53800",
+    "stop_loss": 53450,
     "target_1": 54000,
     "target_2": 54250,
     "confidence_pct": 70,
-    "risk_reward": "1:1.1",
+    "risk_reward": "1:1.66",
     "key_levels_to_watch": [
-      "53700",
-      "54000",
-      "54250"
+      "53450 (Psychological Support)",
+      "54000 (Psychological Resistance)",
+      "54250 (Resistance)"
     ],
-    "invalidation": "A sustained close below 53200 would negate the oversold bounce thesis and suggest continued weakness."
+    "invalidation": "Bank Nifty sustaining below 53450 with conviction"
   },
   "what_to_watch": [
-    "Opening of European and US markets for fresh global cues.",
-    "FII/DII activity for the next trading session to gauge institutional sentiment.",
-    "Any fresh news flow concerning banking or financial sectors.",
-    "Option chain build-up for the upcoming expiry to identify key support and resistance levels.",
-    "Performance of banking sector heavyweights like HDFC Bank and ICICI Bank."
+    "Opening of Indian markets relative to global cues (potential for gap up/down).",
+    "FII/DII activity for fresh directional conviction.",
+    "Real-time option chain data for Nifty and Bank Nifty (PCR, Max Pain, OI build-up) once available.",
+    "Any significant news flow or economic data releases during market hours.",
+    "Price action around Nifty's 23617 resistance and Bank Nifty's 54000 psychological level."
   ],
   "risk_factors": [
-    "The absence of options data (Max Pain, PCR, OI) reduces the overall conviction for the trades.",
-    "High market volatility (ATR% 1.43%) means stop losses could be triggered quickly by sharp intraday swings.",
-    "Mixed global cues could lead to choppy price action, despite the oversold technicals.",
-    "The 'neutral' trend conflicting with 'trending: true' and oversold RSI creates some ambiguity in the overall market structure."
+    "The 'high_volatility' regime and 'caution' signal suggest potential for sharp reversals despite oversold conditions.",
+    "Lack of reliable options data (Max Pain, OI) makes options-based analysis difficult.",
+    "FII/DII remaining neutral or turning negative could cap upside.",
+    "Geopolitical tensions (as mentioned in news) could escalate and impact market sentiment."
   ]
 }
