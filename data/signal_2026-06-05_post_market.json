@@ -1,57 +1,55 @@
 {
   "session": "post_market",
   "date": "2026-06-05",
-  "timestamp": "17:24 IST",
+  "timestamp": "19:49 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed with Asian markets (Nikkei, Hang Seng) and Nasdaq showing weakness, while Dow futures are slightly positive. SGX Nifty is trading flat, indicating a lack of strong directional conviction from global markets for India, suggesting a cautious open for tomorrow.",
-    "technical_analysis": "Nifty 50 closed marginally negative, consolidating precisely around its 9 and 21-period EMAs with a neutral RSI (46.68) and trend. Bank Nifty, despite closing positive, exhibits an extremely overbought RSI (99.01), suggesting a high probability of a pullback or consolidation soon. Both indices show EMAs at current price, indicating recent equilibrium or strong moves bringing them to these averages.",
-    "options_analysis": "Options data for both Nifty and Bank Nifty shows a neutral PCR of 1.0. However, the absence of Max Pain, Call Resistance, and Put Support data (all reported as 0) significantly limits a comprehensive options-based analysis, making it difficult to gauge immediate support/resistance from this perspective.",
-    "sentiment_analysis": "FII/DII flows were neutral today, offering no clear institutional direction. The RBI's hawkish stance, signaling potential rate hikes and currency defense, is a significant sentiment driver, likely adding caution to the market. While retail interest in specific high-margin stocks is noted, the overall market sentiment appears subdued post-RBI policy, with Sensex closing lower.",
-    "confluence_summary": "The market presents a highly mixed picture with Nifty consolidating in a tight range, Bank Nifty showing extreme overbought conditions, and global cues being indecisive. The RBI's hawkish tone adds a layer of uncertainty, while the 'high_volatility' regime signals choppy price action. This confluence points to a lack of clear directional conviction, justifying a cautious, 'NO TRADE' approach for now."
+    "global_analysis": "Global markets are showing weakness, with US indices (S&P 500, Nasdaq) slipping due to hawkish Fed fears and a significant decline in chip stocks. Asian markets (Nikkei, Hang Seng) and SGX Nifty also closed in the red, indicating a generally negative sentiment that could influence domestic opening. Crude oil and gold prices are also down.",
+    "technical_analysis": "Nifty 50 closed marginally negative with EMA9 and EMA21 converging at the same level, signaling strong indecision and a neutral trend. RSI is also neutral at 46.68. Bank Nifty, despite a positive close, exhibits an extremely overbought RSI of 99.01, suggesting a high probability of a pullback or consolidation, even though its trend is also neutral with converging EMAs.",
+    "options_analysis": "The provided options data for both Nifty and Bank Nifty shows PCR at 1.0 (neutral) and Max Pain, Call Resistance, and Put Support all at 0. This data is insufficient to derive any strong directional bias from the options chain, reinforcing the current market indecision.",
+    "sentiment_analysis": "FII/DII activity was neutral for the day. Market news highlights global concerns over the Fed and tech sector weakness, which could weigh on sentiment. Geopolitical developments (Iran, Russia) add a layer of uncertainty, while specific stock rallies (Adani, Vodafone Idea) do not reflect broad market sentiment.",
+    "confluence_summary": "The confluence of negative global cues, particularly from the US tech sector, with domestic indices showing strong technical indecision (converging EMAs, neutral RSI for Nifty) and an extremely overbought Bank Nifty, points towards a cautious and neutral stance. The high volatility regime further advises against aggressive directional bets without clear triggers."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "entry_zone": "0 - 0",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23260.78 (Immediate Support)",
-      "23154.87 (Strong Support)",
-      "23494.48 (Immediate Resistance)",
-      "23622.27 (Strong Resistance)"
+      "23260.78 (Support)",
+      "23494.48 (Resistance)"
     ],
-    "invalidation": "N/A - No trade proposed due to insufficient confluence and market neutrality. A clear break and sustain above/below key levels would be required for a directional view."
+    "invalidation": "A clear directional breakout above 23494.48 or below 23260.78 with strong volume and follow-through."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "entry_zone": "0 - 0",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "54496.25 (Current Level - watch for price action around this zone)",
-      "Extreme overbought RSI (99.01) indicates potential for profit booking or consolidation."
+      "54000 (Psychological Support)",
+      "55000 (Psychological Resistance)"
     ],
-    "invalidation": "N/A - No trade proposed due to extreme overbought conditions and lack of clear directional setup. Any fresh long positions carry significant risk at these RSI levels."
+    "invalidation": "A clear directional breakout above 55000 or below 54000 with strong volume and follow-through, especially considering the overbought RSI."
   },
   "what_to_watch": [
-    "Global market performance, especially US and Asian indices, for directional cues at market open.",
-    "Further commentary or actions from RBI regarding monetary policy, interest rates, and currency defense.",
-    "FII/DII activity for signs of institutional conviction, as today's flows were neutral.",
-    "Nifty's ability to sustain above or break its immediate support/resistance levels (23260-23490 range).",
-    "Bank Nifty's price action around 54500 given its extremely overbought RSI; watch for signs of exhaustion or consolidation."
+    "Overnight performance of US markets, particularly Nasdaq and chip stocks, for global sentiment cues.",
+    "Any significant developments in crude oil prices or geopolitical events.",
+    "Nifty's ability to hold the immediate support of 23260.78 or break above 23494.48.",
+    "Bank Nifty's reaction to its extremely overbought RSI; watch for signs of consolidation or profit booking.",
+    "FII/DII activity in the upcoming session for fresh directional conviction."
   ],
   "risk_factors": [
-    "Continued global market volatility and potential for negative spillover, especially from the tech-heavy Nasdaq.",
-    "Uncertainty stemming from RBI's hawkish stance on interest rates, which could dampen equity market sentiment.",
-    "The 'high_volatility' market regime can lead to sharp, unpredictable moves, increasing trading risk.",
-    "Lack of comprehensive options data (Max Pain/OI being 0) limits visibility into market positioning and potential turning points."
+    "Continued weakness in global markets, especially the US tech sector, could trigger a domestic sell-off.",
+    "The extremely overbought RSI in Bank Nifty poses a significant risk of a sharp correction.",
+    "Elevated market volatility (ATR% 1.25%) suggests potential for swift and unpredictable moves.",
+    "Geopolitical tensions (Iran, Russia) could escalate and introduce market uncertainty."
   ]
 }
