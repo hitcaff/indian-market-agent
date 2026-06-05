@@ -1079,6 +1079,14 @@ def run_pipeline():
     report = synthesize_with_gemini(session_data, key)
     save_signal(report)
 
+    # ── Provenance logging ──────────────────────────────────────────────────
+    try:
+        from provenance_integration import log_signal
+        log_signal(report)
+    except Exception as e:
+        print(f"[WARN] Provenance logging failed (non-fatal): {e}")
+    # ────────────────────────────────────────────────────────────────────────
+
     if bot_token and chat_id:
         send_telegram(report, bot_token, chat_id, event_calendar, market_regime)
 

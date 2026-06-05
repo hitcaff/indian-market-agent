@@ -571,6 +571,13 @@ def run_live_monitor():
                 t1_alerted_nifty = True
             elif status in ["SL_HIT", "T2_HIT"]:
                 nifty_status = status
+                # ── Provenance logging ────────────────────────────────────
+                try:
+                    from provenance_integration import log_outcome
+                    log_outcome("NIFTY", nifty, status, fetch_live_price("^NSEI"))
+                except Exception as e:
+                    print(f"[WARN] Provenance outcome logging failed (non-fatal): {e}")
+                # ─────────────────────────────────────────────────────────
 
         time.sleep(5)
 
@@ -581,6 +588,13 @@ def run_live_monitor():
                 t1_alerted_bnf = True
             elif status in ["SL_HIT", "T2_HIT"]:
                 bnf_status = status
+                # ── Provenance logging ────────────────────────────────────
+                try:
+                    from provenance_integration import log_outcome
+                    log_outcome("BANKNIFTY", bnf, status, fetch_live_price("^NSEBANK"))
+                except Exception as e:
+                    print(f"[WARN] Provenance outcome logging failed (non-fatal): {e}")
+                # ─────────────────────────────────────────────────────────
 
         # Both trades done
         if nifty_status in ["SL_HIT", "T2_HIT"] and bnf_status in ["SL_HIT", "T2_HIT", "NO_TRADE"]:
