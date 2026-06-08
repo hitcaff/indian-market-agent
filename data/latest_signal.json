@@ -1,53 +1,58 @@
 {
   "session": "post_market",
   "date": "2026-06-08",
-  "timestamp": "18:25 IST",
-  "market_bias": "neutral",
-  "bias_strength": "weak",
+  "timestamp": "20:53 IST",
+  "market_bias": "moderate_bullish",
+  "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global cues are mixed with significant weakness in Asian markets (Nikkei -3.85%, Hang Seng -1.22%, SGX Nifty -1.04%) indicating a cautious sentiment. However, US futures (Nasdaq +1.61%, Dow +0.30%) show a rebound, especially in tech, which could provide some support.",
-    "technical_analysis": "Nifty 50 experienced a sharp decline, pushing its RSI to an extremely oversold level of 2.86, strongly suggesting a potential bounce from immediate support levels. Bank Nifty, while also down, showed relative resilience with a bullish RSI of 64.38, indicating underlying strength in the banking sector. Both indices are currently in a neutral trend with EMA9 and EMA21 converging at current prices.",
-    "options_analysis": "Options data for both Nifty and Bank Nifty shows a neutral PCR of 1.0. The absence of Max Pain, Call Resistance, and Put Support values indicates a lack of clear directional conviction from options traders for the immediate expiry, making options analysis inconclusive for this session.",
-    "sentiment_analysis": "FII/DII activity is neutral for the day. Market news is mixed, highlighting both resilience in Indian markets despite near-term risks and a rebound in US chip stocks. Specific stock recommendations and a quote on 'bandwagon investors' suggest a cautious approach amidst selective opportunities.",
-    "confluence_summary": "Nifty's extreme oversold RSI after a significant drop points to a high probability of a technical bounce, potentially supported by positive US tech futures. However, the broader Asian market weakness and the current 'ranging' market regime necessitate a cautious approach. Bank Nifty's relative strength and bullish RSI offer a positive divergence."
+    "global_analysis": "While SGX Nifty and broader Asian markets like Nikkei and Hang Seng showed significant weakness, positive US futures, particularly the strong rally in Nasdaq chip stocks, offer a potential cushion for sentiment. Crude oil and gold are also up, indicating a mixed global picture with some risk-off elements alongside commodity strength.",
+    "technical_analysis": "Nifty 50 is in an extremely oversold territory with an RSI of 2.86 after a 1.04% fall, signaling a high probability of a technical bounce from current levels. Bank Nifty, despite a 0.79% decline, maintains a bullish RSI of 64.38, indicating underlying strength and potential to lead any recovery. Both indices are currently in a neutral trend and a ranging market regime.",
+    "options_analysis": "The provided options data (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) appears incomplete or reset for the next session, making it impossible to derive meaningful insights into immediate option-derived support or resistance levels and overall market sentiment from this data point.",
+    "sentiment_analysis": "FII/DII activity was neutral for the day. Market news presents a mixed bag; positive developments in US tech and easing Middle East tensions are contrasted by warnings of rising near-term risks for Indian markets and the significant falls in Asian peers. Domestic analyst recommendations are generally positive for specific large-cap stocks.",
+    "confluence_summary": "The confluence of Nifty's deeply oversold RSI and Bank Nifty's bullish RSI strongly suggests a technical bounce is imminent, potentially supported by positive cues from US tech. However, the broader negative global sentiment and the prevailing ranging market regime necessitate a cautious approach, implying any upward move might face resistance. The absence of actionable options data limits conviction on specific price points."
   },
   "nifty_trade": {
     "direction": "LONG",
-    "entry_zone": "23050 - 23100",
-    "stop_loss": 22900,
-    "target_1": 23236,
+    "entry_zone": "23100 - 23150",
+    "stop_loss": 23020,
+    "target_1": 23235,
     "target_2": 23350,
-    "confidence_pct": 60,
-    "risk_reward": "1:1.57",
+    "confidence_pct": 65,
+    "risk_reward": "1:2.1",
     "key_levels_to_watch": [
-      "23039 (S1)",
-      "22956 (S2)",
-      "23236 (R1)",
-      "23350 (R2)"
+      "23040 (Support 1)",
+      "23237 (Resistance 1)",
+      "23350 (Resistance 2)"
     ],
-    "invalidation": "Sustained break and close below 22950"
+    "invalidation": "A sustained break and close below 23000, or significant negative global news overnight."
   },
   "banknifty_trade": {
-    "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 0,
-    "risk_reward": "N/A",
-    "key_levels_to_watch": [],
-    "invalidation": "N/A"
+    "direction": "LONG",
+    "entry_zone": "54000 - 54100",
+    "stop_loss": 53850,
+    "target_1": 54300,
+    "target_2": 54550,
+    "confidence_pct": 60,
+    "risk_reward": "1:2.5",
+    "key_levels_to_watch": [
+      "53850 (Psychological Support)",
+      "54300 (Minor Resistance)",
+      "54550 (Stronger Resistance)"
+    ],
+    "invalidation": "A sustained break and close below 53800, or a sharp reversal in Nifty's bounce."
   },
   "what_to_watch": [
-    "Opening of European and US markets for directional cues.",
-    "Nifty's reaction around the 23000-23050 support zone for confirmation of bounce.",
-    "FII/DII activity in the next session for institutional flow insights.",
-    "Any significant news flow related to global economic data or domestic policy."
+    "Opening of US markets tonight and their closing performance.",
+    "Performance of Asian markets tomorrow morning, especially Nikkei and Hang Seng.",
+    "Any fresh FII/DII activity data for directional cues.",
+    "Crude oil price movements and their impact on inflation expectations.",
+    "Nifty's ability to hold the 23000 psychological level and Bank Nifty's strength above 53800."
   ],
   "risk_factors": [
-    "Continued weakness in broader Asian markets could negate Nifty's oversold bounce potential.",
-    "The 'ranging' market regime can lead to whipsaws and false breakouts/breakdowns.",
-    "Lack of follow-through buying interest despite oversold conditions.",
-    "Uncertainty regarding FII flows and their impact on market sentiment."
+    "Continued weakness in global markets, particularly Asian peers, could negate domestic technical strength.",
+    "Lack of significant FII buying support could cap upside moves.",
+    "The 'ranging' market regime might limit the extent and duration of any bounce.",
+    "Geopolitical developments, especially regarding the Middle East, could quickly shift sentiment.",
+    "The absence of reliable options data for the current session makes it harder to gauge immediate sentiment and positioning."
   ]
 }
