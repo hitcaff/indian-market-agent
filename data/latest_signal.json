@@ -1,55 +1,54 @@
 {
   "session": "post_market",
   "date": "2026-06-11",
-  "timestamp": "15:50 IST",
+  "timestamp": "18:04 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed, with US futures showing positive momentum while SGX Nifty and some Asian markets are slightly negative. Crude oil's slight dip is a minor positive for India, but overall, there's no strong directional push from the international front.",
-    "technical_analysis": "Nifty 50 closed slightly negative with its RSI in the oversold zone (26.87), suggesting a potential bounce but maintaining a neutral trend. Bank Nifty, however, showed relative strength with a positive close and a bullish RSI (69.62). Both indices have their short-term EMAs aligned with current prices, indicating a lack of clear directional conviction.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral sentiment from the options market participants. The absence of specific Max Pain, Call Resistance, and Put Support values makes it difficult to derive strong directional cues from the options chain for the upcoming session.",
-    "sentiment_analysis": "FII/DII activity was neutral today, offering no clear directional bias. The market regime is explicitly stated as 'ranging' and 'not trending', reinforcing caution. News flow is largely stock-specific, with some positive long-term themes like AI and SpaceX, but nothing to immediately sway the broader market direction.",
-    "confluence_summary": "The market is in a ranging regime with conflicting signals: Nifty is oversold, while Bank Nifty shows bullish momentum. Global cues are mixed, and FII/DII data is neutral. Given the lack of strong confluence across technicals, options, and sentiment, especially after a weekly expiry day, a cautious 'NO TRADE' stance is warranted for directional bets."
+    "global_analysis": "Global cues are mixed, with US futures (Dow, Nasdaq) showing positive momentum, while Asian markets like SGX Nifty and Hang Seng closed in the red. Crude oil is up, and Gold is down. This mixed picture offers no strong directional conviction for the Indian market.",
+    "technical_analysis": "Both Nifty and Bank Nifty are firmly in a 'ranging' market regime with a 'neutral' trend, as indicated by identical EMA9/21 to current prices and 'Trending: False'. Nifty's RSI at 26.87 is oversold, suggesting a potential bounce, while Bank Nifty's RSI at 69.62 is bullish, indicating underlying strength. This divergence in RSI within a ranging market creates an unclear technical outlook.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from the options market participants. However, the critical Max Pain, Call Resistance, and Put Support data are reported as 0, which severely limits a comprehensive options analysis for specific levels and suggests missing or incomplete data for the weekly expiry that just concluded.",
+    "sentiment_analysis": "FII/DII data shows no net activity for the day, providing no institutional flow insights. Market news is fragmented, with some stocks hitting highs and brokerage upgrades, but also a Nifty target cut by Citi and a depreciating Rupee, pointing to underlying concerns. The overall sentiment is cautious and lacks a unified direction.",
+    "confluence_summary": "The market is clearly in a ranging regime with a neutral trend for both indices. While Nifty's RSI is oversold and Bank Nifty's is bullish, the lack of strong directional conviction from global cues, institutional flows, and the ranging market regime itself, combined with incomplete options data, prevents any high-conviction directional trade. The signals are conflicting and lack the necessary confluence for a clear setup."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": null,
-    "stop_loss": null,
-    "target_1": null,
-    "target_2": null,
+    "entry_zone": "0 - 0",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 0,
-    "risk_reward": null,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
       "23046.62 (Support)",
       "23302.02 (Resistance)"
     ],
-    "invalidation": null
+    "invalidation": "N/A"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": null,
-    "stop_loss": null,
-    "target_1": null,
-    "target_2": null,
+    "entry_zone": "0 - 0",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 0,
-    "risk_reward": null,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "55000 (Psychological Support)",
-      "55500 (Potential Resistance)"
+      "55176.75 (Current Price - key reference point in a ranging market)"
     ],
-    "invalidation": null
+    "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Global market performance overnight, especially US indices and SGX Nifty for tomorrow's open.",
+    "Global market performance, especially US and Asian indices, for directional cues.",
     "FII/DII activity for the next trading session to gauge institutional sentiment.",
-    "Nifty's reaction to its oversold RSI \u2013 whether it attempts a bounce or continues consolidation.",
-    "Bank Nifty's ability to sustain its relative strength and bullish RSI.",
-    "Any significant news or economic data releases that could break the current ranging market regime."
+    "Crude oil price movements, given its impact on the Rupee and inflation.",
+    "Any significant domestic or international news flow that could break the current ranging market.",
+    "Nifty's ability to sustain above 23000 and Bank Nifty's performance around the 55000 mark."
   ],
   "risk_factors": [
-    "The market is in a 'ranging' regime, making directional trades challenging and prone to whipsaws.",
-    "Divergence between Nifty (oversold) and Bank Nifty (bullish) could lead to indecisive market action.",
-    "Lack of clear directional cues from global markets and neutral FII/DII data.",
-    "Potential for increased volatility as the market digests the weekly expiry and prepares for the next session."
+    "Global economic uncertainties, including potential impacts of El Nino and AI risks on corporate earnings.",
+    "The prevailing ranging market regime, which can lead to whipsaws and false breakouts, increasing trading risk.",
+    "Incomplete options data for the concluded weekly expiry, limiting a full understanding of market positioning.",
+    "Rupee depreciation against the USD, which can impact FII sentiment and import costs."
   ]
 }
