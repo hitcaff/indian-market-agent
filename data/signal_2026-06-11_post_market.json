@@ -1,54 +1,57 @@
 {
   "session": "post_market",
   "date": "2026-06-11",
-  "timestamp": "18:04 IST",
+  "timestamp": "20:59 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed, with US futures (Dow, Nasdaq) showing positive momentum, while Asian markets like SGX Nifty and Hang Seng closed in the red. Crude oil is up, and Gold is down. This mixed picture offers no strong directional conviction for the Indian market.",
-    "technical_analysis": "Both Nifty and Bank Nifty are firmly in a 'ranging' market regime with a 'neutral' trend, as indicated by identical EMA9/21 to current prices and 'Trending: False'. Nifty's RSI at 26.87 is oversold, suggesting a potential bounce, while Bank Nifty's RSI at 69.62 is bullish, indicating underlying strength. This divergence in RSI within a ranging market creates an unclear technical outlook.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from the options market participants. However, the critical Max Pain, Call Resistance, and Put Support data are reported as 0, which severely limits a comprehensive options analysis for specific levels and suggests missing or incomplete data for the weekly expiry that just concluded.",
-    "sentiment_analysis": "FII/DII data shows no net activity for the day, providing no institutional flow insights. Market news is fragmented, with some stocks hitting highs and brokerage upgrades, but also a Nifty target cut by Citi and a depreciating Rupee, pointing to underlying concerns. The overall sentiment is cautious and lacks a unified direction.",
-    "confluence_summary": "The market is clearly in a ranging regime with a neutral trend for both indices. While Nifty's RSI is oversold and Bank Nifty's is bullish, the lack of strong directional conviction from global cues, institutional flows, and the ranging market regime itself, combined with incomplete options data, prevents any high-conviction directional trade. The signals are conflicting and lack the necessary confluence for a clear setup."
+    "global_analysis": "Dow and Nasdaq futures show positive momentum, contrasting with negative cues from Nikkei, Hang Seng, and SGX Nifty, indicating a mixed global sentiment. Crude oil is slightly up, while gold is down, adding to the lack of a unified global direction.",
+    "technical_analysis": "Nifty is in a neutral trend and ranging regime, with an oversold RSI (26.87) suggesting potential for a bounce, but lacking immediate bullish confirmation. Bank Nifty, while showing a bullish RSI (69.62) and a positive close, also remains in a neutral trend and ranging regime, indicating indecision.",
+    "options_analysis": "Both Nifty and Bank Nifty exhibit a perfectly neutral PCR of 1.0. The absence of Max Pain, Call Resistance, and Put Support data for the next expiry reinforces the current lack of strong directional conviction from the options market.",
+    "sentiment_analysis": "FII/DII flows are neutral, offering no clear directional bias. Market news is a mix of corporate actions (Vedanta demerger, Lenskart block deal), analyst recommendations, and regulatory updates, without a dominant theme to sway overall market sentiment significantly.",
+    "confluence_summary": "The market is firmly in a ranging regime with neutral options data and mixed global cues. Despite Nifty's oversold RSI and Bank Nifty's bullish RSI, the lack of a clear trend and FII/DII conviction points to continued indecision, making directional trades high risk."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "0 - 0",
+    "entry_zone": "N/A",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
+    "confidence_pct": 85,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
       "23046.62 (Support)",
-      "23302.02 (Resistance)"
+      "23302.02 (Resistance)",
+      "22931.63 (Strong Support)"
     ],
     "invalidation": "N/A"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "0 - 0",
+    "entry_zone": "N/A",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
+    "confidence_pct": 80,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "55176.75 (Current Price - key reference point in a ranging market)"
+      "55176.75 (Current/EMA levels)",
+      "55000 (Psychological Support)",
+      "55500 (Potential Resistance)"
     ],
     "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Global market performance, especially US and Asian indices, for directional cues.",
-    "FII/DII activity for the next trading session to gauge institutional sentiment.",
-    "Crude oil price movements, given its impact on the Rupee and inflation.",
-    "Any significant domestic or international news flow that could break the current ranging market.",
-    "Nifty's ability to sustain above 23000 and Bank Nifty's performance around the 55000 mark."
+    "Global market performance, particularly US tech and Asian indices, for directional cues.",
+    "FII/DII activity for any significant shift in institutional flows.",
+    "Nifty's ability to hold the 23000-23050 support zone given its oversold RSI.",
+    "Bank Nifty's strength and whether it can break out of its current ranging regime.",
+    "Any fresh economic data or geopolitical developments that could impact sentiment."
   ],
   "risk_factors": [
-    "Global economic uncertainties, including potential impacts of El Nino and AI risks on corporate earnings.",
-    "The prevailing ranging market regime, which can lead to whipsaws and false breakouts, increasing trading risk.",
-    "Incomplete options data for the concluded weekly expiry, limiting a full understanding of market positioning.",
-    "Rupee depreciation against the USD, which can impact FII sentiment and import costs."
+    "Elevated risk due to the recent weekly expiry, potential for carry-over volatility.",
+    "Mixed global cues and lack of clear domestic trend can lead to choppy price action.",
+    "Absence of strong FII/DII conviction could result in range-bound trading.",
+    "Potential for sharp moves if key support/resistance levels are decisively broken on either side."
   ]
 }
