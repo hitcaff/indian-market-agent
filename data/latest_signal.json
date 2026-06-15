@@ -1,56 +1,52 @@
 {
   "session": "post_market",
   "date": "2026-06-15",
-  "timestamp": "20:22 IST",
+  "timestamp": "22:20 IST",
   "market_bias": "bullish",
   "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global markets are exhibiting strong bullish momentum, with US indices reaching record highs driven by optimism surrounding an Iran deal and declining crude oil prices. Asian markets also closed significantly higher, setting a very positive tone for the upcoming Indian trading session.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed with decent gains, but their RSIs are in extremely overbought territory (Nifty 89.58, Bank Nifty 95.7). While the market regime is 'trending' and 'favorable', the individual index trends are marked 'neutral', suggesting a potential for consolidation or a pullback despite the strong upward bias indicated by global cues.",
-    "options_analysis": "The PCR for both indices is 1.0, indicating a neutral options stance. However, the absence of Max Pain, Call Resistance, and Put Support data (all showing 0) makes a comprehensive options-derived bias assessment unreliable for the immediate session.",
-    "sentiment_analysis": "FII/DII activity was neutral for the day. Market news is overwhelmingly positive, highlighting a global risk-on mood, new sectoral indices, and bullish brokerage calls. The 'US-Iran truce' is a significant sentiment booster, likely to fuel further buying.",
-    "confluence_summary": "The market is strongly poised for a significant gap-up opening, propelled by robust global bullish cues and positive geopolitical developments. However, the extremely overbought RSI levels for both Nifty and Bank Nifty introduce a strong cautionary note, suggesting that while the immediate bias is bullish, chasing the gap could lead to profit booking or consolidation. Prudence dictates waiting for post-gap price action."
+    "global_analysis": "Global markets are showing strong bullish momentum, with Dow, Nasdaq, Nikkei, and Hang Seng all significantly up. The primary catalyst appears to be the US-Iran truce, which has calmed geopolitical jitters and revived a global risk-on sentiment. Crude oil prices are also down, which is a positive for India.",
+    "technical_analysis": "SGX Nifty is indicating a substantial gap-up opening for Nifty 50, currently trading 0.98% higher. Bank Nifty also shows a positive change. However, both indices are in extremely overbought territory with RSI at 89.58 for Nifty and 95.7 for Bank Nifty, suggesting a potential for profit booking or consolidation after the initial surge. The 'Trend: neutral' for both indices contradicts the 'Market Regime: trending' and the strong overnight positive move, which we interpret as a lagging indicator against the strong global shift.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty is at 1.0, indicating a neutral stance. Crucially, Max Pain, Call Resistance, and Put Support data are all zero, which means there's insufficient options chain data to derive specific support and resistance levels or strong directional bias from options activity.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. Market news is overwhelmingly positive, with the US-Iran truce being a major sentiment booster, leading to a 'risk-on' mood globally. Specific buy recommendations for large-cap stocks like HDFC Bank and Bajaj Finance also add to positive sentiment.",
+    "confluence_summary": "The market is poised for a strong bullish opening driven by significant positive global cues and a major geopolitical de-escalation. However, the extremely overbought RSI for both Nifty and Bank Nifty warrants caution, suggesting that while the initial momentum will be strong, sustainability without a pullback might be challenging. The lack of robust options data also limits precise level-based analysis, leading to a moderate strength bullish bias."
   },
   "nifty_trade": {
-    "direction": "NO TRADE",
-    "entry_zone": null,
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 65,
-    "risk_reward": "N/A",
+    "direction": "LONG",
+    "entry_zone": "23800 - 23850",
+    "stop_loss": 23700,
+    "target_1": 23970,
+    "target_2": 24080,
+    "confidence_pct": 70,
+    "risk_reward": "1:1.7 to 1:2.8",
     "key_levels_to_watch": [
-      "23970 (Resistance 1)",
-      "24087 (Resistance 2)",
-      "23777 (Support 1)"
+      "23777.33 (Support 1)",
+      "23970.93 (Resistance 1)",
+      "24087.97 (Resistance 2)"
     ],
-    "invalidation": "A sharp reversal or failure to sustain above 23850 post-gap."
+    "invalidation": "Nifty closing below 23700 or failure to sustain above 23800 after the gap-up."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": null,
+    "entry_zone": "XXXXX - XXXXX",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 60,
-    "risk_reward": "N/A",
-    "key_levels_to_watch": [
-      "57500 (Psychological Resistance)",
-      "57000 (Psychological Support)"
-    ],
-    "invalidation": "A sharp reversal or failure to sustain above 57000 post-gap."
+    "confidence_pct": 0,
+    "risk_reward": "1:X",
+    "key_levels_to_watch": [],
+    "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Sustainability of global bullish momentum, especially US futures.",
-    "Nifty's price action and consolidation patterns if it gaps up towards 24000-24100.",
-    "Bank Nifty's reaction and ability to sustain above 57500-58000 post-gap.",
-    "FII/DII cash market activity early in the session.",
-    "Further developments on crude oil prices and geopolitical stability."
+    "Sustainability of the global risk-on rally, especially post US-Iran truce.",
+    "Nifty's reaction to the extremely overbought RSI; watch for profit booking or consolidation after the initial gap-up.",
+    "Any fresh FII/DII data for directional cues during market hours.",
+    "Price action around Nifty's resistance levels (23970, 24087) after the gap-up."
   ],
   "risk_factors": [
-    "Sharp profit booking after a significant gap-up due to extremely overbought RSI levels.",
-    "Potential for quick reversal in global sentiment, especially concerning the Iran deal.",
-    "High volatility and whipsaws post-gap, making entries difficult.",
-    "Lack of follow-through buying from FIIs despite positive global cues."
+    "Overbought Conditions: Extremely high RSI levels (Nifty 89.58, Bank Nifty 95.7) significantly increase the risk of a sharp correction or profit booking.",
+    "Geopolitical Volatility: While a truce is reported, geopolitical situations can be fluid, and any negative news could quickly reverse sentiment.",
+    "Lack of Options Data: Missing Max Pain, Call Resistance, and Put Support makes it harder to gauge precise market positioning and potential turning points from the options chain.",
+    "Gap Risk: A significant gap-up opening can lead to volatility and potential for gap-filling, especially if initial buying pressure fades."
   ]
 }
