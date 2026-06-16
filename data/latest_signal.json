@@ -1,54 +1,58 @@
 {
   "session": "post_market",
   "date": "2026-06-16",
-  "timestamp": "16:37 IST",
-  "market_bias": "moderately bullish",
-  "bias_strength": "moderate",
+  "timestamp": "21:48 IST",
+  "market_bias": "bullish",
+  "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are overwhelmingly positive, with SGX Nifty, Dow, Nasdaq, and Nikkei all showing strong gains. The significant drop in crude oil prices by over 4% due to the US-Iran peace agreement is a major tailwind for the Indian economy and market sentiment, reducing inflationary pressures and improving current account outlook.",
-    "technical_analysis": "Both Nifty 50 (+1.55%) and Bank Nifty (+0.85%) closed strongly positive, indicating robust buying interest and a trending market regime. However, both indices are in extremely overbought territory with RSI at 93.94 for Nifty and 99.01 for Bank Nifty, suggesting caution for fresh aggressive long positions. The EMA9 and EMA21 are at current price, reflecting the strong recent upward momentum.",
-    "options_analysis": "PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from an options perspective. The absence of Max Pain, Call Resistance, and Put Support data (showing 0) limits a deeper options-based analysis for the immediate expiry, suggesting either data unavailability or a recent expiry has just concluded.",
-    "sentiment_analysis": "FII/DII activity was neutral today, but market news is predominantly bullish, driven by the US-Iran peace deal's positive impact on crude oil and the rupee. Several positive analyst recommendations for key stocks further bolster market sentiment, indicating broad-based optimism.",
-    "confluence_summary": "The market is buoyed by strong global tailwinds and positive domestic news, particularly the US-Iran deal leading to lower crude prices, which is a significant positive for India. While the overall sentiment is bullish and the market regime is trending, the extremely overbought RSI levels for both Nifty and Bank Nifty warrant caution. This suggests that while the underlying trend is up, fresh aggressive long positions should ideally be initiated on dips rather than at current elevated levels to manage risk effectively."
+    "global_analysis": "Global markets are largely positive with SGX Nifty, Dow Futures, Nikkei, and Hang Seng showing significant gains, indicating a strong positive sentiment. Crucially, crude oil has tumbled by nearly 7%, which is a major positive for India's economy, potentially easing inflation concerns and reducing import bills.",
+    "technical_analysis": "Nifty 50 closed strongly positive (+1.55%) and Bank Nifty also gained (+0.85%). However, both indices are showing extremely overbought RSI levels (Nifty 93.94, Bank Nifty 99.01), indicating a highly stretched market and a strong likelihood of profit booking or consolidation. The EMA9 and EMA21 being at the current price suggest a very strong, recent upward move.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty is at a neutral 1.0. A significant limitation is the absence of Max Pain, Call Resistance, and Put Support data (all reported as 0), which severely restricts our ability to gauge immediate options-based support and resistance levels and overall options sentiment.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. Market sentiment is predominantly positive, driven by global cues, news of a US-Iran peace deal, and several positive stock recommendations. The sharp decline in crude oil further enhances positive sentiment for Indian markets, suggesting a 'risk-on' environment.",
+    "confluence_summary": "While global cues and market news are strongly bullish, pointing towards a likely gap-up opening, the extremely overbought RSI levels for both Nifty and Bank Nifty are a significant red flag. This stretched technical condition suggests that any gap-up might be met with profit booking, making fresh aggressive directional trades risky. The lack of comprehensive options data further reduces conviction for immediate, high-probability trades."
   },
   "nifty_trade": {
-    "direction": "LONG",
-    "entry_zone": "23920 - 23950",
-    "stop_loss": 23830,
-    "target_1": 24030,
-    "target_2": 24100,
-    "confidence_pct": 60,
-    "risk_reward": "1:1.5",
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 40,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23917 (Immediate Support)",
-      "24031 (Immediate Resistance)"
+      "24031.77 (Immediate Resistance)",
+      "24074.38 (Strong Resistance)",
+      "23917.37 (Immediate Support)",
+      "23845.58 (Strong Support)"
     ],
-    "invalidation": "Sustained break and close below 23830 invalidates the bullish setup, indicating deeper profit booking."
+    "invalidation": "Any sharp reversal from potential gap-up levels or sustained selling pressure below 23900 would invalidate any bullish bias for the day."
   },
   "banknifty_trade": {
-    "direction": "LONG",
-    "entry_zone": "57050 - 57150",
-    "stop_loss": 56850,
-    "target_1": 57400,
-    "target_2": 57600,
-    "confidence_pct": 55,
-    "risk_reward": "1:1.6",
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 35,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
+      "57500 (Psychological Resistance)",
       "57000 (Psychological Support)",
-      "57300 (Current Price Action)"
+      "56800 (Potential Support)"
     ],
-    "invalidation": "Sustained break and close below 56850 invalidates the bullish setup, suggesting a stronger correction."
+    "invalidation": "Any sharp reversal from potential gap-up levels or sustained selling pressure below 57000 would invalidate any bullish bias for the day."
   },
   "what_to_watch": [
-    "Global market opening and overnight developments, especially US futures, to gauge sustained momentum.",
-    "Further price action in crude oil and its impact on the Rupee, as the US-Iran deal unfolds.",
-    "FII/DII flow data for the next trading session to confirm institutional participation at higher levels.",
-    "How Nifty and Bank Nifty react to their extremely overbought RSI levels \u2013 potential for consolidation or minor profit booking before the next leg up."
+    "The sustainability of the global market rally, particularly how US and Asian indices perform after their strong closes.",
+    "Nifty and Bank Nifty's price action immediately after a likely gap-up opening \u2013 observe for signs of profit booking or consolidation versus continued momentum.",
+    "Further developments in crude oil prices; a continued decline would be highly beneficial for India.",
+    "FII/DII activity in the cash market, especially if they turn net buyers after the gap-up, providing fresh impetus.",
+    "Updates from the RIL AGM 2026, particularly regarding Jio IPO, Retail, and Energy segments, which could impact market heavyweights."
   ],
   "risk_factors": [
-    "Extreme overbought conditions (RSI > 90) could lead to sharp profit booking or consolidation, making fresh entries risky.",
-    "Any unexpected negative global news or a reversal in the US-Iran peace deal sentiment could trigger a downturn.",
-    "Lack of sustained FII buying interest at these elevated levels could cap upside potential.",
-    "Potential for a significant gap-up opening, making entry difficult and increasing the risk-reward ratio for fresh longs."
+    "Extreme overbought RSI levels (Nifty 93.94, Bank Nifty 99.01) significantly increase the risk of a sharp correction or profit booking, especially after a gap-up.",
+    "The absence of comprehensive options data (Max Pain, OI levels) makes it challenging to accurately assess immediate options-based support and resistance, increasing uncertainty.",
+    "Potential for a 'buy the rumor, sell the news' event if the market gaps up significantly on positive global cues, leading to quick profit-taking.",
+    "Any unexpected negative global news or domestic policy changes could trigger a sharp reversal from these stretched market levels."
   ]
 }
