@@ -1,55 +1,55 @@
 {
   "session": "post_market",
   "date": "2026-06-17",
-  "timestamp": "18:13 IST",
+  "timestamp": "20:15 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are largely positive with US futures (Dow, Nasdaq) and key Asian markets (Nikkei, SGX Nifty) showing gains. This provides a supportive backdrop, though Hang Seng was slightly negative. Crude oil and gold prices remain stable, not posing immediate concerns.",
-    "technical_analysis": "Both Nifty and Bank Nifty exhibit extremely overbought RSI levels (99.01 and 100.0 respectively), signaling potential exhaustion or a strong likelihood of correction/consolidation. The EMA9 and EMA21 being identical to the current price for both indices is an unusual anomaly, suggesting either extreme consolidation or data inconsistency, but points to a lack of clear directional momentum. The trend is explicitly neutral, and the market is in a ranging regime.",
-    "options_analysis": "The provided options data (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) appears incomplete or anomalous. This severely limits the ability to derive meaningful insights from the derivatives segment, adding to the overall uncertainty and necessitating extreme caution.",
-    "sentiment_analysis": "FII/DII flows are neutral for the day. While market news indicates a recent bull run extending to a fourth day with Nifty above 24,000, there's also significant anticipation around the upcoming US Fed meeting and warnings regarding oil reserves. Analyst calls are mixed, reflecting a cautious sentiment despite recent gains.",
-    "confluence_summary": "Despite positive global cues and a recent rally, the domestic market is flashing strong warning signs with extremely overbought RSI levels and a declared neutral/ranging regime. The anomalous options data further compounds the uncertainty, making it prudent to adopt a 'wait and watch' approach as the market lacks clear directional conviction and awaits fresh triggers, particularly from the Fed."
+    "global_analysis": "US and Asian markets (excluding Hang Seng) are showing positive momentum, with Dow and Nasdaq futures up significantly, indicating a generally bullish global sentiment. This positive backdrop could provide an initial boost to Indian markets, potentially leading to a gap-up opening.",
+    "technical_analysis": "Both Nifty and Bank Nifty are exhibiting extremely overbought RSI levels (99.01 and 100.0 respectively), despite their trend being neutral and the market regime ranging. This suggests a high probability of consolidation or a potential pullback from current elevated levels, making fresh long entries highly risky.",
+    "options_analysis": "The provided options data, including PCR, Max Pain, and Call/Put Support/Resistance, is all reported as zero, rendering it incomplete and unreliable. Consequently, no meaningful insights or directional cues can be derived from the options chain for trade validation, significantly limiting our options-based analysis.",
+    "sentiment_analysis": "FII/DII activity is neutral for the day, offering no clear directional bias from institutional flows. While global news is largely positive and domestic defence stocks are rallying, the upcoming US Fed meeting introduces an element of uncertainty, balancing the overall market sentiment.",
+    "confluence_summary": "Despite positive global cues, the extremely overbought RSI on both Nifty and Bank Nifty, coupled with a neutral trend and ranging market regime, presents a conflicting and cautious picture. The absence of reliable options data further prevents a strong directional conviction, making a 'NO TRADE' stance prudent for the immediate future until clearer signals emerge or consolidation occurs."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "0 - 0",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "entry_zone": "N/A",
+    "stop_loss": null,
+    "target_1": null,
+    "target_2": null,
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
       "24139.37 (Resistance)",
-      "24000.87 (Support)"
+      "24000.87 (Support)",
+      "23916.03 (Strong Support)"
     ],
-    "invalidation": "No trade initiated due to insufficient confluence and overbought conditions."
+    "invalidation": "N/A"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "0 - 0",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "entry_zone": "N/A",
+    "stop_loss": null,
+    "target_1": null,
+    "target_2": null,
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "57585.05 (Current/EMA)"
+      "57585.05 (Current/EMA levels)"
     ],
-    "invalidation": "No trade initiated due to insufficient confluence and overbought conditions."
+    "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Outcome of the US Fed Meeting 2026 and new Fed chief Kevin Warsh's stance on monetary policy.",
-    "Global market reaction to the Fed's decision, especially US bond yields and dollar index.",
-    "FII/DII activity for any signs of directional conviction or profit booking.",
-    "Nifty's ability to sustain above 24,000 or show signs of correction from its extremely overbought RSI levels.",
-    "Crude oil price movements, especially in light of Raghuram Rajan's warning on oil reserves."
+    "Global market opening and continuation of positive momentum, especially from US futures.",
+    "Nifty and Bank Nifty's reaction to their extremely overbought RSI levels; watch for potential profit booking or consolidation.",
+    "Any fresh FII/DII data post-market close for clearer institutional flow insights.",
+    "Outcome and commentary from the US Fed meeting, particularly regarding new Fed chief Kevin Warsh's stance.",
+    "Nifty's ability to sustain above 24000 and Bank Nifty's movement around 57500."
   ],
   "risk_factors": [
-    "Extremely overbought RSI levels in both Nifty and Bank Nifty, indicating a high probability of a sharp correction or consolidation.",
-    "Significant uncertainty surrounding the upcoming US Fed meeting, which could introduce volatility.",
-    "Anomalous/missing options data, which severely limits comprehensive derivatives analysis and market insight.",
-    "The market is in a 'ranging' regime with a 'neutral' trend, suggesting indecision and potential for whipsaws.",
-    "Any unexpected geopolitical developments, especially concerning oil supply routes, could impact market sentiment."
+    "Extreme overbought conditions in both indices could lead to sharp profit booking or a significant correction.",
+    "Uncertainty surrounding the US Fed meeting could trigger volatility or a shift in global sentiment.",
+    "The lack of reliable options data makes it difficult to gauge market participants' positioning and potential support/resistance levels from that angle.",
+    "Any unexpected negative global news, despite current positive cues, could quickly reverse market sentiment."
   ]
 }
