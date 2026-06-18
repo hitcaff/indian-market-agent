@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-06-18",
-  "timestamp": "15:48 IST",
-  "market_bias": "neutral",
+  "timestamp": "17:45 IST",
+  "market_bias": "bullish",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global markets presented a mixed picture, with US and most Asian indices showing positive momentum, suggesting a generally favorable risk-on sentiment. However, the significant drop in Crude Oil prices below $75, driven by a US-Iran peace deal, introduces a new dynamic, potentially easing inflation concerns but also hinting at broader economic shifts.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed in positive territory, extending their recent bullish run. Critically, both indices are flashing extreme overbought signals with RSI at 99.01 for Nifty and 100.0 for Bank Nifty, indicating a high probability of a pullback or consolidation. The trend is noted as neutral, and EMAs are at current price, suggesting a lack of clear directional conviction despite the price rise.",
-    "options_analysis": "The options data for the upcoming expiry is highly ambiguous, with PCR at 1.0 (neutral) for both indices and Max Pain, Call Resistance, and Put Support all showing 0. This makes it impossible to derive any meaningful directional insights or gauge immediate support/resistance from the options chain, adding to the overall uncertainty, especially after a weekly expiry.",
-    "sentiment_analysis": "FII/DII flows were neutral for the day, providing no institutional directional bias. Market news highlighted a continued bull run for the Sensex, but also raised concerns about IT stocks and regulatory risks flagged by NSE. The US-Iran peace deal and its impact on global crude prices are significant geopolitical events that could influence sentiment going forward.",
-    "confluence_summary": "Despite a positive close and a 5-day bull run, the market is exhibiting extreme overbought conditions on technicals (RSI 99-100) coupled with neutral trend and PCR. The options data is unreadable, and we are coming off a high-risk day with FED and weekly expiry. This confluence of factors points to significant uncertainty and a high probability of consolidation or correction, making strong directional trades highly risky."
+    "global_analysis": "Global cues are largely positive, with strong gains in US futures (Dow +1.09%, Nasdaq +2.46%) and Nikkei (+1.65%), indicating a favorable start for Asian markets tomorrow. However, Hang Seng closed negative, and significant declines in crude oil and gold could signal broader risk aversion in commodities, though lower crude is generally positive for India. The hawkish Fed signals mentioned in the news could temper global enthusiasm.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed positive, extending a multi-day rally. However, they are in extremely overbought territory with RSI at 99.01 and 100.0 respectively, signaling a high probability of consolidation or a pullback. The EMA9 and EMA21 being exactly at the current price for both indices suggests a pause or consolidation around these levels, aligning with their 'neutral' trend status despite the broader 'trending' market regime.",
+    "options_analysis": "The PCR of 1.0 for both indices indicates a neutral stance among option writers for the expired weekly series. The Max Pain, Call Resistance, and Put Support being 0 is a data anomaly for an expiry day, making detailed options chain analysis for the expired series impossible. For the upcoming series, fresh OI build-up will be crucial to gauge sentiment.",
+    "sentiment_analysis": "Domestic sentiment is strongly bullish, evidenced by a 5-day bull run in Sensex, midcap stocks hitting 52-week highs, and positive analyst calls on key stocks. The Rupee's longest winning run also adds to positive economic sentiment. FII/DII data shows no significant net flows. Globally, while US futures are strong, Accenture's revenue cut is a cautionary note for the IT sector.",
+    "confluence_summary": "The market is showing strong underlying bullish momentum, extending a multi-day rally, supported by positive global cues and domestic news. However, this bullishness is met with extreme caution from technical indicators, as both Nifty and Bank Nifty are deeply overbought (RSI 99-100) and showing neutral trends with flat EMAs. This confluence suggests a high probability of consolidation or a minor pullback before any further significant upward move, making fresh directional trades risky."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -17,15 +17,15 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 20,
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24283.7 (Resistance)",
-      "24225.85 (Resistance)",
-      "24073.55 (Support)",
-      "23979.1 (Support)"
+      "24225.85 (Resistance 1)",
+      "24283.7 (Resistance 2)",
+      "24073.55 (Support 1)",
+      "23979.1 (Support 2)"
     ],
-    "invalidation": "A clear breakout above 24300 or breakdown below 23950 on significant volume, coupled with fresh FII/DII data, would invalidate the neutral stance."
+    "invalidation": "N/A"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -33,26 +33,25 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 20,
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
       "58200 (Psychological Resistance)",
       "57500 (Psychological Support)"
     ],
-    "invalidation": "A clear breakout above 58500 or breakdown below 57000 on significant volume, coupled with fresh FII/DII data, would invalidate the neutral stance."
+    "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Outcome of the FED meeting and its implications for global interest rates and liquidity.",
-    "Sustainability of the US-Iran peace deal and its continued impact on crude oil prices.",
-    "Nifty's ability to hold above the psychological 24,000 mark, especially given the overbought RSI.",
-    "Fresh FII/DII activity in the next trading session for clearer institutional sentiment.",
-    "Sectoral rotation, particularly performance of IT stocks and the banking sector."
+    "Fresh options chain data for the new weekly series to gauge OI build-up and PCR.",
+    "Global market reaction to the Fed's hawkish signals, especially US market opening.",
+    "FII/DII flows for directional cues, as today's data was neutral.",
+    "Whether Nifty/Bank Nifty can sustain current overbought levels or if profit booking initiates a pullback.",
+    "Any follow-through impact of Accenture's revenue cut on Indian IT stocks."
   ],
   "risk_factors": [
-    "Extreme overbought conditions (RSI 99-100) for both Nifty and Bank Nifty, signaling high probability of correction/consolidation.",
-    "Uncertainty surrounding the FED policy announcement and its potential market reaction.",
-    "Lack of clear directional cues from options data (PCR, Max Pain, OI) for the upcoming expiry.",
-    "Potential for sharp profit booking after a sustained 5-day bull run.",
-    "Geopolitical shifts from the US-Iran peace deal and their broader economic repercussions."
+    "Extreme overbought conditions (RSI 99-100) significantly increase the probability of a sharp correction or consolidation.",
+    "Potential negative reaction from global markets to the Fed's hawkish stance, despite positive US futures.",
+    "Lack of clear institutional buying (FII/DII neutral) could lead to volatility.",
+    "The high-risk day (FED, WEEKLY_EXPIRY) suggests increased uncertainty for the next session."
   ]
 }
