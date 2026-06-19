@@ -1,55 +1,59 @@
 {
   "session": "post_market",
   "date": "2026-06-19",
-  "timestamp": "15:53 IST",
+  "timestamp": "18:08 IST",
   "market_bias": "neutral",
-  "bias_strength": "weak",
+  "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global cues are mixed, with SGX Nifty showing weakness while US Nasdaq futures are positive. Dow futures are flat, and Asian markets are divergent. Crude and Gold prices are also down, offering no clear directional lead.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed in the red, with their 9-period and 21-period EMAs converging precisely at the current price, signaling strong indecision. While Nifty's RSI is bullish, Bank Nifty's RSI is in overbought territory, suggesting potential for consolidation or a pullback. The trend for both indices is explicitly neutral.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a perfectly balanced open interest between calls and puts, which reinforces a neutral stance. The absence of specific Max Pain, Call Resistance, and Put Support values further suggests a lack of clear directional conviction from the options market.",
-    "sentiment_analysis": "FII/DII data is neutral for the day. Market sentiment is heavily influenced by the Reliance AGM announcements regarding the Jio IPO, which is a significant positive for RIL and potentially the broader market. However, this positive news has not translated into a clear bullish bias for the indices today.",
-    "confluence_summary": "The confluence of neutral technical indicators (converging EMAs, neutral trend, 1.0 PCR), mixed global cues, and neutral FII/DII data strongly points towards a neutral market bias. Despite positive news surrounding the Jio IPO, the market regime is clearly ranging, lacking sufficient conviction for a directional trade."
+    "global_analysis": "Global cues are mixed to slightly negative, with SGX Nifty down by 0.64% suggesting a weak opening for the Indian markets. While Nasdaq futures show strength, Dow futures and Hang Seng are negative, indicating a lack of clear global directional conviction.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed precisely at their 9-day and 21-day EMAs, signaling strong short-term neutrality and a ranging market regime. Bank Nifty's RSI at 73.34 is in overbought territory, suggesting potential for profit booking, while Nifty's RSI remains bullish but not overextended.",
+    "options_analysis": "The provided options data is largely incomplete, with Max Pain, Call Resistance, and Put Support all at zero. While PCR for both indices is 1.0 (neutral), the absence of comprehensive OI data prevents a robust options-based directional analysis.",
+    "sentiment_analysis": "Market news is dominated by positive developments surrounding Jio's IPO and expansion plans, along with Sebi's approval for open-market share buybacks, which are structural positives. However, FII/DII data is neutral, and the rise in India's 10-year yield due to US-Iran talks introduces a minor cautionary note.",
+    "confluence_summary": "Despite some positive news flow, the technical picture for both Nifty and Bank Nifty is overwhelmingly neutral, with indices closing exactly at key EMAs and operating in a ranging regime. The incomplete options data further limits conviction, leading to a cautious 'NO TRADE' stance as there's insufficient confluence for a directional move."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "entry_zone": "",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 0,
-    "risk_reward": "N/A",
+    "risk_reward": "",
     "key_levels_to_watch": [
-      "24072.9 (Resistance)",
-      "23927.6 (Support)"
+      "24013.1 (EMA confluence)",
+      "23927.6 (Support 1)",
+      "23842.1 (Support 2)",
+      "24072.9 (Resistance 1)",
+      "24132.7 (Resistance 2)"
     ],
-    "invalidation": "A clear breakout above 24132.7 or breakdown below 23842.1 with strong volume."
+    "invalidation": "No clear directional setup due to strong technical neutrality and incomplete options data."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "entry_zone": "",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 0,
-    "risk_reward": "N/A",
+    "risk_reward": "",
     "key_levels_to_watch": [
-      "57685.75 (Current/EMA confluence)",
+      "57685.75 (EMA confluence)",
+      "57500 (Psychological Support)",
       "58000 (Psychological Resistance)"
     ],
-    "invalidation": "A sustained move above 58000 or below 57000 with conviction."
+    "invalidation": "No clear directional setup due to strong technical neutrality, overbought RSI, and incomplete options data."
   },
   "what_to_watch": [
-    "Global market performance overnight, especially US indices for directional cues.",
-    "FII/DII activity for the next few sessions to gauge institutional conviction.",
-    "Reliance Industries (RIL) stock movement and its impact on Nifty, given the Jio IPO news.",
-    "Nifty's ability to sustain above 24000 or if it retests immediate support levels.",
-    "Bank Nifty's reaction to its overbought RSI and whether it consolidates or corrects."
+    "Global market opening, especially US and Asian indices, for fresh directional cues.",
+    "Any fresh FII/DII activity data for institutional flow insights.",
+    "Further developments regarding Jio's IPO and its potential impact on Reliance Industries.",
+    "Price action around Nifty's 24000 and Bank Nifty's 57500 levels, given the EMA confluence.",
+    "Movement in crude oil prices and bond yields, as US-Iran talks stall."
   ],
   "risk_factors": [
-    "Sudden shifts in global sentiment or unexpected geopolitical events.",
-    "Lack of clear FII/DII participation leading to continued range-bound movement.",
-    "Increased volatility around the Jio IPO details and its potential impact on large-cap stocks.",
-    "Theta decay for option buyers if the market remains in a tight range."
+    "The incomplete options data (Max Pain, OI) significantly reduces the ability to gauge immediate derivative-based support and resistance.",
+    "Bank Nifty's overbought RSI (73.34) suggests a higher probability of profit booking or a corrective move.",
+    "Mixed global cues could lead to increased volatility and choppy price action, making directional trades challenging.",
+    "Any unexpected news regarding geopolitical events (US-Iran) could quickly alter market sentiment and bond yields."
   ]
 }
