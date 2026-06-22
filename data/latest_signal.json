@@ -1,58 +1,56 @@
 {
   "session": "post_market",
   "date": "2026-06-22",
-  "timestamp": "17:20 IST",
+  "timestamp": "19:52 IST",
   "market_bias": "neutral",
-  "bias_strength": "weak",
+  "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Most major global indices like SGX Nifty, Dow, Nasdaq, and Nikkei closed positively, providing a supportive international backdrop. Softening crude oil prices are also a positive for India, though Hang Seng showed some weakness.",
-    "technical_analysis": "Nifty is consolidating around its 9 and 21 EMAs, with a bullish RSI but a neutral trend and ranging regime, indicating indecision near resistance. Bank Nifty also shows a neutral trend and ranging regime, but its RSI is significantly overbought at 76.72, signaling potential for a pullback or consolidation.",
-    "options_analysis": "Both Nifty and Bank Nifty have a PCR of 1.0, indicating a perfectly neutral sentiment from the options market. The absence of Max Pain and Call/Put Resistance/Support data prevents a deeper options-based analysis, reinforcing a lack of strong directional conviction.",
-    "sentiment_analysis": "FII/DII flows were neutral, offering no clear directional signal. Market news is mixed, with positive stock-specific developments balanced by concerns like the Rupee's weakness and potential liquidity impact from upcoming IPOs, contributing to a cautious sentiment.",
-    "confluence_summary": "The market is in a ranging regime, consolidating near all-time highs. While global cues are supportive, domestic technicals show neutrality and Bank Nifty's overbought RSI warrants caution. The lack of strong conviction from FII/DII and options data further supports a wait-and-watch approach, suggesting continued range-bound movement."
+    "global_analysis": "Global cues are mixed with US futures (Dow, Nasdaq) and Nikkei showing positive momentum, suggesting a buoyant start. SGX Nifty's positive indication aligns with this. A significant drop in crude oil prices (-3.77%) due to US-Iran negotiations is a strong positive for India, potentially easing inflationary concerns. However, Hang Seng's negative close adds a note of caution.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed positive but are in a 'neutral' trend and 'ranging' regime. Nifty's RSI at 63.43 is bullish, but Bank Nifty's RSI at 76.72 is firmly in the overbought zone, indicating potential for consolidation or a pullback. The identical EMA9 and EMA21 values for both indices underscore the current lack of strong directional conviction.",
+    "options_analysis": "The Options Chain data for both Nifty and Bank Nifty shows a PCR of 1.0, indicating a perfectly neutral stance from the options market participants. The absence of specific Max Pain, Call Resistance, and Put Support values (or their reporting as 0) prevents a deeper options-based directional analysis, reinforcing the overall neutral outlook from this segment.",
+    "sentiment_analysis": "FII/DII activity was neutral for the day. Market news is largely stock-specific, with Q1 earnings season approaching (TCS on July 9) and some M&A/IPO news. The drop in crude oil due to US-Iran talks is a significant positive sentiment driver for India, but Jio Platforms flagging talent retention as a risk and India's low trading participation rate are minor underlying concerns.",
+    "confluence_summary": "While positive global cues and a significant drop in crude oil provide a bullish undertone, domestic technicals for both Nifty and Bank Nifty firmly point to a 'ranging' market with a neutral trend. Bank Nifty's overbought RSI warrants caution for aggressive long positions. The options market also reflects neutrality, suggesting that aggressive directional bets are not advisable at this juncture."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 60,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24156.25 (Immediate Resistance)",
-      "24061.35 (Immediate Support)",
-      "24209.6 (Strong Resistance)",
-      "24019.8 (Strong Support)"
+      "24061.35 (Support)",
+      "24156.25 (Resistance)",
+      "24209.6 (Strong Resistance)"
     ],
-    "invalidation": "N/A - No directional trade initiated due to ranging market and low conviction."
+    "invalidation": "A clear breakout above 24209.6 or a breakdown below 24019.8 with strong volume and follow-through would invalidate the ranging bias."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 60,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "58000 (Psychological Resistance)",
-      "57500 (Psychological Support)",
-      "Overbought RSI (76.72)"
+      "57935.60 (Current Price/Pivot)",
+      "RSI 76.72 (Overbought)"
     ],
-    "invalidation": "N/A - No directional trade initiated due to overbought RSI and ranging market."
+    "invalidation": "A clear breakout above 58200 or a breakdown below 57500 with strong volume and follow-through would invalidate the ranging bias and overbought caution."
   },
   "what_to_watch": [
-    "Global market performance, especially US tech indices (Nasdaq) for sustained momentum.",
-    "FII/DII activity for any significant shift in flows that could provide directional conviction.",
-    "Nifty's ability to decisively break above 24156 or below 24061 for a clear trend.",
-    "Bank Nifty's reaction to its overbought RSI level; watch for potential profit booking or consolidation.",
-    "Crude oil price movements and their impact on inflation expectations."
+    "Global market performance overnight, especially US indices, for sustained momentum.",
+    "Crude oil price movement; continued weakness would be a significant positive for India.",
+    "Nifty and Bank Nifty's ability to sustain above their current levels or break out of the defined range with conviction.",
+    "FII/DII activity for the next trading session for directional cues.",
+    "Start of Q1 earnings season, with TCS results on July 9, for sector-specific impacts."
   ],
   "risk_factors": [
-    "Potential profit booking in Bank Nifty due to its significantly overbought RSI.",
-    "Any unexpected negative shift in global sentiment or a reversal in FII flows.",
-    "Lack of clear directional momentum leading to whipsaws and increased risk in a ranging market.",
-    "Domestic inflation concerns if crude oil prices reverse their downtrend."
+    "Any negative developments in US-Iran negotiations that could reverse crude oil's downward trend.",
+    "Potential profit-booking in Bank Nifty due to its significantly overbought RSI.",
+    "Lack of strong FII buying interest could cap upside despite positive global cues.",
+    "Unexpected global economic data or geopolitical events that could disrupt market sentiment."
   ]
 }
