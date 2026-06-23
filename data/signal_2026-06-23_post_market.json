@@ -1,57 +1,54 @@
 {
   "session": "post_market",
   "date": "2026-06-23",
-  "timestamp": "15:05 IST",
+  "timestamp": "17:20 IST",
   "market_bias": "bearish",
   "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global markets are showing significant weakness, with SGX Nifty, Nikkei, Nasdaq, and Dow Futures all trading deep in the red. Concerns over potential Fed rate hikes are strengthening the dollar and leading to a broad-based sell-off, particularly in tech stocks, setting a negative tone for tomorrow's open.",
-    "technical_analysis": "Nifty 50 and Bank Nifty both experienced substantial falls today, breaking below key levels. Nifty's RSI at 29.13 indicates an oversold condition, suggesting a potential for a short-covering bounce, while Bank Nifty's RSI at 39.21 is bearish. Despite the 'neutral' trend indicator, the daily price action clearly points to strong bearish momentum.",
-    "options_analysis": "The available options data shows a neutral PCR of 1.0 for both Nifty and Bank Nifty. However, the absence of Max Pain, Call Resistance, and Put Support data significantly limits our ability to derive deeper insights from the options chain for the upcoming expiry.",
-    "sentiment_analysis": "Sentiment is overwhelmingly negative, driven by persistent FII selling for 12 consecutive months and domestic news highlighting a broad market sell-off due to global cues and slowing rural incomes. While some specific stock recommendations exist, the overall market mood is cautious and risk-averse.",
-    "confluence_summary": "The confluence of strong global headwinds, persistent FII selling, and a significant technical breakdown in both Nifty and Bank Nifty points towards a bearish bias. While Nifty's oversold RSI suggests caution for aggressive shorts, any bounce is likely to be met with selling pressure, making a 'sell on rallies' strategy prudent for the near term."
+    "global_analysis": "Global markets are under significant pressure, with SGX Nifty, US futures, and Asian indices all down sharply, indicating a broad-based risk-off sentiment. Crude oil and gold also show weakness, suggesting concerns about global economic health and investor flight from risk assets.",
+    "technical_analysis": "Nifty 50 closed down 1.16% with its RSI at 28.41, indicating oversold conditions which might trigger a short-covering bounce. Bank Nifty also fell 1.30% with a bearish RSI of 37.9, suggesting more potential downside. Both indices are currently at their short-term EMAs after the sharp fall, offering little immediate directional clarity from these averages.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from an options perspective for the current expiry. However, the absence of specific Max Pain, Call Resistance, and Put Support data limits the actionable insights from the options chain for immediate trade decisions.",
+    "sentiment_analysis": "Market sentiment is overwhelmingly negative, driven by a significant tech sell-off globally (Nasdaq 100, SpaceX), a sharp fall in Sensex, and continued FII selling for three consecutive months. Geopolitical tensions in the Middle East further add to the risk aversion, overshadowing any positive news from specific sectors.",
+    "confluence_summary": "The market is facing strong bearish headwinds from global cues, significant daily price action, and negative sentiment. While Nifty's oversold RSI suggests a potential for a temporary bounce, the overall environment points to continued caution and downside risk. The neutral options data and 'ranging' market regime contradict the daily price action, but the dominant factors are clearly bearish."
   },
   "nifty_trade": {
-    "direction": "SHORT",
-    "entry_zone": "23900 - 23950",
-    "stop_loss": 24050,
-    "target_1": 23725,
-    "target_2": 23610,
-    "confidence_pct": 65,
-    "risk_reward": "1:1.8",
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 60,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23725 (Support 1)",
-      "23900 (Immediate Resistance)",
-      "24045 (Resistance 1)"
+      "23694.2 (Support)",
+      "24044.75 (Resistance)"
     ],
-    "invalidation": "Sustained move above 24050 or a strong gap-down opening below 23600, making the risk-reward unfavorable for a fresh short."
+    "invalidation": "A clear break and sustained move above 24044.75 or below 23564.3 would establish a new directional bias."
   },
   "banknifty_trade": {
-    "direction": "SHORT",
-    "entry_zone": "57500 - 57600",
-    "stop_loss": 57800,
-    "target_1": 57000,
-    "target_2": 56800,
-    "confidence_pct": 65,
-    "risk_reward": "1:2.5",
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 60,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "57000 (Immediate Support)",
-      "57500 (Immediate Resistance)",
-      "57800 (Key Resistance)"
+      "57000 (Psychological Support)",
+      "57500 (Immediate Resistance)"
     ],
-    "invalidation": "Sustained move above 57800 or a strong gap-down opening below 56800, making the risk-reward unfavorable for a fresh short."
+    "invalidation": "A clear break and sustained move above 57500 or below 56800 would establish a new directional bias."
   },
   "what_to_watch": [
-    "Overnight performance of US markets (Dow, Nasdaq) and tomorrow's Asian market cues (Nikkei, Hang Seng).",
-    "FII/DII activity for the next trading session, as FII selling remains a significant overhang.",
-    "Movement in Crude Oil and Dollar Index, as Fed hike bets continue to influence global sentiment.",
-    "Nifty's reaction at the 23725 support level; a break below could accelerate the downtrend.",
-    "Any fresh economic data or statements from central banks that could impact market expectations."
+    "Global market performance, especially US futures and Asian markets, for cues on opening.",
+    "FII/DII activity for the next trading session to gauge institutional sentiment.",
+    "Nifty's reaction to its oversold RSI level; whether it triggers a bounce or continues to slide.",
+    "Developments in geopolitical tensions (Iran-Israel) and their potential impact on crude oil prices."
   ],
   "risk_factors": [
-    "Nifty's oversold RSI (29.13) could trigger a sharp short-covering rally, making aggressive short positions risky.",
-    "The 'ranging' market regime, despite today's fall, suggests potential for whipsaw movements.",
-    "Lack of comprehensive options data (Max Pain, OI) limits the ability to gauge precise support/resistance from the derivatives segment.",
-    "Unexpected positive news flow from global or domestic fronts could quickly reverse the current bearish sentiment."
+    "Escalation of geopolitical conflicts leading to increased market volatility.",
+    "Continued and aggressive FII selling pressure in the Indian markets.",
+    "Further deepening of the global tech sector sell-off impacting IT heavyweights.",
+    "Any unexpected negative economic data releases globally or domestically."
   ]
 }
