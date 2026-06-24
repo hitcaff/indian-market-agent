@@ -1,55 +1,52 @@
 {
   "session": "post_market",
   "date": "2026-06-24",
-  "timestamp": "17:06 IST",
+  "timestamp": "19:31 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed to slightly positive, with SGX Nifty indicating a positive opening while US futures are largely flat. Crude oil and gold prices are down, which is generally a positive for the Indian economy. However, Nikkei's decline adds a note of caution from Asian markets.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed positively today, with Bank Nifty showing stronger momentum. However, Nifty's RSI remains bearish (39.85), and both indices are in a neutral trend within a ranging market regime. The current price for both indices is exactly at their EMA9 and EMA21, indicating a lack of clear short-term directional bias from these averages.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, suggesting a perfectly balanced call and put open interest, which points to a neutral stance from the options market. The absence of specific Max Pain, Call Resistance, and Put Support values further reinforces the lack of a clear directional bias from options data.",
-    "sentiment_analysis": "FII/DII activity was neutral today, offering no fresh directional cues from institutional flows. Market news presents a mixed picture, with positive headlines like foreign inflows into Asian bonds and Nifty/Sensex rallying, juxtaposed with concerns such as S&P Global projecting a drop in India's economic growth and a strong dollar.",
-    "confluence_summary": "Despite a positive close for the day, the overall market remains in a ranging regime with neutral trends for both Nifty and Bank Nifty. Technical indicators like Nifty's bearish RSI and neutral options data do not provide strong directional conviction. Given the mixed global cues and neutral FII/DII activity, a cautious 'no trade' approach is prudent for the upcoming session."
+    "global_analysis": "Global cues are mixed but lean positive, with SGX Nifty, Dow, and Nasdaq futures showing gains. Crucially, crude oil has seen a significant drop of over 4%, falling below $75/bbl, which is a strong positive for India's import bill and inflation outlook. However, Nikkei's decline adds a note of caution.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed positive but their technicals remain firmly neutral. Both indices are trading at their EMA9/21, indicating a lack of clear short-term trend, with Nifty's RSI bearish and Bank Nifty's neutral. The market regime is explicitly 'ranging', reinforcing the absence of strong directional momentum.",
+    "options_analysis": "The provided options data for both Nifty and Bank Nifty shows a PCR of 1.0, which is perfectly neutral. However, the Max Pain, Call Resistance, and Put Support are all reported as 0, indicating insufficient or incomplete data for a robust options-based directional analysis. This limits our ability to gauge precise market positioning.",
+    "sentiment_analysis": "FII/DII data is neutral for the day, offering no fresh directional insights. Market news is mixed; positive from falling crude and dovish RBI comments, but US stocks remain subdued and an IPO received a tepid response. The overall sentiment lacks strong conviction despite Nifty reclaiming 24,000.",
+    "confluence_summary": "Despite positive global cues and a significant drop in crude oil, domestic technicals and options data for both Nifty and Bank Nifty are firmly neutral. The market is in a 'ranging' regime, suggesting a lack of strong directional conviction. Therefore, a 'NO TRADE' stance is prudent given the insufficient confluence for a high-conviction move."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 40,
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 20,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24144.72 (Resistance)",
       "23843.92 (Support)",
-      "24000 (Psychological)"
+      "24144.72 (Resistance)"
     ],
-    "invalidation": "A clear breakout above 24267 or below 23666 on significant volume would change the neutral stance."
+    "invalidation": "A clear breakout or breakdown from the current range (23800-24200) with strong volume and sustained FII/DII activity."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 45,
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 20,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "58500 (Psychological Resistance)",
-      "57800 (Minor Support)"
+      "57800 (Psychological Support)",
+      "58500 (Psychological Resistance)"
     ],
-    "invalidation": "A sustained move above 58500 or below 57500 with strong follow-through could indicate a new trend."
+    "invalidation": "A clear breakout or breakdown from the current range with strong volume and sustained FII/DII activity."
   },
   "what_to_watch": [
-    "Performance of US and other Asian markets overnight for global sentiment cues.",
-    "FII/DII flow data for the next session to gauge institutional participation.",
-    "Nifty's ability to hold above 24000 and Bank Nifty's relative strength.",
-    "Any significant news developments regarding global economic outlook or domestic policy."
+    "Global market performance, particularly US tech stocks and Asian markets, for sustained directional cues.",
+    "Crude oil price movement; continued weakness below $70/bbl would be a significant positive catalyst for Indian equities.",
+    "FII/DII activity for fresh directional conviction, as their current stance is neutral."
   ],
   "risk_factors": [
-    "Potential for increased volatility due to the current ranging market regime.",
-    "Global economic slowdown concerns as highlighted by S&P Global's projections.",
-    "Strength of the US Dollar, which could impact foreign capital flows into India.",
-    "Lack of clear directional conviction from technicals and options data, leading to choppy price action."
+    "The 'ranging' market regime increases the risk of whipsaws and false breakouts, making directional trades challenging.",
+    "Incomplete options data (Max Pain, Call/Put Support/Resistance at 0) limits the ability to gauge precise market positioning and potential expiry levels.",
+    "Any sudden reversal in global sentiment, especially if US markets turn negative, could quickly negate the positive opening cues."
   ]
 }
