@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-06-25",
-  "timestamp": "17:00 IST",
+  "timestamp": "19:28 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed to slightly positive, with strong gains in Nasdaq futures and Nikkei, while Hang Seng declined. The fall in crude oil prices is a positive for the Indian economy, potentially aiding sentiment for the next session.",
-    "technical_analysis": "Nifty 50 closed flat, with EMA9 and EMA21 converging at the current price, indicating a lack of clear directional bias. RSI is neutral. Bank Nifty also ended flat, but its RSI at 62.31 suggests underlying bullish momentum, though the trend remains neutral and the market is in a ranging regime.",
-    "options_analysis": "As it was a monthly expiry day, the reported PCR of 1.0 and zero values for Max Pain, Call Resistance, and Put Support are indicative of settlement and not useful for forward-looking analysis. Options data for the new series will need to be monitored for fresh insights.",
-    "sentiment_analysis": "FII/DII activity was neutral for the day. Market news presents a mixed picture; while some reports are optimistic about Nifty heading to 24,500 next week and highlight a long weekly gaining streak, others point to mid/small-cap underperformance and specific stock declines. Overall sentiment is cautiously optimistic but not decisively bullish.",
-    "confluence_summary": "The market concluded a high-risk monthly expiry day with a neutral stance, characterized by ranging behavior and flat closures for both Nifty and Bank Nifty. Despite Bank Nifty's bullish RSI, the lack of clear directional signals from Nifty's technicals, neutral FII/DII, and mixed global/domestic news warrants a cautious approach for the upcoming sessions."
+    "global_analysis": "Global cues are largely positive with US futures (Dow, Nasdaq) and Nikkei showing strength, suggesting a supportive backdrop. SGX Nifty also indicates a flat to positive opening. However, Hang Seng's decline and persistent dollar strength introduce a note of caution, while crude oil easing is a positive for India.",
+    "technical_analysis": "Nifty 50 is exhibiting a neutral trend, with its EMA9 and EMA21 converged, indicating a phase of consolidation or ranging movement. Bank Nifty, while showing a bullish RSI at 62.31, also maintains a neutral trend with converged EMAs, suggesting it too is in a ranging market. Both indices lack clear directional momentum based on current technicals.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a neutral 1.0. Crucially, Max Pain, Call Resistance, and Put Support are all reported as 0, implying that the options data for the new expiry series is either not yet established or not fully reflected. This absence of clear options chain data makes it challenging to derive strong directional conviction for the immediate future.",
+    "sentiment_analysis": "FII and DII activity was neutral today, offering no clear directional bias. Market news highlights a rally in US chip stocks which could provide positive spillover, but also notes dollar strength which can be a headwind for emerging markets. Overall sentiment appears mixed, with no strong catalyst for a decisive move.",
+    "confluence_summary": "Despite broadly positive global cues, domestic technicals for both Nifty and Bank Nifty are neutral, indicating a ranging market. The lack of established options data for the new expiry series, combined with neutral FII/DII flows, suggests a period of consolidation. Therefore, a cautious 'NO TRADE' stance is prudent until clearer directional signals emerge."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -17,14 +17,14 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
+    "confidence_pct": 70,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24198 (Resistance)",
       "23976 (Support)",
-      "24000 (Psychological)"
+      "24198 (Resistance)",
+      "24341 (Strong Resistance)"
     ],
-    "invalidation": "No clear directional setup with sufficient confluence."
+    "invalidation": "N/A - Await clear breakout/breakdown from the current range."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -32,26 +32,26 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
+    "confidence_pct": 70,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "58500 (Resistance)",
       "58000 (Psychological Support)",
-      "57800 (Strong Support)"
+      "58300 (Immediate Resistance)",
+      "58500 (Strong Resistance)"
     ],
-    "invalidation": "No clear directional setup with sufficient confluence."
+    "invalidation": "N/A - Await clear breakout/breakdown from the current range."
   },
   "what_to_watch": [
-    "Global market performance, especially US indices and crude oil prices, for directional cues.",
-    "FII/DII activity in the new derivatives series to gauge institutional sentiment.",
-    "Nifty's ability to hold above 24000 and Bank Nifty's follow-through on its bullish RSI.",
-    "Fresh options chain data for the new expiry to identify key support and resistance levels.",
-    "Any significant news flow related to banking, IT, or other major sectors."
+    "Global market performance, particularly US tech sector and Dow futures, for spillover effects.",
+    "FII/DII activity in the initial days of the new expiry series for directional conviction.",
+    "Development of the options chain for the next expiry, including significant OI build-up and Max Pain levels.",
+    "Nifty's ability to sustain above 24200 or break below 23900 to confirm a directional move.",
+    "Bank Nifty's reaction around the psychological levels of 58000 and 58500."
   ],
   "risk_factors": [
-    "Potential for increased volatility as the market digests expiry day movements and forms a new directional bias.",
-    "Any unexpected negative global economic data or geopolitical developments.",
-    "Lack of sustained FII buying, which could cap upside potential.",
-    "Underperformance of mid and small-cap segments, as noted in recent news, could drag overall market sentiment."
+    "Uncertainty and potential volatility in the new derivatives series post-monthly expiry.",
+    "Continued dollar strength could impact FII flows into emerging markets.",
+    "Lack of established options data for the next expiry makes conviction difficult for derivative trades.",
+    "Any unexpected global geopolitical developments or significant economic data releases."
   ]
 }
