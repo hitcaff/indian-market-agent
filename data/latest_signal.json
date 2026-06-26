@@ -1,53 +1,55 @@
 {
   "session": "post_market",
   "date": "2026-06-26",
-  "timestamp": "17:06 IST",
+  "timestamp": "19:25 IST",
   "market_bias": "neutral",
-  "bias_strength": "moderate",
+  "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed to negative, with significant declines in Nikkei and Hang Seng, and US futures showing weakness. However, SGX Nifty is marginally positive, suggesting some resilience in the Indian market, while falling crude and rising gold indicate a cautious global sentiment.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed flat, with their EMA9 and EMA21 converging exactly at the current price, indicating a lack of clear trend. Nifty's RSI is neutral, and while Bank Nifty's RSI is slightly bullish, the overall trend for both indices is explicitly neutral and ranging.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, and the reported Max Pain, Call Resistance, and Put Support are all 0. This indicates a complete absence of clear directional conviction from the options market, reinforcing a neutral stance due to insufficient data or a very flat expiry.",
-    "sentiment_analysis": "FII/DII data shows no net activity, suggesting institutional investors are in a wait-and-watch mode. The market news is a mixed bag of corporate updates and analyst calls, without any strong immediate catalysts to drive a significant directional move.",
-    "confluence_summary": "The confluence of neutral technical indicators, flat institutional flows, ambiguous options data, and a declared 'ranging' market regime strongly points towards a continuation of sideways movement. Mixed global cues further add to the uncertainty, making a directional trade highly risky."
+    "global_analysis": "Global cues are predominantly negative, with US futures (Dow, Nasdaq) showing significant weakness, particularly in chip stocks. Asian markets like Nikkei and Hang Seng also closed sharply lower. While SGX Nifty is marginally positive, it stands in stark contrast to the broader global sentiment, suggesting potential for a gap-down opening for Indian markets.",
+    "technical_analysis": "Both Nifty 50 and Bank Nifty are exhibiting extremely tight consolidation, with their 9-day and 21-day EMAs converging perfectly at their current closing prices. This indicates a complete lack of directional trend and strong indecision. Nifty's RSI is neutral, while Bank Nifty's RSI shows a slight bullish tilt, but the overall trend remains neutral for both indices.",
+    "options_analysis": "The provided options data (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) for both Nifty and Bank Nifty appears to be placeholder data and does not offer any actionable insights into specific support or resistance levels from an options perspective. Based on the PCR of 1.0, the options market is indicating a neutral stance.",
+    "sentiment_analysis": "FII/DII data is neutral (zero net flow), offering no directional cues. The market regime is explicitly 'ranging' with low ATR%, reinforcing the technical observation of consolidation. While there are some positive stock-specific news items, the overarching sentiment is cautious due to the negative global tech sell-off, which could spill over into domestic markets.",
+    "confluence_summary": "The market is in a tight domestic range, showing significant indecision despite strong negative global cues. The complete convergence of EMAs and neutral PCR indicate a 'wait and watch' scenario. Given the lack of clear domestic directional signals and the looming global negativity, initiating a directional trade is highly risky at this juncture."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23976.13 (Support)",
-      "24198.73 (Resistance)"
+      "24056 (EMA confluence)",
+      "23976 (Immediate Support)",
+      "24198 (Immediate Resistance)"
     ],
-    "invalidation": "A sustained break and close above 24341.47 or below 23896.27 on high volume."
+    "invalidation": "Any significant gap opening or sustained move beyond the immediate support/resistance levels without clear follow-through."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "58177.05 (Current Price/Pivot)"
+      "58177 (EMA confluence)"
     ],
-    "invalidation": "A strong directional move with significant volume, indicating a breakout from the current range."
+    "invalidation": "Any significant gap opening or sustained move beyond the immediate EMA confluence without clear follow-through."
   },
   "what_to_watch": [
-    "Performance of global markets, especially US and Asian indices, for directional cues.",
-    "FII/DII activity for any significant shift in institutional sentiment.",
-    "Nifty and Bank Nifty's ability to hold their immediate support and resistance levels.",
-    "Any fresh economic data releases or geopolitical developments."
+    "How US markets close tonight, especially the tech sector.",
+    "Opening of Asian markets tomorrow morning for further global sentiment cues.",
+    "Nifty and Bank Nifty's opening price and initial price action to gauge the impact of global negativity.",
+    "Breakout from the current tight consolidation range on higher volumes.",
+    "Fresh FII/DII data for any significant directional flows."
   ],
   "risk_factors": [
-    "Sudden shifts in global sentiment due to geopolitical events or major economic data.",
-    "The current ranging market regime can lead to choppy price action, increasing the risk of whipsaws.",
-    "Lack of clear options data makes it difficult to gauge immediate expiry-related volatility or institutional positioning.",
-    "Any unexpected domestic news or policy announcements."
+    "Significant negative global cues, particularly from the US tech sector, could lead to a sharp gap-down opening.",
+    "The current low ATR% and tight consolidation often precede a volatile move, increasing risk for directional bets.",
+    "Lack of clear support/resistance from options data makes risk management challenging for specific levels.",
+    "Uncertainty regarding FII/DII participation post-market."
   ]
 }
