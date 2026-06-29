@@ -1,57 +1,55 @@
 {
   "session": "post_market",
   "date": "2026-06-29",
-  "timestamp": "18:23 IST",
+  "timestamp": "20:54 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed, with US futures showing strength on easing Mideast tensions and tech buying, while SGX Nifty is slightly negative. Asian markets were generally positive, indicating a cautious but not overtly negative global sentiment for the next session.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed lower today, with their EMA9 and EMA21 converging precisely at the current price, strongly indicating a ranging and neutral trend. Despite the price dip, RSIs for both indices remain in bullish territory (above 60), suggesting underlying momentum strength on any dips.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a perfectly neutral 1.0, reflecting balanced sentiment in the options market. The absence of specific Max Pain, Call Resistance, and Put Support values suggests either incomplete data or a very distant expiry, limiting its immediate directional utility.",
-    "sentiment_analysis": "FII/DII flows were neutral today. Domestic news highlights Nifty settling below 23,950 and Sensex down, with major banking and IT stocks acting as drags. However, an expert view suggests a 'compelling setup for Indian stocks to outperform', adding a layer of underlying optimism.",
-    "confluence_summary": "The market is clearly in a ranging regime with neutral technicals (converging EMAs, neutral PCR) and FII/DII data. While RSIs are bullish and US futures are positive, the domestic price action was weak today, leading to a weak neutral bias. This mixed bag of signals warrants caution and a 'NO TRADE' stance for directional bets."
+    "global_analysis": "Global cues are a mixed bag, with US futures (Dow, Nasdaq) showing positive momentum, potentially offering some support. However, the sharp 4% decline in Nikkei and a slightly negative SGX Nifty suggest caution for the Asian markets. Crude oil is up, while gold is down, indicating some commodity-specific shifts rather than a broad risk-on/off sentiment.",
+    "technical_analysis": "Both Nifty 50 and Bank Nifty closed in the red, with their EMA9 and EMA21 converging at the current price, signaling a lack of strong directional conviction and a consolidation phase. Despite the negative close, the RSI for both indices remains in the bullish territory (Nifty 67.88, Bank Nifty 68.84). The overall trend is neutral, and the market regime is clearly defined as 'ranging'.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a neutral 1.0, indicating a balanced sentiment from options traders. The reported '0' values for Max Pain, Call Resistance, and Put Support mean that the options data is not providing any clear actionable insights or strong directional biases for specific strike levels at this juncture, reinforcing the neutral stance.",
+    "sentiment_analysis": "FII and DII flows are reported as neutral, indicating no significant institutional buying or selling pressure to sway the market. News flow is mixed; while there are positive reports on US stocks and expert views on Indian market outperformance, concerns around Microsoft's performance and the sharp Nikkei fall temper enthusiasm. Yes Bank's fundraising plans are specific to the banking sector.",
+    "confluence_summary": "The confluence of mixed global signals, a neutral technical trend despite bullish RSI, uninformative options data, and neutral institutional flows strongly suggests a market in a state of indecision and consolidation. The 'ranging' market regime and the proposed trades' low confidence levels (60%) align perfectly with this assessment. Therefore, a cautious 'NO TRADE' approach is prudent until clearer directional cues emerge."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "0 - 0",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "entry_zone": "NA",
+    "stop_loss": "NA",
+    "target_1": "NA",
+    "target_2": "NA",
     "confidence_pct": 60,
-    "risk_reward": "1:0",
+    "risk_reward": "NA",
     "key_levels_to_watch": [
-      "23873.87 (Support 1)",
-      "23801.48 (Support 2)",
-      "24069.32 (Resistance 1)",
-      "24192.38 (Resistance 2)"
+      "23873.87 (Immediate Support)",
+      "24069.32 (Immediate Resistance)",
+      "SGX Nifty's opening reaction"
     ],
-    "invalidation": "A clear breakout above 24192 or breakdown below 23801 with strong volume would invalidate the ranging outlook and signal a potential directional move."
+    "invalidation": "A sustained breakout above 24192 or a decisive breakdown below 23801 on strong volume would invalidate the current ranging bias and signal a potential directional move."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "0 - 0",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "entry_zone": "NA",
+    "stop_loss": "NA",
+    "target_1": "NA",
+    "target_2": "NA",
     "confidence_pct": 60,
-    "risk_reward": "1:0",
+    "risk_reward": "NA",
     "key_levels_to_watch": [
-      "57500 (Psychological Support)",
-      "58000 (Psychological Resistance)"
+      "57727.35 (Current Price)",
+      "Impact of Yes Bank fundraising news",
+      "57500 (Psychological Support)"
     ],
-    "invalidation": "A sustained move above 58000 or below 57500 on Bank Nifty would indicate a shift from the current neutral/ranging bias."
+    "invalidation": "A clear move above 58000 or below 57500 with significant volume would indicate a shift from the current neutral stance."
   },
   "what_to_watch": [
-    "Global market opening, especially US futures performance overnight and Asian market cues tomorrow morning.",
-    "FII/DII activity for the next trading session to gauge institutional sentiment.",
-    "Nifty's ability to hold the immediate support zone of 23870-23800. A breach could lead to further downside.",
-    "Bank Nifty's performance, particularly around the 57500 level, as it was a significant drag today.",
-    "Any fresh geopolitical developments or major economic news that could impact global sentiment."
+    "The opening performance of global markets, particularly US indices, for sustained momentum.",
+    "FII/DII activity in the upcoming session to gauge institutional conviction.",
+    "Nifty and Bank Nifty's ability to break out of their established support and resistance levels.",
+    "Any further news or developments regarding Yes Bank's fundraising and its broader impact on the banking sector."
   ],
   "risk_factors": [
-    "Sustained FII selling in the coming days could put pressure on Indian equities.",
-    "Any re-escalation of global geopolitical tensions, despite current easing, could trigger risk-off sentiment.",
-    "Failure of Nifty to hold key support levels, particularly 23800, could lead to a deeper correction.",
-    "Impact of monsoon progress on inflation and RBI's monetary policy stance."
+    "Continued volatility in global markets, especially the sharp decline seen in Nikkei, could spill over.",
+    "The lack of clear institutional participation (neutral FII/DII) might lead to choppy and unpredictable price action.",
+    "The market remaining stuck in a tight range could result in whipsaws, making directional trades challenging and risky."
   ]
 }
