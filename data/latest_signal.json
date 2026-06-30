@@ -1,57 +1,56 @@
 {
   "session": "post_market",
   "date": "2026-06-30",
-  "timestamp": "17:07 IST",
-  "market_bias": "bullish",
-  "bias_strength": "moderate",
+  "timestamp": "19:20 IST",
+  "market_bias": "weak bullish",
+  "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed, with US futures showing slight positivity and Nikkei up, while Hang Seng is down. Crude oil is stable and Gold is up. This mixed bag doesn't present a strong directional bias but doesn't deter from a potential domestic bounce.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed marginally negative, but the standout factor is their extremely oversold RSI readings (Nifty 15.29, Bank Nifty 4.04). This is a strong contrarian signal for a technical bounce. The EMA9 and EMA21 being identical to the current price is unusual and might suggest a sharp recent move or data anomaly, but the RSI remains a powerful indicator.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty is neutral at 1.0. However, the Max Pain, Call Resistance, and Put Support values are all reported as 0, which makes a comprehensive options analysis impossible and limits its influence on the overall bias.",
-    "sentiment_analysis": "FII/DII data is neutral for the day. Market news indicates some positive sectoral and stock-specific developments, such as the AI 'supercycle' and specific buy recommendations for large-cap stocks like HDFC Bank and Bajaj Finance. Nomura's view on rural demand remaining resilient despite monsoon concerns also adds a layer of cautious optimism.",
-    "confluence_summary": "The primary driver for a bullish bias is the severely oversold RSI across both Nifty and Bank Nifty, indicating a high probability of a technical rebound. While options data is inconclusive and FII/DII are neutral, the extreme technical readings, coupled with a mixed-to-slightly-positive global backdrop and some positive stock-specific news, strongly suggest a bounce is imminent. The 'NO TRADE' proposed earlier is adjusted based on this strong technical confluence."
+    "global_analysis": "Global cues are mixed with US futures split (Dow down, Nasdaq up) and Asian markets showing divergence. SGX Nifty's negative close suggests a cautious opening for Indian markets, while crude and gold are slightly positive.",
+    "technical_analysis": "Both Nifty and Bank Nifty are in extremely oversold territory with RSI readings of 15.29 and 4.04 respectively, strongly indicating a technical bounce is imminent. However, the stated trend for both indices remains neutral, and EMA values are at current price levels.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from options traders. The absence of significant Max Pain, Call Resistance, or Put Support data further suggests a lack of strong directional conviction from the options chain.",
+    "sentiment_analysis": "FII/DII activity is neutral for the day. Market news highlights Nifty's significant 9% decline in H1CY26 and the IT sector's 30% YTD crash, raising questions about a potential rebound. US markets are buoyed by AI optimism, but Indian sentiment appears more subdued.",
+    "confluence_summary": "The most compelling factor is the extremely oversold RSI across both indices, particularly Bank Nifty, which points to a high probability of a technical bounce. However, the lack of strong directional signals from options, FII/DII, and the neutral trend necessitates caution, making any long trade a contrarian bounce play rather than a strong trend-following position."
   },
   "nifty_trade": {
-    "direction": "LONG",
-    "entry_zone": "23850 - 23880",
-    "stop_loss": 23770,
-    "target_1": 23990,
-    "target_2": 24115,
-    "confidence_pct": 70,
-    "risk_reward": "1:1.3",
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23785 (Support 1)",
-      "23990 (Resistance 1)",
-      "24115 (Resistance 2)"
+      "23784.78 (Support)",
+      "23991.13 (Resistance)"
     ],
-    "invalidation": "Sustained close below 23700 or significant negative global news overnight."
+    "invalidation": "Insufficient confluence for a high-conviction directional trade despite oversold RSI."
   },
   "banknifty_trade": {
     "direction": "LONG",
     "entry_zone": "57500 - 57600",
-    "stop_loss": 57250,
-    "target_1": 57950,
-    "target_2": 58250,
-    "confidence_pct": 75,
-    "risk_reward": "1:1.33",
+    "stop_loss": 57300,
+    "target_1": 57850,
+    "target_2": 58000,
+    "confidence_pct": 60,
+    "risk_reward": "1:1.2",
     "key_levels_to_watch": [
-      "57250 (Derived Support)",
-      "57950 (Derived Resistance 1)",
-      "58250 (Derived Resistance 2)"
+      "57500 (Psychological Support)",
+      "57800 (Minor Resistance)",
+      "58000 (Resistance)"
     ],
-    "invalidation": "Sustained close below 57000 or Nifty failing to show a bounce."
+    "invalidation": "Sustained break and close below 57300."
   },
   "what_to_watch": [
-    "Overnight performance of US markets (Dow & Nasdaq futures turning into actual close).",
-    "FII/DII activity at market open tomorrow for fresh directional cues.",
-    "Any fresh news flow regarding monsoon progression or global economic data.",
-    "How Nifty and Bank Nifty react to their immediate support and resistance levels, especially given the extreme oversold RSI.",
-    "Option chain build-up for the upcoming expiry to gauge fresh institutional positioning."
+    "Global market performance, especially US tech sector's momentum.",
+    "FII/DII activity for fresh directional cues and capital flows.",
+    "Bank Nifty's ability to sustain above 57500 and break initial resistance levels, confirming the technical bounce.",
+    "Any major economic data releases or central bank commentary.",
+    "Sectoral performance, particularly financials and IT, given recent news."
   ],
   "risk_factors": [
-    "The incomplete options data (Max Pain, OI, Call/Put Support/Resistance being 0) limits a holistic view.",
-    "The 'neutral' trend and PCR conflict with the strong oversold RSI, indicating potential for whipsaws.",
-    "The possibility of the oversold condition persisting or global markets turning sharply negative, negating the bounce potential.",
-    "The unusual EMA values might indicate a data anomaly, though RSI is a standalone indicator."
+    "Lack of strong overall market confluence for a sustained rally beyond a technical bounce.",
+    "Mixed global cues could lead to increased volatility and limit upside.",
+    "Any negative domestic news flow or renewed FII selling could quickly negate the technical bounce.",
+    "The broader market sentiment in India remains cautious after the H1CY26 performance, indicating underlying weakness."
   ]
 }
