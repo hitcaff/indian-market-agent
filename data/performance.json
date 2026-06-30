@@ -1,10 +1,10 @@
 {
-  "total_trades": 24,
+  "total_trades": 26,
   "wins": 15,
-  "losses": 9,
-  "win_rate": 62.5,
-  "total_pnl_inr": 106530,
-  "avg_pnl_per_trade": 4439,
+  "losses": 11,
+  "win_rate": 57.7,
+  "total_pnl_inr": 95886,
+  "avg_pnl_per_trade": 3688,
   "best_trade": {
     "date": "2026-03-30",
     "instrument": "BANKNIFTY",
@@ -43,16 +43,16 @@
     "today_high": 55555.8515625,
     "today_low": 55026.1484375
   },
-  "current_streak": 1,
+  "current_streak": 3,
   "streak_type": "LOSS",
   "nifty_stats": {
-    "trades": 13,
+    "trades": 14,
     "wins": 9,
-    "pnl_inr": 45803
+    "pnl_inr": 39495
   },
   "banknifty_stats": {
-    "trades": 11,
+    "trades": 12,
     "wins": 6,
-    "pnl_inr": 60727
+    "pnl_inr": 56391
   }
 }
