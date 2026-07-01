@@ -1,58 +1,60 @@
 {
   "session": "post_market",
   "date": "2026-07-01",
-  "timestamp": "15:11 IST",
+  "timestamp": "17:17 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed, with SGX Nifty and Nikkei showing positive momentum, while US futures (Dow, Nasdaq) and Hang Seng are in the red. Lower crude oil prices are a positive for the Indian economy, but lingering doubts over the Iran peace deal add a layer of uncertainty to the global sentiment.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed positive today but are firmly in a neutral trend, with their EMA9 and EMA21 converging exactly at the current price, indicating strong consolidation. Nifty's RSI is bearish at 42.86, while Bank Nifty's is neutral at 45.69, suggesting a lack of strong directional conviction across the indices.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, signaling a perfectly balanced options market with no clear dominance from either call or put writers. The absence of specific Max Pain, Call Resistance, and Put Support values in the provided data further reinforces this neutral stance, indicating an indecisive setup.",
-    "sentiment_analysis": "FII/DII flows are neutral for the day, offering no directional cues. Market news is a mixed bag, with concerns over 'anaemic' growth in the IT sector and warnings of a 'smooth rally unlikely,' juxtaposed with positive views on large-cap financials and the benefit of lower crude. This creates a cautious and indecisive market sentiment.",
-    "confluence_summary": "The market is clearly in a ranging regime, as indicated by the technicals, options data, and the market regime signal. Despite a positive daily close, the confluence of neutral indicators, mixed global cues, and indecisive sentiment suggests a lack of conviction for any sustained directional move, making a 'NO TRADE' stance prudent."
+    "global_analysis": "Global cues are mixed with SGX Nifty and Nikkei showing positive momentum, suggesting a potentially firm opening for Indian markets. However, US futures (Dow, Nasdaq) are slightly negative, indicating underlying caution. Crude oil easing is a positive for India, while rising gold prices could signal safe-haven demand or inflation concerns.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed with decent gains, with Nifty managing to hold above the psychological 24,000 mark. However, the RSI for both indices remains in the bearish territory (below 50), and the overall trend is explicitly neutral. The market regime is identified as 'ranging', indicating a lack of strong directional conviction despite the day's positive close.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a perfectly neutral 1.0. The absence of specific Max Pain, Call Resistance, and Put Support values suggests a lack of clear directional bias from the options chain for the immediate expiry, reinforcing the neutral stance.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. Market news highlights Nifty's historical positive performance in July, which is a positive sentiment driver. However, the weak Rupee and RBI's new capital market norms could introduce some headwinds. Brokerage calls are mixed, reflecting a cautious yet selective approach.",
+    "confluence_summary": "Despite a positive closing for both Nifty and Bank Nifty, the underlying technical indicators (bearish RSI, neutral trend, ranging regime) and neutral options data suggest a lack of strong directional conviction. The mixed global cues further contribute to a cautious outlook, validating the 'NO TRADE' recommendation for aggressive directional bets."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 60,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23919 (Support)",
-      "24073 (Resistance)",
-      "24000 (Psychological)"
+      "24072.13 (Resistance 1)",
+      "24138.42 (Resistance 2)",
+      "23917.33 (Support 1)",
+      "23828.82 (Support 2)"
     ],
-    "invalidation": "N/A (No trade proposed)"
+    "invalidation": "N/A - No directional trade proposed"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 60,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "58000 (Psychological)",
-      "57500 (Potential Support)",
-      "58500 (Potential Resistance)"
+      "58200 (Psychological Resistance)",
+      "58500 (Potential Resistance)",
+      "57800 (Psychological Support)",
+      "57500 (Potential Support)"
     ],
-    "invalidation": "N/A (No trade proposed)"
+    "invalidation": "N/A - No directional trade proposed"
   },
   "what_to_watch": [
-    "Global market performance, especially US futures and Asian markets, for directional cues.",
-    "Crude oil price movements, as continued softness would be positive for India.",
-    "FII/DII activity in the coming sessions to identify any emerging trend.",
-    "Nifty's ability to hold above or break below the 24000 psychological level.",
-    "News flow related to the IT sector and large-cap financials, given the mixed outlooks."
+    "Global market performance, especially US futures and Asian markets, for early morning cues.",
+    "FII/DII activity for any significant directional flows, as today's data was neutral.",
+    "Nifty's ability to sustain above 24,000 and Bank Nifty's follow-through strength.",
+    "Movement in the Rupee (USD/INR) and Crude Oil prices, as they can influence market sentiment.",
+    "Options chain build-up for the upcoming expiry to gauge fresh directional biases."
   ],
   "risk_factors": [
-    "Mixed global cues could lead to increased volatility and sudden shifts in sentiment.",
-    "The market's current ranging regime makes it prone to whipsaws and false breakouts.",
-    "Lack of clear FII/DII directional flow can keep the market indecisive.",
-    "Ongoing concerns about the IT sector's growth trajectory could weigh on broader market sentiment.",
-    "Uncertainty surrounding the US-Iran impasse and its potential impact on global stability."
+    "Any sharp deterioration in global sentiment, particularly from US markets.",
+    "Sustained FII selling in the coming sessions, which could put pressure on indices.",
+    "Further weakening of the Rupee, potentially impacting import-heavy sectors.",
+    "Geopolitical developments (e.g., Iran war caution) that could trigger risk-off sentiment.",
+    "Lack of follow-through buying after today's positive close, leading to a continuation of the ranging market."
   ]
 }
