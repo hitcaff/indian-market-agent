@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-07-06",
-  "timestamp": "15:47 IST",
-  "market_bias": "neutral",
+  "timestamp": "18:03 IST",
+  "market_bias": "cautiously bullish",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues were mixed but generally positive, with SGX Nifty, Nasdaq, and Hang Seng showing good gains, providing a supportive backdrop. However, Nikkei was flat and Crude oil was slightly down, indicating no strong directional push from international markets.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed with healthy gains, indicating strong upward momentum for the day. However, the extremely high RSI values (Nifty 99.01, Bank Nifty 89.92) suggest severe overbought conditions, making the market ripe for a potential pullback or consolidation in the very near term.",
-    "options_analysis": "The provided options data (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) is inconclusive and offers no actionable insights into potential support or resistance levels from the derivatives segment. This lack of data prevents a robust options-based assessment.",
-    "sentiment_analysis": "FII/DII flows were neutral for the day, offering no clear institutional conviction. Market news highlighted Nifty reclaiming 24,400 and FIIs betting on midcaps, suggesting a positive underlying sentiment, but this is tempered by the lack of fresh institutional buying data.",
-    "confluence_summary": "While the market closed strong with positive global cues, the extreme overbought RSI levels for both indices are a significant red flag, indicating exhaustion in the current rally. The absence of meaningful options data and neutral FII/DII flows further contribute to a mixed picture, warranting a cautious 'wait and watch' approach rather than aggressive directional trades."
+    "global_analysis": "Global cues were mixed but generally supportive, with SGX Nifty and Hang Seng showing positive momentum, and Nasdaq futures indicating a strong rebound in US tech. Dow futures were slightly negative, while crude oil declined, presenting a nuanced backdrop for Indian equities.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed significantly higher, with Nifty above 24,400, reflecting strong buying interest and a 'trending' regime. However, the extremely high RSI values (Nifty 99.01, Bank Nifty 89.92) signal severe overbought conditions, suggesting a high probability of profit-booking or consolidation in the near term.",
+    "options_analysis": "The PCR of 1.0 for both indices indicates a neutral stance from options traders, with calls and puts roughly balanced. The absence of specific Max Pain, Call Resistance, and Put Support values (reported as 0) limits the ability to derive strong directional cues from options data, contributing to the 'insufficient confluence' for aggressive trades.",
+    "sentiment_analysis": "Domestic news highlighted a strong day for the Indian market, with Nifty closing above 24,400 and significant investor wealth creation, indicating positive sentiment. FII/DII data was neutral for the day, suggesting a lack of strong institutional conviction despite the positive price action.",
+    "confluence_summary": "While the market closed strong, exhibiting a 'trending' regime and positive sentiment, the extreme overbought RSI levels in both Nifty and Bank Nifty, coupled with neutral and limited options data, suggest extreme caution. The lack of clear directional confluence from all factors makes fresh aggressive trades highly risky, favoring a wait-and-watch approach or highly selective, risk-managed strategies."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -17,13 +17,13 @@
     "stop_loss": "N/A",
     "target_1": "N/A",
     "target_2": "N/A",
-    "confidence_pct": 0,
+    "confidence_pct": 20,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24496.97 (Resistance)",
-      "24325.42 (Support)"
+      "24496.97 (Immediate Resistance)",
+      "24325.42 (Immediate Support)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "N/A (No trade initiated due to overbought conditions and lack of clear confluence)"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -31,25 +31,25 @@
     "stop_loss": "N/A",
     "target_1": "N/A",
     "target_2": "N/A",
-    "confidence_pct": 0,
+    "confidence_pct": 20,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "58500 (Psychological Resistance)",
-      "58000 (Psychological Support)"
+      "58291.50 (Current Price - acts as immediate reference)",
+      "Waiting for clearer support/resistance levels to emerge from options data or price action"
     ],
-    "invalidation": "N/A"
+    "invalidation": "N/A (No trade initiated due to overbought conditions and lack of clear confluence)"
   },
   "what_to_watch": [
-    "Nifty and Bank Nifty RSI levels for signs of cooling off or divergence.",
-    "Fresh FII/DII data for directional conviction.",
-    "Global market performance, especially US tech indices, for overnight cues.",
-    "Any significant updates on Q1 results from key Nifty constituents.",
-    "Development of options chain data for Nifty and Bank Nifty to identify fresh support/resistance."
+    "Sustainability of the global tech rally and US market performance overnight, particularly Nasdaq's follow-through.",
+    "Nifty's ability to consolidate or break past 24,500 without a significant correction, especially given the overbought RSI.",
+    "Any significant shift in FII/DII flows in the coming sessions, as their conviction is currently neutral.",
+    "Options chain build-up for clearer resistance/support levels for the next expiry, as current data is limited.",
+    "Crude oil price movements and their potential impact on inflation expectations and global sentiment."
   ],
   "risk_factors": [
-    "Extreme overbought conditions (RSI > 99 for Nifty) could lead to a sharp, sudden correction.",
-    "Lack of clear options data makes it difficult to gauge immediate support and resistance from the derivatives side.",
-    "Potential for global market volatility to trigger profit booking.",
-    "Any adverse news flow related to monsoon or economic data could trigger a pullback."
+    "Extreme overbought conditions (RSI 99.01 for Nifty, 89.92 for Bank Nifty) significantly increase the risk of sharp profit booking or a healthy correction.",
+    "Lack of strong FII buying conviction (neutral FII/DII data) could limit further upside momentum, making the rally vulnerable.",
+    "Any negative global news flow or unexpected economic data could trigger a market reversal from these extended levels.",
+    "The absence of clear options-derived support/resistance levels makes price discovery more volatile and less predictable in the short term."
   ]
 }
