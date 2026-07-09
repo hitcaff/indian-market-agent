@@ -1,55 +1,55 @@
 {
   "session": "post_market",
   "date": "2026-07-09",
-  "timestamp": "15:10 IST",
+  "timestamp": "17:16 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed with US futures and Nikkei showing positive momentum, while Hang Seng is down. Crude oil is slightly negative, and gold is up, indicating some underlying caution despite positive equity gains in some regions.",
-    "technical_analysis": "Nifty's RSI is in the oversold territory at 29.67, suggesting a potential bounce, but its trend remains neutral. Bank Nifty also shows a bearish RSI at 35.38 with a neutral trend. Both indices have their EMA9 and EMA21 aligned with the current price, indicating consolidation or a lack of strong directional momentum.",
-    "options_analysis": "PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from the options market. The absence of Max Pain, Call Resistance, and Put Support data makes a deeper options-based directional analysis inconclusive for the next session.",
-    "sentiment_analysis": "FII/DII data is neutral for the day, showing no clear institutional conviction. Market news is a mixed bag, with positive reports on India Inc's revenue growth and specific stock rallies (Vedanta, EMS stocks) balanced by some negative calls (Mazagon Dock) and general banking sector concerns regarding shrinking margins.",
-    "confluence_summary": "The market is currently in a ranging regime with neutral signals across most indicators. While Nifty's oversold RSI presents a potential for a bounce, the lack of strong supporting confluence from global cues, FII/DII, and clear options data, combined with a neutral trend, warrants a cautious 'NO TRADE' stance for the immediate next session."
+    "global_analysis": "Global cues are mixed, with SGX Nifty showing a slight positive bias, while US futures are split and Asian markets present a mixed picture. There's no strong directional push from the global front to influence tomorrow's opening.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed precisely on their 9 and 21 EMAs, indicating a neutral short-term trend and significant indecision. However, their RSIs are in bearish territory (Nifty 30.47, Bank Nifty 35.78), suggesting underlying weakness or a potential for a bounce from oversold levels.",
+    "options_analysis": "The PCR at 1.0 for both indices, coupled with zero Max Pain and Call/Put OI, strongly suggests this options data is for the new weekly series. A 1.0 PCR indicates a perfectly neutral stance, offering no strong directional bias from the options market.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. However, market news is largely positive, with strong Q1 results from Nifty heavyweight TCS and positive brokerage calls on Bank Nifty heavyweights like HDFC Bank and Bajaj Finance, providing a bullish undertone that contrasts with the bearish RSI readings.",
+    "confluence_summary": "The market is clearly in a ranging regime with conflicting signals. While positive news flow and today's positive close (especially for Bank Nifty) provide some bullish sentiment, the bearish RSI and neutral technical trend (EMAs) suggest indecision. Therefore, a neutral stance is warranted, awaiting clearer directional cues."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23874.83 (Support)",
-      "24083.83 (Resistance)"
+      "23880.77",
+      "24089.77"
     ],
-    "invalidation": "N/A - No trade proposed due to lack of confluence."
+    "invalidation": "No trade initiated"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "57000 (Psychological Support)",
-      "57500 (Psychological Resistance)"
+      "57000",
+      "57500"
     ],
-    "invalidation": "N/A - No trade proposed due to lack of confluence."
+    "invalidation": "No trade initiated"
   },
   "what_to_watch": [
-    "Global market performance, especially US and Asian markets, for directional cues.",
-    "FII/DII activity for fresh institutional flows in the next session.",
-    "Nifty's ability to sustain above 23900 or break 24000.",
-    "Bank Nifty's movement relative to the psychological levels of 57000 and 57500.",
-    "Any significant news flow related to Q1 results or economic data."
+    "Global market performance overnight, especially US and Asian markets, for fresh cues.",
+    "Any significant FII/DII activity data released for tomorrow to gauge institutional sentiment.",
+    "Nifty's ability to sustain above 24000 or a decisive break below 23900 for directional clarity.",
+    "Bank Nifty's performance relative to the 57000-57300 range, given its stronger close today.",
+    "Further news flow on key heavyweight stocks and any upcoming economic data releases."
   ],
   "risk_factors": [
-    "Geopolitical tensions (e.g., Iran war) impacting crude oil prices and global sentiment.",
-    "Uncertainty regarding the hawkish Fed outlook and its potential impact on global liquidity.",
-    "Lack of clear directional conviction leading to choppy, range-bound trading.",
-    "Potential for sharp moves if key support/resistance levels are decisively broken on high volume."
+    "The market's current ranging regime with low ATR% (0.99%) indicates potential for choppy, directionless movement.",
+    "Conflicting technical signals (bearish RSI vs. neutral EMAs and positive close) could lead to whipsaws.",
+    "Lack of clear FII/DII directional flow adds to the uncertainty.",
+    "Elevated risk level due to weekly expiry (today) means volatility could persist into the next session."
   ]
 }
