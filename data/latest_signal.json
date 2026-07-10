@@ -1,59 +1,56 @@
 {
   "session": "post_market",
   "date": "2026-07-10",
-  "timestamp": "17:10 IST",
-  "market_bias": "weak bullish",
+  "timestamp": "19:21 IST",
+  "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are largely positive, with SGX Nifty, Nikkei, and Hang Seng showing good gains, and Dow Futures also in the green. Nasdaq Futures are slightly negative, and rising crude oil prices could be a minor inflationary concern, but overall sentiment from global markets is supportive.",
-    "technical_analysis": "Nifty and Bank Nifty both closed significantly higher, reclaiming key psychological levels. However, Nifty's RSI at 37.2 remains in bearish territory, and Bank Nifty's RSI is neutral at 45.69. Both indices show a 'neutral' trend and closed precisely at their 9-day and 21-day EMAs, indicating a point of equilibrium or a strong move to retest these averages within a ranging environment.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a perfectly neutral 1.0, suggesting balanced call and put activity. The absence of Max Pain, Call Resistance, and Put Support data (showing as 0) limits a deeper options-based directional conviction, leaving this segment largely neutral.",
-    "sentiment_analysis": "FII/DII data is neutral for the day. Market news highlights a robust rally, with Nifty reclaiming 24,200 and significant investor wealth creation. Positive Q1 results from some banks and strong equity mutual fund inflows indicate underlying positive sentiment, despite the rupee's slip due to geopolitical concerns.",
-    "confluence_summary": "While the day's strong positive price action and supportive global cues suggest an immediate bullish tilt, the underlying technical indicators (bearish Nifty RSI, neutral trends, neutral PCR, and a ranging market regime) present a significant divergence. This lack of strong confluence prevents a high-conviction directional trade, leading to a weak bullish bias for the immediate outlook, but with caution."
+    "global_analysis": "Global cues are mixed, with SGX Nifty, Nikkei, and Hang Seng showing positive momentum, while Nasdaq futures are slightly negative. Dow futures are marginally positive. Crude oil and gold are down, which could be a positive for India's import bill.",
+    "technical_analysis": "Despite Nifty and Bank Nifty showing strong positive percentage changes (likely reflecting SGX Nifty's lead), core technicals are conflicting. Both indices are in a 'neutral' trend and 'ranging' regime, with EMAs flat at current prices. Nifty's RSI is bearish (37.2), while Bank Nifty's RSI is neutral (45.69), indicating a lack of strong directional conviction.",
+    "options_analysis": "The Options Chain data provided is largely inconclusive, with PCR at 1.0 for both Nifty and Bank Nifty, and Max Pain, Call Resistance, and Put Support all at zero. This suggests insufficient or unreliable options data to form a strong directional bias, reinforcing a neutral stance.",
+    "sentiment_analysis": "FII/DII flows are neutral for the day (\u20b90 Cr). Market news offers a mixed bag of expert opinions, with some suggesting range-bound movement and others seeing opportunities in large caps. Upcoming Q1 earnings from Reliance, Jio Financial, HDFC Bank, and Bajaj Finance will be key sentiment drivers.",
+    "confluence_summary": "The market presents a picture of conflicting signals. While the positive SGX Nifty suggests a strong open, the underlying technical structure (ranging regime, neutral trend, bearish Nifty RSI, flat EMAs) combined with neutral FII/DII and inconclusive options data points towards a lack of strong directional conviction. A cautious, range-bound approach is warranted."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 80,
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 30,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24250 (Immediate Resistance)",
-      "24293 (Strong Resistance)",
-      "24142 (Immediate Support)",
-      "24077 (Strong Support)"
+      "24250.12 (Resistance)",
+      "24142.02 (Support)"
     ],
-    "invalidation": "N/A - Waiting for clearer directional cues and technical confluence."
+    "invalidation": "A clear breakout above 24300 or below 24100 on significant volume, accompanied by a shift in FII/DII sentiment, would invalidate the 'NO TRADE' stance."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 80,
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 30,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "58100 (Immediate Resistance - Psychological)",
-      "57900 (Immediate Support - Psychological)",
-      "58300 (Potential Upside Target)",
-      "57700 (Potential Downside Target)"
+      "58200 (Psychological Resistance)",
+      "57800 (Psychological Support)"
     ],
-    "invalidation": "N/A - Waiting for clearer directional cues and technical confluence."
+    "invalidation": "A sustained move above 58300 or below 57700 with strong institutional participation would invalidate the 'NO TRADE' stance."
   },
   "what_to_watch": [
-    "Resolution of the divergence between Nifty's strong price action and its bearish RSI.",
-    "Sustained break above Nifty's 24250-24293 resistance zone or below 24077 support for clearer trend confirmation.",
-    "FII/DII activity in the coming sessions to gauge institutional conviction.",
-    "Global market performance overnight, especially US indices, for continued positive cues.",
-    "Options chain build-up for the next expiry to identify strong call/put writing zones."
+    "Global market performance, particularly US tech stocks and Asian markets, for cues on opening sentiment.",
+    "FII/DII activity for the next few sessions to gauge institutional conviction.",
+    "Key Q1 earnings announcements, especially from heavyweights like Reliance Industries, Jio Financial, HDFC Bank, and Bajaj Finance.",
+    "Crude oil price movements, as they have shown to influence bond yields and overall market sentiment.",
+    "Nifty's ability to hold above 24142 support or break above 24293 resistance to establish a clearer trend."
   ],
   "risk_factors": [
-    "Geopolitical developments, particularly the 'Iran flare-up' mentioned, could introduce volatility.",
-    "The current 'ranging' market regime increases the risk of whipsaws and false breakouts.",
-    "Lack of strong FII/DII participation could limit sustained directional moves.",
-    "The divergence between price action and technical indicators suggests underlying uncertainty, increasing trading risk."
+    "The prevailing 'ranging' market regime makes directional trades challenging and prone to whipsaws.",
+    "Conflicting technical signals (positive price action vs. bearish Nifty RSI and neutral trend) indicate underlying uncertainty.",
+    "Lack of clear FII/DII participation suggests institutions are also awaiting clearer signals.",
+    "Potential for increased volatility around upcoming Q1 earnings results.",
+    "Any escalation in geopolitical tensions (e.g., Middle East) could quickly turn sentiment negative."
   ]
 }
