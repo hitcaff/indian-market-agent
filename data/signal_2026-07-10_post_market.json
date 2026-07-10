@@ -1,56 +1,59 @@
 {
   "session": "post_market",
   "date": "2026-07-10",
-  "timestamp": "15:01 IST",
-  "market_bias": "neutral",
+  "timestamp": "17:10 IST",
+  "market_bias": "weak bullish",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues present a mixed picture; SGX Nifty, Nikkei, and Hang Seng showed positive momentum, while US Nasdaq futures were slightly negative. Dow futures were mildly positive. Crude oil and gold saw minor declines, indicating some risk-off sentiment in commodities.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed with significant gains (+1.05% and +1.47% respectively), yet their EMA9 and EMA21 are aligned with the current price, suggesting a lack of clear trend. Nifty's RSI is bearish at 37.68, while Bank Nifty's RSI is neutral at 46.61. The market regime is explicitly 'ranging', reinforcing the absence of a strong directional trend despite the day's positive price action.",
-    "options_analysis": "The options data provided for both Nifty and Bank Nifty shows a PCR of 1.0 (neutral) and Max Pain, Call Resistance, and Put Support all at 0. This data is inconclusive and does not offer any strong directional bias or support/resistance insights from the options chain.",
-    "sentiment_analysis": "FII/DII flows were neutral for the day. Market news highlighted positive momentum in specific sectors like IT (Newgen Software, TCS Q1 results) and Banking/Microfin (Indian Bank, Muthoot Microfin) due to strong Q1 updates. AMFI data indicated increased active equity inflows, which is a positive underlying sentiment, but global geopolitical risks and inflation concerns were also noted.",
-    "confluence_summary": "Despite a strong positive closing for both Nifty and Bank Nifty, the underlying technical indicators (RSI, EMAs, ranging market regime) and inconclusive options data do not provide sufficient confluence for a directional trade. The market appears to be in a consolidation phase, with strong daily moves potentially being absorbed within a broader range, hence validating a 'NO TRADE' stance."
+    "global_analysis": "Global cues are largely positive, with SGX Nifty, Nikkei, and Hang Seng showing good gains, and Dow Futures also in the green. Nasdaq Futures are slightly negative, and rising crude oil prices could be a minor inflationary concern, but overall sentiment from global markets is supportive.",
+    "technical_analysis": "Nifty and Bank Nifty both closed significantly higher, reclaiming key psychological levels. However, Nifty's RSI at 37.2 remains in bearish territory, and Bank Nifty's RSI is neutral at 45.69. Both indices show a 'neutral' trend and closed precisely at their 9-day and 21-day EMAs, indicating a point of equilibrium or a strong move to retest these averages within a ranging environment.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a perfectly neutral 1.0, suggesting balanced call and put activity. The absence of Max Pain, Call Resistance, and Put Support data (showing as 0) limits a deeper options-based directional conviction, leaving this segment largely neutral.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. Market news highlights a robust rally, with Nifty reclaiming 24,200 and significant investor wealth creation. Positive Q1 results from some banks and strong equity mutual fund inflows indicate underlying positive sentiment, despite the rupee's slip due to geopolitical concerns.",
+    "confluence_summary": "While the day's strong positive price action and supportive global cues suggest an immediate bullish tilt, the underlying technical indicators (bearish Nifty RSI, neutral trends, neutral PCR, and a ranging market regime) present a significant divergence. This lack of strong confluence prevents a high-conviction directional trade, leading to a weak bullish bias for the immediate outlook, but with caution."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 80,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24254.58 (Immediate Resistance)",
-      "24146.48 (Immediate Support)"
+      "24250 (Immediate Resistance)",
+      "24293 (Strong Resistance)",
+      "24142 (Immediate Support)",
+      "24077 (Strong Support)"
     ],
-    "invalidation": "N/A - No trade is active"
+    "invalidation": "N/A - Waiting for clearer directional cues and technical confluence."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 80,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "58200 (Psychological Resistance)",
-      "57800 (Psychological Support)"
+      "58100 (Immediate Resistance - Psychological)",
+      "57900 (Immediate Support - Psychological)",
+      "58300 (Potential Upside Target)",
+      "57700 (Potential Downside Target)"
     ],
-    "invalidation": "N/A - No trade is active"
+    "invalidation": "N/A - Waiting for clearer directional cues and technical confluence."
   },
   "what_to_watch": [
-    "FII/DII activity for clearer directional cues in the coming sessions.",
-    "Global market performance, particularly US tech stocks (Nasdaq) and European markets, for spillover effects.",
-    "Nifty's ability to decisively break and sustain above its immediate resistance levels (24254-24295 zone).",
-    "Bank Nifty's relative strength and any further news from the banking sector post Q1 results.",
-    "Crude oil price movements and evolving geopolitical situations, especially concerning the Strait of Hormuz and ECB's inflation outlook."
+    "Resolution of the divergence between Nifty's strong price action and its bearish RSI.",
+    "Sustained break above Nifty's 24250-24293 resistance zone or below 24077 support for clearer trend confirmation.",
+    "FII/DII activity in the coming sessions to gauge institutional conviction.",
+    "Global market performance overnight, especially US indices, for continued positive cues.",
+    "Options chain build-up for the next expiry to identify strong call/put writing zones."
   ],
   "risk_factors": [
-    "Global geopolitical risks and resurfacing inflation fears as highlighted by the ECB.",
-    "Mixed global market sentiment, with Nasdaq weakness potentially weighing on IT stocks.",
-    "Lack of clear trend from technical indicators despite strong daily price action, indicating potential for whipsaws.",
-    "Inconclusive options data, limiting insights into institutional positioning.",
-    "Potential for profit booking after a strong up move in a ranging market, leading to quick reversals."
+    "Geopolitical developments, particularly the 'Iran flare-up' mentioned, could introduce volatility.",
+    "The current 'ranging' market regime increases the risk of whipsaws and false breakouts.",
+    "Lack of strong FII/DII participation could limit sustained directional moves.",
+    "The divergence between price action and technical indicators suggests underlying uncertainty, increasing trading risk."
   ]
 }
