@@ -1,56 +1,55 @@
 {
   "session": "post_market",
   "date": "2026-07-15",
-  "timestamp": "16:10 IST",
+  "timestamp": "18:34 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed with SGX Nifty showing a slight negative bias, while US futures are flat to positive. Asian markets, particularly Nikkei and Hang Seng, demonstrated strong gains. Crude oil is up, and gold is down, indicating a nuanced global sentiment that doesn't provide a clear directional lead for the domestic market.",
-    "technical_analysis": "Both Nifty 50 and Bank Nifty closed in negative territory today. While Nifty's RSI is bullish at 65.2, Bank Nifty's RSI is in the overbought zone at 70.17, suggesting potential for profit booking. The EMA9 and EMA21 for both indices are aligned with the current price, indicating a lack of clear short-term trend or recent consolidation, further supported by the 'neutral' trend and 'ranging' regime.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, which is a neutral reading, offering no immediate directional bias from the options front. The absence of specific Max Pain, Call Resistance, and Put Support data prevents a deeper options-based analysis, reinforcing a cautious stance.",
-    "sentiment_analysis": "FII and DII activity was neutral today, providing no fresh capital flow insights. Market news is a mixed bag: positive corporate results from HDFC AMC and ICICI Pru Life, bullish long-term outlooks for Nifty, but also reports of significant stock-specific declines and the broader market erasing gains, reflecting underlying volatility and uncertainty.",
-    "confluence_summary": "Considering the negative close, neutral technical trends despite bullish/overbought RSIs, neutral options data, and mixed global/domestic sentiment, the market is currently in a state of indecision. The 'ranging' regime and 'NO TRADE' signals from the system underscore the lack of a high-conviction setup, leading to a weak neutral bias for the immediate term."
+    "global_analysis": "SGX Nifty's negative indication suggests a weak opening for Indian markets, despite positive cues from US futures and strong performance in other Asian markets like Nikkei and Hang Seng. Crude oil and gold are slightly up, which could signal underlying inflation concerns but are not a major immediate threat.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed in the red, with their current prices aligning precisely with EMA9 and EMA21, indicating a lack of clear short-term trend and a dominant ranging market. Nifty's RSI is bullish at 65.2, while Bank Nifty's RSI is overbought at 70.17, suggesting potential for consolidation or a pullback in the banking sector.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a perfectly neutral stance from options traders. The absence of specific Max Pain, Call Resistance, and Put Support data limits a deeper options-derived directional bias, reinforcing the overall neutrality.",
+    "sentiment_analysis": "FII/DII activity was neutral for the day. While global financial news is largely positive (BlackRock, Morgan Stanley, JPMorgan), and Indian experts project Nifty to 27,000+, the immediate price action was negative. Positive Q1 results from HDFC Life and AMC add to the underlying bullish sentiment for the medium term.",
+    "confluence_summary": "The market is firmly in a ranging regime with a neutral trend, despite a negative close for both indices and a weak SGX Nifty. While expert sentiment remains bullish for the medium term, the immediate technicals and Bank Nifty's overbought RSI suggest caution and potential for consolidation or a minor correction, leading to a weak neutral bias for the next session."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 40,
-    "risk_reward": "0.65 (below threshold)",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
       "23985.92 (Support)",
       "24195.72 (Resistance)"
     ],
-    "invalidation": "N/A (No trade proposed due to poor R:R)"
+    "invalidation": "N/A - No trade proposed due to poor R:R and ranging market conditions."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 60,
-    "risk_reward": "N/A (confidence too low)",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "57757.85 (Current Price)",
-      "Overbought RSI (70.17)"
+      "57757.85 (EMA/Current)",
+      "70.17 (Overbought RSI)"
     ],
-    "invalidation": "N/A (No trade proposed due to low confidence)"
+    "invalidation": "N/A - No trade proposed due to low confidence and overbought RSI in a ranging market."
   },
   "what_to_watch": [
-    "Global market cues, especially SGX Nifty and US futures, for directional leads.",
-    "FII/DII activity for any significant shifts in institutional flows.",
-    "Nifty's ability to hold above 23985.92 support and Bank Nifty's reaction to its overbought RSI.",
-    "Any fresh news flow regarding corporate earnings or macroeconomic indicators.",
-    "Volatility (ATR%) as the market is in a ranging regime, which can lead to whipsaws."
+    "Global market opening, especially US and European indices, for fresh directional cues.",
+    "Nifty's reaction to its immediate support at 23985.92 and resistance at 24195.72, as the market is in a ranging regime.",
+    "Bank Nifty's behavior around its overbought RSI level (70.17); watch for potential profit booking or consolidation.",
+    "FII/DII activity for any significant directional flows, as today was neutral.",
+    "Any further news or statements regarding inflation or interest rate outlook from major central banks."
   ],
   "risk_factors": [
-    "Lack of clear trend and ranging market conditions can lead to increased chop and false breakouts.",
-    "Bank Nifty's overbought RSI could trigger profit booking, impacting the broader market.",
-    "Mixed global sentiment and conflicting news headlines create an environment of uncertainty.",
-    "Potential for sudden shifts in FII/DII flows, which were neutral today.",
-    "Any unexpected geopolitical developments or domestic policy announcements."
+    "The 'ranging' market regime can lead to whipsaws and false breakouts, making directional trades challenging.",
+    "Bank Nifty's overbought RSI could trigger a sharp correction if profit booking intensifies.",
+    "Global inflation concerns and potential for central banks to adopt a more hawkish stance.",
+    "Any unexpected geopolitical developments, although none are currently highlighted as immediate threats."
   ]
 }
