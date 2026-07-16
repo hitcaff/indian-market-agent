@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-07-16",
-  "timestamp": "16:16 IST",
+  "timestamp": "18:43 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed with Dow futures showing a slight positive bias, but Nasdaq futures and Nikkei experiencing significant declines. The ongoing Iran-US conflict remains a key geopolitical overhang, contributing to the cautious sentiment and flat close in the domestic market.",
-    "technical_analysis": "Nifty closed flat, with its RSI deeply oversold at 15.65, suggesting a potential for a technical bounce from current levels. Bank Nifty, however, showed more weakness, closing down 0.30% with a bearish RSI of 31.09, indicating underlying fragility in the financial sector. Both indices are currently in a neutral trend and ranging regime.",
-    "options_analysis": "For the weekly expiry, PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral options setup. The reported Max Pain, Call Resistance, and Put Support as 0 suggest a balanced expiry or data reset, offering no strong directional cues for the upcoming session.",
-    "sentiment_analysis": "FII and DII activity was neutral for the day, providing no clear directional conviction. Market news highlights the dampening effect of the Iran-US conflict, while Warren Buffett's warning and retail investors selling in July point to a cautious, possibly risk-averse, sentiment among participants.",
-    "confluence_summary": "The market is firmly in a ranging regime, grappling with mixed global signals and elevated geopolitical risks. While Nifty's oversold RSI might tempt a contrarian long, Bank Nifty's bearishness and the overall neutral trend necessitate caution. The lack of strong directional conviction from options data and FII/DII reinforces a wait-and-watch approach, making high-conviction trades difficult."
+    "global_analysis": "Global cues are mixed, with significant weakness observed in Nasdaq futures (-0.94%) and Nikkei (-2.79%), indicating concerns in the tech sector and broader Asian markets. Dow futures and SGX Nifty remained largely flat, while crude oil gained and gold fell.",
+    "technical_analysis": "Nifty 50 closed flat on its 9-day and 21-day EMAs, with a deeply oversold RSI of 15.65, suggesting a strong potential for a technical bounce from immediate support levels. Bank Nifty also closed flat on its EMAs but with a bearish RSI of 31.09, indicating relative weakness compared to Nifty. Both indices are in a neutral, ranging trend.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from options participants. Max Pain, Call Resistance, and Put Support data are zero, providing no clear directional bias for the upcoming expiry series, likely due to today being weekly expiry.",
+    "sentiment_analysis": "FII/DII activity was neutral for the day. Corporate earnings news is largely positive, with Jio Financial, Polycab, and Tech Mahindra reporting strong Q1 results, which provides underlying fundamental support. However, global tech weakness could temper sentiment.",
+    "confluence_summary": "Despite positive corporate results, the market remains in a ranging regime with mixed global cues. Nifty's deeply oversold RSI presents a potential bounce opportunity from support, but the lack of strong conviction from other factors and the system's R:R filter suggest caution. Bank Nifty shows relative weakness. Therefore, a 'NO TRADE' stance is prudent for now, awaiting clearer directional signals."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -18,13 +18,14 @@
     "target_1": 0,
     "target_2": 0,
     "confidence_pct": 0,
-    "risk_reward": "0:0",
+    "risk_reward": "0",
     "key_levels_to_watch": [
-      "24019.67 (Support 1)",
-      "24156.17 (Resistance 1)",
-      "24000 (Psychological)"
+      "24019.67 (Support)",
+      "23966.58 (Strong Support)",
+      "24156.17 (Resistance)",
+      "24239.58 (Strong Resistance)"
     ],
-    "invalidation": "A clear directional breakout from the established 24000-24200 range with strong volume and follow-through."
+    "invalidation": "N/A"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -33,22 +34,24 @@
     "target_1": 0,
     "target_2": 0,
     "confidence_pct": 0,
-    "risk_reward": "0:0",
+    "risk_reward": "0",
     "key_levels_to_watch": [
-      "57500 (Psychological Support)",
+      "57582.25 (Current/Pivot)",
+      "57000 (Psychological Support)",
       "58000 (Psychological Resistance)"
     ],
-    "invalidation": "A sustained move above 58000 or below 57000 with conviction, indicating a shift from the current ranging behavior."
+    "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Developments regarding the Iran-US conflict and its impact on global markets, especially crude oil prices.",
-    "Performance of global indices, particularly Nasdaq and Nikkei, for cues on risk appetite.",
-    "FII/DII activity for any significant directional flow, which has been neutral today.",
-    "Nifty's ability to hold the 24000 psychological level and Bank Nifty's reaction around 57500."
+    "Nifty's reaction to the 24000-24020 support zone given its deeply oversold RSI for a potential bounce.",
+    "Global market opening, particularly US tech sector performance and broader Asian market cues.",
+    "FII/DII activity for fresh directional insights in the coming sessions.",
+    "Any further corporate earnings announcements or economic data releases."
   ],
   "risk_factors": [
-    "Escalation of geopolitical tensions could lead to sharp market corrections.",
-    "Global market volatility, especially in US tech, can spill over into Indian equities.",
-    "The current ranging market regime increases the risk of whipsaws and false breakouts, making directional trades challenging."
+    "Continued global tech sector weakness, especially from Nasdaq, potentially impacting Indian IT stocks.",
+    "Lack of clear institutional participation (FII/DII) leading to range-bound or volatile movements.",
+    "Market remaining in a tight ranging regime, increasing the risk of whipsaws and false breakouts.",
+    "Volatility in crude oil prices impacting inflation and corporate margins."
   ]
 }
