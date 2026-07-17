@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-07-17",
-  "timestamp": "15:57 IST",
+  "timestamp": "18:28 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are notably mixed, with SGX Nifty showing strong positive momentum (+1.09%), suggesting a positive domestic opening. However, major Asian markets (Nikkei -4.03%, Hang Seng -1.78%) and US futures (Nasdaq -1.52%, Dow -0.62%) are significantly negative, indicating underlying global weakness and potential for divergence.",
-    "technical_analysis": "Nifty and Bank Nifty closed with impressive gains (+1.09% and +1.63% respectively) and both indices exhibit bullish RSI readings (Nifty 63.62, Bank Nifty 59.38). Despite this strength, the stated 'neutral' trend and 'ranging' market regime, coupled with identical EMA9/EMA21 values, suggest that the broader market structure lacks clear directional conviction.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty is at a neutral 1.0. A significant limitation is that Max Pain, Call Resistance, and Put Support are all reported as 0, which means the available options data is insufficient to derive meaningful insights into open interest build-up or key strike price levels for derivatives positioning.",
-    "sentiment_analysis": "FII/DII activity for the day is neutral, offering no clear institutional directional bias. Market news presents a mixed bag of positive corporate results (JSW Steel) and analyst upgrades, alongside global concerns about tech sell-offs in Asia, indicating a cautious yet resilient domestic sentiment.",
-    "confluence_summary": "Despite strong domestic closing and bullish RSI, the overall market bias remains neutral due to conflicting global cues, a stated 'ranging' market regime, and insufficient options data. This lack of clear confluence across all factors warrants a cautious approach and validates the 'NO TRADE' stance."
+    "global_analysis": "Global markets present a mixed to negative picture, with major Asian indices like Nikkei and Hang Seng down significantly, and US tech futures showing weakness. While SGX Nifty indicates a positive opening, the crude oil spike is a concern for inflation and bond markets, creating an overall cautious global sentiment.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed with strong bullish momentum today, reflected in their significant positive changes and healthy RSI values. However, the provided 'Trend: neutral' and 'Regime: ranging' indicators suggest that despite today's strength, the broader market structure lacks a clear directional trend, with Nifty approaching immediate resistance.",
+    "options_analysis": "The options data for both Nifty and Bank Nifty, including PCR, Max Pain, and Call/Put Resistance/Support, is entirely neutral or zero. This lack of concrete data from the derivatives segment provides no clear directional conviction for tomorrow's session.",
+    "sentiment_analysis": "FII/DII activity was neutral today. Market news is a mixed bag, with positive Q1 results from several companies offering stock-specific tailwinds, but the rising crude oil prices and negative cues from US tech stocks weigh on overall market sentiment.",
+    "confluence_summary": "Despite a strong bullish close for both indices today, the conflicting signals from a neutral broader trend, ranging market regime, and significant negative global cues (especially from Asia and US tech) prevent a high-conviction directional trade. The lack of clear options data further adds to the uncertainty, making a 'NO TRADE' stance prudent."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -17,14 +17,14 @@
     "stop_loss": "N/A",
     "target_1": "N/A",
     "target_2": "N/A",
-    "confidence_pct": 40,
+    "confidence_pct": 75,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24434.72 (Resistance 1)",
-      "24334.30 (Current/Pivot)",
-      "24166.47 (Support 1)"
+      "24434 (Resistance)",
+      "24166 (Support)",
+      "24535 (Strong Resistance)"
     ],
-    "invalidation": "N/A - No directional trade proposed due to insufficient confluence."
+    "invalidation": "N/A"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -32,24 +32,25 @@
     "stop_loss": "N/A",
     "target_1": "N/A",
     "target_2": "N/A",
-    "confidence_pct": 40,
+    "confidence_pct": 75,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "58521.40 (Current/Pivot)"
+      "58800 (Psychological Resistance)",
+      "58200 (Immediate Support)"
     ],
-    "invalidation": "N/A - No directional trade proposed due to insufficient confluence and lack of specific S/R levels."
+    "invalidation": "N/A"
   },
   "what_to_watch": [
-    "The opening performance of European and US markets for clearer global sentiment direction.",
-    "FII/DII activity for the next trading session to gauge institutional flow and conviction.",
-    "Nifty's ability to sustain above the 24300-24350 zone, especially if global markets remain weak.",
-    "Bank Nifty's relative strength or weakness compared to Nifty 50, as it often leads or lags.",
-    "Movement in Crude Oil prices, which can influence inflation expectations and broader market sentiment."
+    "Global market opening, particularly US futures and Asian indices, for directional cues.",
+    "Crude oil price movement and its potential impact on Indian bond yields and inflation outlook.",
+    "Nifty's ability to sustain above 24300 and challenge the immediate resistance at 24434.",
+    "FII/DII activity for fresh institutional sentiment and capital flows.",
+    "Any further Q1 earnings announcements or economic data releases."
   ],
   "risk_factors": [
-    "Significant negative spillover from weak Asian and US markets could negate domestic strength.",
-    "The 'ranging' market regime increases the likelihood of choppy, non-directional price action and whipsaws.",
-    "Lack of comprehensive options data (Max Pain, OI) limits visibility on key support/resistance from derivatives positioning.",
-    "Any unexpected geopolitical developments or adverse economic news could quickly shift market sentiment."
+    "A sharp reversal in global markets, especially US tech, could negate today's domestic gains.",
+    "Sustained high crude oil prices could lead to increased inflationary pressures and potential FII outflows.",
+    "The 'neutral' trend and 'ranging' regime could reassert themselves, leading to choppy, directionless trading.",
+    "Lack of follow-through buying after today's strong move, indicating a potential bull trap."
   ]
 }
