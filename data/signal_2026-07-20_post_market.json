@@ -1,53 +1,56 @@
 {
   "session": "post_market",
   "date": "2026-07-20",
-  "timestamp": "17:02 IST",
+  "timestamp": "19:13 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed; while US futures show positive momentum, the significant -4.03% drop in Nikkei and a negative SGX Nifty suggest caution. Crude oil's decline is a positive for India, but overall, the global picture lacks a strong directional push.",
-    "technical_analysis": "Both Nifty and Bank Nifty are showing neutral trends with their EMA9 and EMA21 converging, indicating consolidation. Nifty's RSI is in overbought territory (73.93), suggesting a potential pause or pullback, while Bank Nifty's RSI remains bullish (62.15) despite the day's decline.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from the options market. The lack of specific Max Pain and OI data points to an absence of strong conviction or significant positioning for either calls or puts.",
-    "sentiment_analysis": "FII and DII activity was neutral today, providing no clear directional bias from institutional flows. Market news is mixed, with some positive stock-specific developments but the broader indices closing lower, reflecting a cautious sentiment.",
-    "confluence_summary": "The market is clearly in a ranging regime, as indicated by the 'Trending: False' signal and neutral overall bias. With technicals showing consolidation, neutral options data, and no strong institutional flow, there's a distinct lack of conviction for a directional move."
+    "global_analysis": "Global cues present a mixed picture; US futures are positive, but Nikkei saw a significant decline. SGX Nifty is marginally negative, while crude oil prices are easing, potentially offsetting some geopolitical concerns from the Middle East. Overall, no strong directional impetus from international markets.",
+    "technical_analysis": "Both Nifty and Bank Nifty are exhibiting neutral trends with EMA9 and EMA21 converging precisely at their current prices, indicative of tight consolidation. Nifty's RSI is in overbought territory (73.93), suggesting caution, while Bank Nifty's RSI is bullish (62.15) but not yet overextended. The market regime is clearly ranging with low ATR.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty stands at 1.0, signaling a neutral options sentiment. The absence of specific Max Pain, Call Resistance, and Put Support data prevents deeper options-based insights, further reinforcing the current lack of clear directional conviction.",
+    "sentiment_analysis": "FII/DII activity is neutral for the day, offering no fresh capital flow cues. Market news is a blend of global economic updates, specific corporate announcements, and geopolitical tensions, none of which provide a definitive catalyst for a strong market move. Sentiment remains balanced without any dominant theme.",
+    "confluence_summary": "The confluence of neutral technical indicators, a ranging market regime with low volatility, mixed global cues, and absent FII/DII flows strongly suggests a lack of clear directional bias. Nifty's overbought RSI warrants caution, but without other confirming factors, a 'NO TRADE' stance is prudent for both indices."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
       "24160.87 (Support)",
-      "24291.12 (Resistance)"
+      "24291.12 (Resistance)",
+      "24343.73 (Resistance)"
     ],
-    "invalidation": "N/A - No trade initiated"
+    "invalidation": "N/A (as no trade is initiated)"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "57945.00 (Current level - watch for range breakout)"
+      "57945.00 (Current Price - key for range breakout)"
     ],
-    "invalidation": "N/A - No trade initiated"
+    "invalidation": "N/A (as no trade is initiated)"
   },
   "what_to_watch": [
-    "Global market performance, especially US and Asian markets, for directional cues.",
-    "Crude oil price movements and their impact on inflation expectations.",
-    "FII/DII flow data for any shift in institutional sentiment.",
-    "Nifty and Bank Nifty's ability to hold key support levels or break resistance to exit the current ranging regime."
+    "Global market performance, particularly US indices and Asian peers, for directional cues.",
+    "Crude oil price movements, as Middle East tensions remain a factor.",
+    "FII/DII activity for any significant shifts in institutional flows.",
+    "Nifty and Bank Nifty breaking out of their current tight trading ranges.",
+    "Upcoming corporate earnings, specifically Suzlon Energy's Q1FY27 results on July 28."
   ],
   "risk_factors": [
-    "Sudden escalation of global geopolitical tensions, impacting market sentiment.",
-    "Any unexpected domestic policy announcements or economic data releases.",
-    "Sustained selling pressure from FIIs if they turn net sellers.",
-    "Breakdown of the current ranging pattern with high volatility."
+    "Escalation of geopolitical tensions in the Middle East, potentially impacting crude oil and global sentiment.",
+    "A sharp correction in global markets, especially if US tech stocks face profit booking.",
+    "Sudden and significant FII outflows, which could trigger a domestic market downturn.",
+    "Nifty's overbought RSI could lead to a quick pullback if fresh buying fails to emerge.",
+    "Continued low volatility and range-bound trading, making directional trades challenging and increasing the risk of whipsaws."
   ]
 }
