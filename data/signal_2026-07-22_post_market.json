@@ -1,57 +1,54 @@
 {
   "session": "post_market",
   "date": "2026-07-22",
-  "timestamp": "16:25 IST",
-  "market_bias": "bearish",
+  "timestamp": "18:46 IST",
+  "market_bias": "moderate bearish",
   "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global markets are displaying a clear risk-off sentiment, with SGX Nifty, Dow, Nasdaq, Nikkei, and Hang Seng all trading in negative territory. The significant surge in crude oil prices (Brent above $95) due to US-Iran tensions, coupled with rising gold, further reinforces a cautious to bearish outlook for equity markets globally, including India.",
-    "technical_analysis": "Nifty 50 closed down 0.79% at 23,996.25, while Bank Nifty showed even greater weakness, falling 1.23% to 57,126.80. Both indices exhibit bearish RSI readings (Nifty 43.62, Bank Nifty 40.24), indicating negative momentum. While the system flags the trend as 'neutral', the daily price action and momentum indicators suggest underlying weakness, with Nifty approaching its immediate support levels.",
-    "options_analysis": "The Options Chain data for both Nifty and Bank Nifty shows a neutral PCR of 1.0. The absence of specific Max Pain, Call Resistance, and Put Support values (reported as 0) suggests either a lack of clear conviction from options writers at current levels or insufficient data for the specific expiry. This makes options analysis less conclusive for a strong directional bias, contributing to the 'moderate' strength of the overall bearish view.",
-    "sentiment_analysis": "FII/DII flows were neutral today, offering no clear directional signal. Market news is mixed, with some positive corporate results and analyst upgrades, but overshadowed by warnings of a 'global economy crashing' and the geopolitical tensions driving crude oil higher. The overall sentiment is leaning cautious to negative, with rising crude being a significant headwind for India.",
-    "confluence_summary": "The confluence of negative global cues, rising crude oil prices, and bearish technical momentum in both Nifty and Bank Nifty points towards a bearish bias. Despite neutral FII/DII and options data, the strong daily fall and bearish RSI cannot be ignored. The market appears vulnerable to further downside, especially if key support levels are breached."
+    "global_analysis": "Global markets, including SGX Nifty, Dow, Nasdaq, Nikkei, and Hang Seng, are showing a negative bias, indicating a risk-off sentiment. Rising crude oil prices are also a concern, potentially impacting inflation and corporate margins, while caution builds ahead of US Big Tech earnings.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed significantly lower, with Nifty down 0.79% and Bank Nifty down 1.23%, closing exactly at their short-term EMAs. Their RSIs are in bearish territory (Nifty 43.62, Bank Nifty 40.24), suggesting underlying weakness despite the trend being marked as 'neutral' in the data.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty is 1.0 (neutral), and Max Pain, Call Resistance, Put Support are all 0. This indicates a lack of clear directional conviction from options data for the current expiry, making it difficult to derive strong signals for immediate trades.",
+    "sentiment_analysis": "FII/DII data is neutral for the day, offering no fresh directional cues. Market news highlights caution ahead of US Big Tech earnings and concerns about a global economic slowdown, despite some positive individual stock recommendations, contributing to a cautious sentiment.",
+    "confluence_summary": "The confluence of negative global cues, significant declines in Nifty and Bank Nifty with bearish RSI readings, points towards a downside bias. However, the neutral options data and FII/DII activity, coupled with the system's low confidence for trades, suggest that conviction for a strong, sustained directional move is currently limited."
   },
   "nifty_trade": {
-    "direction": "SHORT",
-    "entry_zone": "23910 - 23880",
-    "stop_loss": 24000,
-    "target_1": 23830,
-    "target_2": 23750,
-    "confidence_pct": 70,
-    "risk_reward": "1:1.5",
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 60,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23916 (S1)",
-      "23836 (S2)",
-      "24121 (R1)"
+      "23916.33 (Support)",
+      "24121.23 (Resistance)"
     ],
-    "invalidation": "Nifty sustaining above 24000 or a strong positive global market opening."
+    "invalidation": "N/A - No trade proposed due to low confidence and mixed signals."
   },
   "banknifty_trade": {
-    "direction": "SHORT",
-    "entry_zone": "57050 - 57000",
-    "stop_loss": 57300,
-    "target_1": 56750,
-    "target_2": 56500,
-    "confidence_pct": 70,
-    "risk_reward": "1:1.5",
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 60,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "57000 (Psychological Support)",
-      "56700 (Potential Support)",
-      "57300 (Immediate Resistance)"
+      "57000 (Psychological Support)"
     ],
-    "invalidation": "Bank Nifty sustaining above 57300 or a strong positive global market opening."
+    "invalidation": "N/A - No trade proposed due to low confidence and mixed signals."
   },
   "what_to_watch": [
-    "Global market opening, especially US and Asian indices, for directional cues.",
-    "Movement in crude oil prices; continued rise would be a significant negative.",
-    "FII/DII activity for tomorrow to gauge institutional sentiment.",
-    "Nifty and Bank Nifty's reaction to immediate support levels; a decisive break could accelerate downside.",
-    "Any fresh geopolitical developments, particularly concerning US-Iran tensions."
+    "Performance of US markets overnight, especially ahead of Big Tech earnings (Alphabet, etc.).",
+    "Movement of SGX Nifty (Gift Nifty) for early morning cues on July 23, 2026.",
+    "Crude oil price action and its potential impact on domestic inflation and corporate margins.",
+    "FII/DII flow data for fresh directional insights in the coming sessions.",
+    "Nifty's ability to hold the 23916.33 support level and Bank Nifty's reaction around the 57000 mark."
   ],
   "risk_factors": [
-    "A sudden positive reversal in global market sentiment.",
-    "Nifty and Bank Nifty finding strong support at current levels and bouncing back.",
-    "Any unexpected positive news flow or strong FII buying.",
-    "The 'neutral trend' and 'neutral PCR' could lead to range-bound trading, negating directional moves."
+    "Unexpected negative news from global markets or geopolitical events could trigger sharp moves.",
+    "Higher than anticipated volatility due to upcoming US Big Tech earnings reports.",
+    "Sustained rise in crude oil prices could exacerbate inflation concerns and impact economic growth.",
+    "Lack of clear options chain data for strong conviction may lead to choppy and range-bound price action."
   ]
 }
