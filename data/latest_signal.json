@@ -1,56 +1,54 @@
 {
   "session": "post_market",
   "date": "2026-07-23",
-  "timestamp": "16:25 IST",
-  "market_bias": "bearish",
+  "timestamp": "18:49 IST",
+  "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed, with US futures showing weakness while some Asian markets posted gains. However, the significant surge in crude oil prices (nearly 4%) is a major concern for India, potentially exacerbating inflationary pressures and impacting economic outlook.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed significantly lower, marking their fourth consecutive session of decline. The RSI for both indices is at an extreme 0.0, indicating severely oversold conditions which often precede a bounce or consolidation. Nifty's immediate support is at 23787.62.",
-    "options_analysis": "The PCR for both indices is 1.0, suggesting a neutral options sentiment. However, the reported Max Pain, Call Resistance, and Put Support values are all 0, rendering the options data unreliable for a comprehensive post-expiry analysis.",
-    "sentiment_analysis": "FII/DII data is neutral, providing no clear directional input. Market news highlights a significant loss for investors over the past four sessions and the persistent rise in crude oil prices, contributing to a cautious to negative sentiment.",
-    "confluence_summary": "Despite the strong bearish price action over the past four days and negative news flow, the extremely oversold RSI on both Nifty and Bank Nifty suggests a potential for a short-term bounce or consolidation. The unreliability of options data and neutral FII/DII flows further complicate a clear directional call, leading to a cautious stance for fresh trades."
+    "global_analysis": "Global cues are mixed to negative, with US futures (Dow, Nasdaq) showing weakness. The most significant concern is the sharp surge in Crude Oil prices, nearing $100/barrel due to Mideast attacks, which poses a substantial inflationary risk and current account deficit pressure for India.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed in the red, with Bank Nifty exhibiting more pronounced weakness. Crucially, both indices are showing an extremely oversold RSI of 0.0, which typically signals a strong potential for a technical bounce or short-covering rally from current levels. However, the trend is currently indicated as neutral.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty is at 1.0, suggesting a neutral stance from an options perspective. The absence of specific Max Pain and Call/Put OI data limits a deeper options-based analysis, but the neutral PCR on a weekly expiry day implies caution and potential for volatility.",
+    "sentiment_analysis": "FII/DII activity remained neutral today, offering no clear directional bias. The dominant sentiment driver is the escalating crude oil prices, which is a significant macro negative for the Indian economy and market, as evidenced by the fall in Indian bond prices.",
+    "confluence_summary": "While the extreme oversold RSI points towards a potential technical bounce, the strong global headwinds from surging crude oil prices create a significant bearish undercurrent. The neutral FII/DII, neutral PCR, and the high-risk weekly expiry lead to insufficient confluence for a high-conviction directional trade, warranting a cautious 'NO TRADE' stance."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 40,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23787.62 (Support 1)",
-      "23971.17 (Resistance 1)"
+      "23787.62 (Support)",
+      "23971.17 (Resistance)",
+      "23705.63 (Strong Support)"
     ],
-    "invalidation": "Clear directional trend emerges with strong volume and FII/DII support, or if Nifty sustains below 23700 or above 24000."
+    "invalidation": "N/A - Awaiting clearer directional signals or confirmation of a bounce from oversold levels."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 35,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "56000 (Psychological Support)",
-      "57000 (Psychological Resistance)"
+      "56592.00 (Current Level)",
+      "Watch for price action around this level for potential bounce or further weakness"
     ],
-    "invalidation": "Clear directional trend emerges with strong volume and FII/DII support, or if Bank Nifty sustains below 56000 or above 57000."
+    "invalidation": "N/A - Awaiting clearer directional signals or confirmation of a bounce from oversold levels."
   },
   "what_to_watch": [
-    "Global market performance, especially US futures and crude oil prices.",
-    "Nifty and Bank Nifty's reaction to the oversold RSI at market open \u2013 potential for a bounce or further selling.",
-    "Fresh FII/DII data for directional cues.",
-    "How Nifty reacts to its immediate support of 23787.62.",
-    "Any significant news flow related to inflation or central bank actions."
+    "Global crude oil price movement: Sustained rise above $90-100 will be a major headwind.",
+    "US market performance tonight (Dow & Nasdaq futures indicate weakness).",
+    "FII/DII activity tomorrow for any significant directional flow.",
+    "Nifty and Bank Nifty's reaction to the extreme oversold RSI; watch for a potential short-covering bounce."
   ],
   "risk_factors": [
-    "Continued rise in crude oil prices impacting domestic inflation and corporate earnings.",
-    "Global market volatility spilling over into Indian markets.",
-    "Potential for sharp counter-trend moves due to extreme oversold conditions.",
-    "Lack of clear institutional flow data (FII/DII) for conviction.",
-    "Unreliable options data for current analysis post-weekly expiry."
+    "Escalating geopolitical tensions in the Middle East driving crude oil prices higher.",
+    "Potential for global economic slowdown impacting export-oriented sectors.",
+    "Domestic inflation concerns due to rising commodity prices, potentially leading to hawkish RBI stance."
   ]
 }
