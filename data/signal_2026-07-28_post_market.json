@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-07-28",
-  "timestamp": "16:36 IST",
+  "timestamp": "18:55 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed, with US Dow futures showing strength while Nasdaq futures and Nikkei experienced significant declines, indicating sector-specific weakness. Crude oil and gold prices also saw a dip, adding to a cautious sentiment. SGX Nifty remained largely flat, reflecting the indecision.",
-    "technical_analysis": "Nifty 50 closed flat, with its EMA9 and EMA21 converging precisely at the current price, signaling consolidation and a neutral trend. Bank Nifty, however, showed relative weakness, closing down 0.58% with a bearish RSI of 36.37, although its trend also remains neutral according to the system.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a neutral 1.0. The absence of specific Max Pain, Call Resistance, and Put Support data makes it challenging to derive strong directional cues from the options chain for the immediate expiry.",
-    "sentiment_analysis": "FII/DII activity was neutral today, offering no clear directional bias. Market news was a mixed bag, with some positive stock-specific reports (e.g., Meesho, HDFC Bank) alongside negative ones (e.g., Suzlon crash, global semiconductor pressure), contributing to the overall indecisive market close.",
-    "confluence_summary": "The market exhibits a weak neutral bias, primarily due to Nifty's flat close and consolidation, coupled with Bank Nifty's underperformance and bearish RSI. Mixed global cues and neutral FII/DII data further reinforce the lack of a strong directional conviction, suggesting a wait-and-watch approach."
+    "global_analysis": "Global cues are a mixed bag, with SGX Nifty indicating a flat open. US futures show divergence, with Dow up but Nasdaq down due to mounting AI concerns ahead of Big Tech earnings. The significant drop in Nikkei (-3.95%) is a notable bearish signal, while crude oil and gold prices are also declining, potentially signaling global growth concerns.",
+    "technical_analysis": "Nifty 50 is currently in a state of indecision, trading precisely at its 9-day and 21-day EMAs, with a neutral RSI and trend. This suggests a tight range-bound movement. Bank Nifty, while also having a neutral trend, shows relative weakness with a bearish RSI of 36.37 and a more pronounced daily decline of 0.58%, indicating underlying selling pressure.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, which is perfectly neutral, offering no clear directional bias from the options market. The absence of specific Max Pain, Call Resistance, and Put Support values in the provided data limits a deeper options-based conviction, suggesting no strong build-up on either side for the current expiry.",
+    "sentiment_analysis": "FII/DII activity is completely neutral for the day, providing no institutional conviction. Market news is a blend of positive Q1 results from select companies (Radico, L&T, Birlasoft) and cautionary tales from the US tech sector. The 'trending' regime signal with a low ATR% and neutral technicals suggests a market lacking strong conviction despite the 'favorable' signal.",
+    "confluence_summary": "The market is grappling with conflicting signals, leading to a neutral bias with weak conviction. Nifty is technically range-bound, while Bank Nifty exhibits relative weakness. Global cues are mixed, and institutional flows are flat. Given the lack of clear directional momentum and the system's filtering criteria, caution is the prudent approach for tomorrow's session."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -17,13 +17,13 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
+    "confidence_pct": 45,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23946.25 (Support)",
-      "24032.8 (Resistance)"
+      "23946.25 (Immediate Support)",
+      "24032.8 (Immediate Resistance)"
     ],
-    "invalidation": "No valid setup identified due to tight range and insufficient R:R ratio."
+    "invalidation": "A sustained close above 24080.25 or below 23907.15 would be required to establish a clearer directional bias for positional trades."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -31,25 +31,25 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
+    "confidence_pct": 55,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "56755.60 (Current)",
-      "Below 56500 (Potential Support)"
+      "56755.60 (Current Price)",
+      "RSI 36.37 (Bearish Signal)"
     ],
-    "invalidation": "No valid setup identified due to low confidence and neutral trend despite bearish RSI."
+    "invalidation": "A decisive break above 57000 or a strong move below 56500 would warrant re-evaluation and potentially open up trade opportunities."
   },
   "what_to_watch": [
-    "Global market performance, particularly US tech sector and Asian markets for directional cues.",
-    "Nifty 50's ability to sustain above 23900 or break above 24080 for a clear trend.",
-    "Bank Nifty's relative strength/weakness and whether its bearish RSI translates into a breakdown.",
-    "FII/DII flow for any significant shift in institutional sentiment.",
-    "Any major news or economic data that could act as a catalyst for a breakout/breakdown."
+    "Global market performance, particularly the reaction of US tech stocks to upcoming earnings and AI concerns.",
+    "Any significant shift in FII/DII flows, which have been neutral today.",
+    "Nifty's ability to hold its tight range or break out decisively from 23900-24100 levels.",
+    "Bank Nifty's relative performance and whether its bearish RSI translates into further downside or a bounce.",
+    "Crude oil price movements, as continued decline could be positive for India's economy."
   ],
   "risk_factors": [
-    "Continued global market volatility, especially from US and Asian indices.",
-    "Lack of clear directional conviction from institutional flows and options data, leading to choppy price action.",
-    "Potential for range-bound trading, increasing the risk of whipsaws for directional trades.",
-    "Sudden news-driven events impacting specific sectors or the broader market."
+    "Elevated global uncertainty stemming from mixed US economic signals and Japan's significant market correction.",
+    "Lack of clear directional conviction from institutional investors (FII/DII) leading to potential whipsaws.",
+    "Nifty's tight range-bound movement, which can lead to false breakouts and increased volatility for intraday traders.",
+    "Potential for increased volatility around upcoming global corporate earnings, especially in the tech sector."
   ]
 }
