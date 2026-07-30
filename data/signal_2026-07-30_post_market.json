@@ -1,55 +1,54 @@
 {
   "session": "post_market",
   "date": "2026-07-30",
-  "timestamp": "16:25 IST",
+  "timestamp": "18:51 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global markets are exhibiting a positive sentiment with SGX Nifty, Dow, Nasdaq, Nikkei, and Hang Seng all trading in the green, indicating a generally favorable start for the next session. However, crude oil is down while gold is up, suggesting some underlying risk-off sentiment in commodities despite the equity optimism.",
-    "technical_analysis": "Nifty closed positively but is flashing an extremely overbought RSI of 98.14, signaling a high probability of consolidation or a pullback in the near term. Bank Nifty closed marginally negative with a bullish RSI of 68.4, approaching the overbought zone, which also suggests limited immediate upside without a correction. Both indices are currently showing a neutral trend despite the broader 'trending' market regime.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral sentiment post-monthly expiry. However, the Max Pain, Call Resistance, and Put Support values are all reported as 0, rendering the options data inconclusive for immediate analysis and highlighting the reset for the new August series.",
-    "sentiment_analysis": "FII and DII activity was neutral today, providing no clear directional cues from institutional investors. Market news includes positive Q1 results from Vedanta and Bajaj Finance, but the overarching sentiment is dominated by the high-risk events of the FED meeting and monthly expiry, urging extreme caution. Global market fragility, as highlighted by the Kospi crash news, also adds a layer of concern.",
-    "confluence_summary": "Despite positive global cues, the confluence of an extremely overbought Nifty RSI, the high-risk events of the FED meeting and monthly expiry, and the lack of actionable options data strongly advocates for a cautious, 'wait and watch' approach. The neutral FII/DII flows further reinforce the decision to avoid directional trades until more clarity emerges post-event."
+    "global_analysis": "Global cues are largely positive with US futures and most Asian markets showing gains, indicating a favorable risk-on sentiment. However, a slight dip in crude oil and a rise in gold suggest some underlying caution. The Bank of England holding rates steady adds to a mixed central bank narrative.",
+    "technical_analysis": "Nifty's current price is at its short-term EMAs, suggesting indecision, but its RSI at an extreme 98.14 is highly overbought, signaling a strong potential for a pullback or consolidation. Bank Nifty also sits at its EMAs with a bullish RSI of 68.4, showing relative strength but still in a neutral trend. The 'trending' market regime with 'neutral' index trends indicates potential for choppy, volatile moves.",
+    "options_analysis": "Both Nifty and Bank Nifty PCR at 1.0 indicate a neutral options sentiment, offering no clear directional bias. The absence of specific Max Pain, Call Resistance, and Put Support values (showing as 0) makes a detailed options analysis challenging. As it's a monthly expiry day, significant unwinding and position adjustments would have occurred, leading to high volatility and potentially distorted OI data for the next series.",
+    "sentiment_analysis": "FII/DII data is neutral, providing no clear directional conviction. Corporate news is mixed, with strong Q1 results from some large caps (Vedanta, Bajaj Finance) offsetting misses from others (Hyundai). The overriding sentiment factor is the 'HIGH RISK DAY: FED, MONTHLY_EXPIRY' warning, which mandates extreme caution due to potential market-moving announcements and expiry-related volatility.",
+    "confluence_summary": "Despite positive global cues, Nifty's extremely overbought RSI, coupled with the high-risk environment of a FED meeting and monthly expiry, creates significant uncertainty and potential for sharp reversals. The neutral PCR and FII/DII data further reinforce a cautious stance. Therefore, prioritizing capital protection over chasing uncertain directional moves is prudent, leading to a 'NO TRADE' recommendation."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "entry_zone": "Not Applicable",
+    "stop_loss": "Not Applicable",
+    "target_1": "Not Applicable",
+    "target_2": "Not Applicable",
     "confidence_pct": 40,
-    "risk_reward": "N/A",
+    "risk_reward": "Not Applicable",
     "key_levels_to_watch": [
       "24377.7 (Resistance)",
       "24221.85 (Support)"
     ],
-    "invalidation": "N/A (No trade proposed)"
+    "invalidation": "Not Applicable"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "entry_zone": "Not Applicable",
+    "stop_loss": "Not Applicable",
+    "target_1": "Not Applicable",
+    "target_2": "Not Applicable",
     "confidence_pct": 40,
-    "risk_reward": "N/A",
+    "risk_reward": "Not Applicable",
     "key_levels_to_watch": [
-      "57147.5 (Current Level)"
+      "Not available in data"
     ],
-    "invalidation": "N/A (No trade proposed)"
+    "invalidation": "Not Applicable"
   },
   "what_to_watch": [
-    "The outcome of the FED meeting and its commentary on interest rates and global liquidity.",
-    "Nifty's reaction to its extremely overbought RSI; watch for potential profit booking or consolidation.",
-    "Fresh options chain data for the August series to identify new support and resistance levels.",
-    "FII/DII flows in the coming sessions for any clear directional bias.",
-    "Global market reaction, especially US markets, to the FED announcement."
+    "Global market reaction to the full FED statement and press conference, if not fully priced in.",
+    "Nifty's ability to sustain above 24300 or if the overbought RSI leads to a sharp correction in the next session.",
+    "Bank Nifty's relative performance and whether it can lead the market higher or shows signs of weakness.",
+    "Fresh FII/DII data for the new August series to gauge institutional sentiment.",
+    "Any major news flow or corporate announcements post-expiry."
   ],
   "risk_factors": [
-    "High volatility expected due to the FED announcement and the reset of the options chain post-monthly expiry.",
-    "Nifty's extremely overbought RSI (98.14) significantly increases the risk of a sharp correction or consolidation.",
-    "Uncertainty surrounding the new options data for the August series, making immediate range predictions difficult.",
-    "Potential for global market instability, as highlighted by the recent Kospi crash.",
-    "Any unexpected hawkish stance from the FED could trigger global risk-off sentiment."
+    "High volatility due to the combined impact of the FED outcome and monthly expiry unwinding.",
+    "Potential for sharp corrections in Nifty given its extremely overbought RSI, which could trigger profit booking.",
+    "Unexpected global macroeconomic developments or geopolitical events.",
+    "Lack of clear directional cues from options data (neutral PCR, zero values for Max Pain/OI)."
   ]
 }
