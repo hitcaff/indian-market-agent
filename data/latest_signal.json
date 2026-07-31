@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-07-31",
-  "timestamp": "16:44 IST",
-  "market_bias": "neutral",
-  "bias_strength": "weak",
+  "timestamp": "18:55 IST",
+  "market_bias": "bullish",
+  "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global markets are exhibiting positive momentum, with SGX Nifty, Dow, Nasdaq, and Nikkei all trading in the green, providing a generally supportive backdrop. Nikkei's significant surge of over 4% stands out, indicating strong Asian market sentiment.",
-    "technical_analysis": "Nifty 50 closed positive but is flashing an extremely overbought RSI of 97.41, signaling a high probability of a pullback or consolidation. Bank Nifty also closed positive with a healthier bullish RSI of 59.28, suggesting more potential for upside, though both indices show a 'neutral' trend with EMAs tightly converged at current prices.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from the options market participants. The absence of specific Max Pain, Call Resistance, and Put Support levels (showing 0) limits the ability to derive concrete directional cues from open interest data for the immediate expiry.",
-    "sentiment_analysis": "FII/DII activity was neutral for the day, offering no clear directional bias from institutional flows. Market news highlights a third consecutive positive session for indices driven by earnings optimism, with several stocks showing strong performance and positive analyst coverage, contributing to a generally positive underlying sentiment.",
-    "confluence_summary": "While global cues are positive and market sentiment is buoyed by recent gains and earnings, Nifty's extremely overbought RSI (97.41) presents a significant technical hurdle and suggests caution. Bank Nifty's technicals appear healthier, but the overall 'neutral' trend for both indices and neutral options data, coupled with the system's R:R and confidence filters, warrant a cautious 'NO TRADE' approach for fresh directional positions."
+    "global_analysis": "Global cues are largely positive with US and Asian futures showing strength, particularly in tech, following strong earnings from Amazon. However, a significant surge in crude oil prices to $85.68 (+2.50%) poses a potential inflationary risk and a headwind for oil-importing nations like India.",
+    "technical_analysis": "Nifty 50 closed marginally positive but its RSI at an extreme 97.41 indicates a severely overbought condition, suggesting a high probability of consolidation or a pullback soon. Bank Nifty, on the other hand, shows healthier bullish momentum with an RSI of 59.28 and appears relatively stronger, despite both indices having EMA9 and EMA21 at their current closing prices, indicating a flat close.",
+    "options_analysis": "The provided options data for PCR is neutral at 1.0 for both Nifty and Bank Nifty. However, the Max Pain, Call Resistance, and Put Support values are all zero, which limits a comprehensive options-based analysis and suggests incomplete data for immediate expiry.",
+    "sentiment_analysis": "FII/DII activity was neutral today. Market news is mixed; positive global tech earnings are offset by concerns over rising crude and India bonds logging their first monthly loss in four. Domestic corporate earnings (Maruti, ITC) show mixed results, while SBI bond demand indicates some positive sentiment in the banking sector.",
+    "confluence_summary": "While strong global cues and a 'trending' market regime provide a bullish undertone, Nifty's extremely overbought RSI is a significant red flag, warranting caution. Bank Nifty appears relatively better positioned with its bullish but not overbought RSI. The surge in crude oil remains a key risk factor for the broader market sentiment."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -17,13 +17,13 @@
     "stop_loss": "N/A",
     "target_1": "N/A",
     "target_2": "N/A",
-    "confidence_pct": 60,
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24442.1 (Immediate Resistance)",
-      "24312.4 (Immediate Support)"
+      "24442.1 (Resistance)",
+      "24312.4 (Support)"
     ],
-    "invalidation": "N/A (No trade proposed due to high RSI and low confidence)"
+    "invalidation": "A sustained move above 24500.6 or a sharp breakdown below 24241.2 could alter the immediate outlook, but the primary concern remains the overbought RSI."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -31,22 +31,25 @@
     "stop_loss": "N/A",
     "target_1": "N/A",
     "target_2": "N/A",
-    "confidence_pct": 60,
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "57264.85 (Current Price - acts as reference)",
-      "Watch for breakout above day's high or breakdown below day's low"
+      "57264.85 (Current Price)",
+      "Any significant breakout above or breakdown below this level"
     ],
-    "invalidation": "N/A (No trade proposed due to poor R:R ratio)"
+    "invalidation": "A clear breakdown below immediate support levels or a sharp reversal in global sentiment would invalidate any potential bullish setup."
   },
   "what_to_watch": [
-    "Nifty's reaction to its extremely overbought RSI; watch for consolidation or a potential pullback.",
-    "Bank Nifty's relative strength compared to Nifty, as its RSI is healthier.",
-    "Global market cues, particularly US futures, for sustained positive momentum."
+    "Global market performance, especially US tech stocks, for continued positive momentum.",
+    "Movement in crude oil prices; a sustained rise above $86 could dampen sentiment.",
+    "Nifty's RSI: whether it cools off through consolidation or a minor correction.",
+    "FII/DII flow for conviction, as current flows are neutral.",
+    "Any further news regarding India bond inclusion in global indices."
   ],
   "risk_factors": [
-    "Nifty's stretched valuations and overbought RSI could trigger a sharp correction or profit booking.",
-    "Any sudden negative shift in FII/DII flows, which were neutral today, could impact market direction.",
-    "Geopolitical headwinds, though currently offset by earnings optimism, remain a latent risk."
+    "Nifty's extremely overbought RSI (97.41) increases the risk of a sharp correction or profit booking.",
+    "Sustained high crude oil prices could fuel inflation and impact corporate earnings in India.",
+    "Potential for global market reversal, especially if US tech rally falters.",
+    "Lack of significant FII buying could limit upside potential."
   ]
 }
