@@ -1,57 +1,56 @@
 {
   "session": "post_market",
   "date": "2026-08-03",
-  "timestamp": "15:09 IST",
-  "market_bias": "moderate bullish",
+  "timestamp": "17:39 IST",
+  "market_bias": "neutral",
   "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global markets are largely positive, with SGX Nifty, Dow, Nasdaq, and Hang Seng all showing gains. The significant drop in crude oil prices by over 5% is a major positive catalyst for the Indian economy, boosting overall market sentiment despite a slight dip in Nikkei.",
-    "technical_analysis": "Both Nifty 50 and Bank Nifty closed with strong positive gains, indicating robust buying interest. However, the RSI for Nifty (100.0) and Bank Nifty (94.27) is extremely overbought, signaling a high probability of profit booking or a consolidation phase. The 'neutral' trend despite a 'trending' regime suggests conflicting signals, warranting caution.",
-    "options_analysis": "The options data for both Nifty and Bank Nifty (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) appears inconclusive or reset, likely due to a recent expiry or data anomaly. This makes it challenging to derive any clear directional bias or significant support/resistance levels from options data for the upcoming session.",
-    "sentiment_analysis": "Sentiment is significantly buoyed by positive global cues and the sharp decline in crude oil prices. Crucially, FPIs have turned net buyers in the cash market for the first time since the war began, indicating renewed foreign investor confidence. Positive analyst calls on large-cap stocks like HDFC Bank and Bajaj Finance further contribute to a positive undertone.",
-    "confluence_summary": "While the market closed strong with positive global cues and FPI buying, the extremely overbought RSI levels for both indices present a significant technical hurdle. The lack of clear options data and the 'neutral' trend signal suggest that while the underlying sentiment is positive, a direct chase on the long side carries high risk. A 'NO TRADE' for immediate directional entry is prudent, awaiting clearer price action or a healthy pullback."
+    "global_analysis": "Global cues are largely positive with SGX Nifty and US futures showing strength, providing a supportive backdrop for the Indian market. The significant drop in crude oil prices is a positive for India's economy, potentially easing inflation concerns and import bills.",
+    "technical_analysis": "Nifty and Bank Nifty closed with strong gains (+1.60% and +1.72% respectively), but both indices are in extremely overbought territory (RSI 100 for Nifty, 96.37 for Bank Nifty). The identical EMA9/EMA21 to current price, coupled with the reported '200 point-jump in 2 minutes' for Nifty, indicates a sharp, late-day surge that might not be sustainable without consolidation or profit booking.",
+    "options_analysis": "The provided options data (PCR 1.0 for both, Max Pain/Call Resistance/Put Support at 0) appears incomplete or anomalous. This lack of clear and actionable options chain data significantly hinders a robust analysis of immediate support and resistance from an options perspective, reducing confidence in directional trades.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. Market news highlights a strong rally and positive investor sentiment, with specific stock recommendations. The crude oil relief is a positive sentiment booster, but the sudden late-day surge could also be attributed to short covering rather than sustained fundamental buying, warranting caution.",
+    "confluence_summary": "While the market closed with strong bullish momentum and global cues are supportive, the extreme overbought technical readings (RSI) for both Nifty and Bank Nifty are a major red flag. The absence of reliable options data further reduces conviction for immediate directional trades. The late-day surge suggests potential for profit booking, making a 'NO TRADE' stance prudent for the upcoming session."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 50,
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 30,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24612.05 (Immediate Resistance)",
-      "24517.70 (Immediate Support)",
-      "24469.25 (Strong Support)"
+      "24860 (Resistance)",
+      "24700 (Immediate Support)",
+      "24601 (Strong Support)"
     ],
-    "invalidation": "Any sharp negative global cues or a sustained break below 24469.25 on a closing basis."
+    "invalidation": "Any sustained move below 24600 without recovery would signal weakness."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 50,
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 30,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "57700 (Immediate Resistance)",
-      "57500 (Immediate Support)",
-      "57200 (Strong Support)"
+      "58500 (Potential Resistance)",
+      "58000 (Immediate Support)"
     ],
-    "invalidation": "Any sharp negative global cues or a sustained break below 57000 on a closing basis."
+    "invalidation": "Any sustained move below 58000 without recovery would signal weakness."
   },
   "what_to_watch": [
-    "Global market performance, especially US futures and European open, for sustained positive momentum.",
-    "FII/DII activity for the next trading session to confirm the continuation of the FPI buying trend.",
-    "Nifty's ability to sustain above 24500 and Bank Nifty above 57500 after a potential gap-up or consolidation.",
-    "Crude oil price movements; continued decline would be highly positive for Indian equities.",
-    "Any fresh domestic or global economic data releases."
+    "Global market opening and any follow-through on US futures.",
+    "FII/DII activity for the next trading session to gauge institutional sentiment.",
+    "Nifty and Bank Nifty's opening behavior \u2013 whether the momentum sustains or if profit booking kicks in.",
+    "Build-up in the options chain for Nifty and Bank Nifty to identify fresh support/resistance levels.",
+    "Crude oil price movement and its impact on broader market sentiment."
   ],
   "risk_factors": [
-    "Extreme overbought RSI levels in both Nifty and Bank Nifty, indicating a high probability of profit booking or a sharp correction.",
-    "Inconclusive options data provides no clear hedging or strong directional insights, increasing uncertainty.",
-    "Potential for global geopolitical events (e.g., Hormuz disruption mentioned in news) to quickly reverse sentiment.",
-    "Lack of strong FII/DII conviction for the day (neutral data provided, though FPI news is positive for the broader trend)."
+    "Extreme overbought conditions (RSI) for both indices, increasing the probability of profit booking.",
+    "The sharp, late-day surge in Nifty could be unsustainable, leading to a gap-down or quick retracement.",
+    "Lack of reliable options data makes it difficult to assess underlying market structure and potential traps.",
+    "Global market volatility, despite positive cues, could quickly change sentiment."
   ]
 }
