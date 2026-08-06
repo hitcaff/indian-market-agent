@@ -1,56 +1,55 @@
 {
   "session": "post_market",
   "date": "2026-08-06",
-  "timestamp": "16:40 IST",
+  "timestamp": "18:59 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed, with US futures split (Dow up, Nasdaq down) and most Asian markets closing lower. Crude oil and gold are showing strength, while SGX Nifty is flat, indicating a cautious sentiment for the next session. The overall global picture doesn't provide a strong directional bias.",
-    "technical_analysis": "Both Nifty and Bank Nifty are exhibiting neutral trends with EMAs converged at current prices, suggesting a phase of consolidation. Critically, their RSIs are in overbought territory (Nifty 72.09, Bank Nifty 72.01), hinting at potential for a pullback or further consolidation. Bank Nifty showed relative strength today, closing higher than Nifty.",
-    "options_analysis": "Post-weekly expiry, the PCR for both Nifty and Bank Nifty stands at 1.0, indicating a perfectly balanced options market for the just-concluded session. Max Pain, Call Resistance, and Put Support are zero, which is typical after expiry and offers no forward-looking insights for the upcoming series. This data doesn't provide a strong directional signal.",
-    "sentiment_analysis": "FII/DII activity was neutral today. Market news is a mixed bag; while there are positive stock-specific recommendations and strong performances (e.g., Navin Fluorine, Trent results), concerns about the new closing auction rules causing distortions and delivery risks for option traders are prominent. Bitcoin's profit booking also adds a cautious undertone.",
-    "confluence_summary": "The market is currently in a ranging regime with neutral trends for both Nifty and Bank Nifty, despite Bank Nifty's relative outperformance. The overbought RSI levels, coupled with neutral FII/DII data and mixed global cues, suggest a cautious approach. The weekly expiry day likely contributed to the consolidation, and the ongoing concerns regarding new auction rules add an element of uncertainty, making fresh directional trades risky."
+    "global_analysis": "Global cues are mixed with SGX Nifty flat, US futures showing divergence (Dow up, Nasdaq down), and Asian markets mostly negative. Crude oil is stable, while gold has seen a significant uptick, indicating some risk aversion globally.",
+    "technical_analysis": "Both Nifty and Bank Nifty exhibit neutral trends with prices hovering around their 9 and 21 EMAs, suggesting consolidation. Nifty's RSI is in the overbought zone (71.68), while Bank Nifty's RSI (69.7) is bullish but nearing overbought, indicating potential for profit booking or a pause.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, reflecting a neutral options market sentiment post-weekly expiry. The reported zero values for Max Pain, Call Resistance, and Put Support are highly unusual and make a robust options-based directional analysis impossible for the next session.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. Market news is mixed, with some heavyweights like RIL and SBI rallying, and positive coverage on specific stocks, but also mentions of profit-taking in bond markets and tech stock tumbles in the US. The 'HIGH RISK DAY: WEEKLY_EXPIRY' is behind us, but overall sentiment lacks strong conviction.",
+    "confluence_summary": "The market is in a ranging regime with neutral trends and overbought/near-overbought RSI levels for both indices. Global cues are mixed, and the options data is inconclusive due to missing values. This confluence of factors points to a lack of clear directional conviction, making a 'NO TRADE' stance prudent for the immediate next session."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "stop_loss": null,
+    "target_1": null,
+    "target_2": null,
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24600 (Support)",
-      "24675 (Resistance)",
-      "24710 (Resistance)"
+      "24668.45 (Resistance)",
+      "24595.55 (Support)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "N/A - No trade initiated"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "stop_loss": null,
+    "target_1": null,
+    "target_2": null,
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "58000 (Psychological Support)",
-      "58200 (Potential Resistance)"
+      "58000 (Psychological Resistance)",
+      "57800 (Immediate Support)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "N/A - No trade initiated"
   },
   "what_to_watch": [
-    "Global market performance overnight, especially US tech stocks given Nasdaq's dip.",
-    "FII/DII activity for the next trading session to gauge institutional sentiment.",
-    "How Nifty and Bank Nifty react to the overbought RSI levels \u2013 whether they consolidate further or initiate a correction.",
-    "Any further news or clarifications regarding the impact of the new closing auction rules.",
-    "Crude oil and Gold price movements, as they can influence broader market sentiment."
+    "Global market performance, especially US futures and Asian markets, for fresh directional cues.",
+    "FII/DII activity in the next trading session to gauge institutional sentiment.",
+    "Nifty's ability to sustain above 24600 or break its immediate resistance at 24668.45.",
+    "Bank Nifty's performance relative to its current levels, given its bullish RSI nearing overbought.",
+    "Any fresh economic data or geopolitical developments, particularly regarding the Mideast deal."
   ],
   "risk_factors": [
-    "Overbought RSI levels for both indices, increasing the probability of a pullback or sharp correction.",
-    "Uncertainty and potential for increased volatility due to the new closing auction rules and their impact on option traders.",
-    "Mixed global cues could lead to choppy and indecisive trading sessions.",
-    "Lack of clear directional momentum, making trend-following strategies difficult and increasing whipsaw risk."
+    "Potential for profit booking in Nifty due to its overbought RSI levels.",
+    "Mixed global cues could lead to choppy and volatile trading sessions.",
+    "Lack of clear directional conviction post-weekly expiry might result in range-bound movement.",
+    "Geopolitical risks, as highlighted by the ongoing Mideast deal discussions, could impact market sentiment."
   ]
 }
