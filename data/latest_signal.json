@@ -1,57 +1,54 @@
 {
   "session": "post_market",
   "date": "2026-08-07",
-  "timestamp": "15:16 IST",
-  "market_bias": "neutral",
+  "timestamp": "18:05 IST",
+  "market_bias": "weak bullish",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed, with US Nasdaq futures showing some strength while Dow futures are flat and Nikkei is slightly negative. The significant jump in Gold prices (+2.87%) suggests underlying risk aversion or safe-haven buying, which warrants caution. SGX Nifty is also slightly negative, aligning with the domestic market's performance.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed lower, exhibiting extremely oversold RSI readings (Nifty 8.13, Bank Nifty 29.58). EMA9 and EMA21 are at the current price, indicating a lack of clear short-term trend. The market regime is 'ranging' and the trend is 'neutral', suggesting that while a bounce is technically due, it might lack strong conviction.",
-    "options_analysis": "PCR at 1.0 for both Nifty and Bank Nifty indicates a neutral stance from options participants. The absence of Max Pain and specific OI data makes it challenging to derive strong directional cues from the options chain for the upcoming expiry, thus reducing the reliability of options-based analysis.",
-    "sentiment_analysis": "FII/DII activity is neutral for the day. Positive news includes strong Q1 results from SBI and Hero MotoCorp, which could provide sectoral support. However, concerns about the 'AI trade bubble burst' and mixed analyst calls create a cautious undertone, preventing a strong bullish sentiment despite some positive corporate news.",
-    "confluence_summary": "The market is in a ranging regime with neutral technical trends, despite both Nifty and Bank Nifty being deeply oversold on RSI. Global cues are mixed, and options data is uninformative. While strong corporate earnings from key players offer some underlying support, the overall lack of clear directional signals and the oversold condition without immediate bounce confirmation warrant a cautious 'NO TRADE' approach."
+    "global_analysis": "Global cues are mixed with US futures showing positive momentum, particularly Nasdaq, while SGX Nifty is slightly negative and Nikkei is down. A significant rise in Gold (+3.03%) could signal underlying risk aversion or inflation concerns, which warrants caution.",
+    "technical_analysis": "Both Nifty and Bank Nifty are in extremely oversold territory with RSIs at 8.58 and 28.17 respectively, suggesting a potential for a short-term bounce. However, EMAs are flat at current prices, indicating strong indecision, and the overall trend is neutral within a ranging market regime.",
+    "options_analysis": "The PCR for both indices is neutral at 1.0. Crucially, Max Pain, Call Resistance, and Put Support are all reported as 0, rendering options data non-actionable for directional bias and preventing a comprehensive options-based confirmation.",
+    "sentiment_analysis": "FII/DII data is neutral, providing no directional cues. Market news is a mixed bag of corporate results and analyst calls, with some strong individual performances (Titan, Hero MotoCorp) alongside concerns about an 'AI trade bubble burst' and specific stock declines (EIH, Bajaj Finance among losers).",
+    "confluence_summary": "While the extremely oversold RSI on both Nifty and Bank Nifty strongly suggests a short-term bounce is due, the market remains in a ranging regime with a neutral trend and flat EMAs. The critical absence of actionable options data, coupled with mixed global cues and neutral FII/DII, creates insufficient confluence for a high-conviction directional trade at this juncture. Caution is advised, awaiting clearer signals or better risk-reward setups."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "0 - 0",
+    "entry_zone": "N/A",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
+    "confidence_pct": 70,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24509.7 (Immediate Support)",
-      "24462.4 (Strong Support)",
-      "24617.35 (Immediate Resistance)"
+      "24518.8 (Support)",
+      "24626.45 (Resistance)"
     ],
-    "invalidation": "No clear directional setup, market remains in a ranging regime with conflicting signals."
+    "invalidation": "A clear breakout above 24682.25 or breakdown below 24466.95 with strong volume would invalidate the ranging market thesis."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "0 - 0",
+    "entry_zone": "N/A",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
+    "confidence_pct": 70,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "57800 (Psychological Support)",
-      "57500 (Key Support Zone)",
-      "58000 (Psychological Resistance)"
+      "57746.45 (Current Level)"
     ],
-    "invalidation": "No clear directional setup, market remains in a ranging regime with conflicting signals."
+    "invalidation": "A strong directional move with significant volume that breaks the current consolidation pattern."
   },
   "what_to_watch": [
-    "Global market sentiment, particularly US futures and Asian market performance overnight.",
-    "FII/DII flow for any signs of conviction, as current data is neutral.",
-    "Price action around Nifty's immediate support levels (24509, 24462) for potential bounce confirmation.",
-    "Crude oil and Gold price movements as indicators of global risk appetite and inflation concerns.",
-    "Any further corporate announcements or economic data releases that could act as catalysts."
+    "Global market performance overnight, especially US indices, for directional cues.",
+    "Nifty's ability to hold immediate support levels (24518.8) and Bank Nifty's relative strength.",
+    "Any fresh FII/DII activity data for the next session.",
+    "Development of options chain data (OI, Max Pain) for the upcoming expiry to identify clearer support/resistance zones.",
+    "Crude oil and Gold price movements, particularly Gold's continued strength, as indicators of global risk sentiment."
   ],
   "risk_factors": [
-    "The extremely oversold RSI on Nifty could lead to a sharp bounce or a further dip if selling pressure persists without strong buying interest.",
-    "Lack of clear FII/DII conviction and unreliable options data makes high-conviction directional bets risky.",
-    "Global market volatility, especially given the significant jump in Gold prices, could impact domestic sentiment.",
-    "The 'ranging' market regime implies that any directional move might lack follow-through, leading to whipsaws."
+    "Further escalation of global risk-off sentiment, potentially triggered by the significant rise in Gold.",
+    "Failure of the oversold conditions to trigger a bounce, leading to a deeper correction in a low ATR environment.",
+    "Whipsaw movements in a ranging market due to lack of conviction and liquidity.",
+    "Impact of the 'AI trade bubble burst' concerns on specific sectors or the broader market sentiment."
   ]
 }
