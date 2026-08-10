@@ -1,55 +1,54 @@
 {
   "session": "mid_morning",
   "date": "2026-08-10",
-  "timestamp": "08:10 IST",
+  "timestamp": "12:58 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed with SGX Nifty and Dow Futures showing slight negativity, indicating a cautious start. However, Asian markets like Nikkei and Hang Seng are trading positively. The rise in crude oil prices to $85 could be a point of concern for inflation and market sentiment.",
-    "technical_analysis": "Both Nifty and Bank Nifty are exhibiting oversold conditions with RSI at 8.58 and 28.17 respectively, suggesting a potential for a bounce from lower levels. However, their trends are currently neutral, and EMA9/21 are aligned with the current price, indicating a lack of clear directional momentum at this early hour. Nifty has immediate support at 24518.8.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from the options market participants. The absence of specific Max Pain, Call Resistance, and Put Support data makes it challenging to gauge immediate options-based support and resistance levels, limiting conviction from this front.",
-    "sentiment_analysis": "FII/DII data is neutral for the day so far, providing no clear directional bias. Market news highlights several IPOs and positive breakouts in specific stocks, which could generate some stock-specific interest. However, there are no strong macro-economic drivers or significant news events to sway overall market sentiment strongly in one direction.",
-    "confluence_summary": "The market is poised for a neutral to slightly cautious opening, primarily influenced by the SGX Nifty's dip and the ranging market regime. While the oversold RSI for both indices hints at a potential bounce, the lack of a clear trend, neutral options data, and absence of strong FII/DII activity prevent a high-conviction directional trade. Expect consolidation or volatility around key levels."
+    "global_analysis": "Global cues are mixed, with Asian markets showing strength (Nikkei +2.08%, Hang Seng +0.90%) while US futures are largely flat to slightly negative (Dow -0.07%, Nasdaq +0.29%). SGX Nifty is marginally positive, offering no strong directional lead for the Indian market.",
+    "technical_analysis": "Both Nifty 50 and Bank Nifty are trading precisely at their 9 and 21 EMAs, indicating extreme indecision and consolidation. The RSI for both indices is in bearish territory (Nifty 36.12, Bank Nifty 34.74), suggesting underlying weakness despite the flat price action and neutral trend.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a neutral 1.0. The absence of specific Max Pain, Call Resistance, and Put Support data (showing as 0) limits deeper options insights but reinforces the current lack of strong directional conviction from the options chain.",
+    "sentiment_analysis": "FII/DII activity is neutral for the day. Market news is highly stock-specific, with some stocks falling on weak earnings (Raymond, PFC) and others surging on positive news or brokerage upgrades (Paytm, Aarti Pharmalabs, HDFC Bank, Bajaj Finance). Overall sentiment is fragmented, not providing a broad market direction.",
+    "confluence_summary": "The confluence of mixed global cues, neutral FII/DII flows, and critically, the technical setup showing both indices stuck at EMAs with bearish RSI, points to a market lacking clear direction and exhibiting underlying weakness. This warrants a cautious 'no trade' approach."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 30,
+    "stop_loss": null,
+    "target_1": null,
+    "target_2": null,
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24518.8 (Immediate Support)",
-      "24626.45 (Immediate Resistance)"
+      "24524.75 (Support)",
+      "24634.6 (Resistance)",
+      "24586.5 (EMA confluence)"
     ],
-    "invalidation": "A clear breakout above 24626.45 or breakdown below 24518.8 with significant volume and follow-through."
+    "invalidation": "N/A (No active trade)"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 30,
+    "stop_loss": null,
+    "target_1": null,
+    "target_2": null,
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "57700 (Immediate Support)",
-      "58000 (Psychological Resistance)"
+      "57622.85 (EMA confluence)"
     ],
-    "invalidation": "A clear directional move with strong volume and sustained momentum in either direction."
+    "invalidation": "N/A (No active trade)"
   },
   "what_to_watch": [
-    "Initial market opening price action and volatility around the first 15-30 minutes.",
-    "Nifty's reaction to the immediate support level of 24518.8, given the oversold RSI.",
-    "FII/DII cash market activity and derivatives data post-market open.",
-    "Performance of global markets, especially European opening cues.",
-    "Any sector-specific news or strong/weak performance that could lead the market."
+    "Any decisive breakout or breakdown from the current tight range for Nifty (24524-24634).",
+    "Confirmation or divergence in RSI if price starts moving away from EMAs.",
+    "FII/DII data at the end of the day for potential directional cues.",
+    "Global market reaction post-US market open for sustained sentiment."
   ],
   "risk_factors": [
-    "The ranging market regime increases the probability of whipsaws and false breakouts/breakdowns.",
-    "Lack of detailed options data (Max Pain, OI levels) makes it difficult to ascertain immediate strong support/resistance zones from the derivatives market.",
-    "Crude oil price volatility and its potential impact on inflation and corporate earnings.",
-    "Potential for profit booking after recent moves, especially if the market fails to sustain any upward momentum."
+    "The market's current indecision can lead to whipsaw movements, making directional trades risky.",
+    "Low ATR% (0.61%) suggests low volatility, which can lead to range-bound trading and premium decay for option buyers.",
+    "The bearish RSI on both indices indicates underlying weakness that could manifest as a sharp downside move if supports are broken.",
+    "Contradiction between 'trending' regime signal and actual index behavior (stuck at EMAs) adds to uncertainty."
   ]
 }
