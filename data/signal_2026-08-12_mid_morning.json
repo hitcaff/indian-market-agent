@@ -1,15 +1,15 @@
 {
   "session": "mid_morning",
   "date": "2026-08-12",
-  "timestamp": "08:33 IST",
+  "timestamp": "12:50 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are largely negative with US futures and Hang Seng showing weakness, indicating a likely gap-down opening for Indian markets. The significant rise in crude oil and gold prices points towards a risk-off sentiment globally, which could weigh on investor confidence.",
-    "technical_analysis": "Nifty is poised for a weak opening, down 0.46%, but its RSI is at an extremely oversold level of 12.13, suggesting a high probability of a bounce or consolidation from immediate support at 24408. Bank Nifty also shows a weak opening with a bearish RSI of 34.4, though not as severely oversold as Nifty. Both indices are currently at their 9 and 21 EMAs, indicating a lack of clear short-term directional bias from these moving averages.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from options traders. The absence of specific Max Pain, Call Resistance, and Put Support data limits further in-depth options analysis for immediate directional cues.",
-    "sentiment_analysis": "FII/DII data is neutral for the day, offering no fresh directional insights from institutional flows. Market news is predominantly stock-specific or related to IPOs, without any major index-moving catalysts. The overall sentiment is cautious due to global headwinds and rising commodity prices.",
-    "confluence_summary": "While global markets suggest a weak opening, Nifty's extremely oversold RSI (12.13) is a strong contrarian signal, making aggressive shorting risky. A bounce from initial support or consolidation is highly probable. Bank Nifty is also weak but not as oversold. The confluence of weak global cues and oversold domestic technicals points towards initial volatility followed by potential recovery or range-bound action, hence a neutral to weak bias."
+    "global_analysis": "Global cues are mixed, with SGX Nifty down significantly, mirroring domestic weakness. However, US futures show slight positivity, and Nikkei is up, while Hang Seng is down. Rising crude and gold prices suggest underlying inflation concerns or a flight to safety.",
+    "technical_analysis": "Nifty has seen a sharp decline, pushing its RSI to an extremely oversold level of 3.45, indicating potential for a bounce or consolidation. Bank Nifty, despite being slightly positive, is also deeply oversold at RSI 12.39. The provided EMA data appears anomalous, making trend assessment from EMAs unreliable at this snapshot.",
+    "options_analysis": "Crucially, options data for Max Pain, Call Resistance, and Put Support are all reported as 0, and PCR is neutral at 1.0 for both indices. This significant lack of actionable options data severely limits our ability to gauge market participant positioning and potential expiry dynamics.",
+    "sentiment_analysis": "FII/DII data is neutral, offering no directional bias. Market news highlights a significant sell-off in the broader market ('Sensex crashes 600 points'), yet also points to strong performance in select small-cap stocks and IPOs, creating a mixed sentiment picture.",
+    "confluence_summary": "Despite both Nifty and Bank Nifty being in extremely oversold territory, which typically signals a potential bounce, the overall market confluence is weak. Mixed global cues, neutral FII/DII activity, and critically, the absence of reliable options data prevent a high-conviction directional trade. The broader market sentiment appears bearish due to the sell-off."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -17,14 +17,14 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 60,
+    "confidence_pct": 30,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24408.35 (Support)",
-      "24555.95 (Resistance)",
-      "24345.0 (Strong Support)"
+      "24207 (Support 1)",
+      "24132 (Support 2)",
+      "24414 (Resistance 1)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "N/A - No trade initiated"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -32,22 +32,24 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 60,
+    "confidence_pct": 30,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "57446.25 (Current/EMA)",
-      "57200 (Potential Support)"
+      "57500 (Psychological Support)",
+      "57700 (Potential Resistance)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "N/A - No trade initiated"
   },
   "what_to_watch": [
-    "Nifty's reaction at the immediate support level of 24408.35, given the extremely oversold RSI.",
-    "Sustainability of any bounce or recovery post-opening, especially if global markets stabilize.",
-    "Crude oil price movement, as its significant rise could impact inflation expectations and corporate margins."
+    "Nifty's ability to hold immediate support levels (24207, 24132) given the oversold conditions.",
+    "Any fresh FII/DII activity in the latter half of the session, as current data is neutral.",
+    "Global market performance, particularly US futures, for directional cues.",
+    "Development of options chain data, as current data is insufficient for analysis."
   ],
   "risk_factors": [
-    "Continued global risk-off sentiment could negate the oversold bounce potential and lead to further downside.",
-    "Lack of clear FII/DII activity and options data makes conviction trades difficult.",
-    "The 'trending' regime signal contradicts the immediate technicals and could lead to whipsaws."
+    "Continued selling pressure despite oversold RSI, indicating a stronger underlying bearish trend.",
+    "Lack of clear options data makes it difficult to assess potential hedging or unwinding activities.",
+    "Mixed global cues and domestic news create uncertainty, increasing volatility.",
+    "The 'trending' market regime signal contradicts the 'neutral' trend and oversold RSI, indicating potential whipsaws."
   ]
 }
