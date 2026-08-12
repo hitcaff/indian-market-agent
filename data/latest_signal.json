@@ -1,54 +1,54 @@
 {
   "session": "post_market",
   "date": "2026-08-12",
-  "timestamp": "15:21 IST",
-  "market_bias": "neutral",
+  "timestamp": "18:09 IST",
+  "market_bias": "slightly bullish",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "SGX Nifty's negative close suggests a weak opening for Indian markets tomorrow, though positive US futures could offer some resilience. Asian markets presented a mixed picture, with Nikkei up and Hang Seng down, while crude oil dipped and gold gained, indicating a cautious global sentiment. The impending US inflation data adds to the global uncertainty.",
-    "technical_analysis": "Nifty 50 closed down 0.45%, with its RSI at an extremely oversold level of 4.37, hinting at a potential bounce or consolidation from its immediate support of 24260. Bank Nifty, despite a positive close of 0.57%, exhibits a bearish RSI of 34.49, suggesting underlying weakness even as it outperformed Nifty today. Both indices have their EMA9 and EMA21 converging at current levels, indicating indecision after recent movements.",
-    "options_analysis": "With PCR at 1.0 for both Nifty and Bank Nifty, the options data currently indicates a neutral stance, reflecting balanced call and put open interest. The absence of specific Max Pain, Call Resistance, and Put Support values suggests either incomplete data for the current expiry or a lack of significant open interest build-up, making strong options-based conclusions difficult at this point.",
-    "sentiment_analysis": "FII/DII flows were neutral today, offering no clear institutional directional bias, which contributes to the overall market indecision. Market news highlighted retail interest in falling bluechips, alongside global caution ahead of US inflation data, creating a mixed sentiment landscape. Individual stock results provided specific triggers but no broad market direction, keeping sentiment fragmented.",
-    "confluence_summary": "Despite Nifty being technically extremely oversold, the overall market lacks strong directional confluence, with mixed global cues, neutral institutional flows, and ambiguous options data. Bank Nifty's positive close is offset by its bearish RSI, reinforcing a cautious 'NO TRADE' stance for both indices until clearer signals emerge. The low ATR% further suggests a potential for choppy, range-bound movement."
+    "global_analysis": "US market futures are showing positive momentum ahead of the July inflation report, potentially providing a positive lead for global markets. However, SGX Nifty is flat to slightly negative, and Asian markets are mixed, suggesting a cautious global sentiment overall.",
+    "technical_analysis": "Nifty's RSI is extremely oversold at 5.81, indicating a high probability of a technical bounce or at least a pause in selling pressure. Bank Nifty, in contrast, displayed relative strength by closing positively (+0.77%), suggesting underlying demand despite its RSI being in bearish territory (41.59). Both indices are currently in a neutral trend.",
+    "options_analysis": "The provided options data for Max Pain, Call Resistance, and Put Support is zero, which makes a detailed options chain analysis impossible. The PCR of 1.0 for both Nifty and Bank Nifty indicates a neutral stance from an options perspective, with calls and puts being equally traded.",
+    "sentiment_analysis": "FII/DII flows are neutral for the day. Market news highlights positive analyst calls on specific stocks and strong Q1 results from companies like Tata Motors, indicating some stock-specific optimism. However, the broader market wrap suggests a mixed day for indices, without a clear directional sentiment.",
+    "confluence_summary": "Nifty's deeply oversold RSI is the strongest technical signal, pointing towards a potential rebound. This is further supported by Bank Nifty's relative strength and positive cues from US futures. While the absence of detailed options data and neutral FII/DII flows prevent a strong directional conviction, the technical setup suggests a short-term upward bounce is probable, warranting a cautious long bias."
   },
   "nifty_trade": {
-    "direction": "NO TRADE",
-    "entry_zone": "0 - 0",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 20,
-    "risk_reward": "N/A",
+    "direction": "LONG",
+    "entry_zone": "24400 - 24450",
+    "stop_loss": 24290,
+    "target_1": 24517,
+    "target_2": 24599,
+    "confidence_pct": 50,
+    "risk_reward": "1:1.06",
     "key_levels_to_watch": [
-      "24260.67 (Support 1)",
-      "24159.63 (Support 2)",
-      "24468.02 (Resistance 1)"
+      "24310 (Support 1)",
+      "24517 (Resistance 1)"
     ],
-    "invalidation": "N/A - No trade initiated due to insufficient confluence."
+    "invalidation": "Sustained close below 24290"
   },
   "banknifty_trade": {
-    "direction": "NO TRADE",
-    "entry_zone": "0 - 0",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 20,
-    "risk_reward": "N/A",
+    "direction": "LONG",
+    "entry_zone": "57850 - 57900",
+    "stop_loss": 57700,
+    "target_1": 58100,
+    "target_2": 58300,
+    "confidence_pct": 55,
+    "risk_reward": "1:1.16",
     "key_levels_to_watch": [
-      "57771.35 (Current Level)"
+      "57700 (Implied Support)",
+      "58100 (Implied Resistance)"
     ],
-    "invalidation": "N/A - No trade initiated due to insufficient confluence."
+    "invalidation": "Sustained close below 57700"
   },
   "what_to_watch": [
-    "Nifty's reaction at the 24260 support level, given its extremely oversold RSI, for potential bounce signals.",
-    "Global market cues, particularly the outcome of the upcoming US inflation data, which could dictate international sentiment.",
-    "FII/DII flows for the next trading session to gauge institutional conviction and potential directional bias.",
-    "Option chain build-up for the next expiry, as current data is inconclusive, to identify significant support/resistance levels."
+    "The outcome and market reaction to the US July inflation report.",
+    "Global market sentiment, particularly the performance of US indices.",
+    "Any significant shift in FII/DII flows in the upcoming session.",
+    "Nifty's ability to sustain above 24400 and Bank Nifty's continued strength above 57800."
   ],
   "risk_factors": [
-    "Uncertainty surrounding global geopolitical risks and the highly anticipated US inflation data release.",
-    "Lack of clear institutional participation (FII/DII neutral) leading to potential volatility without strong directional support.",
-    "The extremely oversold Nifty RSI could lead to sharp, unpredictable reversals or continued consolidation.",
-    "Low ATR% (0.53%) suggests the market might remain choppy and range-bound despite the 'trending' regime signal."
+    "A negative surprise from the US inflation data could trigger a global market sell-off.",
+    "Lack of follow-through buying in Nifty despite its oversold conditions.",
+    "The absence of detailed options chain data makes risk assessment and precise level identification less robust.",
+    "Any unexpected geopolitical or significant domestic news."
   ]
 }
