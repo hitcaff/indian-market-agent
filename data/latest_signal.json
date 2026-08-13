@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-08-13",
-  "timestamp": "15:21 IST",
+  "timestamp": "18:10 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed with Asian markets showing divergence (Nikkei up, Hang Seng down, SGX Nifty down) and US futures also mixed. Crude oil is down, while gold is up, indicating some risk-off sentiment globally but not a clear directional bias.",
-    "technical_analysis": "Nifty is showing an extremely oversold RSI (5.4) but remains in a neutral trend, hovering near its EMA9/21. Bank Nifty is also in a neutral trend with a bearish RSI (42.49) and closed lower. Both indices are in a ranging regime, suggesting lack of strong directional momentum.",
-    "options_analysis": "PCR for both Nifty and Bank Nifty is 1.0, indicating a neutral stance from options participants. The absence of Max Pain, Call Resistance, and Put Support data makes it difficult to derive strong directional cues from this segment, especially on an expiry day.",
-    "sentiment_analysis": "FII/DII data is neutral for the day, showing no significant institutional flows. Market news presents a mixed bag of corporate results, with some positive and some negative, reflecting a lack of strong underlying sentiment to drive the market in one direction.",
-    "confluence_summary": "The market is exhibiting a strong neutral bias across multiple factors. Technicals show ranging behavior with Nifty oversold but Bank Nifty bearish. Options data is inconclusive. Global cues are mixed, and FII/DII flows are flat. This confluence points to a lack of clear directional conviction, making it a high-risk environment for directional trades, especially on a weekly expiry day."
+    "global_analysis": "Global cues are mixed with Dow futures showing positive momentum and Nikkei strong, while SGX Nifty and Hang Seng are slightly negative. The decline in crude oil is a positive for India, but rising gold prices suggest underlying global risk aversion.",
+    "technical_analysis": "Nifty is in an extremely oversold condition with an RSI of 6.54, which typically signals a potential bounce. Bank Nifty's RSI is bearish at 44.39. Both indices are currently in a neutral, ranging market regime with low volatility (ATR% 0.57%).",
+    "options_analysis": "PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from option participants. However, the reported Max Pain, Call Resistance, and Put Support values are all 0, which is highly unusual for a weekly expiry day and severely limits the reliability of options-based directional analysis.",
+    "sentiment_analysis": "FII and DII flows are neutral for the day. Market news presents a mixed picture, with positive corporate earnings and sector-specific optimism balanced by concerns over Tata Motors' performance and broader geopolitical uncertainty surrounding US-Iran relations.",
+    "confluence_summary": "Despite Nifty's extremely oversold technical condition suggesting a potential bounce, the overall market lacks strong directional confluence. Neutral global cues, absent FII/DII activity, and critically, unreliable options data due to missing Max Pain/OI, prevent a high-conviction trade. The ranging market regime and high-risk expiry day further advocate for a cautious, 'NO TRADE' stance."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -20,8 +20,8 @@
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24299.3 (Immediate Support)",
-      "24419.5 (Immediate Resistance)"
+      "24327.63 (Support)",
+      "24447.83 (Resistance)"
     ],
     "invalidation": "N/A - No trade initiated"
   },
@@ -34,21 +34,21 @@
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "57500 (Psychological Support)",
-      "57700 (Immediate Resistance)"
+      "57635.25 (Current Level)"
     ],
     "invalidation": "N/A - No trade initiated"
   },
   "what_to_watch": [
-    "Overnight performance of US and Asian markets for global sentiment cues, particularly Dow and Nasdaq futures.",
-    "FII/DII activity in the next trading session for institutional flow direction, as current data is neutral.",
-    "Crude oil price movements, as significant changes can impact inflation and economic outlook.",
-    "Nifty's reaction to its immediate support (24299) and resistance (24419) levels for potential breakout/breakdown signals in the next session."
+    "Global market performance overnight, especially US futures and Asian markets.",
+    "Reliable Open Interest data for the next weekly/monthly series for Nifty and Bank Nifty.",
+    "Any fresh developments regarding US-Iran geopolitical tensions.",
+    "Crude oil price movements and their potential impact on inflation and Indian markets.",
+    "Whether Nifty's oversold condition leads to a sustained bounce or further consolidation."
   ],
   "risk_factors": [
-    "Elevated global geopolitical tensions or unexpected economic data releases from major economies.",
-    "Sudden shifts in FII/DII flows, which could introduce volatility in a ranging market.",
-    "The market's current ranging regime and lack of clear directional momentum, increasing the risk of whipsaws.",
-    "Any major domestic policy announcements or corporate earnings surprises that could disrupt the current neutral stance."
+    "Elevated geopolitical risk due to US-Iran uncertainty.",
+    "Unreliable or missing options data (Max Pain, OI) can lead to misinterpretation of market positioning, especially on expiry days.",
+    "Sudden shifts in FII/DII flows, which were neutral today.",
+    "Potential for global market volatility to spill over into Indian equities."
   ]
 }
