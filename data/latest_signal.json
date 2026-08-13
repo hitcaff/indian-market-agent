@@ -1,52 +1,55 @@
 {
   "session": "mid_morning",
   "date": "2026-08-13",
-  "timestamp": "08:36 IST",
+  "timestamp": "12:52 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed, with Asian markets showing strength (Nikkei +1.61%, Hang Seng +0.09%) but US futures (Dow -0.08%) and SGX Nifty (-0.15%) indicating a cautious start. Nasdaq futures are notably positive (+0.82%), while crude oil dips and gold rises, suggesting some risk-off sentiment in commodities.",
-    "technical_analysis": "Nifty is technically oversold with an RSI of 5.81, suggesting a potential bounce, yet its trend remains neutral. Bank Nifty shows positive momentum (+0.77%) but carries a bearish RSI of 41.59 and a neutral trend. Both indices are currently hovering around their EMA9 and EMA21, indicating a lack of clear short-term direction.",
-    "options_analysis": "The options data provided is largely inconclusive for both Nifty and Bank Nifty, with PCR at 1.0 (neutral) and Max Pain, Call Resistance, and Put Support all showing 0. This absence of critical OI data, especially on a weekly expiry day, significantly reduces conviction for directional trades.",
-    "sentiment_analysis": "FII/DII activity is neutral, offering no clear directional bias from institutional flows. Market news is a mixed bag of stock-specific recommendations, IPO updates, and corporate actions like the MSCI rejig. The overall sentiment lacks a strong bullish or bearish conviction to override technical and options ambiguity.",
-    "confluence_summary": "Despite the 'trending' regime and 'favorable' signal, the immediate confluence for Nifty and Bank Nifty is weak due to conflicting technicals (oversold Nifty vs. neutral trend; Bank Nifty strength vs. bearish RSI), mixed global cues, and critically, the absence of meaningful options data on a high-risk weekly expiry day. This warrants extreme caution and a 'NO TRADE' stance."
+    "global_analysis": "Global cues are mixed, with Nikkei showing strength while SGX Nifty, Hang Seng, and Crude Oil are slightly negative. Dow and Nasdaq futures are largely flat, indicating no strong directional lead from international markets at this juncture.",
+    "technical_analysis": "Both Nifty and Bank Nifty are exhibiting neutral trends with their 9-day and 21-day EMAs converging at current price levels, suggesting consolidation. Nifty's RSI at 5.76 is extremely oversold, hinting at a potential bounce, while Bank Nifty's RSI at 44.05 is bearish but not extreme.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral sentiment from options participants. Crucially, the absence of Max Pain, Call Resistance, and Put Support data on a weekly expiry day significantly limits the ability to make high-conviction directional calls based on options flow.",
+    "sentiment_analysis": "FII/DII activity is neutral for the day, providing no clear directional bias. Market news is a mixed bag of stock-specific recommendations and corporate updates, not influencing the broader market sentiment significantly. The 'HIGH RISK DAY: WEEKLY_EXPIRY' warning further reinforces caution.",
+    "confluence_summary": "The market is in a ranging regime with neutral technicals, mixed global cues, and neutral FII/DII data. While Nifty's extremely oversold RSI suggests a potential bounce, the overall lack of strong conviction signals, coupled with the high-risk weekly expiry and critical missing options data, warrants a cautious 'NO TRADE' stance."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 50,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24310.17 (Support)",
-      "24517.52 (Resistance)"
+      "24309.4 (Support)",
+      "24250.3 (Strong Support)",
+      "24429.6 (Resistance)",
+      "24490.7 (Strong Resistance)"
     ],
-    "invalidation": "N/A - No trade initiated due to lack of confluence and high risk."
+    "invalidation": "No trade proposed due to low confidence and high risk on expiry day, exacerbated by missing options data."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 40,
     "risk_reward": "N/A",
-    "key_levels_to_watch": [],
-    "invalidation": "N/A - No trade initiated due to lack of confluence and high risk."
+    "key_levels_to_watch": [
+      "57627.75 (Current Level)",
+      "Potential support around 57500",
+      "Potential resistance around 57800"
+    ],
+    "invalidation": "No trade proposed due to poor R:R ratio, neutral trend, and high risk on expiry day with missing options data."
   },
   "what_to_watch": [
-    "Intraday FII/DII activity for any significant shifts.",
-    "Global market performance, especially US markets post-opening.",
-    "Any fresh news flow or sector-specific triggers.",
-    "Nifty's reaction around its immediate support (24310) and resistance (24517) levels.",
-    "Development of options chain data (OI, Max Pain) throughout the day, if available."
+    "Nifty's reaction to the immediate support level of 24309.4, given the extremely oversold RSI.",
+    "Any significant build-up in Nifty and Bank Nifty options Open Interest (OI) as the day progresses towards expiry.",
+    "Global market sentiment post-European market open for further cues."
   ],
   "risk_factors": [
-    "Weekly expiry day leading to elevated volatility and potential sharp moves.",
-    "Lack of clear directional bias and conflicting technical signals for both Nifty and Bank Nifty.",
-    "Absence of comprehensive options data (Max Pain, OI) making conviction difficult.",
-    "Mixed global cues contributing to overall market uncertainty."
+    "High volatility and potential for sharp reversals typical of a weekly expiry day.",
+    "The absence of critical options data (Max Pain, Call/Put OI) makes gauging expiry-related price action highly speculative.",
+    "The ranging market regime suggests price could remain choppy without a clear directional breakout."
   ]
 }
