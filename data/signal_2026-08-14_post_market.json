@@ -1,58 +1,48 @@
 {
   "session": "post_market",
   "date": "2026-08-14",
-  "timestamp": "15:18 IST",
+  "timestamp": "18:05 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed with US futures showing slight divergence (Dow down, Nasdaq up), while Asian markets were also split (Nikkei up, Hang Seng down). Crude oil and gold prices are up, potentially indicating some underlying inflation concerns or a slight risk-off sentiment globally. The Bank of Japan's potential rate hike in September is a key event to watch.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed marginally negative, exhibiting a clear 'neutral' trend and 'ranging' market regime with low volatility (ATR% 0.57%). Nifty's RSI at 0.0 is an anomaly, likely a data error or extreme compression within a tight range, but the flat EMAs (EMA9 and EMA21 identical to current price) confirm the lack of directional momentum. Bank Nifty's RSI at 39.71 is bearish, yet its trend also remains neutral, indicating indecision.",
-    "options_analysis": "Options data for both indices is strikingly neutral, with PCR at 1.0. The reported Max Pain, Call Resistance, and Put Support all being 0 is highly unusual and suggests a lack of clear data or extremely tight positioning, which further reinforces the absence of strong directional conviction from the derivatives market. This data void makes options-based directional trades highly speculative.",
-    "sentiment_analysis": "FII/DII flows were completely neutral today, offering no directional bias. Market news is a mixed bag of global economic updates and specific corporate results/recommendations. There's no overarching sentiment driver from the news flow that could push the market in a definitive direction, contributing to the current indecisiveness.",
-    "confluence_summary": "The confluence of all factors points to a strongly neutral and ranging market. Technicals show flat EMAs and low volatility, options data is perfectly neutral (or unavailable for key metrics), and FII/DII flows are absent. Global cues are mixed, failing to provide a clear directional catalyst. Therefore, a 'NO TRADE' stance is the most prudent approach for tomorrow."
+    "global_analysis": "Global cues are mixed to cautious; Hang Seng saw a significant decline, and gold rallied, indicating underlying risk aversion. US futures are subdued, partly due to higher crude oil prices, which could fuel inflation concerns, despite Nikkei showing strength.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed precisely at their 9-day and 21-day EMAs, signaling strong indecision and a neutral trend. Nifty's RSI at 0.0 is an extreme oversold reading (though potentially anomalous), while Bank Nifty's RSI is bearish at 40.89, with both indices exhibiting low ATR and a ranging market regime.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a perfectly balanced options chain with no clear directional bias from call or put writers. Max Pain and other detailed Open Interest data are unavailable, limiting further options-based insights.",
+    "sentiment_analysis": "FII/DII flows were neutral for the day. Market news highlights that Sensex and Nifty snapped a two-week winning streak due to Middle East uncertainty and oil price volatility, suggesting a cautious underlying sentiment despite some positive individual corporate earnings reports.",
+    "confluence_summary": "The market is firmly in a ranging regime with neutral technicals and balanced options data, indicating strong indecision. Despite some global caution and news of a broken winning streak, there's no strong directional conviction or confluence of factors for a high-probability trade at this juncture."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
+    "entry_zone": "",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 90,
-    "risk_reward": "N/A",
-    "key_levels_to_watch": [
-      "24299.37 (Support 1)",
-      "24407.77 (Resistance 1)",
-      "24243.88 (Support 2)",
-      "24460.68 (Resistance 2)"
-    ],
-    "invalidation": "A sustained breakout above 24460.68 or below 24243.88 with significant volume and follow-through."
+    "confidence_pct": 0,
+    "risk_reward": "",
+    "key_levels_to_watch": [],
+    "invalidation": ""
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
+    "entry_zone": "",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 90,
-    "risk_reward": "N/A",
-    "key_levels_to_watch": [
-      "57459.10 (Current Level)",
-      "57000 (Psychological Support)",
-      "58000 (Psychological Resistance)"
-    ],
-    "invalidation": "A sustained breakout above 58000 or below 57000 with significant volume and follow-through."
+    "confidence_pct": 0,
+    "risk_reward": "",
+    "key_levels_to_watch": [],
+    "invalidation": ""
   },
   "what_to_watch": [
-    "Any significant shift in global market sentiment, particularly from US and European markets.",
-    "FII/DII activity for signs of renewed institutional interest or selling pressure.",
-    "Nifty and Bank Nifty's ability to break out of their current tight trading ranges.",
-    "Crude oil and Gold price movements, as they can indicate broader economic health or risk appetite.",
-    "Key corporate earnings or news that could trigger sector-specific movements."
+    "Global market sentiment, particularly US futures and any further developments in crude oil prices.",
+    "Nifty's ability to sustain above 24300 or break its immediate resistance at 24415 for a directional move.",
+    "Bank Nifty's momentum, given its bearish RSI, and how it reacts to the 57490 level (EMA confluence).",
+    "Any fresh geopolitical developments, especially concerning the Middle East, which has been cited as a reason for market caution."
   ],
   "risk_factors": [
-    "The ongoing geopolitical situation (Iran war mentioned) could escalate and impact global markets.",
-    "Sudden and unexpected shifts in FII/DII flows, especially if they turn strongly directional.",
-    "Low volatility and ranging markets can lead to whipsaws, trapping traders attempting to pick a direction prematurely.",
-    "The unusual data points (Nifty RSI 0.0, zero Max Pain/OI data) suggest potential data integrity issues or extreme market conditions that could lead to unpredictable moves."
+    "Escalation of geopolitical tensions, particularly in the Middle East, which could trigger sharp market reactions.",
+    "Continued volatility and upward movement in crude oil prices, potentially impacting inflation and corporate profitability.",
+    "Lack of clear institutional participation (FII/DII) leading to lower conviction moves.",
+    "The current ranging market could lead to whipsaws if a false breakout occurs."
   ]
 }
