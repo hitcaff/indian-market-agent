@@ -1,15 +1,15 @@
 {
   "session": "mid_morning",
   "date": "2026-08-14",
-  "timestamp": "08:35 IST",
+  "timestamp": "12:50 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed with strong positive signals from Nasdaq futures and Nikkei, while Hang Seng is negative and SGX Nifty indicates a muted start. A significant drop in crude oil prices is a positive factor for the Indian economy.",
-    "technical_analysis": "Nifty 50 is exhibiting an extremely oversold RSI of 6.54, which strongly suggests a potential for a bounce or a relief rally from current levels. Bank Nifty's RSI is bearish at 44.39, but both indices are currently in a neutral trend and a ranging market regime.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a neutral 1.0. However, crucial options data points such as Max Pain, Call Resistance, and Put Support are reported as zero, which severely limits the ability to derive specific insights from the option chain.",
-    "sentiment_analysis": "FII/DII activity is neutral with no net flow reported. Market news indicates a muted start for Indian equities, and the prevailing market regime is 'ranging', reinforcing a lack of strong directional conviction among participants.",
-    "confluence_summary": "The most compelling factor is Nifty's deeply oversold RSI, hinting at an imminent bounce. However, this is counterbalanced by a ranging market regime, neutral trends, mixed global cues, and the absence of reliable options data, leading to an overall cautious and neutral outlook."
+    "global_analysis": "Global cues are largely mixed to slightly negative, with SGX Nifty and US futures showing minor weakness, while Asian markets like Nikkei are positive. Crude oil and gold are seeing gains, but overall, there's no strong, unified directional impetus from the global front to sway our indices significantly.",
+    "technical_analysis": "Both Nifty and Bank Nifty are exhibiting extreme indecision. The EMA9 and EMA21 are precisely at the current price for both indices, indicating a lack of clear trend. Nifty's RSI at 0.0 is an anomaly suggesting extreme oversold conditions, yet the trend is 'neutral'. Bank Nifty's RSI is bearish at 38.75, but its trend also remains 'neutral'. The market regime is clearly 'ranging' with a low ATR%, reinforcing the absence of a strong technical trend.",
+    "options_analysis": "The Options Chain data provides no clear directional bias. PCR for both Nifty and Bank Nifty stands at a perfectly neutral 1.0. The absence of specific Max Pain, Call Resistance, or Put Support values further reinforces the lack of clear directional conviction from the options market participants.",
+    "sentiment_analysis": "FII/DII data is completely neutral with zero net flows, indicating no significant institutional-driven bias in either direction. The market news is predominantly stock-specific, highlighting individual company performance or analyst recommendations, rather than providing any broad economic or sentiment-driving catalysts for the broader market indices.",
+    "confluence_summary": "All major factors \u2013 global, technical, options, and sentiment \u2013 converge to suggest a highly neutral and ranging market. The extreme indecision reflected in EMAs, neutral PCRs, and the 'ranging' market regime strongly signal against taking directional trades at this juncture. The proposed 'NO TRADE' is well-justified due to the lack of confluence and clear directional signals."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -17,13 +17,15 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 60,
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24327.63 (Support)",
-      "24447.83 (Resistance)"
+      "24307.1 (Immediate Support)",
+      "24375.3 (Immediate Resistance)",
+      "24404.25 (Strong Resistance)",
+      "24267.85 (Strong Support)"
     ],
-    "invalidation": "The system's confidence threshold (65%) for a confirmed trade is not met, despite the oversold RSI, due to conflicting signals and data limitations."
+    "invalidation": "A clear and sustained breakout above 24404.25 or below 24267.85 with significant volume and momentum would invalidate the current neutral stance and suggest a new directional bias."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -33,20 +35,21 @@
     "target_2": 0,
     "confidence_pct": 0,
     "risk_reward": "N/A",
-    "key_levels_to_watch": [],
-    "invalidation": "The system's R:R ratio threshold (1.5) is not met, and the absence of specific support/resistance levels and options data makes a well-defined trade difficult."
+    "key_levels_to_watch": [
+      "57431.75 (Current Price - acting as pivot)",
+      "Observation of intraday high/low for potential range definition"
+    ],
+    "invalidation": "A clear and sustained breakout from the current tight range with strong momentum, confirming a new trend and overcoming the existing indecision."
   },
   "what_to_watch": [
-    "Nifty's reaction to the extremely oversold RSI; watch for signs of a bounce or further weakness.",
-    "Global market performance, especially US tech, for directional cues post-Indian market open.",
-    "Crude oil price movements; further declines would be positive for Indian markets.",
-    "FII/DII activity post-market open for fresh sentiment indicators.",
-    "Nifty's ability to hold the 24327 support level for any potential bounce."
+    "Nifty's ability to hold above 24300 or break above 24375 for any potential directional move.",
+    "Any significant FII/DII activity or institutional flows emerging in the post-lunch session.",
+    "Global market sentiment and performance as European markets open fully and US futures react.",
+    "Sectoral performance, particularly within the banking and financial space, for any cues on Bank Nifty's direction."
   ],
   "risk_factors": [
-    "Lack of comprehensive options data (Max Pain, Call/Put Support/Resistance are zero), limiting options-based insights.",
-    "The market is in a ranging regime, which can lead to choppy price action and false breakouts.",
-    "Conflicting technical signals, particularly Nifty's oversold RSI against a neutral trend and ranging market.",
-    "Potential for sudden shifts in global sentiment given mixed international cues."
+    "Sudden shifts in global sentiment or unexpected geopolitical/economic news events could trigger volatility.",
+    "Whipsaw movements in a low ATR% ranging market, leading to false breakouts and stop-loss triggers.",
+    "The unusual RSI 0.0 for Nifty and EMA values being exactly at current price suggest potential data anomalies, which can make technical analysis less reliable and lead to misinterpretations."
   ]
 }
