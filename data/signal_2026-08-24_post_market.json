@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-08-24",
-  "timestamp": "15:03 IST",
+  "timestamp": "17:51 IST",
   "market_bias": "neutral",
-  "bias_strength": "weak",
+  "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global cues are largely mixed to negative, with Asian markets (Nikkei, Hang Seng) and SGX Nifty showing weakness. US futures are also mixed, with Nasdaq down. While falling crude oil is generally positive for India, the overall sentiment remains cautious due to ongoing global economic concerns like China's property crisis and the prospect of hawkish central bank policies.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed in the red today, with Nifty down 0.30% and Bank Nifty down 0.63%. Both indices are displaying a 'neutral' trend, and their EMA9 and EMA21 are converging precisely at the current price, indicating a very tight range and consolidation. Nifty's RSI is neutral, while Bank Nifty's RSI is bullish, but this is contradicted by its price action and the overall 'tight_range' market regime.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a perfectly neutral 1.0. Crucially, the Max Pain, Call Resistance, and Put Support are all reported as 0, which strongly suggests either extremely low open interest for the current expiry or missing data. This renders the options chain unreliable for establishing any clear directional bias today.",
-    "sentiment_analysis": "FII/DII data is neutral for the day, providing no directional cues. The market news highlights global economic concerns and specific stock movements, but nothing to significantly sway broader market sentiment. The system's 'tight_range' regime and 'caution' signal accurately reflect the prevailing indecision and lack of conviction in the market.",
-    "confluence_summary": "The confluence of mixed global cues, neutral technical indicators for Nifty, unreliable options data, and a 'tight_range' market regime with a 'caution' signal strongly points towards a lack of clear directional conviction. Both indices are consolidating, making high-conviction directional trades extremely risky and ill-advised at this juncture."
+    "global_analysis": "Global cues are mixed to slightly negative, with most major indices like Nikkei, Hang Seng, and US futures showing minor declines. Crude oil is down while gold is up, suggesting a cautious risk-off sentiment globally. SGX Nifty also reflects this slight negativity, indicating a subdued start might be expected.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed marginally lower, with their EMA9 and EMA21 converging precisely at the current price, signaling extreme consolidation and a lack of directional conviction. While RSIs are in bullish territory (Nifty 61.32, Bank Nifty 66.88), the non-trending price action within a tight range (ATR% 0.49%) contradicts this strength, suggesting a potential exhaustion or divergence. The market regime is clearly defined as 'tight_range' with a 'caution' signal.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a perfectly neutral 1.0, indicating a balanced distribution of call and put open interest. The reported Max Pain, Call Resistance, and Put Support as 0 further reinforce the absence of any significant build-up or clear directional bias from the options chain. This neutral options data aligns with the overall tight range market regime.",
+    "sentiment_analysis": "FII and DII activity was neutral for the day, providing no fresh directional impetus. Market news highlights a focus on specific stocks and sectors, but no overarching theme for the broader market. The general sentiment appears cautious, as reflected by the 'tight_range' regime and the absence of strong FII/DII flows, suggesting participants are awaiting clearer signals.",
+    "confluence_summary": "The confluence of neutral technical indicators (EMA convergence, tight range), perfectly balanced options data (PCR 1.0), and neutral FII/DII activity, combined with mixed global cues, strongly points to a market lacking conviction. The prevailing 'tight_range' regime and 'caution' signal make any directional trade highly speculative and risky at this juncture. Therefore, a 'NO TRADE' stance is warranted for both indices."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -17,13 +17,13 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 10,
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24110.57 (Support)",
-      "24279.27 (Resistance)"
+      "24137.9 (Support)",
+      "24306.6 (Resistance)"
     ],
-    "invalidation": "A clear and sustained breakout above 24279.27 or breakdown below 24110.57 with significant volume would invalidate the 'NO TRADE' stance and signal a potential new trend."
+    "invalidation": "N/A"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -31,25 +31,22 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 10,
+    "confidence_pct": 0,
     "risk_reward": "N/A",
-    "key_levels_to_watch": [
-      "57300 (Approx. Support)",
-      "57500 (Approx. Resistance)"
-    ],
-    "invalidation": "A decisive move above 57500 or below 57300 on Bank Nifty, sustained for at least 15-30 minutes, would indicate a potential shift from the current consolidation."
+    "key_levels_to_watch": [],
+    "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Global market performance overnight, especially US futures and Asian markets, for directional cues.",
-    "Any significant FII/DII activity data released for today or the next trading session.",
-    "Nifty's ability to hold the crucial 24110.57 support or decisively break the 24279.27 resistance level.",
-    "Bank Nifty's price action around its current level (57396), looking for a clear directional bias to emerge from consolidation.",
-    "Crude oil price movements and any new developments regarding global economic concerns (China's property market, ECB stance)."
+    "Global market performance, especially US futures and Asian markets, for any significant shifts in sentiment.",
+    "Any breakout from the current tight range in Nifty (above 24306.6 or below 24137.9) and Bank Nifty.",
+    "FII/DII activity for renewed directional conviction or significant capital flows.",
+    "Options chain build-up for Tuesday's session to identify any emerging bias or key strike prices.",
+    "Any unexpected domestic or international news that could disrupt the current consolidation."
   ],
   "risk_factors": [
-    "Sudden shifts in global sentiment due to unexpected geopolitical events or economic data releases.",
-    "Lack of liquidity in a tight range market, increasing the potential for whipsaws and false signals.",
-    "Unreliable options data (Max Pain 0, etc.) making it challenging to gauge institutional positioning and potential expiry moves.",
-    "Potential for a false breakout or breakdown from the current tight range, trapping aggressive traders."
+    "Sudden shifts in global sentiment could lead to sharp moves out of the current range.",
+    "Lack of liquidity in a tight range market can lead to increased volatility and whipsaws.",
+    "Unexpected news events or geopolitical developments could trigger a breakout or breakdown.",
+    "The current neutral stance could be invalidated quickly if strong FII/DII flows resume."
   ]
 }
