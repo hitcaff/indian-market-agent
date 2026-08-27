@@ -1,55 +1,57 @@
 {
   "session": "post_market",
   "date": "2026-08-27",
-  "timestamp": "15:35 IST",
+  "timestamp": "22:49 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed with SGX Nifty and most Asian markets showing slight weakness, while Nasdaq futures indicate strength. Dow futures are flat. Crude oil and gold are relatively stable, suggesting no major global shock but also no strong positive impetus.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed with minor losses. Nifty's RSI is in oversold territory at 29.45, hinting at a potential bounce, while Bank Nifty's RSI is bearish at 34.07. Both indices are in a neutral, ranging trend, with EMA9 and EMA21 aligning with the current price, indicating a lack of clear short-term momentum.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, signaling a neutral sentiment in the options market. The reported Max Pain, Call Resistance, and Put Support values being 0 limit deeper options-based insights, but the neutral PCR aligns with the overall ranging market regime.",
-    "sentiment_analysis": "FII/DII data is neutral for the day. Market news highlights HDFC Bank's significant decline, geopolitical concerns from the Iran war, and mixed analyst recommendations. The overall sentiment is cautious, particularly with the underperformance of a heavyweight like HDFC Bank.",
-    "confluence_summary": "The market is clearly in a ranging regime, compounded by it being a high-risk monthly expiry day. Despite Nifty's oversold RSI, the neutral trend, neutral PCR, mixed global cues, and cautious sentiment do not provide sufficient confluence for a directional trade. The prudent approach is to remain on the sidelines given the lack of conviction and elevated risk."
+    "global_analysis": "Global cues are mixed; while SGX Nifty closed lower, US futures (Dow, Nasdaq) show positive momentum, and Asian markets were largely positive. Crude oil and gold prices are also up, indicating some risk-on sentiment globally, but not strong enough to override local factors.",
+    "technical_analysis": "Nifty 50 closed down, with its RSI entering oversold territory at 29.45, suggesting a potential bounce from support. Bank Nifty also closed lower with a bearish RSI of 34.07. Both indices are in a neutral trend and a ranging regime, indicating a lack of clear directional conviction despite the recent dip.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from options participants. However, the Max Pain, Call Resistance, and Put Support values are all reported as 0, which suggests incomplete or unupdated data post-monthly expiry, limiting a comprehensive options-based directional view.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. Market news includes positive global tech sentiment from Nvidia's earnings and several IPO updates. Analyst recommendations are mixed, focusing on individual stocks rather than broad market direction, contributing to an overall mixed sentiment.",
+    "confluence_summary": "The market concluded a high-risk monthly expiry day with Nifty in oversold territory, yet the overall trend remains neutral and the regime is ranging. Mixed global cues and neutral options data (PCR) further reinforce a lack of strong directional conviction. While Nifty's oversold RSI might tempt a bounce trade, the prevailing ranging market and post-expiry volatility warrant extreme caution."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24021.98 (Support)",
-      "24228.58 (Resistance)"
+      "24021.98 (Immediate Support)",
+      "23953.12 (Strong Support)",
+      "24228.58 (Immediate Resistance)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "A clear break and sustained move below 23953 or above 24228 would invalidate the current ranging outlook and require re-evaluation for directional trades."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "57500 (Psychological Level)",
-      "57000 (Potential Support)"
+      "57509.95 (Current Level)",
+      "57000 (Psychological Support)",
+      "58000 (Psychological Resistance)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "A decisive break above 58000 or below 57000 would signal a potential directional move, invalidating the current neutral stance."
   },
   "what_to_watch": [
-    "Global market performance overnight, especially Nasdaq's follow-through.",
-    "Post-expiry unwinding and fresh positioning in Nifty and Bank Nifty futures and options.",
-    "HDFC Bank's price action and its impact on the broader banking sector.",
-    "Crude oil price movements given the ongoing geopolitical tensions.",
-    "Any significant FII/DII activity in the coming sessions to gauge institutional conviction."
+    "Global market performance, especially US futures and Asian markets, for directional cues on Friday's opening.",
+    "Nifty's ability to hold the immediate support of 24021.98; a bounce from here could be short-lived given the ranging regime.",
+    "Bank Nifty's price action around 57500, as it lacks clear support/resistance levels in the provided data.",
+    "Fresh FII/DII data for Friday to gauge institutional sentiment post-expiry.",
+    "Any significant news flow related to inflation, interest rates, or geopolitical events that could impact market sentiment."
   ],
   "risk_factors": [
-    "High volatility associated with monthly expiry, potentially leading to whipsaws.",
-    "Geopolitical risks from the Iran war, which could escalate and impact global markets.",
-    "Lack of clear directional cues, making trend identification difficult.",
-    "Potential for profit-taking after a period of consolidation, especially if global cues turn negative."
+    "Increased volatility post-monthly expiry, leading to choppy and unpredictable price action.",
+    "Lack of clear directional trend (ranging market) makes directional trades inherently high risk.",
+    "Incomplete options data (Max Pain, Call/Put Support showing 0) limits comprehensive options-based analysis for conviction.",
+    "Potential for global market sentiment to shift rapidly, impacting Indian markets despite local technicals."
   ]
 }
