@@ -1,15 +1,15 @@
 {
   "session": "pre_market",
   "date": "2026-08-28",
-  "timestamp": "00:47 IST",
+  "timestamp": "02:52 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "SGX Nifty indicates a significant gap-down opening for the Indian market (-1.00%). However, US futures, particularly Nasdaq (+1.03%) driven by strong tech earnings, show positive momentum, while other Asian markets are mildly positive. Rising crude oil and gold prices suggest underlying inflationary pressures or safe-haven demand, adding a layer of complexity.",
-    "technical_analysis": "Nifty 50 is poised for a gap-down near its immediate support levels, with its RSI at 29.45 indicating an oversold condition, which could lead to a bounce or consolidation. Bank Nifty shows a minor change but its RSI at 34.07 is also in bearish territory, suggesting underlying weakness. Both indices are currently in a 'neutral' trend and a 'ranging' market regime, lacking clear directional conviction.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a perfectly neutral sentiment from an options perspective. The absence of specific Max Pain, Call Resistance, and Put Support values at this early hour prevents deriving strong directional cues from the options chain. This lack of clear options data further contributes to the overall market uncertainty.",
-    "sentiment_analysis": "FII/DII data is neutral (\u20b90 Cr), providing no immediate directional bias from institutional flows. Market news presents a mixed bag, with hawkish Fed comments contrasting with strong tech earnings (Nvidia) boosting global sentiment. While some IPO news is positive for specific stocks, it doesn't offer broad market direction, reinforcing a cautious outlook.",
-    "confluence_summary": "The market exhibits conflicting signals: a bearish SGX Nifty gap-down against oversold domestic indices and positive US tech cues. The neutral trend, ranging market regime, and lack of decisive FII/DII or options data create significant ambiguity. Therefore, maintaining a 'NO TRADE' stance is the most prudent approach until clearer directional conviction emerges post-market opening."
+    "global_analysis": "SGX Nifty indicates a significant gap-down for the Indian markets, down 1%. However, this is counterbalanced by strong positive cues from US markets, particularly Nasdaq, driven by the Nvidia-led AI rally. Crude oil and gold prices are up, suggesting some underlying global risk aversion or inflation concerns, with focus on the Fed's stance at Jackson Hole.",
+    "technical_analysis": "Nifty 50 is showing an oversold RSI at 29.45, suggesting potential for a bounce from lower levels, though the current price is also its EMA9/21, indicating a recent sharp move or data anomaly. Bank Nifty's RSI is bearish at 34.07, but the index is relatively flat. Both indices are in a neutral trend with a ranging market regime, making directional conviction from technicals alone difficult.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a neutral 1.0. Crucially, Max Pain, Call Resistance, and Put Support data are all reported as 0, which severely limits any meaningful options-based analysis and prevents deriving strong directional cues from this segment.",
+    "sentiment_analysis": "FII/DII activity is neutral with zero net flows, offering no directional bias. Market news presents a mixed bag: strong US tech sentiment due to Nvidia, but also ongoing uncertainty regarding the Fed's outlook from Jackson Hole. Analyst calls on Indian stocks are mixed, with some positive (HDFC Bank, Bajaj Finance) and some negative (Persistent Systems).",
+    "confluence_summary": "The confluence of conflicting global cues (bearish SGX vs. bullish US tech), an oversold Nifty RSI suggesting a potential bounce, and the critical absence of actionable options data (Max Pain, OI) leads to a highly uncertain pre-market outlook. The market regime is ranging and signals are neutral, reinforcing a cautious stance. Therefore, high-conviction directional trades are not advisable at this juncture."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -17,11 +17,11 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
+    "confidence_pct": 85,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
       "24099.92 (Support)",
-      "23992.08 (Strong Support)",
+      "23992.08 (Support)",
       "24306.52 (Resistance)"
     ],
     "invalidation": "N/A"
@@ -32,23 +32,25 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
+    "confidence_pct": 85,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "57509.95 (Current Level)",
-      "Monitor price action around this level for support/resistance formation"
+      "57500 (Psychological Support)",
+      "57000 (Potential Support)"
     ],
     "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Nifty's opening reaction to the significant gap-down and its ability to hold immediate support levels (24099-23992).",
-    "How US futures (especially Nasdaq) perform during Indian market hours, as global tech sentiment is strong.",
-    "Price action around Nifty's oversold RSI (29.45) for signs of a potential bounce or further weakness.",
-    "Any fresh FII/DII data post-opening to gauge institutional sentiment."
+    "Nifty's reaction to the initial gap-down and its ability to hold the 24000 psychological support level.",
+    "Bank Nifty's relative strength/weakness compared to Nifty post-open.",
+    "Any fresh FII/DII activity data released during market hours.",
+    "Further commentary or developments from the Jackson Hole symposium regarding the Fed's monetary policy outlook.",
+    "Performance of key sectors, especially IT given the strong Nasdaq cues."
   ],
   "risk_factors": [
-    "Global market volatility due to mixed cues (hawkish Fed vs. strong tech earnings) creating uncertainty.",
-    "The potential for sharp, unpredictable moves given Nifty's gap-down from an oversold position in a 'ranging' market regime.",
-    "Lack of clear institutional flow data (FII/DII) and meaningful options data at this early hour, limiting conviction."
+    "High volatility expected due to conflicting global cues and the initial gap-down.",
+    "Uncertainty surrounding the Federal Reserve's future rate path post-Jackson Hole.",
+    "Lack of clear options data (Max Pain, OI) makes gauging market participant positioning challenging.",
+    "Potential for sharp reversals given Nifty's oversold RSI, which could lead to whipsaws."
   ]
 }
