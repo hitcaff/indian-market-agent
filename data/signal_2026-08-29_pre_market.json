@@ -1,55 +1,55 @@
 {
   "session": "pre_market",
   "date": "2026-08-29",
-  "timestamp": "01:57 IST",
+  "timestamp": "03:03 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed to slightly negative, with US futures showing a minor dip and Hang Seng down, while Nikkei is positive. The significant drop in gold prices (-2.18%) and hawkish comments from Kevin Warsh at Jackson Hole hinting at rate hikes are creating a cautious undertone globally, suggesting some risk-off sentiment.",
-    "technical_analysis": "Both Nifty and Bank Nifty exhibit extreme neutrality, with their 9-period and 21-period EMAs converging precisely at the current price. RSI values for both indices are also firmly in the neutral zone (Nifty 45.11, Bank Nifty 47.39), indicating a complete lack of clear directional momentum and suggesting a range-bound opening.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, reflecting a perfectly balanced options market with no clear bias from option writers or buyers. The absence of specific Max Pain, Call Resistance, and Put Support values (showing as 0) further reinforces this neutral stance, indicating limited conviction or very early data.",
-    "sentiment_analysis": "FII/DII data is neutral for the day, providing no fresh directional cues. While there are some positive stock-specific news items, the broader market sentiment is influenced by global caution stemming from potential rate hikes, which could keep participants on edge and prevent strong directional moves.",
-    "confluence_summary": "The overwhelming confluence of technical indicators (converging EMAs, neutral RSI), options data (PCR 1.0), and neutral FII/DII data points to a highly indecisive market. Despite a 'trending' regime signal, the lack of clear directional momentum and mixed global cues strongly advocate for a cautious 'NO TRADE' approach at the open."
+    "global_analysis": "Global markets are showing a mixed to slightly negative sentiment, primarily influenced by the hawkish comments from Kevin Warsh at Jackson Hole, which has reignited fears of further rate hikes. US futures are down, particularly Nasdaq, while Asian markets are mixed, suggesting a cautious global mood. Crude and Gold are also slightly negative, reflecting broader market uncertainty.",
+    "technical_analysis": "Both Nifty and Bank Nifty are exhibiting neutral technicals, with their current prices aligning perfectly with their 9-day and 21-day EMAs. RSIs are in the neutral zone, and the trend is identified as neutral for both indices. Nifty is currently hovering right at its immediate resistance level of 24160.48, indicating potential for a struggle at the open.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a perfectly balanced options market with no clear directional bias from participants. The absence of specific Max Pain, Call Resistance, and Put Support values further reinforces this neutral stance, suggesting a lack of strong conviction from options traders at this pre-market stage.",
+    "sentiment_analysis": "FII/DII data is neutral, providing no directional cues. Market news is dominated by the US rate hike concerns, which is a significant negative sentiment driver, potentially creating an overhang for equities. While there are some positive stock-specific recommendations, the overarching macro sentiment remains cautious due to global monetary policy outlook.",
+    "confluence_summary": "The market presents a picture of neutrality, with technicals and options data firmly in a non-directional zone. While global cues carry a slight bearish undertone due to rate hike fears, there isn't enough strong confluence across all factors to establish a clear directional bias for the Indian indices. Therefore, a 'NO TRADE' stance is prudent for the pre-market session."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 10,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24049.03 (Support 1)",
-      "24160.48 (Resistance 1)",
-      "24230.12 (Resistance 2)"
+      "24049 (Support)",
+      "24160 (Resistance)",
+      "24230 (Resistance)"
     ],
-    "invalidation": "N/A - Market is neutral, awaiting clear directional cues."
+    "invalidation": "N/A"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 10,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "57496.30 (Pivot)"
+      "Immediate support/resistance zones"
     ],
-    "invalidation": "N/A - Market is neutral, awaiting clear directional cues."
+    "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Nifty's ability to sustain above 24100 or break below 24000 for directional clarity.",
-    "Bank Nifty's reaction around the 57500 psychological level.",
-    "Opening strength or weakness in key banking and IT sector heavyweights.",
-    "Any significant FII/DII activity post-market open, as current data is neutral.",
-    "Further updates or interpretations regarding global inflation outlook and central bank rhetoric, especially from the US."
+    "Nifty's opening price and initial price action relative to the 24160 resistance level.",
+    "Performance of global markets, especially US futures, during Indian trading hours.",
+    "Any further developments or clarifications on central bank hawkishness and inflation outlook.",
+    "FII/DII activity post-market open for directional cues.",
+    "Sectoral performance, particularly banking stocks given Bank Nifty's slight underperformance."
   ],
   "risk_factors": [
-    "Choppy, range-bound trading due to indecision, leading to potential whipsaws and difficulty in capturing directional moves.",
-    "Sudden news flow related to global economic data or central bank actions could trigger unexpected volatility.",
-    "Low liquidity in the initial hours of trading, potentially exaggerating price movements on either side.",
-    "The 'trending' market regime signal contradicts the strong technical neutrality, suggesting potential for false breakouts if not supported by conviction and volume."
+    "Unexpected escalation of global rate hike rhetoric or adverse economic data from major economies.",
+    "Sharp movements in the Dollar Index or US bond yields, impacting FII flows.",
+    "Lack of clear directional conviction could lead to choppy, range-bound trading, increasing whipsaw risk.",
+    "Any unforeseen geopolitical events or domestic policy announcements."
   ]
 }
