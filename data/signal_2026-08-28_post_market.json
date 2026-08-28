@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-08-28",
-  "timestamp": "17:06 IST",
+  "timestamp": "23:42 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed with SGX Nifty and most Asian markets showing slight gains, while US Nasdaq futures are down. Crude oil is slightly lower, and gold is up. This provides no strong directional impetus for the domestic market.",
-    "technical_analysis": "Both Nifty 50 and Bank Nifty exhibit neutral technicals, with RSI hovering around the 45-47 mark and trend indicators explicitly neutral. The EMA9 and EMA21 are at the current price, suggesting a lack of clear momentum or consolidation. Support and resistance levels are closely spaced for Nifty, indicating range-bound activity.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, signaling a perfectly neutral stance among options participants. The absence of specific Max Pain, Call Resistance, and Put Support data further reinforces the lack of strong conviction from the options front.",
-    "sentiment_analysis": "FII/DII data is neutral, showing no significant institutional flow. Market news is a mixed bag, with positive developments like Jio IPO approval and some specific stock recommendations, but no overarching theme to drive strong sentiment. The overall news flow does not indicate a clear bullish or bearish tilt.",
-    "confluence_summary": "With neutral readings across technicals, options, and FII/DII data, coupled with mixed global cues, there is insufficient confluence for a directional trade. The market appears to be in a consolidation phase, warranting a cautious 'wait and watch' approach."
+    "global_analysis": "Global cues are mixed, with SGX Nifty showing a slight positive bias while US futures are mixed, particularly Nasdaq down. The hawkish commentary from the US Fed's Kevin Warsh at Jackson Hole, hinting at potential rate hikes due to persistent inflation, is a significant overhang, negatively impacting gold prices and potentially global equity sentiment.",
+    "technical_analysis": "Both Nifty and Bank Nifty are exhibiting neutral trends and RSI values (45.11 and 47.39 respectively), indicating a lack of clear directional momentum. The EMA9 and EMA21 being identical to the current price suggests a very tight consolidation or flat close, reinforcing the neutral stance. Nifty faces immediate resistance at 24217 and support at 24105.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, signaling a perfectly balanced sentiment between call and put writers, hence a neutral options market. The absence of Max Pain, Call Resistance, and Put Support data limits further options insights, but the available PCR strongly supports a non-directional view.",
+    "sentiment_analysis": "FII/DII activity is flat, providing no directional cues for the market. While there are some positive corporate news items and analyst upgrades, the overarching sentiment is cautious due to global macro concerns, specifically the US Fed's hawkish stance on inflation and interest rates, which could temper investor enthusiasm.",
+    "confluence_summary": "The market is currently in a state of indecision, with technicals, options data, and FII/DII flows all pointing to neutrality. Despite the market regime indicating 'trending' and 'favorable,' the specific index data suggests consolidation. Mixed global cues, particularly the potential for US rate hikes, add to the uncertainty, making a clear directional trade highly speculative at this juncture."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -21,9 +21,10 @@
     "risk_reward": "N/A",
     "key_levels_to_watch": [
       "24105.57 (Support)",
-      "24217.02 (Resistance)"
+      "24217.02 (Resistance)",
+      "24258.38 (Strong Resistance)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "A sustained breakout above 24258 with strong volumes or a decisive breakdown below 24035 would invalidate the neutral stance and signal a potential directional move."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -34,21 +35,21 @@
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "57496.30 (Current Price - watch for breakout)"
+      "57496.30 (Current Level - watch for breakout/breakdown)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "A clear and sustained move above 57700 or below 57200 with significant volume would indicate a shift in bias for Bank Nifty."
   },
   "what_to_watch": [
-    "Global market performance, especially US indices and Asian peers, for fresh cues.",
-    "Any significant FII/DII activity in the upcoming sessions.",
-    "Nifty's ability to decisively break above 24217 or below 24105 for directional clarity.",
-    "Bank Nifty's movement around its current level of 57496.30, looking for a clear trend initiation.",
-    "Impact of the upcoming Jio IPO on broader market sentiment and related sectors."
+    "Global market reaction to the Jackson Hole commentary, especially US bond yields and the Dollar Index.",
+    "FII/DII activity for the upcoming trading session, as their flows can dictate short-term trends.",
+    "Nifty's ability to hold the immediate support of 24105 and resistance at 24217.",
+    "Bank Nifty's performance relative to Nifty, particularly around the 57500 mark.",
+    "Crude oil price movements and gold's continued reaction to global interest rate expectations."
   ],
   "risk_factors": [
-    "Lack of clear directional momentum from technical indicators.",
-    "Mixed global sentiment leading to potential volatility without a clear trend.",
-    "Absence of strong institutional buying or selling pressure (FII/DII).",
-    "Potential for sudden news-driven movements, especially around major corporate events like IPOs."
+    "Unexpectedly hawkish statements from major central banks, particularly the US Federal Reserve, could trigger global market volatility.",
+    "Any escalation in geopolitical tensions could quickly shift market sentiment.",
+    "A sudden surge or decline in FII/DII flows could lead to sharp directional moves.",
+    "Failure of Nifty or Bank Nifty to hold key support levels could indicate underlying weakness and trigger further selling."
   ]
 }
