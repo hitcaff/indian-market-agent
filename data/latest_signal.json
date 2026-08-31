@@ -1,55 +1,57 @@
 {
   "session": "post_market",
   "date": "2026-08-31",
-  "timestamp": "21:56 IST",
+  "timestamp": "23:48 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "US futures are indicating a negative start, and SGX Nifty is also down, suggesting a cautious opening for Indian markets. The significant rise in crude oil prices (+2.51%) due to renewed US-Iran strikes is a major concern, potentially impacting India's import bill and inflation outlook, adding a bearish undertone.",
-    "technical_analysis": "Nifty 50 is currently at its EMA9/21 with an extremely oversold RSI of 20.01, hinting at a potential bounce from immediate support levels. In contrast, Bank Nifty has shown strong positive momentum (+0.92%) but is now in overbought territory with an RSI of 73.52, suggesting a possible pause or minor pullback from these elevated levels.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral sentiment from the options market. With Max Pain, Call Resistance, and Put Support data unavailable (or zero), there are no clear directional cues from the options chain for immediate expiry-specific strategies, limiting options-based conviction.",
-    "sentiment_analysis": "FII/DII data is neutral, offering no clear institutional flow direction. Market news is mixed, with significant selling pressure on Adani group stocks potentially weighing on Nifty, while some positive brokerage calls exist for banking stocks. The 'trending' and 'favorable' market regime signal provides a positive backdrop, but contradicts the immediate technical divergence and global headwinds.",
-    "confluence_summary": "The market presents a complex picture with conflicting signals. Nifty is oversold but faces global headwinds and specific stock group pressure, while Bank Nifty is strong but overbought. The lack of clear options data and neutral FII/DII, combined with mixed global sentiment, leads to insufficient confluence for a high-conviction directional trade at this juncture. Hence, validating the 'NO TRADE' proposal."
+    "global_analysis": "Global cues are leaning negative with US futures down and the resurgence of US-Iran military attacks creating geopolitical uncertainty, which is also driving crude oil prices higher. SGX Nifty's negative indication further suggests a cautious start for the domestic market.",
+    "technical_analysis": "Nifty is showing an oversold RSI (20.01) after a negative close, hinting at potential for a bounce from its immediate support. Conversely, Bank Nifty is in overbought territory (RSI 73.52) following a strong positive move, suggesting a possible pause or profit booking. Both indices have their short-term EMAs converging at current levels, indicating a lack of clear directional conviction on a daily timeframe.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, reflecting a neutral sentiment among options traders. However, the absence of specific Max Pain, Call Resistance, and Put Support data limits a deeper, more precise options-based analysis for immediate trading levels.",
+    "sentiment_analysis": "FII/DII data is neutral, offering no clear directional bias from institutional flows. Geopolitical tensions (US-Iran) and rising crude oil are significant negative overhangs. While some domestic corporate news is positive, it's largely stock-specific, and the surge in NSE turnover could be event-driven (e.g., MSCI rebalancing) rather than broad bullish sentiment.",
+    "confluence_summary": "The market presents a highly divergent and uncertain picture. Nifty is oversold while Bank Nifty is overbought, yet both individual indices are trending 'neutral' despite the broader 'trending' market regime. Global geopolitical risks and rising crude oil add to the caution. The lack of clear signals from FII/DII and options, combined with conflicting technicals, strongly validates a 'NO TRADE' stance for the immediate session."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
+    "entry_zone": "",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
     "confidence_pct": 0,
-    "risk_reward": "N/A",
+    "risk_reward": "",
     "key_levels_to_watch": [
-      "24006.43 (Immediate Support)",
-      "23932.47 (Strong Support)",
-      "24141.53 (Immediate Resistance)"
+      "24006 (Immediate Support)",
+      "24141 (Immediate Resistance)",
+      "23932 (Strong Support)"
     ],
-    "invalidation": "A sustained break below 23932.47 would indicate further weakness and invalidate any bullish bias."
+    "invalidation": "No clear directional setup due to conflicting signals, global uncertainty, and divergence between indices."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
+    "entry_zone": "",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
     "confidence_pct": 0,
-    "risk_reward": "N/A",
+    "risk_reward": "",
     "key_levels_to_watch": [
-      "58000 (Psychological Support)",
-      "57500 (Potential Pullback Support)",
-      "58500 (Potential Resistance)"
+      "57800 (Potential Support)",
+      "58200 (Potential Resistance)",
+      "58500 (Overhead Resistance)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "No clear directional setup due to conflicting signals, overbought conditions, and divergence between indices."
   },
   "what_to_watch": [
-    "Nifty's reaction at the crucial 24000-24006 support zone. A bounce from here could signal short-term relief.",
-    "Bank Nifty's ability to sustain above 58000 or show signs of a pullback from its overbought RSI levels.",
-    "Global market cues, especially US futures performance overnight and any further developments in crude oil prices.",
-    "FII/DII activity for Tuesday to gauge institutional sentiment and flow direction, which is currently neutral."
+    "Developments in the US-Iran geopolitical situation and its potential impact on global market sentiment.",
+    "Movement in crude oil prices, as sustained increases could fuel domestic inflation and impact corporate margins.",
+    "FII/DII flow data for any signs of renewed directional conviction or significant capital movement.",
+    "Nifty's ability to hold the critical 24000-24006 support zone and Bank Nifty's reaction to its overbought RSI levels.",
+    "Any fresh domestic economic data releases or significant corporate announcements that could act as catalysts."
   ],
   "risk_factors": [
-    "Escalating geopolitical tensions (US-Iran) could further push crude oil prices higher, negatively impacting Indian markets due to inflation concerns.",
-    "Continued heavy selling pressure in Adani group stocks could drag down the broader Nifty index, especially given its weightage.",
-    "Global market volatility and any significant negative news from major economies could spill over to Indian equities, overriding domestic positive signals."
+    "Escalation of geopolitical tensions leading to increased global market volatility and risk aversion.",
+    "Sharp and sustained rise in crude oil prices, which could negatively impact India's current account deficit and economic growth.",
+    "Lack of clear FII/DII participation resulting in choppy, range-bound trading and increased whipsaws.",
+    "Continued divergence between Nifty and Bank Nifty, making broad market directional calls challenging."
   ]
 }
