@@ -1,57 +1,56 @@
 {
   "session": "post_market",
   "date": "2026-09-01",
-  "timestamp": "16:36 IST",
+  "timestamp": "19:14 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global markets are exhibiting weakness, with US futures (Dow -0.56%, Nasdaq -1.02%) showing significant declines. A sharp rise in crude oil (+2.40%) is fueling inflation concerns, leading to surging bond yields in Europe and the UK, which could act as a major headwind for equities globally.",
-    "technical_analysis": "Nifty closed marginally down (-0.10%) precisely at its EMA9 and EMA21, indicating indecision within a ranging market. Its reported RSI of 0.0 suggests extreme oversold conditions, which is unusual for such a small daily move and warrants caution. Bank Nifty, however, showed clear weakness (-1.06%) with a bearish RSI of 36.68, though it also closed on its EMAs after the fall.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral sentiment from options participants. The absence of Max Pain, Call Resistance, and Put Support data (all reported as 0) prevents a deeper analysis of immediate options-derived support and resistance levels for the current expiry.",
-    "sentiment_analysis": "FII/DII flows were neutral for the day, offering no clear directional cues from institutional activity. Market news is dominated by global inflation fears and rising bond yields, suggesting a cautious sentiment. Domestically, expert views favor value over growth, reinforcing a selective approach rather than broad market enthusiasm.",
-    "confluence_summary": "The market is firmly in a ranging regime with a neutral trend, making high-conviction directional trades challenging. While Nifty's extreme oversold RSI could hint at a bounce, Bank Nifty's significant weakness and the prevailing global inflation headwinds create a cautious backdrop. The lack of decisive institutional flows and options data further contributes to the overall indecision, aligning with a 'NO TRADE' stance."
+    "global_analysis": "Global markets are exhibiting weakness, with US futures, Nikkei, and Hang Seng all in the red. Rising crude oil prices and increasing US bond yields are creating a bearish sentiment, leading to a global debt selloff that could spill over into Indian markets.",
+    "technical_analysis": "Nifty showed a marginal dip, with its RSI indicating extremely oversold conditions (though a reading of 0.0 is highly unusual and suggests a data anomaly). Bank Nifty, however, experienced a significant decline of over 1%, with its RSI confirming bearish momentum. Both indices are currently in a neutral trend and a ranging market regime, suggesting a lack of strong directional conviction.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from options traders. The absence of clear Max Pain, Call Resistance, or Put Support levels (reported as 0) further reinforces the lack of strong conviction or significant open interest build-up at specific strikes for immediate directional plays.",
+    "sentiment_analysis": "FII/DII activity was neutral today, offering no clear directional cues. Market news highlights global pressures from rising yields and oil, while the rupee's strength due to RBI intervention provides some domestic stability. Expert views suggest a defensive stance, favouring value over growth and caution on IT, reflecting a cautious market sentiment.",
+    "confluence_summary": "Despite Nifty's potentially oversold RSI (0.0, which is an unusual reading), the broader market sentiment is cautious due to negative global cues, rising crude oil, and Bank Nifty's significant underperformance. The prevailing ranging market regime, neutral PCRs, and lack of strong FII/DII conviction suggest a lack of clear directional bias, making aggressive trades risky and favouring a 'NO TRADE' stance for now."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
     "confidence_pct": 60,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24000 (psychological)",
       "23957.85 (Support 1)",
       "24148.45 (Resistance 1)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "A clear break and sustained move above/below the established range with significant volume."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
     "confidence_pct": 60,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
       "57409.60 (Current Level)",
-      "Immediate support/resistance to be identified in live market"
+      "Psychological levels around 57000 / 57500"
     ],
-    "invalidation": "N/A"
+    "invalidation": "A clear break and sustained move above/below the established range with significant volume."
   },
   "what_to_watch": [
-    "Global market cues, especially US futures and European bond yields, for any shift in inflation sentiment.",
-    "Crude oil price movement, as sustained increases could exacerbate inflation concerns.",
-    "Nifty's reaction around the 24000 psychological level and whether the reported RSI of 0.0 leads to any bounce.",
-    "Bank Nifty's follow-through action after today's significant drop; looking for signs of stabilization or further weakness.",
-    "FII/DII activity for clearer institutional flow direction in the coming sessions."
+    "Global market performance, especially US futures and Asian markets, for directional cues.",
+    "Crude oil price movements, as continued rise could impact inflation and corporate margins.",
+    "FII/DII flows; any significant shift from neutral could provide market direction.",
+    "Nifty's ability to hold its immediate support levels and Bank Nifty's potential for recovery or further weakness.",
+    "Global bond yield movements and their impact on capital flows."
   ],
   "risk_factors": [
-    "Escalation of global inflation concerns and further tightening by central banks.",
-    "Continued weakness in US equity markets, particularly tech stocks, impacting global sentiment.",
-    "Sustained high crude oil prices putting pressure on domestic inflation and corporate margins.",
-    "The unusual Nifty RSI of 0.0 could be a data anomaly or lead to a short-lived bounce, trapping aggressive longs.",
-    "Lack of clear directional cues from institutional investors and options data contributing to range-bound volatility."
+    "Escalation of global debt selloff, potentially triggering broader market corrections.",
+    "Continued and sharp rise in crude oil prices, negatively impacting India's import bill and inflation.",
+    "Any unexpected geopolitical events that could disrupt market stability.",
+    "Potential data anomalies (like Nifty RSI 0.0) making technical analysis less reliable.",
+    "Lack of clear FII/DII conviction leading to choppy, range-bound trading."
   ]
 }
