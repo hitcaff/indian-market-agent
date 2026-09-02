@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-09-02",
-  "timestamp": "16:08 IST",
+  "timestamp": "18:31 IST",
   "market_bias": "neutral",
-  "bias_strength": "weak",
+  "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global cues are predominantly negative, with SGX Nifty, US futures, and especially Nikkei showing significant declines, setting a cautious tone. While crude and gold are slightly positive, the broader sentiment from major global indices is bearish.",
-    "technical_analysis": "Nifty is in an extremely oversold condition with an RSI of 0.0, suggesting a potential bounce or consolidation, yet its trend remains neutral. Bank Nifty's RSI is bearish at 37.65, also with a neutral trend, indicating underlying weakness in the banking sector.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty is at 1.0, indicating a neutral stance from the options market participants. The absence of specific Max Pain, Call Resistance, and Put Support data limits a deeper options-based directional conviction for tomorrow.",
-    "sentiment_analysis": "FII/DII flows were neutral today, offering no clear directional bias from institutional investors. Market news is mixed, with global concerns about bond yields and oil prices contrasting with specific stock upgrade recommendations and an upcoming IPO, creating a balanced sentiment.",
-    "confluence_summary": "Despite global headwinds and Bank Nifty's bearish RSI, Nifty's extreme oversold condition suggests caution against aggressive shorts and hints at a potential relief rally. The overall market regime is ranging, and FII/DII are neutral, leading to a non-committal stance for tomorrow, validating the 'NO TRADE' signal due to sub-optimal R:R."
+    "global_analysis": "Global markets are showing mixed to negative sentiment, with significant declines in Nikkei and SGX Nifty. Geopolitical tensions in Iran and Ukraine are impacting US futures and crude oil, while rising US Treasury yields are contributing to a global debt selloff, including Indian bonds.",
+    "technical_analysis": "Nifty is in an oversold zone with an RSI of 24.51, suggesting a potential for a bounce, but its trend remains neutral. Bank Nifty is bearish with an RSI of 37.89 and also exhibits a neutral trend. Both indices have their short-term EMAs converging at the current price, indicating a lack of clear directional momentum.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty is at 1.0, indicating a neutral stance from options traders. The absence of specific Max Pain, Call Resistance, and Put Support values suggests no strong conviction or clear options-derived levels for directional bias at this time.",
+    "sentiment_analysis": "FII/DII activity for the day is neutral. Market news highlights global debt market concerns due to rising US yields and geopolitical risks, contributing to a cautious sentiment. While there are some positive corporate-specific news items, the broader market sentiment appears subdued.",
+    "confluence_summary": "The market is currently in a ranging regime with neutral technical trends, despite Nifty being oversold. Global cues are mixed to negative, driven by geopolitical tensions and rising US yields. The lack of strong directional signals from FII/DII and options, coupled with the unfavorable risk-reward ratios for potential trades, strongly suggests a 'NO TRADE' stance for both indices."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -21,10 +21,11 @@
     "risk_reward": "0:0",
     "key_levels_to_watch": [
       "23829.35 (Support 1)",
+      "23744.25 (Support 2)",
       "23957.0 (Resistance 1)",
-      "23744.25 (Support 2)"
+      "23999.55 (Resistance 2)"
     ],
-    "invalidation": "N/A - No trade proposed due to R:R ratio below threshold and conflicting signals."
+    "invalidation": "No valid setup identified with favorable risk-reward ratio for current market conditions."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -35,20 +36,22 @@
     "confidence_pct": 0,
     "risk_reward": "0:0",
     "key_levels_to_watch": [
-      "57172.0 (Current Level)"
+      "57000 (Psychological Support)",
+      "57500 (Psychological Resistance)"
     ],
-    "invalidation": "N/A - No trade proposed due to R:R ratio below threshold and conflicting signals."
+    "invalidation": "No valid setup identified with favorable risk-reward ratio for current market conditions."
   },
   "what_to_watch": [
-    "Global market performance, especially US futures and Asian markets (Nikkei's sharp fall).",
-    "Nifty's reaction to its extremely oversold RSI (potential for a bounce or continued weakness).",
-    "FII/DII activity for a clearer directional bias in the coming session.",
-    "Crude oil prices and global bond yield movements, as highlighted by market news."
+    "Global market performance, especially US futures and Asian markets for directional cues.",
+    "Crude oil prices and their sensitivity to geopolitical tensions, impacting inflation and bond yields.",
+    "Movement in US Treasury yields and its ripple effect on global and Indian bond markets.",
+    "FII/DII activity for any significant shifts in institutional sentiment.",
+    "Nifty's ability to hold key support levels (23829, 23744) or decisively break resistance (23957, 23999)."
   ],
   "risk_factors": [
-    "Continued global market weakness, particularly from Asian markets, could drag down domestic indices.",
-    "Lack of strong FII/DII participation leading to range-bound or volatile movement without clear direction.",
-    "Geopolitical tensions (e.g., US-Iran mentioned in news) potentially impacting crude and gold, and broader market sentiment.",
-    "The market's inability to sustain a bounce despite Nifty's oversold conditions, indicating deeper selling pressure."
+    "Escalating geopolitical tensions (Iran, Ukraine) could trigger sharp market reactions and commodity price volatility.",
+    "Further sustained rise in US Treasury yields could lead to continued global debt selloff and FII outflows from emerging markets.",
+    "The current ranging market regime and lack of clear trend could result in choppy, sideways price action, making directional trades challenging.",
+    "Any unexpected domestic or global economic data releases could quickly alter market sentiment."
   ]
 }
