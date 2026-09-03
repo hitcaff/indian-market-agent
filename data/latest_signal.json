@@ -1,60 +1,55 @@
 {
   "session": "post_market",
   "date": "2026-09-03",
-  "timestamp": "16:10 IST",
+  "timestamp": "18:33 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues were mixed today, with Asian markets showing slight declines while US futures were somewhat divergent. The significant rise in crude oil and gold prices suggests underlying inflation concerns or a shift towards safe-haven assets, which could impact sentiment. Overall, no strong directional lead from the global front for tomorrow's session.",
-    "technical_analysis": "Nifty closed marginally lower, erasing morning gains, and is now hovering around its EMA9 and EMA21, indicating a lack of clear trend. The extremely oversold RSI of 0.0 on Nifty and 19.65 on Bank Nifty suggests a potential for a bounce, but this is contradicted by the overall neutral trend and ranging market regime. Both indices are currently consolidating.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a perfectly neutral stance from options participants post-weekly expiry. The absence of Max Pain, Call Resistance, and Put Support data makes it difficult to gauge significant open interest build-up for directional conviction. This points to indecision and a lack of aggressive positioning.",
-    "sentiment_analysis": "FII/DII flows were neutral today, offering no directional insight. Market news highlights Nifty closing below 23,900 after erasing gains, reinforcing a cautious sentiment for the day's close. The 'HIGH RISK DAY: WEEKLY_EXPIRY' warning likely contributed to the choppy, ranging price action and lack of conviction among participants.",
-    "confluence_summary": "The market is currently in a ranging regime with neutral technicals and options data, despite the oversold RSI readings on both Nifty and Bank Nifty. Global cues are mixed, and institutional flows are absent. This lack of strong confluence across multiple factors makes a high-conviction directional trade extremely challenging for tomorrow."
+    "global_analysis": "Global cues are mixed with US futures (Dow, Nasdaq) showing positive momentum, while Asian markets (Nikkei, Hang Seng, SGX Nifty) closed slightly in the red. A significant rise in Crude Oil and Gold prices suggests underlying inflationary concerns and potential risk-off sentiment globally, which could temper enthusiasm in equities.",
+    "technical_analysis": "Nifty 50 closed marginally down, with EMA9 and EMA21 converging, indicating a neutral trend. The reported RSI of 0.0 is an extreme oversold reading, suggesting either a data anomaly or significant intraday weakness, potentially setting up for a bounce or further capitulation. Bank Nifty, however, showed resilience, closing positive with a neutral RSI and converged EMAs. Both indices are in a 'ranging' regime with neutral trends and low ATR%, pointing to consolidation.",
+    "options_analysis": "Post-weekly expiry, the options data (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) is largely reset and offers no clear directional bias for the upcoming series. The 'CAS chaos' news, with Sensex puts exploding, highlights extreme volatility and panic selling in the fag-end of today's session, despite the neutral PCR.",
+    "sentiment_analysis": "FII/DII data shows no significant institutional activity today. News flow indicates caution globally due to oil prices and Middle East tensions. Domestically, the 'fag-end slide' causing put options to explode suggests underlying panic and weakness, especially in broader markets, despite Nifty's relatively small net change. Brokerage calls are stock-specific and do not indicate a broad market sentiment.",
+    "confluence_summary": "The market is in a ranging regime with neutral trends, and today was a high-risk weekly expiry. While Bank Nifty showed some strength, Nifty's technicals (especially the reported RSI 0.0) combined with the 'fag-end slide' news point to underlying weakness and volatility. Global cues are mixed with rising commodities adding a layer of caution. Given the conflicting signals and post-expiry uncertainty, a 'NO TRADE' stance is prudent for tomorrow."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "entry_zone": null,
+    "stop_loss": null,
+    "target_1": null,
+    "target_2": null,
     "confidence_pct": 0,
-    "risk_reward": "",
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23873 (EMA9/21)",
-      "23822 (Support 1)",
-      "23974 (Resistance 1)",
-      "23772 (Support 2)",
-      "24076 (Resistance 2)"
+      "23822.8 (Support)",
+      "23974.75 (Resistance)"
     ],
-    "invalidation": "A sustained breakout above 24076 or a decisive breakdown below 23772 with significant volume would invalidate the current ranging outlook."
+    "invalidation": "N/A"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "entry_zone": null,
+    "stop_loss": null,
+    "target_1": null,
+    "target_2": null,
     "confidence_pct": 0,
-    "risk_reward": "",
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "57380 (EMA9/21)",
-      "57000 (Psychological Support)",
-      "57500 (Minor Resistance)",
-      "57800 (Key Resistance)"
+      "57300 (Psychological Support)",
+      "57500 (Psychological Resistance)"
     ],
-    "invalidation": "A clear breakout above 57800 or a decisive breakdown below 57000 with strong follow-through would signal a shift from the current range."
+    "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Global market opening tomorrow, especially US and Asian indices, for fresh directional cues.",
-    "Crude oil and Gold price movements as they indicate broader market sentiment and inflation expectations.",
-    "FII/DII activity for any signs of renewed institutional participation or selling pressure.",
-    "Nifty's ability to hold the 23800-23850 zone or attempt a bounce from its oversold RSI.",
-    "Bank Nifty's relative strength compared to Nifty, particularly around the 57300-57400 levels."
+    "Global market opening and US futures movement for directional cues.",
+    "Crude oil prices and any developments in Middle East tensions.",
+    "Nifty's reaction to the 23800-23850 support zone, especially after the 'fag-end slide'.",
+    "Initial Open Interest build-up for the new weekly series to gauge fresh positioning.",
+    "Any follow-through on the 'CAS chaos' and its impact on broader market sentiment."
   ],
   "risk_factors": [
-    "Continued global market volatility and mixed cues could lead to choppy trading.",
-    "Lack of clear FII/DII participation might keep the market range-bound and liquidity low.",
-    "The current ranging market regime increases the risk of whipsaws and false breakouts/breakdowns.",
-    "While RSI is oversold, without strong buying interest, it could lead to further capitulation if key supports are breached."
+    "Extreme volatility post-weekly expiry, leading to whipsaw movements.",
+    "Uncertainty from rising crude oil and gold prices impacting inflation expectations.",
+    "Potential for data anomalies (e.g., Nifty RSI 0.0) to misguide technical analysis.",
+    "Any escalation in global geopolitical tensions."
   ]
 }
