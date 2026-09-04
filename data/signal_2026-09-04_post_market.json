@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-09-04",
-  "timestamp": "18:28 IST",
+  "timestamp": "20:47 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed; strong gains in Asian markets (Nikkei, Hang Seng) are somewhat offset by slightly negative US futures. A dip in crude oil prices is generally positive for India, while gold also saw a decline.",
-    "technical_analysis": "Both Nifty and Bank Nifty are exhibiting extreme neutrality, with current prices precisely at their 9 and 21-period EMAs, indicating a lack of directional momentum. The market is in a ranging regime with low ATR, but the deeply oversold RSI (Nifty 10.49, Bank Nifty 19.45) suggests potential for a short-term bounce or limited downside.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a perfectly neutral 1.0, indicating equilibrium between call and put writers. The absence of specific Max Pain and OI data for key levels limits further options-based insights, but the PCR confirms the overall neutrality.",
-    "sentiment_analysis": "Institutional flows from FIIs and DIIs were neutral for the day. Market news presents a mixed picture, with positive sentiment from the impending NSE IPO and some specific stock upgrades, balanced by concerns over India's bond market weakness and global debt rout.",
-    "confluence_summary": "The market is firmly entrenched in a ranging and neutral regime, validated by flat EMAs, a neutral trend, and a 1.0 PCR. While the deeply oversold RSI on both indices hints at a potential short-term bounce, the absence of other confirming bullish signals (like strong FII buying or positive global momentum) prevents taking a directional trade. The market is currently at an equilibrium, awaiting a fresh catalyst."
+    "global_analysis": "Global cues are mixed; while Asian markets like Nikkei and Hang Seng showed strength, US futures (Dow, Nasdaq) are subdued following a strong jobs report that fuels rate-hike bets. SGX Nifty is marginally positive, but the underlying US sentiment remains a concern, potentially dragging down global equities. Crude oil prices are declining, which is generally positive for India.",
+    "technical_analysis": "Both Nifty and Bank Nifty are exhibiting extremely oversold RSI levels (Nifty 10.49, Bank Nifty 19.45), suggesting a potential for a short-term bounce or consolidation. However, the trend for both indices is neutral, and the market regime is ranging with low ATR%, indicating a lack of strong directional momentum. EMAs are converged, reinforcing the current neutrality.",
+    "options_analysis": "Options data for both Nifty and Bank Nifty is perfectly neutral, with PCR at 1.0. The absence of clear Max Pain, Call Resistance, and Put Support values further reinforces the lack of directional conviction from the derivatives segment. This suggests that option writers are not taking aggressive bets on either side.",
+    "sentiment_analysis": "FII/DII activity is neutral for the day, providing no clear directional signal from institutional flows. Market news highlights US interest rate jitters impacting Indian equities, creating a cautious sentiment. While there's positive news regarding the NSE IPO, the broader macro concerns from the US are likely to keep participants on edge.",
+    "confluence_summary": "Despite the extremely oversold RSI levels, which typically signal a potential bounce, the overall market context lacks strong confluence for a high-conviction directional trade. The neutral trend, ranging market regime, neutral options data, and mixed global/domestic sentiment suggest a period of uncertainty and potential choppiness. Prudence dictates waiting for clearer signals."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -17,14 +17,14 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
+    "confidence_pct": 20,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23897.7 (EMA confluence)",
-      "23860.45 (Support 1)",
-      "23970.35 (Resistance 1)"
+      "23860 (Support 1)",
+      "23970 (Resistance 1)",
+      "23823 (Support 2)"
     ],
-    "invalidation": "N/A - No trade initiated"
+    "invalidation": "Any strong directional breakout with significant volume and FII/DII participation."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -32,24 +32,26 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
+    "confidence_pct": 20,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "57369.65 (EMA confluence)"
+      "57300 (Psychological Support)",
+      "57500 (Psychological Resistance)"
     ],
-    "invalidation": "N/A - No trade initiated"
+    "invalidation": "Any strong directional breakout with significant volume and FII/DII participation."
   },
   "what_to_watch": [
-    "Any significant shift in FII/DII activity for directional cues.",
-    "Global market performance, especially US futures, following the upcoming jobs report.",
-    "Nifty and Bank Nifty's reaction to their converged EMA levels; a decisive break could signal a new trend.",
-    "RSI's movement from deeply oversold territory; a strong reversal could indicate a bounce.",
-    "Further updates on the NSE IPO and its potential impact on market sentiment."
+    "Overnight performance of US markets, especially how Dow and Nasdaq react to rate-hike fears.",
+    "FII/DII activity for the next trading session to gauge institutional sentiment.",
+    "Nifty and Bank Nifty's reaction to their immediate support levels, given the oversold RSI, for potential short-term bounce opportunities.",
+    "Any further global economic data or central bank commentary that could impact interest rate expectations.",
+    "Developments regarding the NSE IPO, which could bring liquidity and sector-specific interest."
   ],
   "risk_factors": [
-    "RSI can remain oversold for extended periods in a strong downtrend, leading to false bounce signals.",
-    "The lack of clear institutional flow and mixed global signals could lead to sudden, unpredictable market movements.",
-    "Continued weakness in the Indian bond market could spill over and dampen equity sentiment.",
-    "Low volatility and ranging market conditions can lead to whipsaws and unreliable breakouts."
+    "Continued global economic slowdown concerns, particularly from the US, impacting investor sentiment.",
+    "Lack of clear directional momentum in the domestic market, leading to choppy, range-bound trading.",
+    "Sudden shifts in FII/DII flows, which could trigger sharp moves in either direction.",
+    "Geopolitical events, though not explicitly mentioned, always pose a background risk to market stability.",
+    "Potential for increased volatility due to the derivatives expiry cycle (if applicable for the upcoming week)."
   ]
 }
