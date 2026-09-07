@@ -1,54 +1,55 @@
 {
   "session": "post_market",
   "date": "2026-09-07",
-  "timestamp": "17:05 IST",
+  "timestamp": "20:00 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed with SGX Nifty down slightly, while Nikkei showed a strong rally in Asia. US futures are flat, and crude oil and gold are stable. This provides no strong directional impetus for the Indian market.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed down around 0.50% today. Crucially, Nifty's RSI at 7.46 is extremely oversold, and Bank Nifty's RSI at 28.25 is also oversold. This suggests a high probability of a technical bounce or at least a halt in the downtrend. The identical EMA9 and EMA21 to current price indicates a lack of clear short-term trend based on these moving averages, aligning with the 'ranging' regime.",
-    "options_analysis": "Options data for both indices shows a neutral PCR of 1.0. Max Pain, Call Resistance, and Put Support are all reported as 0, which means this data is not available or not meaningful for analysis in this snapshot. This limits our options-based insights significantly, leaving a gap in understanding potential expiry-related movements.",
-    "sentiment_analysis": "FII/DII activity was neutral today with zero net flows. Market news highlights include positive corporate fundraising activities and several 'buy' recommendations for specific stocks like HDFC Bank and Bajaj Finance. However, there's no overarching sentiment driver for the broader market, keeping overall sentiment mixed to cautiously optimistic on select counters.",
-    "confluence_summary": "The most compelling factor is the extremely oversold RSI readings for both Nifty and Bank Nifty, which often precedes a technical bounce. While global cues are mixed, and options data is uninformative, this oversold condition, combined with a 'ranging' market regime, suggests a short-term contrarian long opportunity. However, the absence of strong FII buying or clear positive catalysts prevents a strong bullish conviction, hence the overall weak neutral bias."
+    "global_analysis": "Global cues are mixed to slightly negative, with SGX Nifty down marginally and US futures flat. Nikkei showed strength, while Hang Seng declined, offering no strong directional conviction for the Indian market.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed down around 0.50%, but critically, their RSIs are deeply oversold (Nifty 7.46, Bank Nifty 28.25). This suggests a potential for a short-term bounce or at least a pause in selling, despite the 'neutral' trend and 'ranging' regime.",
+    "options_analysis": "The provided options data (Max Pain, Call Resistance, Put Support at 0) is unreliable and insufficient for a meaningful options analysis. PCR at 1.0 for both indices indicates neutrality, but without OI data, conviction is low.",
+    "sentiment_analysis": "FII/DII activity was neutral today, providing no fresh directional input. Market news is a mixed bag of corporate updates, analyst recommendations, and economic events, with no single factor dominating sentiment. SEBI easing FPI norms for G-Secs is a minor positive but not an immediate market mover.",
+    "confluence_summary": "While the deeply oversold RSI on both Nifty and Bank Nifty strongly hints at a potential bounce, the lack of supporting confluence from neutral global cues, flat FII/DII, and unreliable options data prevents a high-conviction directional trade. The market remains in a ranging regime, suggesting caution despite oversold conditions."
   },
   "nifty_trade": {
-    "direction": "LONG",
-    "entry_zone": "23715 - 23750",
-    "stop_loss": 23600,
-    "target_1": 23866,
-    "target_2": 23954,
-    "confidence_pct": 60,
-    "risk_reward": "1:1.4",
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 40,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
       "23714.7 (Support)",
       "23866.8 (Resistance)"
     ],
-    "invalidation": "A sustained break and close below 23600, or if global markets turn sharply negative overnight."
+    "invalidation": "N/A"
   },
   "banknifty_trade": {
-    "direction": "LONG",
-    "entry_zone": "57000 - 57050",
-    "stop_loss": 56800,
-    "target_1": 57350,
-    "target_2": 57600,
-    "confidence_pct": 55,
-    "risk_reward": "1:2.2",
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 40,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
       "57000 (Psychological Support)",
-      "57350 (Potential Resistance)"
+      "57200 (Immediate Resistance)"
     ],
-    "invalidation": "A sustained break and close below 56800, or if Nifty fails to show a bounce."
+    "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Overnight performance of US and other Asian markets, especially SGX Nifty for early cues.",
-    "FII/DII activity for Tuesday to gauge institutional sentiment and flows.",
-    "Nifty and Bank Nifty's ability to sustain any technical bounce from oversold levels.",
-    "Any fresh news flow related to the banking sector or broader economic indicators."
+    "Global market performance overnight, especially US markets and SGX Nifty for early morning cues.",
+    "FII/DII cash market activity for any directional shift.",
+    "How Nifty and Bank Nifty react to their immediate support levels given the oversold RSI, looking for signs of a bounce.",
+    "Any fresh news flow regarding the upcoming US Fed rate decision or domestic economic indicators.",
+    "Options chain build-up for the next trading session to gauge fresh OI and Max Pain levels."
   ],
   "risk_factors": [
-    "Lack of strong directional cues from global markets and FII/DII data.",
-    "Uninformative options data (Max Pain, OI) limits a comprehensive view of market positioning.",
-    "The 'ranging' market regime could cap the upside potential of any bounce.",
-    "The unusual identical EMA values might indicate a data anomaly, though RSI remains a strong independent signal."
+    "The unreliability of current options data (Max Pain, OI at 0) makes it difficult to assess broader market positioning.",
+    "Despite oversold RSI, the market could remain choppy or extend declines if negative global cues emerge.",
+    "The 'ranging' market regime increases the risk of whipsaws and false breakouts/breakdowns.",
+    "Lack of strong FII/DII participation keeps the market vulnerable to sudden shifts."
   ]
 }
