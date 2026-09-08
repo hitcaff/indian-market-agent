@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-09-08",
-  "timestamp": "18:37 IST",
+  "timestamp": "21:00 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global markets displayed a cautious to negative sentiment, with SGX Nifty, Dow Futures, Nikkei, and Hang Seng all trading lower. A significant concern is crude oil nearing $100, fueling inflation worries, despite a slight positive move in Nasdaq futures.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed in the red, with Nifty down 0.61% and Bank Nifty down 0.54%. Crucially, Nifty's RSI at 7.4 and Bank Nifty's RSI at 25.7 indicate extremely oversold conditions, suggesting a high probability of a technical bounce. The provided EMA data appears anomalous, making trend confirmation difficult from EMAs alone.",
-    "options_analysis": "Options data for Max Pain, Call Resistance, and Put Support is reported as zero, rendering it unhelpful for deriving specific directional cues or key levels. PCR for both indices stands at a neutral 1.0, indicating no strong bias from this metric.",
-    "sentiment_analysis": "FII/DII activity was neutral for the day. Market news highlights global inflation concerns due to rising oil, geopolitical tensions, and a 'polarized' Indian market. While some stock-specific buy calls exist, the overall sentiment is cautious due to macro headwinds.",
-    "confluence_summary": "Despite negative global cues and a red close, the extremely oversold RSI levels for both Nifty and Bank Nifty present a strong case for a technical bounce. However, the lack of reliable options data and conflicting trend signals (neutral vs. trending/favorable) prevent high-convection directional trades. A cautious 'wait and watch' approach is advisable, anticipating a potential bounce from current levels."
+    "global_analysis": "Global cues are predominantly negative, with SGX Nifty indicating a significant gap-down of over 0.6%. US futures are weak, and the sharp rise in crude oil prices (towards $100) due to Middle East tensions is a major concern, typically bearish for the Indian economy.",
+    "technical_analysis": "Both Nifty and Bank Nifty are expected to gap down significantly. Critically, Nifty's RSI is at an extremely oversold 7.4, and Bank Nifty's RSI is also oversold at 25.7. This suggests that while a bearish open is likely, the market is ripe for a potential bounce or at least a halt in selling pressure.",
+    "options_analysis": "The provided options data (Max Pain, Call Resistance, Put Support all at 0) is insufficient and unreliable for a comprehensive options analysis. PCR for both indices is neutral at 1.0, offering no strong directional bias from this metric alone.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. Market news is dominated by global geopolitical risks, rising oil prices, and creeping US Treasury yields, which are negative. However, there are some positive stock-specific brokerage calls and IPO-related news, creating a mixed sentiment.",
+    "confluence_summary": "Despite an implied bearish gap-down driven by negative global cues and rising crude, the extremely oversold RSI on both Nifty and Bank Nifty presents a strong contrarian signal for a potential bounce. The critical absence of reliable options data prevents forming a high-conviction directional trade, leading to a cautious neutral bias for tomorrow's session. It's a wait-and-watch scenario post-open."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -17,11 +17,12 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
+    "confidence_pct": 40,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23585.82 (Support)",
-      "23721.67 (Resistance)"
+      "23585.82 (Immediate Support)",
+      "23721.67 (Immediate Resistance)",
+      "23536.53 (Strong Support)"
     ],
     "invalidation": "N/A"
   },
@@ -31,25 +32,26 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
+    "confidence_pct": 40,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "56777.55 (Current Price)"
+      "56700 (Psychological Support)",
+      "56500 (Strong Support)",
+      "57000 (Psychological Resistance)"
     ],
     "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Global market performance, especially US futures and Asian markets for early cues.",
-    "Crude oil price movement and its impact on inflation expectations.",
-    "FII/DII flow data for clearer directional conviction.",
-    "Nifty and Bank Nifty's reaction to their oversold RSI levels; watch for signs of a technical bounce.",
-    "Developments around the upcoming NSE IPO."
+    "How Nifty and Bank Nifty react to the implied gap-down and extreme oversold conditions immediately after market open.",
+    "Movement in crude oil prices and any further developments in Middle East geopolitical tensions.",
+    "Performance of US markets (Dow, Nasdaq) during their trading hours, as they significantly influence global sentiment.",
+    "FII/DII cash market activity for fresh directional cues and institutional conviction.",
+    "Any fresh options chain data for the current expiry to gauge market positioning and potential support/resistance levels."
   ],
   "risk_factors": [
-    "Sustained rise in crude oil prices leading to inflationary pressures.",
-    "Weakness in global equity markets, particularly US and Asian indices.",
-    "Geopolitical tensions, especially in the Middle East.",
-    "Lack of clear FII/DII participation for market direction.",
-    "Data inconsistencies (EMA, options OI) making analysis challenging."
+    "Escalation of Middle East conflict leading to further spikes in crude oil prices, which could severely impact India's import bill and inflation.",
+    "Continued rise in US Treasury yields, potentially triggering global risk-off sentiment and FII outflows.",
+    "Lack of strong institutional buying support to absorb selling pressure post-gap down, leading to further declines.",
+    "The extreme oversold condition could lead to a sharp, unpredictable bounce, trapping short sellers, or continued selling if global sentiment deteriorates further."
   ]
 }
