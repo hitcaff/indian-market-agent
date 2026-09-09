@@ -1,58 +1,58 @@
 {
   "session": "post_market",
   "date": "2026-09-09",
-  "timestamp": "18:42 IST",
-  "market_bias": "bearish",
+  "timestamp": "20:55 IST",
+  "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global markets are displaying a clear risk-off sentiment, with SGX Nifty, Dow, Nasdaq, Nikkei, and Hang Seng all trading in negative territory. The significant surge in Crude Oil prices above $95 and Gold prices indicates escalating inflation concerns and geopolitical tensions, which typically weigh heavily on equity markets.",
-    "technical_analysis": "Both Nifty and Bank Nifty witnessed a sharp decline of approximately 0.85% today. Crucially, both indices are showing extremely oversold RSI readings (Nifty at 4.94 and Bank Nifty at 0.0), suggesting that a technical bounce or at least a pause in selling pressure could be imminent. The EMA9 and EMA21 values being identical to the current price are unusual and limit their immediate utility for trend analysis in this snapshot.",
-    "options_analysis": "The provided options data, with PCR at 1.0 and Max Pain, Call Resistance, and Put Support all at 0, appears incomplete or unreliable for a comprehensive post-market analysis. This lack of robust options chain data makes it challenging to identify clear immediate support or resistance levels from the derivatives perspective.",
-    "sentiment_analysis": "FII/DII activity was neutral for the day, offering no clear directional bias from institutional flows. Market news is dominated by global inflation fears driven by rising oil and Middle East tensions. Domestically, the news of PSB unions planning strikes on September 11th and an indefinite stir from October 26th could add sector-specific pressure on Bank Nifty.",
-    "confluence_summary": "While the global backdrop and today's price action are distinctly bearish, the extremely oversold RSI levels on both Nifty and Bank Nifty introduce a significant counter-argument for initiating fresh short positions. The absence of reliable options data and neutral FII/DII flows further contribute to a lack of strong directional conviction, making a cautious 'NO TRADE' stance the most prudent approach for tomorrow's opening."
+    "global_analysis": "Global markets are showing significant weakness with US and Asian futures/indices all in the red, primarily driven by crude oil surging past $100 and stoking fresh inflation fears. The rupee's depreciation against the USD further adds to the negative sentiment, indicating capital outflow concerns and imported inflation pressure.",
+    "technical_analysis": "Nifty 50 and Bank Nifty both witnessed a significant decline of around 0.85% today. However, the most striking technical aspect is the extremely oversold RSI readings (Nifty 4.94, Bank Nifty 0.0). While the daily price action is bearish, such extreme oversold conditions typically precede a bounce or at least a consolidation, making fresh shorts highly risky. EMAs are currently flat/at the current price, offering no clear short-term directional bias from that perspective.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a neutral 1.0. Crucially, Max Pain, Call Resistance, and Put Support data are reported as 0, which severely limits a comprehensive options-based analysis. Without this critical open interest data, it's difficult to gauge immediate support/resistance from the options chain.",
+    "sentiment_analysis": "FII/DII data is neutral for the day, offering no clear institutional flow direction. Market news is dominated by global macro concerns like rising crude, inflation, and geopolitical tensions, which are broadly negative. Stock-specific news is mixed, with some buy recommendations (Vodafone Idea, HDFC Bank, Bajaj Finance) and a 'reduce' call (Persistent Systems), but these don't override the overarching global bearish sentiment.",
+    "confluence_summary": "Despite strong bearish global cues and a significant daily fall, the extremely oversold RSI on both Nifty and Bank Nifty creates a conflicting scenario. This suggests that while the underlying sentiment is bearish, an immediate bounce or consolidation is highly probable, making aggressive directional trades risky. The lack of comprehensive options data further reduces conviction for strong directional bets, leading to a neutral stance with a bearish undertone."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 30,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
       "23384.82 (Support 1)",
       "23338.13 (Support 2)",
-      "23524.87 (Resistance 1)"
+      "23524.87 (Resistance 1)",
+      "23618.23 (Resistance 2)"
     ],
-    "invalidation": "N/A - Awaiting clearer directional signals and confirmation of trend reversal or continuation."
+    "invalidation": "A sustained break below 23338.13 (Nifty S2) would indicate further weakness, while a strong close above 23524.87 (Nifty R1) would negate the immediate bearish pressure and suggest a potential bounce."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 30,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "56295.55 (Current Level)",
-      "Observing price action around this level for potential support/resistance"
+      "56295.55 (Current Price)",
+      "56000 (Psychological Support)",
+      "56500 (Immediate Resistance)"
     ],
-    "invalidation": "N/A - Awaiting clearer directional signals and confirmation of trend reversal or continuation."
+    "invalidation": "A sustained break below 56000 would indicate further weakness, while a strong close above 56500 would negate the immediate bearish pressure and suggest a potential bounce."
   },
   "what_to_watch": [
-    "Overnight performance of US and other Asian markets for global sentiment cues.",
-    "Further movements in Crude Oil prices; sustained high prices will exacerbate inflation concerns.",
-    "Any fresh developments regarding Middle East tensions.",
-    "Nifty's price action around the immediate support levels of 23384.82 and 23338.13.",
-    "Bank Nifty's reaction to the news of PSB union strikes and any further updates.",
-    "FII/DII activity for tomorrow to gauge institutional sentiment."
+    "Global market opening, especially US and Asian indices, for cues on sentiment.",
+    "Movement in crude oil prices; any further surge could intensify inflation fears.",
+    "Rupee's performance against the US dollar, as continued depreciation signals capital outflow and economic stress.",
+    "Nifty and Bank Nifty's opening behavior (gap up/down) and immediate price action to confirm bounce potential or further selling.",
+    "FII/DII activity for tomorrow to gauge institutional participation and conviction."
   ],
   "risk_factors": [
-    "Rapid escalation of geopolitical tensions leading to further spikes in crude oil and gold prices.",
-    "Potential for a sharp, unpredictable technical bounce due to the extremely oversold RSI levels.",
-    "Unexpected negative global market events or data releases.",
-    "Significant FII/DII selling pressure if global risk-off sentiment intensifies.",
-    "Impact of the proposed PSB strikes on the broader banking sector sentiment and performance."
+    "Escalation of Middle East tensions, which could further drive up crude oil prices and global uncertainty.",
+    "Continued weakness in global equity markets leading to sustained selling pressure on Indian indices.",
+    "Lack of institutional buying support to absorb selling pressure, especially if FIIs turn net sellers.",
+    "Extreme oversold conditions can lead to sharp, unpredictable short-covering rallies, making fresh bearish bets risky."
   ]
 }
