@@ -1,55 +1,56 @@
 {
   "session": "post_market",
   "date": "2026-09-10",
-  "timestamp": "18:40 IST",
+  "timestamp": "20:50 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed to negative, with significant weakness observed in Nasdaq futures (-1.33%) and Hang Seng (-1.27%). A sharp surge in Crude Oil prices (+4.08%) to nearly $100 is a major inflationary concern for India, potentially offsetting the positive sentiment from SGX Nifty and Nikkei. US markets are also cautious ahead of the upcoming inflation report.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed marginally positive but are deeply oversold on the RSI (Nifty 9.03, Bank Nifty 14.11), which typically suggests a potential bounce. However, the trend is explicitly neutral, and EMA9/EMA21 are at the current price, indicating consolidation or a lack of clear short-term direction. Support and resistance levels are tightly spaced, hinting at range-bound movement.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance among options traders with calls and puts balanced. The Max Pain, Call Resistance, and Put Support values being 0 suggest this data is post-expiry settlement for today's weekly expiry and not indicative for the next series, thus offering no forward-looking insights.",
-    "sentiment_analysis": "FII/DII flows are neutral for the day (\u20b90 Cr), providing no directional conviction. Market news highlights strong interest in small and mid-cap segments and positive analyst calls on specific large-cap stocks, suggesting selective buying. However, the broader sentiment remains cautious due to global economic uncertainties like crude oil prices and the impending US inflation data.",
-    "confluence_summary": "The market is currently in a state of indecision with conflicting signals. While Nifty and Bank Nifty are technically oversold, which could trigger a bounce, the neutral trend, mixed-to-negative global cues (especially crude oil and Nasdaq weakness), and lack of clear FII/DII conviction prevent a high-confidence directional trade. The options data is uninformative for the next session, reinforcing a 'wait and watch' approach."
+    "global_analysis": "Global cues are mixed to negative; SGX Nifty shows a slight positive bias, but US futures (Dow, Nasdaq) are down, reacting to higher-than-expected US producer inflation. The significant surge in crude oil prices (+4.26%) to over $100 is a major concern, potentially fueling inflation globally and impacting India as a net importer.",
+    "technical_analysis": "Both Nifty and Bank Nifty are showing extremely oversold RSI levels (9.03 and 14.11 respectively), which typically signals a high probability of a bounce. However, the trend for both indices is explicitly stated as 'neutral', and EMA9/EMA21 are identical to the current price, indicating extreme consolidation or a lack of clear directional momentum post-expiry.",
+    "options_analysis": "The options data for both Nifty and Bank Nifty (Max Pain, Call Resistance, Put Support all at 0, PCR at 1.0) appears to be either reset post-weekly expiry or incomplete. This makes it impossible to derive any meaningful insights from the options chain for the upcoming session, significantly reducing confluence for directional trades.",
+    "sentiment_analysis": "FII/DII data is neutral for the day (\u20b90 Cr net). News flow highlights global inflation concerns (US PPI, crude oil surge) and geopolitical tensions in the Middle East. While some domestic news like Citi's eFPI launch is positive, the overall sentiment is cautious due to global headwinds.",
+    "confluence_summary": "Despite the extremely oversold RSI on both indices suggesting a potential bounce, the lack of clear directional trend, mixed global cues, neutral FII/DII activity, and critically, the absence of actionable options data, create significant uncertainty. The 'HIGH RISK DAY' warning due to weekly expiry further reinforces a cautious stance, making a high-conviction directional trade difficult."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
       "23406.95 (Support)",
       "23521.8 (Resistance)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "N/A - No trade proposed due to insufficient confluence and high risk."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "56471.95 (Current Price/Pivot)",
-      "Immediate Support/Resistance levels to be confirmed on open"
+      "56000 (Psychological Support)",
+      "57000 (Psychological Resistance)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "N/A - No trade proposed due to insufficient confluence and high risk."
   },
   "what_to_watch": [
-    "US market performance tonight, particularly the Nasdaq, for global sentiment cues.",
-    "Movement in Crude Oil prices; a sustained rise above $100 would be a significant headwind.",
-    "FII/DII activity in both cash and derivatives segments for directional conviction.",
-    "Nifty's ability to hold the 23400 support level or break above 23520 resistance.",
-    "The impact of the upcoming US inflation data on global interest rate expectations."
+    "Global market performance, especially US and Asian indices, for directional cues.",
+    "Crude oil price movements; sustained high prices could negatively impact Indian markets.",
+    "FII/DII activity for fresh capital flows or outflows.",
+    "Any fresh economic data or central bank commentary regarding inflation or interest rates.",
+    "Nifty and Bank Nifty's ability to sustain current levels or bounce from oversold RSI."
   ],
   "risk_factors": [
-    "Elevated global market volatility, especially from US tech and Asian markets.",
-    "Sustained high crude oil prices leading to increased inflationary pressures in India.",
-    "Potential for sharp, whipsaw movements due to oversold conditions combined with external news events.",
-    "Uncertainty surrounding the US inflation report could trigger knee-jerk reactions."
+    "Elevated global inflation concerns driven by US producer inflation and surging crude oil prices.",
+    "Geopolitical tensions in the Middle East impacting crude supply and prices.",
+    "Lack of clear FII/DII directional bias, indicating institutional uncertainty.",
+    "Absence of reliable options data (Max Pain, OI) for the upcoming session, limiting market insights.",
+    "The 'neutral' trend despite oversold RSI could lead to continued consolidation or further downside before a meaningful bounce."
   ]
 }
