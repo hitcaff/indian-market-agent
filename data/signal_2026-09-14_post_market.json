@@ -1,57 +1,57 @@
 {
   "session": "post_market",
   "date": "2026-09-14",
-  "timestamp": "17:18 IST",
-  "market_bias": "neutral",
-  "bias_strength": "weak",
+  "timestamp": "20:48 IST",
+  "market_bias": "cautiously_bearish",
+  "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Nasdaq futures tumbled nearly 2% due to concerns over AI stocks, which also impacted Nikkei negatively. Conversely, Dow futures showed strength, and crude oil surged over 3%, potentially reigniting inflation concerns. SGX Nifty is marginally down, reflecting a cautious global sentiment.",
-    "technical_analysis": "Nifty 50 is in an extremely oversold condition with an RSI of 14.05, suggesting a high probability of a technical bounce, although its overall trend remains neutral. Bank Nifty displayed relative resilience today, closing positive, but its RSI at 39.22 indicates a bearish momentum, despite a neutral trend.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance among options participants. The absence of specific Max Pain, Call Resistance, and Put Support values suggests a lack of clear directional conviction from the options chain for the immediate future.",
-    "sentiment_analysis": "FII/DII flows were neutral. Key news includes a significant global tech sell-off impacting Nasdaq and Nikkei, which is a negative sentiment driver. However, BofA turning bullish on Nifty after two years provides a strong underlying positive sentiment for the broader Indian market, albeit with caution on small and midcaps.",
-    "confluence_summary": "The market is at a critical juncture. Nifty's extremely oversold RSI points to a potential bounce, supported by Bank Nifty's relative strength and BofA's long-term bullish view. However, the global tech sector weakness and rising crude oil prices introduce significant headwinds, leading to a cautious 'NO TRADE' stance until clearer directional cues emerge."
+    "global_analysis": "Global cues are predominantly negative with US Nasdaq futures down significantly (-1.19%) due to AI slowdown fears impacting chipmakers like Nvidia, and Nikkei also seeing a sharp decline (-2.72%). Rising US 10-year Treasury yields (5%) and crude oil prices (+2.69%) add to the bearish sentiment, despite positive Dow futures and Hang Seng. SGX Nifty is also indicating a weak open for tomorrow.",
+    "technical_analysis": "Nifty 50 closed lower (-0.34%) with an extremely oversold RSI of 14.05, suggesting a potential bounce or short covering from current levels, though its trend remains neutral with flat EMAs. Bank Nifty showed relative strength, closing positive (+0.24%), but its RSI is bearish (39.22) and trend is also neutral with flat EMAs, indicating underlying weakness.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty stands at a neutral 1.0, offering no strong directional bias. Critical Max Pain, Call Resistance, and Put Support data is unavailable, significantly limiting a comprehensive options-based directional view for tomorrow's expiry.",
+    "sentiment_analysis": "FII/DII data for the day is neutral, providing no immediate directional insight from institutional flows. Market news highlights significant global tech weakness and concerns about Nifty's YTD performance ('Nifty 50 crashes over 10% YTD'), indicating underlying bearish sentiment. Brokerage calls are mixed, with some positive recommendations for financials like HDFC Bank and Bajaj Finance.",
+    "confluence_summary": "The market faces strong global headwinds, particularly from the tech sector, suggesting a weak open. However, Nifty's extremely oversold RSI presents a contrarian bounce potential from key support levels. The conflicting signals, coupled with missing options data and the system's own low confidence, warrant a prudent 'NO TRADE' stance for tomorrow's session until clearer direction emerges."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
     "confidence_pct": 60,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23270.3 (Support)",
+      "23270.3 (Critical Support)",
       "23142.5 (Strong Support)",
-      "23487.0 (Resistance)",
-      "23575.9 (Strong Resistance)"
+      "23487.0 (Immediate Resistance)"
     ],
-    "invalidation": "Trade not initiated due to insufficient confidence and mixed signals."
+    "invalidation": "N/A"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
     "confidence_pct": 60,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
       "56606.55 (Current Level)",
-      "No clear support/resistance from provided data"
+      "56000 (Psychological Support)",
+      "57000 (Psychological Resistance)"
     ],
-    "invalidation": "Trade not initiated due to insufficient confidence and lack of clear technical levels."
+    "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Global tech sector performance, especially Nasdaq's recovery or further decline.",
-    "Movement in crude oil prices and its implications for inflation and central bank policies.",
-    "Nifty's ability to sustain above immediate support levels and confirm a bounce from oversold territory.",
-    "FII/DII activity for signs of conviction or reversal in sentiment.",
-    "Any further updates on PSU divestments and their potential impact on FPI flows."
+    "Nifty's reaction to the critical support level of 23270.3, especially after a potential gap down, to confirm if the oversold RSI leads to a bounce.",
+    "Performance of global markets, particularly US tech stocks (Nasdaq) and Asian indices (Nikkei), for further directional cues throughout the day.",
+    "Movement in Crude Oil prices and US 10-year Treasury yields, which can influence inflation and interest rate expectations, impacting market sentiment.",
+    "FII/DII activity data for the next trading session to gauge institutional sentiment and potential buying/selling pressure.",
+    "Any fresh developments or news regarding the global AI sector and its impact on related stocks, as this is a major global theme currently."
   ],
   "risk_factors": [
-    "Continued global tech sell-off could drag down Indian equities, particularly IT stocks.",
-    "Sustained rise in crude oil prices could fuel domestic inflation, leading to hawkish monetary policy.",
-    "Lack of significant FII inflows despite positive long-term outlooks could cap market upside.",
-    "Nifty failing to bounce from oversold levels, indicating deeper underlying weakness."
+    "A sharper-than-expected global market sell-off, especially in the tech sector, could drag down Indian equities further, negating Nifty's oversold condition.",
+    "Continued rise in crude oil prices could exacerbate inflationary pressures in India, potentially leading to policy tightening concerns and impacting corporate earnings.",
+    "Unexpected aggressive selling by FIIs could negate any potential bounce from oversold levels, pushing the market lower.",
+    "Nifty breaking crucial support levels (23270.3, 23142.5) despite the oversold RSI, indicating deeper underlying weakness and a potential for further downside."
   ]
 }
