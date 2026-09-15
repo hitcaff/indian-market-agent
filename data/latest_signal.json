@@ -1,58 +1,57 @@
 {
   "session": "post_market",
   "date": "2026-09-15",
-  "timestamp": "19:25 IST",
+  "timestamp": "21:18 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed to negative. SGX Nifty is down significantly by 1.19%, indicating a weak opening for the Indian market. While US futures show some recovery, earlier reports highlighted concerns over rising crude and yields, with crude oil itself up over 2%.",
-    "technical_analysis": "Both Nifty 50 and Bank Nifty experienced sharp declines today, pushing their RSIs deep into oversold territory (Nifty 11.42, Bank Nifty 27.7). This suggests a strong potential for a technical bounce or at least a pause in the downtrend, but the overall trend remains neutral within a ranging market regime.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from the options market. The absence of specific Max Pain, Call Resistance, or Put Support data makes it difficult to derive strong directional cues from options for the immediate session.",
-    "sentiment_analysis": "FII/DII activity was neutral today. News flow presents a mixed picture: concerns over FII outflows from government bonds and India's widening Current Account Deficit are negative, while news about IPO pipelines and critical minerals push offers some positive undertones. Overall sentiment is cautious.",
-    "confluence_summary": "The market is at a critical juncture. While the deeply oversold technicals strongly suggest a potential for a bounce, the negative global cues, particularly from SGX Nifty, point towards a weak opening. This conflicting confluence, coupled with a ranging market regime and neutral options data, makes aggressive directional trades highly risky and low conviction."
+    "global_analysis": "Global markets present a mixed to negative picture with SGX Nifty, Nikkei, and Hang Seng down, reflecting broader Asian weakness. The significant rise in crude oil prices (+3.23%) and increasing US 10-year Treasury yields (highest since 2007) are major headwinds, signaling persistent inflationary pressures and tighter monetary policy expectations from the Fed.",
+    "technical_analysis": "Both Nifty and Bank Nifty experienced sharp declines today, pushing their RSIs deep into oversold territory (Nifty 11.42, Bank Nifty 27.7). While the trend is currently neutral, the oversold condition suggests a potential for a technical bounce from immediate support levels. The EMA9 and EMA21 being at the current price points to a sharp, recent downtrend or a data anomaly, making clear trend identification via EMAs difficult.",
+    "options_analysis": "The provided PCR of 1.0 for both indices is neutral, indicating a balanced sentiment between calls and puts. However, the Max Pain, Call Resistance, and Put Support values are all 0, which means actionable data for forward-looking options analysis for tomorrow's expiry is unavailable. This limits our ability to gauge immediate options-based support and resistance levels effectively.",
+    "sentiment_analysis": "FII/DII data is neutral for the day, showing no clear institutional conviction. Market news is dominated by global concerns such as rising US bond yields and oil prices, which are negative for overall sentiment. While there are stock-specific recommendations, the broader market sentiment remains cautious due to these significant global headwinds and the focus on Fed rate decisions.",
+    "confluence_summary": "The market is at a critical juncture with conflicting signals. Both Nifty and Bank Nifty are deeply oversold on daily charts, which typically precedes a technical bounce. However, the strong negative global cues, particularly rising crude oil and US bond yields, act as significant headwinds. The lack of clear directional signals from options data and the 'ranging' market regime necessitate a cautious 'NO TRADE' approach for directional derivatives."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "0 - 0",
+    "entry_zone": "N/A",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 30,
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "22960.52 (Support)",
-      "23118.60 (Current)",
-      "23434.77 (Resistance)"
+      "22960.52 (Immediate Support)",
+      "22802.43 (Strong Support)",
+      "23434.77 (Immediate Resistance)",
+      "23118.60 (Current Level)"
     ],
-    "invalidation": "Strong directional move with high volume breaking key support/resistance levels without a clear catalyst."
+    "invalidation": "N/A - No directional trade proposed."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "0 - 0",
+    "entry_zone": "N/A",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 30,
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "55500 (Psychological Support)",
-      "55794.75 (Current)",
-      "56000 (Psychological Resistance)"
+      "55,794.75 (Current Level)",
+      "Watch for previous swing lows for support",
+      "Watch for previous swing highs for resistance"
     ],
-    "invalidation": "Strong directional move with high volume breaking key psychological levels without a clear catalyst."
+    "invalidation": "N/A - No directional trade proposed."
   },
   "what_to_watch": [
-    "Global market performance overnight, especially US and Asian indices, for directional cues.",
-    "Crude oil price movements, as sustained high prices pose a risk to the Indian economy.",
-    "FII/DII activity in the next session to gauge institutional sentiment.",
-    "Nifty's reaction to its immediate support levels (22960.52) and whether buying emerges on dips.",
-    "Any further updates on India's Current Account Deficit or global economic data."
+    "Global market cues, especially US 10-year Treasury yields and crude oil prices, for their continued impact on inflation and FII flows.",
+    "FII/DII activity for any signs of institutional conviction or a reversal in flows, which could provide directional bias.",
+    "Nifty and Bank Nifty's price action around immediate technical support levels (e.g., Nifty's 22960.52) for signs of a bounce or further breakdown.",
+    "Any fresh news or commentary regarding the US Federal Reserve's monetary policy stance and future rate hike expectations."
   ],
   "risk_factors": [
-    "Sustained weakness in global markets leading to further FII outflows.",
-    "Escalation in crude oil prices impacting inflation and corporate earnings.",
-    "Lack of follow-through buying despite oversold conditions, indicating deeper structural issues.",
-    "Geopolitical developments, particularly those impacting global trade or energy markets.",
-    "Any unexpected domestic policy announcements or economic data releases."
+    "Sustained rise in crude oil prices, which could fuel domestic inflation, increase input costs for businesses, and negatively impact corporate margins.",
+    "Further escalation in US bond yields, potentially leading to increased FII outflows from emerging markets like India as global capital seeks higher returns in safer assets.",
+    "Global economic slowdown concerns, which could dampen export-oriented sectors and overall market sentiment, impacting corporate earnings.",
+    "Lack of clear FII/DII participation and conflicting technical/global signals, indicating uncertainty and potentially leading to choppy, range-bound trading with increased volatility."
   ]
 }
