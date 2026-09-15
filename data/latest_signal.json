@@ -1,55 +1,58 @@
 {
   "session": "post_market",
   "date": "2026-09-15",
-  "timestamp": "16:34 IST",
+  "timestamp": "19:25 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "SGX Nifty indicates a potential gap-down opening for Indian markets, aligning with the negative close in Hang Seng. However, positive US futures provide a mixed global picture, while rising crude oil prices remain a concern for India's import bill and inflation outlook.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed significantly lower, breaking below their EMAs. Crucially, both indices are deeply oversold on the RSI (Nifty 11.42, Bank Nifty 27.7), suggesting a high probability of a technical bounce or at least a halt in the downtrend. The overall trend remains neutral within a ranging market regime, indicating a lack of sustained directional momentum.",
-    "options_analysis": "PCR at 1.0 for both Nifty and Bank Nifty indicates a neutral stance with balanced call and put open interest. However, the Max Pain, Call Resistance, and Put Support data are showing zero, which severely limits a comprehensive options-based directional analysis for tomorrow's expiry or trend.",
-    "sentiment_analysis": "FII/DII activity was neutral today, offering no clear directional bias. News flow highlights a weakening Rupee and concerns over US bond selloff, which are bearish factors. The 'ranging' market regime and the quote about 'being right too soon' suggest caution against aggressive bearish bets, especially given the oversold technical conditions.",
-    "confluence_summary": "Despite a significant bearish close, Nifty and Bank Nifty are deeply oversold on RSI, hinting at a potential technical bounce. However, the neutral trend, ranging market regime, mixed global cues (negative SGX Nifty vs. positive US futures), and incomplete options data prevent a high-conviction directional trade. Prudence dictates waiting for clearer signals and price action confirmation."
+    "global_analysis": "Global cues are mixed to negative. SGX Nifty is down significantly by 1.19%, indicating a weak opening for the Indian market. While US futures show some recovery, earlier reports highlighted concerns over rising crude and yields, with crude oil itself up over 2%.",
+    "technical_analysis": "Both Nifty 50 and Bank Nifty experienced sharp declines today, pushing their RSIs deep into oversold territory (Nifty 11.42, Bank Nifty 27.7). This suggests a strong potential for a technical bounce or at least a pause in the downtrend, but the overall trend remains neutral within a ranging market regime.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from the options market. The absence of specific Max Pain, Call Resistance, or Put Support data makes it difficult to derive strong directional cues from options for the immediate session.",
+    "sentiment_analysis": "FII/DII activity was neutral today. News flow presents a mixed picture: concerns over FII outflows from government bonds and India's widening Current Account Deficit are negative, while news about IPO pipelines and critical minerals push offers some positive undertones. Overall sentiment is cautious.",
+    "confluence_summary": "The market is at a critical juncture. While the deeply oversold technicals strongly suggest a potential for a bounce, the negative global cues, particularly from SGX Nifty, point towards a weak opening. This conflicting confluence, coupled with a ranging market regime and neutral options data, makes aggressive directional trades highly risky and low conviction."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
+    "entry_zone": "0 - 0",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
+    "confidence_pct": 30,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "22960.52 (Immediate Support)",
-      "23434.77 (Immediate Resistance)",
-      "22802.43 (Strong Support)"
+      "22960.52 (Support)",
+      "23118.60 (Current)",
+      "23434.77 (Resistance)"
     ],
-    "invalidation": "N/A - Awaiting clearer market direction and confirmation from price action. Any trade would require confirmation of a bounce from support or a decisive break below strong support."
+    "invalidation": "Strong directional move with high volume breaking key support/resistance levels without a clear catalyst."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
+    "entry_zone": "0 - 0",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
+    "confidence_pct": 30,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "55794.75 (Current Level - watch for previous day's support/resistance zones)"
+      "55500 (Psychological Support)",
+      "55794.75 (Current)",
+      "56000 (Psychological Resistance)"
     ],
-    "invalidation": "N/A - Awaiting clearer market direction and confirmation from price action. Given the oversold RSI, a bounce is likely, but needs confirmation."
+    "invalidation": "Strong directional move with high volume breaking key psychological levels without a clear catalyst."
   },
   "what_to_watch": [
-    "Overnight performance of SGX Nifty and US markets for definitive opening cues for tomorrow.",
-    "Nifty's reaction at its immediate support level of 22960.52; a bounce from here could signal short-term strength.",
-    "Any significant FII/DII activity in tomorrow's session, which could provide directional conviction.",
-    "Movement in Rupee against US Dollar and crude oil prices, as these are key macro indicators.",
-    "Global macro developments, especially related to the US Fed's September rate decision anticipation, which could impact sentiment."
+    "Global market performance overnight, especially US and Asian indices, for directional cues.",
+    "Crude oil price movements, as sustained high prices pose a risk to the Indian economy.",
+    "FII/DII activity in the next session to gauge institutional sentiment.",
+    "Nifty's reaction to its immediate support levels (22960.52) and whether buying emerges on dips.",
+    "Any further updates on India's Current Account Deficit or global economic data."
   ],
   "risk_factors": [
-    "Global market volatility and uncertainty surrounding the US Fed's September rate decision, potentially leading to sharp moves.",
-    "Further weakening of the Rupee, which could negatively impact FII sentiment and corporate earnings.",
-    "The current ranging market regime and neutral trend can lead to whipsaws and false signals, making trading challenging.",
-    "Incomplete options data (Max Pain, Call/Put Resistance/Support showing 0) limits comprehensive analysis and potential hedging strategies."
+    "Sustained weakness in global markets leading to further FII outflows.",
+    "Escalation in crude oil prices impacting inflation and corporate earnings.",
+    "Lack of follow-through buying despite oversold conditions, indicating deeper structural issues.",
+    "Geopolitical developments, particularly those impacting global trade or energy markets.",
+    "Any unexpected domestic policy announcements or economic data releases."
   ]
 }
