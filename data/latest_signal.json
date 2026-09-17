@@ -1,55 +1,55 @@
 {
   "session": "post_market",
   "date": "2026-09-17",
-  "timestamp": "16:28 IST",
+  "timestamp": "19:20 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "US futures (Dow, Nasdaq) are showing strong positive momentum, and SGX Nifty is up, setting a positive tone for tomorrow's open. However, crude oil and gold are declining, which could reflect broader economic concerns despite the equity optimism.",
-    "technical_analysis": "Both Nifty and Bank Nifty are in a neutral trend, hovering around their EMAs, indicating indecision. Crucially, their RSIs are in bearish territory (Nifty 35.23, Bank Nifty 32.19), suggesting underlying weakness despite Nifty's marginal positive close and Bank Nifty's underperformance.",
-    "options_analysis": "The PCR for both indices stands at 1.0, signifying a perfectly balanced options market with no clear directional bias from call or put writers. The absence of Max Pain, Call Resistance, and Put Support data further reinforces this neutral options stance post-weekly expiry.",
-    "sentiment_analysis": "FII/DII flows were neutral today, providing no institutional conviction. While specific stock news like the Tata Group IPO buzz is positive, the RBI's OMO withdrawal could impact liquidity, leading to a mixed sentiment overall, with stock-specific action dominating.",
-    "confluence_summary": "Despite positive global cues, the domestic market is in a clear ranging regime with bearish RSIs and neutral technicals/options data. Coupled with the high-risk environment of a FED meeting and weekly expiry, the confluence strongly advises against taking directional trades, favoring a cautious 'NO TRADE' approach."
+    "global_analysis": "Global cues are mixed but leaning positive, with strong US futures (Dow +1.33%, Nasdaq +2.29%) and positive SGX Nifty (+0.23%) suggesting a firm opening. However, the US Fed's hawkish turn and the Bank of England's inflation alarm introduce a significant layer of caution, potentially capping upside momentum.",
+    "technical_analysis": "Both Nifty and Bank Nifty are exhibiting bearish RSI readings (35.23 and 32.19 respectively), indicating underlying weakness despite Nifty's marginal positive close. The identical EMA9 and EMA21 values, coupled with a neutral trend and a 'ranging' market regime, signal consolidation and a lack of clear directional conviction.",
+    "options_analysis": "The PCR of 1.0 for both Nifty and Bank Nifty is perfectly neutral. Crucially, the absence of Max Pain, Call Resistance, and Put Support data (all showing 0) post-weekly expiry means there's no immediate options-derived directional bias or clear levels of support/resistance for the upcoming expiry, making options analysis inconclusive for tomorrow's direction.",
+    "sentiment_analysis": "FII/DII activity was neutral today, providing no fresh directional insights. While there's positive news around the NSE IPO, the overarching sentiment is heavily influenced by global central banks shifting to a rate-hike mode, as highlighted by the LiveMint article, which can temper investor enthusiasm for risk assets despite positive global futures.",
+    "confluence_summary": "The market presents a highly conflicting picture. While positive global cues might suggest an upward bias, domestic technicals (bearish RSI, ranging market) and the significant overhang of hawkish central bank policies globally introduce substantial uncertainty. The lack of clear options data for the next expiry further reinforces a wait-and-watch approach, making high-conviction directional trades extremely risky."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "23358 (Resistance)",
-      "23188 (Support)"
+      "23188.32 (Support)",
+      "23358.22 (Resistance)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "N/A - Prudence dictates waiting for clearer signals."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "56200 (Psychological Resistance)",
-      "55800 (Recent Lows)"
+      "56000 (Psychological Support)",
+      "56200 (Immediate Resistance)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "N/A - Prudence dictates waiting for clearer signals."
   },
   "what_to_watch": [
-    "Global market reaction to the FED outcome overnight for directional cues.",
-    "FII/DII activity for any significant institutional flow changes.",
-    "Nifty's ability to sustain above 23200 and Bank Nifty's performance relative to 56000.",
-    "Any follow-through momentum in Tata Group stocks post IPO news.",
-    "Crude oil price movements and their potential impact on inflation outlook."
+    "Global market performance, especially US indices, to see if the strong futures translate into sustained gains.",
+    "Fresh FII/DII data for the next trading session to gauge institutional sentiment.",
+    "Build-up of Open Interest in Nifty and Bank Nifty options for the next weekly expiry to identify new support/resistance zones.",
+    "Any further commentary or developments regarding the US Fed's monetary policy stance and global inflation trends.",
+    "Nifty's ability to sustain above 23300 or break decisively below 23100 for directional clarity."
   ],
   "risk_factors": [
-    "Uncertainty and potential volatility from the FED meeting outcome.",
-    "The market being in a ranging regime, increasing the risk of whipsaws and false breakouts.",
-    "Bearish RSI in both Nifty and Bank Nifty, indicating underlying weakness despite global positivity.",
-    "Bank Nifty's underperformance could act as a drag on the broader market."
+    "Continued hawkish stance from major global central banks (Fed, BoE) leading to increased rate hike fears and potential capital outflows.",
+    "High market volatility due to conflicting global and domestic signals, increasing the risk of whipsaws in a ranging market.",
+    "Lack of clear domestic directional catalysts and options data, making price action unpredictable.",
+    "Any unexpected geopolitical developments or significant economic data releases."
   ]
 }
