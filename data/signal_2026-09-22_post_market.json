@@ -1,57 +1,48 @@
 {
   "session": "post_market",
   "date": "2026-09-22",
-  "timestamp": "16:29 IST",
+  "timestamp": "21:20 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed, with US futures slightly positive and Asian markets showing varied performance, though Nikkei surged. The significant drop in crude oil prices (-6.46%) is a strong positive for India, potentially easing inflationary pressures and supporting the Rupee. However, SGX Nifty's slight dip suggests a cautious opening for the domestic market tomorrow.",
-    "technical_analysis": "Both Nifty and Bank Nifty are exhibiting a neutral trend and are in a 'ranging' regime with low ATR%. While Nifty's RSI is bullish, the identical EMA9, EMA21, and current price points suggest a very tight close or a data anomaly, making trend confirmation difficult. Bank Nifty's RSI is also neutral, indicating a lack of clear directional momentum for both indices.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from options participants. Crucially, the Max Pain, Call Resistance, and Put Support values are reported as 0, which is highly unusual and suggests a lack of actionable data for a comprehensive options-based assessment. This absence of key options data significantly limits our ability to gauge institutional positioning.",
-    "sentiment_analysis": "FII/DII data is neutral for the day. Market news highlights include the 'CAS chaos' on Nifty expiry day, which could introduce technical uncertainty, and the Rupee's volatility tied to oil. While there's positive news regarding IPO fundraising potential and specific stock recommendations, the overall sentiment is tempered by technical glitches and a lack of clear institutional direction.",
-    "confluence_summary": "The market is currently in a consolidation phase, characterized by neutral technicals, a ranging regime, and a lack of clear directional cues from options data due to missing information. While falling crude oil is a positive global factor, the 'CAS chaos' adds an element of caution. With insufficient confluence and mixed signals, a 'NO TRADE' stance is prudent for both indices."
+    "global_analysis": "Global cues are mixed, with Dow Futures showing weakness while Nasdaq Futures and most Asian markets are positive. A significant drop in crude oil prices is a positive for the Indian economy, but SGX Nifty indicates a slightly negative opening, suggesting caution.",
+    "technical_analysis": "Both Nifty and Bank Nifty are trading precisely at their 9-day and 21-day EMAs, which is a strong indicator of indecision and a lack of clear directional momentum. The market regime is explicitly 'ranging' with a 'neutral' signal, reinforcing the expectation of sideways movement.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a perfectly balanced stance between call and put writers. The absence of specific Max Pain, Call Resistance, and Put Support values further suggests no strong conviction or significant build-up from the options market for immediate directional moves.",
+    "sentiment_analysis": "FII/DII data is neutral for the day, offering no fresh insights into institutional positioning or conviction. While there's stock-specific news and analyst recommendations, no overarching sentiment driver for the broader market is evident, apart from the generally positive impact of falling crude oil prices.",
+    "confluence_summary": "The overall market picture is one of strong indecision and consolidation. The confluence of mixed global signals, neutral technical indicators (especially EMAs at current price and a ranging market regime), and a lack of clear directional bias from options and institutional flows strongly advocates for a 'NO TRADE' stance for tomorrow."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "entry_zone": null,
+    "stop_loss": null,
+    "target_1": null,
+    "target_2": null,
     "confidence_pct": 0,
-    "risk_reward": "N/A",
-    "key_levels_to_watch": [
-      "23246.83 (Support)",
-      "23450.08 (Resistance)"
-    ],
-    "invalidation": "N/A - No trade proposed"
+    "risk_reward": null,
+    "key_levels_to_watch": [],
+    "invalidation": null
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "entry_zone": null,
+    "stop_loss": null,
+    "target_1": null,
+    "target_2": null,
     "confidence_pct": 0,
-    "risk_reward": "N/A",
-    "key_levels_to_watch": [
-      "56000 (Psychological Support)",
-      "56500 (Psychological Resistance)"
-    ],
-    "invalidation": "N/A - No trade proposed"
+    "risk_reward": null,
+    "key_levels_to_watch": [],
+    "invalidation": null
   },
   "what_to_watch": [
-    "Overnight performance of US and other Asian markets for global sentiment cues.",
-    "Further movement in crude oil prices; continued decline would be positive for India.",
-    "Any official statements or clarifications regarding the 'CAS chaos' incident on Nifty expiry.",
-    "FII/DII activity for tomorrow to gauge institutional flow.",
-    "Nifty's ability to hold the 23246.83 support or break above 23450.08 resistance.",
-    "Rupee's movement against the dollar, especially with crude oil volatility."
+    "Sustained movement of Nifty above 23450 or below 23246 to establish a clear trend.",
+    "Fresh FII/DII flow data for institutional conviction and directional bias.",
+    "Global market performance, especially US indices and crude oil prices, for early morning directional cues.",
+    "Any further updates or clarity on Sebi's review of derivatives settlement prices, particularly relevant for expiry days."
   ],
   "risk_factors": [
-    "Potential for increased volatility or technical glitches following the 'CAS chaos' event.",
-    "Uncertainty stemming from mixed global cues and the lack of clear domestic drivers.",
-    "Absence of comprehensive options data (Max Pain, OI) makes it difficult to assess underlying institutional positioning.",
-    "Risk of whipsaws in a ranging market, leading to false breakouts/breakdowns.",
-    "Any sudden reversal in crude oil prices could negatively impact sentiment."
+    "Sudden shifts in global risk sentiment due to unexpected geopolitical events or economic data.",
+    "Choppy, range-bound trading due to lack of clear drivers, leading to potential whipsaws for intraday traders.",
+    "Unexpected domestic economic data releases or significant corporate announcements.",
+    "Volatility around the Sebi's derivatives settlement price review, if any concrete steps are announced."
   ]
 }
