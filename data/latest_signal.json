@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-10-08",
-  "timestamp": "18:19 IST",
-  "market_bias": "bearish",
-  "bias_strength": "moderate",
+  "timestamp": "21:24 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global markets are exhibiting significant weakness, with major indices like SGX Nifty, Dow, Nasdaq, Nikkei, and Hang Seng all down over 0.7%, and some over 1.4%. The primary driver of this bearish sentiment is the sharp 4.68% surge in crude oil prices, which is fueling inflation fears and pushing global bond yields higher, impacting risk appetite across asset classes.",
-    "technical_analysis": "Nifty 50 witnessed a substantial 1.64% decline, closing precisely at its 9 and 21-day EMAs, indicating a strong bearish candle testing these crucial support levels. While its RSI at 28.82 is in oversold territory, suggesting a potential for a technical bounce, strong downtrends can see oversold conditions persist. Bank Nifty also fell by 0.98%, closing at its EMAs, with its RSI at 40.32 indicating bearish momentum but not yet in oversold zones, implying further room for downside.",
-    "options_analysis": "The provided options data for both Nifty and Bank Nifty shows a PCR of 1.0 and Max Pain/Call Resistance/Put Support at 0. This data snapshot presents a very neutral or unclear picture from the options chain, making it challenging to derive strong directional cues or identify significant open interest build-ups for immediate support or resistance.",
-    "sentiment_analysis": "FII/DII activity for the day is neutral, offering no clear directional bias from institutional flows. However, market news is predominantly cautious to negative, highlighting global inflation worries, rising US yields, and the adverse impact of higher crude on the Indian economy and specific sectors like housing. Reports of several Sensex stocks hitting 52-week lows further underscore the prevailing negative sentiment.",
-    "confluence_summary": "The confluence of significant global market weakness, a sharp spike in crude oil prices, rising bond yields, and substantial declines in domestic indices points towards a strong underlying bearish sentiment. Despite Nifty's oversold RSI, the high-risk event day with the RBI policy announcement and weekly expiry introduces extreme volatility and uncertainty, making any directional trade highly speculative and risky."
+    "global_analysis": "Global markets are showing significant weakness, with SGX Nifty, Nikkei, and Hang Seng down sharply, and US futures also in negative territory. The notable surge in Crude Oil prices (+5.07%) is a major concern, signaling potential inflation risks that could weigh heavily on global and domestic market sentiment.",
+    "technical_analysis": "Nifty witnessed a substantial cut of 1.64%, closing precisely at its EMA9 and EMA21, with its RSI entering oversold territory at 28.82, suggesting potential for a technical bounce but also strong underlying selling pressure. Bank Nifty also declined by nearly 1%, closing at its key EMAs, with its RSI at 40.32 indicating a bearish undertone but relatively less severe weakness compared to Nifty.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from the available options data. The absence of specific Max Pain, Call Resistance, and Put Support values suggests either a lack of clear conviction or data limitations for this particular expiry, making options less indicative for immediate directional bias.",
+    "sentiment_analysis": "FII/DII flows are neutral for the day, offering no clear directional signal. Market news highlights global inflation fears impacting US stocks, alongside upcoming Q2 results for major IT players like TCS and a significant block deal in ITC. The overall sentiment is cautious to negative, further amplified by the impending RBI policy and weekly expiry.",
+    "confluence_summary": "The market is grappling with strong global headwinds and a sharp domestic correction, pushing Nifty into oversold conditions. However, the critical 'HIGH RISK DAY' warning due to RBI policy and weekly expiry necessitates extreme caution, making directional trades highly speculative despite the prevailing bearish sentiment and oversold technicals."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -17,15 +17,14 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 40,
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "22231.80 (EMA/Current)",
-      "22074.78 (Support 1)",
-      "21917.77 (Support 2)",
-      "22493.93 (Resistance 1)"
+      "22074.78 (Support)",
+      "22493.93 (Resistance)",
+      "22231.80 (EMA9/21)"
     ],
-    "invalidation": "Market conditions remain highly volatile and unpredictable due to the RBI policy outcome and persistent global headwinds."
+    "invalidation": "Any clear directional breakout or breakdown with strong volume post-RBI policy announcement."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -33,26 +32,25 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 40,
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "54515.05 (EMA/Current)",
-      "54000 (Psychological Support)",
-      "55000 (Psychological Resistance)"
+      "54515.05 (Current Price/EMA9/21)"
     ],
-    "invalidation": "Market conditions remain highly volatile and unpredictable due to the RBI policy outcome and persistent global headwinds."
+    "invalidation": "Any clear directional breakout or breakdown with strong volume post-RBI policy announcement."
   },
   "what_to_watch": [
-    "The outcome and commentary from the RBI Monetary Policy Committee meeting.",
-    "Further movements in global crude oil prices and their impact on inflation expectations.",
-    "Performance of global equity markets, particularly US and Asian cues, for directional guidance.",
-    "Trajectory of India's 10-year bond yield, as it reflects broader economic sentiment and liquidity.",
-    "FII/DII flow data for the next trading session to gauge institutional sentiment."
+    "RBI Monetary Policy Committee (MPC) outcome and forward guidance on inflation and growth.",
+    "Global market performance, especially US and Asian indices, for cues on sentiment.",
+    "Movement in Crude Oil prices, as the sharp rise indicates potential inflationary pressures.",
+    "FII/DII activity for Friday to gauge institutional sentiment post-RBI.",
+    "Nifty's reaction around the 22074.78 support level and Bank Nifty's stability around 54500.",
+    "TCS Q2 results and its potential impact on the broader IT sector."
   ],
   "risk_factors": [
-    "Unexpected hawkish stance or policy changes from the RBI, potentially impacting interest rate-sensitive sectors.",
-    "Continued surge in crude oil prices, exacerbating inflationary pressures and current account deficit concerns.",
-    "Worsening global economic outlook or geopolitical developments leading to increased risk aversion.",
-    "High volatility and potential for whipsaw movements due to the weekly expiry and event-driven trading."
+    "Unexpected hawkish or dovish stance from the RBI, leading to sharp market reactions.",
+    "Heightened volatility and potential whipsaws due to weekly options expiry.",
+    "Further escalation in crude oil prices, exacerbating inflation concerns.",
+    "Any adverse global news or geopolitical developments."
   ]
 }
