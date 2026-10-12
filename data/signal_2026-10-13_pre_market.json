@@ -1,0 +1,57 @@
+{
+  "session": "pre_market",
+  "date": "2026-10-13",
+  "timestamp": "02:00 IST",
+  "market_bias": "weak_bullish",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "SGX Nifty and Hang Seng show positive momentum, suggesting a gap-up open for Indian markets. However, Nasdaq futures are negative, and rising crude oil prices coupled with a hawkish US Fed stance (Hammack) introduce inflationary and restrictive policy concerns.",
+    "technical_analysis": "Nifty is poised for a gap-up, with its RSI at 29.16 indicating an oversold condition, which could trigger a bounce or short covering. Bank Nifty also shows a strong positive change, but its RSI at 43.79 remains in bearish territory, suggesting potential for profit booking or struggle to sustain gains. The provided EMA values are ambiguous for trend analysis.",
+    "options_analysis": "Both Nifty and Bank Nifty PCR are neutral at 1.0. Crucially, Max Pain, Call Resistance, and Put Support data are zero/missing, severely limiting the ability to gauge immediate option chain sentiment and key strike levels.",
+    "sentiment_analysis": "FII/DII flows are neutral. The market regime is characterized by high volatility and a caution signal, indicating potential for choppy price action despite an expected positive open. News flow is mixed, with hawkish Fed comments and rising oil prices contrasting with positive analyst calls on key financial stocks.",
+    "confluence_summary": "While a gap-up open is highly probable due to strong SGX Nifty and Nifty's oversold RSI, the overall market context is one of high volatility and caution. Mixed global cues, a bearish Bank Nifty RSI, and the absence of critical options data prevent a high-conviction directional trade. The initial positive momentum may face headwinds, suggesting a wait-and-watch approach post-open."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 30,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "22363 (SGX Nifty Open)",
+      "22332 (Immediate Support)",
+      "22679 (Resistance)"
+    ],
+    "invalidation": "N/A (No directional trade proposed)"
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 30,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "54918 (Expected Open)",
+      "54500 (Psychological Support)",
+      "55000 (Psychological Resistance)"
+    ],
+    "invalidation": "N/A (No directional trade proposed)"
+  },
+  "what_to_watch": [
+    "Sustainability of the gap-up open for Nifty and Bank Nifty.",
+    "Price action around Nifty's immediate support (22332) and resistance (22679).",
+    "Bank Nifty's performance relative to Nifty, especially given its bearish RSI.",
+    "FII/DII data post-market for fresh institutional flows.",
+    "Crude oil price movements and any further comments from global central bankers."
+  ],
+  "risk_factors": [
+    "High volatility regime could lead to sharp reversals after the gap-up.",
+    "Hawkish US Fed stance and rising crude oil prices could cap upside or trigger profit booking.",
+    "Lack of detailed options data prevents a comprehensive understanding of immediate support/resistance from OI.",
+    "Global banking sector concerns could weigh on Bank Nifty despite positive stock-specific news."
+  ]
+}
