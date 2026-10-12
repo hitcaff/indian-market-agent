@@ -1,0 +1,59 @@
+{
+  "session": "post_market",
+  "date": "2026-10-12",
+  "timestamp": "19:56 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "Global cues are mixed with SGX Nifty mirroring the domestic decline, while US futures show divergence (Dow up, Nasdaq down). Rising crude oil prices are a notable concern, potentially impacting inflation and the Indian economy, adding a layer of caution.",
+    "technical_analysis": "Nifty closed significantly lower, pushing its RSI into oversold territory (29.16), suggesting a potential for a bounce or consolidation near support. Bank Nifty also closed down with a bearish RSI (43.79). Both indices show a neutral trend with EMA9 and EMA21 converging at the current price, indicating indecision and recent sharp moves.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a perfectly balanced options market with no clear dominance from either calls or puts. The absence of specific Max Pain, Call Resistance, and Put Support values further underscores a lack of strong directional conviction from options traders for the immediate expiry.",
+    "sentiment_analysis": "FII/DII flows were neutral today, offering no directional bias. Market news is a mixed bag, with some positive corporate results and stock-specific actions, alongside concerns like India's bond market performance and declines in IT majors, contributing to an overall cautious sentiment in a high-volatility regime.",
+    "confluence_summary": "The market is characterized by high volatility and a neutral trend, making directional trades highly risky. While Nifty's oversold RSI hints at a potential bounce, the mixed global signals, neutral FII/DII activity, and balanced options data collectively point towards continued choppiness and a lack of strong conviction for tomorrow's session, validating a 'NO TRADE' stance."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 20,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "22228.17 (Immediate Support)",
+      "22092.98 (Strong Support)",
+      "22574.82 (Immediate Resistance)"
+    ],
+    "invalidation": "A decisive break and sustain above 22600 or below 22000 would invalidate the current neutral stance and signal a potential directional move."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 20,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "54500 (Psychological Support)",
+      "55200 (Psychological Resistance)",
+      "54000 (Strong Support)"
+    ],
+    "invalidation": "A decisive break and sustain above 55500 or below 54500 would invalidate the current neutral stance and signal a potential directional move."
+  },
+  "what_to_watch": [
+    "Global market performance, especially US tech stocks given Nasdaq's decline, for cues on opening.",
+    "Movement in crude oil prices, as sustained rise could fuel inflation concerns and impact corporate margins.",
+    "FII/DII activity for any significant shift in institutional sentiment, which is currently neutral.",
+    "Nifty's reaction to its oversold RSI level; whether it finds support for a bounce or breaks lower.",
+    "Key corporate earnings announcements, particularly HCL Tech, RBL Bank, and Azad Engineering, for sector-specific impact.",
+    "India's bond market stability following recent RBI measures, as instability can spill over into equities."
+  ],
+  "risk_factors": [
+    "High market volatility, leading to unpredictable price swings and increased risk for directional trades.",
+    "Mixed global cues, which can result in gap openings and increased intraday choppiness.",
+    "Lack of clear directional conviction from institutional flows and options data, making trend identification difficult.",
+    "Potential for rising crude oil prices to negatively impact domestic economic outlook and corporate margins.",
+    "Any further deterioration in the bond market could spill over into equities, creating broader market instability."
+  ]
+}
