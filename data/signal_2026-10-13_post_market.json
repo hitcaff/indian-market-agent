@@ -1,0 +1,55 @@
+{
+  "session": "post_market",
+  "date": "2026-10-13",
+  "timestamp": "19:04 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "SGX Nifty's strong positive close (+1.60%) suggests a bullish opening for India, supported by positive Dow futures. However, Nasdaq futures and Nikkei were negative, indicating mixed global sentiment that could temper enthusiasm.",
+    "technical_analysis": "Both Nifty and Bank Nifty saw significant gains today with bullish RSI readings (Nifty 55.06, Bank Nifty 59.74). However, the stated 'trend: neutral' for both indices, coupled with a high volatility regime and 'caution' signal, indicates a lack of clear directional conviction despite the strong daily move. The identical EMA9/21 to current price is also an unusual technical observation.",
+    "options_analysis": "The provided PCR, Max Pain, Call Resistance, and Put Support data are all zero, which means there is no reliable options chain data available to assess market participant positioning or potential expiry dynamics. This significantly limits the ability to form a high-conviction directional view.",
+    "sentiment_analysis": "FII/DII flows were neutral today. Market news highlights a late rally, positive Q2 results from some companies, and numerous analyst buy recommendations, suggesting a generally positive sentiment after the day's rebound.",
+    "confluence_summary": "Despite a strong daily rally and bullish RSI, the market is in a high volatility regime with a neutral underlying trend. The critical absence of options data and neutral FII/DII flows make it difficult to establish a strong directional bias. Prudence dictates caution in such an environment, aligning with the system's 'NO TRADE' recommendation."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "22866.45 (Resistance)",
+      "22432.95 (Support)"
+    ],
+    "invalidation": "High volatility and lack of clear directional conviction due to conflicting technical signals and missing options data."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "56000 (Psychological Resistance)",
+      "55000 (Psychological Support)"
+    ],
+    "invalidation": "High volatility and lack of clear directional conviction due to conflicting technical signals and missing options data."
+  },
+  "what_to_watch": [
+    "Global market performance, especially US markets overnight, for sustained direction.",
+    "FII/DII activity for the next trading session to gauge institutional conviction.",
+    "Nifty's ability to sustain above 22,700 and challenge immediate resistance at 22,866.45.",
+    "Bank Nifty's follow-through on today's gains, particularly around the 55,500 level.",
+    "Any fresh economic data or corporate earnings announcements that could impact market sentiment."
+  ],
+  "risk_factors": [
+    "High market volatility (ATR% 1.46%) leading to potential whipsaws and rapid reversals.",
+    "Divergent global cues (e.g., Nasdaq weakness vs. Dow strength) creating uncertainty.",
+    "Lack of comprehensive options data (PCR, Max Pain, OI all 0), making it difficult to gauge market positioning and potential expiry dynamics.",
+    "The 'neutral' trend despite a strong daily move suggests potential for consolidation or reversal rather than sustained directional movement."
+  ]
+}
