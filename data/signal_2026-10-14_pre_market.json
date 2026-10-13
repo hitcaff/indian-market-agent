@@ -1,0 +1,54 @@
+{
+  "session": "pre_market",
+  "date": "2026-10-14",
+  "timestamp": "00:05 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "SGX Nifty indicates a strong positive opening for Indian markets (+0.89%), suggesting a gap-up. However, mixed global cues with negative US futures and a significant drop in Nikkei warrant caution. Crude oil is up, while gold shows a slight dip.",
+    "technical_analysis": "Both Nifty and Bank Nifty display bullish RSI readings, yet their underlying trends are neutral. The EMA9 and EMA21 being at the current price suggest a potential gap-up, with Nifty likely opening above its immediate resistance of 22627.38, which could then act as support.",
+    "options_analysis": "The provided options data, showing PCR at 1.0 and zero values for Max Pain, Call Resistance, and Put Support, is inconclusive. This lack of clear data prevents a strong directional bias from the options chain at this pre-market stage.",
+    "sentiment_analysis": "FII/DII activity is neutral, offering no clear directional insight. While some market news is positive, the 'Market Regime' signals high volatility and a caution, tempering overall sentiment despite the SGX Nifty's strong lead.",
+    "confluence_summary": "Despite a strong bullish signal from SGX Nifty suggesting a gap-up, the overall market sentiment is tempered by mixed global cues, neutral underlying technical trends, high volatility, and a lack of clear FII/DII or options data. This confluence points towards a cautious approach, making a 'NO TRADE' stance prudent for the session's opening."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "22627.38 (potential support post-gap)",
+      "22891.42 (resistance)",
+      "22193.88 (support)"
+    ],
+    "invalidation": "N/A"
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "55481.05 (current level, watch for price action around this)"
+    ],
+    "invalidation": "N/A"
+  },
+  "what_to_watch": [
+    "Sustainability of the Nifty's gap-up open and price action around 22627.38.",
+    "FII/DII activity post-market open for fresh directional cues.",
+    "Global market performance, especially US indices, for intraday sentiment shifts.",
+    "Sectoral performance, particularly banking and IT, given the mixed news flow."
+  ],
+  "risk_factors": [
+    "High volatility as indicated by the market regime, leading to sharp intraday swings.",
+    "Mixed global cues could lead to profit booking after the initial gap-up.",
+    "Lack of clear FII/DII and options data makes conviction difficult.",
+    "Potential for news-driven volatility in specific sectors (e.g., chip stocks, capital goods)."
+  ]
+}
