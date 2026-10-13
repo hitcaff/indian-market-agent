@@ -1,0 +1,53 @@
+{
+  "session": "mid_morning",
+  "date": "2026-10-13",
+  "timestamp": "12:27 IST",
+  "market_bias": "neutral",
+  "bias_strength": "moderate",
+  "reasoning": {
+    "global_analysis": "Global cues are mixed, with SGX Nifty and Dow Futures showing positive momentum, while Nasdaq and other Asian markets like Nikkei and Hang Seng are in the red. Crude oil is down, which is generally positive for India, but the overall picture lacks strong directional conviction.",
+    "technical_analysis": "Both Nifty and Bank Nifty exhibit extremely neutral technicals, with current prices aligning perfectly with their 9-day and 21-day EMAs. RSIs are in the mid-range (Nifty 45.64, Bank Nifty 51.21), and the stated trend for both indices is neutral, indicating a clear lack of directional bias.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty stands at 1.0, suggesting a balanced options market. However, the Max Pain, Call Resistance, and Put Support values being '0' indicate a lack of reliable or updated options data for specific levels, making a detailed options-based directional analysis challenging beyond the neutral PCR.",
+    "sentiment_analysis": "FII/DII data is neutral, showing no net activity. Market news is a mixed bag, with some positive economic indicators (Rupee strength, Nifty earnings outlook) alongside cautionary corporate calls and a 'high_volatility' regime with a 'caution' signal, reinforcing a non-trending, uncertain environment.",
+    "confluence_summary": "A strong confluence of neutral technical indicators across Nifty and Bank Nifty, coupled with neutral FII/DII data and mixed global/news sentiment, points towards a market lacking clear directional conviction. The prevailing high volatility without a discernible trend further reinforces the need for a 'wait and watch' approach."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 20,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "22344.12",
+      "22636.82"
+    ],
+    "invalidation": "A clear and sustained breakout above 22636.82 or breakdown below 22344.12 with significant volume and follow-through."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 20,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "55000",
+      "55200"
+    ],
+    "invalidation": "A clear and sustained breakout above 55200 or breakdown below 55000 with significant volume and follow-through."
+  },
+  "what_to_watch": [
+    "Nifty's ability to hold the 22500 psychological level and its immediate EMA confluence.",
+    "Any fresh FII/DII activity that could provide directional cues later in the day.",
+    "Global market sentiment, especially how US tech (Nasdaq) performs as the day progresses.",
+    "Sector-specific movements, particularly within the banking space, given the Bandhan Bank news and general market neutrality."
+  ],
+  "risk_factors": [
+    "The market is in a 'high_volatility' regime (ATR% 1.35%) without a clear trend, increasing the risk of whipsaws.",
+    "Mixed global cues could lead to sudden shifts in sentiment, making intraday directional trades risky.",
+    "Lack of specific options data (Max Pain, Call/Put Support/Resistance as 0) reduces visibility on potential turning points or strong support/resistance zones from the derivatives side."
+  ]
+}
