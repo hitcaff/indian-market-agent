@@ -1,0 +1,58 @@
+{
+  "session": "post_market",
+  "date": "2026-10-14",
+  "timestamp": "16:41 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "Global cues are mixed, with SGX Nifty and most Asian markets showing slight weakness, while Dow Futures are positive. Crude oil's rise to $95.49 is a potential concern for India, but overall, there's no strong directional impetus from international markets.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed with minor losses, and their 9-day and 21-day EMAs are converging precisely at the current price, indicating significant indecision. Crucially, RSIs for both indices are in overbought territory (Nifty 71.63, Bank Nifty 72.15), suggesting a high probability of consolidation or a minor pullback rather than an immediate upward surge. The trend is explicitly neutral.",
+    "options_analysis": "The provided options data for PCR is 1.0 for both indices, indicating a perfectly neutral stance. However, the Max Pain, Call Resistance, and Put Support values are all zero, which means the options chain data is insufficient to derive meaningful insights into immediate resistance or support levels from an options perspective. This limits our ability to gauge strong directional conviction from derivatives.",
+    "sentiment_analysis": "FII/DII flows are neutral for the day. While there are positive corporate results (HDB Fin, BHEL) and several analyst upgrades for specific stocks, the market is grappling with significant FII outflows (\u20b95 lakh crore since 2024 tax hike) and a faltering Rupee. The 'high_volatility' regime and 'caution' signal further underscore the underlying uncertainty and lack of strong bullish sentiment despite some positive stock-specific news.",
+    "confluence_summary": "The confluence of overbought RSIs, neutral EMAs, neutral PCR (with limited options data), mixed global cues, and a cautious domestic sentiment due to FII outflows points strongly towards a market lacking clear direction. The 'high_volatility' regime suggests that while a strong trend is absent, sharp moves in either direction are possible, making fresh directional trades highly risky. A consolidation phase or minor correction is more probable given the current setup."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "22535 (Support)",
+      "22734 (Resistance)",
+      "22622 (Current/EMA confluence)"
+    ],
+    "invalidation": "Market remains in consolidation or breaks key support/resistance with conviction, changing the neutral bias."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "55316 (Current/EMA confluence)",
+      "55000 (Psychological Support)",
+      "55500 (Immediate Resistance)"
+    ],
+    "invalidation": "Market remains in consolidation or breaks key support/resistance with conviction, changing the neutral bias."
+  },
+  "what_to_watch": [
+    "Global market performance, especially US futures and Asian markets, for directional cues.",
+    "Crude oil price movements, as sustained high prices can impact Indian economy and corporate earnings.",
+    "FII/DII flow data for any significant shift from the current neutral stance.",
+    "Nifty and Bank Nifty's ability to sustain above or break below their immediate support and resistance levels, particularly given the overbought RSI.",
+    "Any further news or clarity regarding the FII capital gains tax hike and its potential reversal."
+  ],
+  "risk_factors": [
+    "Continued FII outflows, which could put sustained pressure on the market.",
+    "Elevated crude oil prices leading to inflationary pressures and impacting corporate margins.",
+    "A sharp correction from overbought RSI levels, especially in a high volatility regime.",
+    "Global economic slowdown or geopolitical events impacting investor sentiment.",
+    "Lack of clear directional catalysts, leading to choppy, range-bound trading."
+  ]
+}
