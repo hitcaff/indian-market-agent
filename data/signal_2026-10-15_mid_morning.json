@@ -1,0 +1,55 @@
+{
+  "session": "mid_morning",
+  "date": "2026-10-15",
+  "timestamp": "10:28 IST",
+  "market_bias": "moderate_bullish",
+  "bias_strength": "moderate",
+  "reasoning": {
+    "global_analysis": "Indian markets are showing strong resilience, with SGX Nifty indicating a significant gap-up, defying the sharp plunge in Nikkei and mixed to negative US futures. This suggests robust domestic sentiment overriding global concerns about US inflation and AI stock valuations.",
+    "technical_analysis": "Nifty has rallied strongly, pushing its RSI into overbought territory at 71.35 and bringing it right to immediate resistance at 23002.3. Bank Nifty also shows strength with a bullish RSI of 66.6, not yet overbought. Both indices are currently showing a 'neutral' trend despite the intraday surge, indicating potential for consolidation or a pullback.",
+    "options_analysis": "Critical options data such as Max Pain, Call Resistance, and Put Support are reported as zero, which severely handicaps a comprehensive expiry day analysis. While PCR is neutral at 1.0 for both indices, the absence of key OI data makes it impossible to identify crucial support/resistance levels from an options perspective on this weekly expiry day.",
+    "sentiment_analysis": "Market news confirms a strong rally driven by domestic factors, including positive sentiment around the potential Jio IPO. However, FII/DII data is neutral, and global headlines highlight underlying risks (US inflation, Nikkei plunge). The market is currently shrugging off these global negatives, but they remain a latent threat.",
+    "confluence_summary": "Despite the strong bullish momentum at the open, Nifty's overbought RSI, its proximity to immediate resistance, and the high-risk weekly expiry day context warrant extreme caution. The crucial absence of options data (Max Pain, OI levels) makes initiating fresh directional trades highly speculative. The market regime itself signals 'caution' and 'high volatility', reinforcing a wait-and-watch approach."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 40,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "23002.3 (Resistance)",
+      "23102.05 (Resistance)",
+      "22720.1 (Support)"
+    ],
+    "invalidation": "Any clear breakdown below 22720.1 or sustained rejection from 23002.3 without options data clarity."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 45,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "55757.15 (Current Price)",
+      "Nifty's 23000-23050 zone (Correlated Resistance)"
+    ],
+    "invalidation": "Any significant weakness in Nifty or a clear reversal pattern on Bank Nifty charts."
+  },
+  "what_to_watch": [
+    "Nifty's price action around the 23000-23050 resistance zone for signs of consolidation or reversal.",
+    "Intraday options chain data for Nifty and Bank Nifty as it develops, specifically for Max Pain and significant OI build-up at strikes.",
+    "Bank Nifty's relative strength compared to Nifty; if it starts to outperform or underperform significantly.",
+    "Any fresh FII/DII data updates later in the day."
+  ],
+  "risk_factors": [
+    "High volatility and potential for sharp reversals on weekly expiry day, especially with Nifty in overbought territory.",
+    "The critical absence of Max Pain and detailed OI data for expiry day analysis, increasing uncertainty.",
+    "Negative global cues (Nikkei plunge, US tech weakness) could eventually catch up with Indian markets.",
+    "Nifty's proximity to resistance after a significant gap-up, limiting immediate upside potential without a strong breakout."
+  ]
+}
