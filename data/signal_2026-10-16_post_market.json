@@ -1,56 +1,59 @@
 {
   "session": "post_market",
   "date": "2026-10-16",
-  "timestamp": "19:04 IST",
+  "timestamp": "21:10 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "SGX Nifty and broader Asian markets closed positive, suggesting a firm start for India. US futures are mixed with Nasdaq showing weakness, but a significant drop in crude oil prices is a positive tailwind for the Indian economy.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed with positive momentum but are in extremely overbought territory with RSI values of 89.89 and 86.86 respectively. The 'neutral' trend and 'caution' signal from the market regime indicate potential exhaustion despite the upward move.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a neutral 1.0. However, critical options data such as Max Pain, Call Resistance, and Put Support are missing, severely limiting a comprehensive options-based directional analysis.",
-    "sentiment_analysis": "News flow is largely positive, particularly for the banking sector with strong Q2 results from Federal Bank and Kotak Mahindra Bank hitting 52-week highs. FII/DII data is neutral/missing, offering no clear sentiment cue from institutional flows.",
-    "confluence_summary": "While global cues and domestic news, especially from the banking sector, are supportive, the extreme overbought RSI levels for both Nifty and Bank Nifty warrant significant caution. The conflicting technical signals (strong close vs. overbought RSI and neutral trend) prevent a high-conviction directional trade, suggesting a period of consolidation or a minor pullback is likely."
+    "global_analysis": "SGX Nifty indicates a positive start for Monday, supported by positive Dow Futures. However, significant declines in Nasdaq Futures and Nikkei suggest underlying global tech sector weakness and broader Asian market concerns, creating a mixed global picture.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed positive but are in extremely overbought territory with RSI values near 90 and 87 respectively. Despite the positive close, the 'neutral' trend signal suggests a lack of clear directional conviction at these elevated levels, indicating potential for consolidation or a minor pullback.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a perfectly neutral options sentiment for the current expiry. The absence of Max Pain, Call Resistance, and Put Support data makes it difficult to derive strong directional cues from the options chain.",
+    "sentiment_analysis": "FII/DII data is neutral, offering no fresh directional insights. Market news is mixed, featuring positive corporate earnings and IPO approvals alongside specific stock recommendations. The strengthening Rupee is a positive domestic factor.",
+    "confluence_summary": "The market is at a critical juncture. While Nifty and Bank Nifty closed positive, their extremely overbought RSI levels, coupled with a 'neutral' trend and high volatility, strongly suggest caution. Mixed global cues and neutral FII/DII data further contribute to a lack of strong directional conviction, making fresh aggressive trades highly risky."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 30,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
       "23226.07 (Immediate Resistance)",
       "22990.02 (Immediate Support)",
-      "23305.98 (Strong Resistance)"
+      "23305.98 (Strong Resistance)",
+      "22833.88 (Strong Support)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "A clear breakout above 23305 with strong volume or a decisive breakdown below 22833 would invalidate the current neutral stance."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 30,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
+      "55844.00 (Current Price)",
       "56000 (Psychological Resistance)",
-      "55500 (Psychological Support)"
+      "55500 (Psychological Support)",
+      "Previous day's high/low"
     ],
-    "invalidation": "N/A"
+    "invalidation": "A strong directional move with conviction above 56000 or below 55500 would invalidate the current neutral stance."
   },
   "what_to_watch": [
-    "The sustainability of the current upward momentum given the extremely overbought RSI levels for both indices.",
-    "Global market opening and performance, particularly how US tech stocks behave after mixed futures.",
-    "Any fresh FII/DII data for clearer institutional directional cues.",
-    "Nifty's ability to consolidate or sustain above 23200 without a sharp correction.",
-    "Bank Nifty's reaction to its overbought state, especially after a relatively muted positive close."
+    "Global market performance, especially US tech and broader Asian markets, for directional cues.",
+    "Nifty and Bank Nifty's reaction to the extremely overbought RSI levels \u2013 whether they consolidate, correct, or continue the upward move.",
+    "FII/DII activity on Monday for any fresh institutional buying or selling interest.",
+    "Any significant news flow related to corporate earnings or economic data that could impact market sentiment.",
+    "Crude oil price movements, as continued softness could be positive for Indian markets."
   ],
   "risk_factors": [
-    "A sharp correction or profit booking due to the extreme overbought RSI levels in both Nifty and Bank Nifty.",
-    "Increased global market volatility, particularly if US tech weakness persists or escalates.",
-    "The absence of clear FII/DII data and comprehensive options chain analysis limits conviction.",
-    "Potential for a gap-up opening followed by immediate selling pressure due to overextended technicals."
+    "Potential for a sharp correction or consolidation due to the extremely overbought conditions in both indices.",
+    "High volatility regime, which can lead to rapid price swings and increased risk.",
+    "Mixed global cues, particularly weakness in major tech indices, could spill over into domestic markets.",
+    "Lack of clear directional FII/DII activity, indicating institutional indecision."
   ]
 }
