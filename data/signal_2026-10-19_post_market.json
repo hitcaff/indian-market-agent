@@ -1,0 +1,55 @@
+{
+  "session": "post_market",
+  "date": "2026-10-19",
+  "timestamp": "21:25 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "SGX Nifty's significant drop of 1.11% suggests a weak opening for the Indian markets tomorrow. Global cues are mixed, with US Nasdaq futures showing strength, while European markets face political turmoil and crude oil prices are down sharply, adding to global uncertainty.",
+    "technical_analysis": "Both Nifty 50 and Bank Nifty closed significantly lower today, indicating immediate bearish pressure. However, their EMA9 and EMA21 are identical to the current price, suggesting a lack of clear short-term trend, while RSI for Nifty is bullish (59.49) and for Bank Nifty is neutral (50.34).",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from options traders. Crucially, Max Pain, Call Resistance, and Put Support data are all reported as 0, rendering a comprehensive options analysis impossible and leaving a significant data gap.",
+    "sentiment_analysis": "FII/DII data is neutral for the day, offering no directional cues. Market news presents a mixed bag of corporate results and brokerage recommendations, with global political instability (French riots) adding a layer of caution. The buzz around Jio Platforms IPO is a future event, not an immediate market driver.",
+    "confluence_summary": "The market is in a high volatility regime with a 'caution' signal. While Nifty and SGX Nifty show immediate bearish momentum, technical indicators are largely neutral, and options data is inconclusive. This confluence of mixed signals and high uncertainty points towards a 'NO TRADE' stance for now."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "22764.22 (Support)",
+      "23094.47 (Resistance)"
+    ],
+    "invalidation": "Clear directional bias with strong volume and open interest confirmation across multiple timeframes."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "55000 (Psychological Support)",
+      "56000 (Psychological Resistance)"
+    ],
+    "invalidation": "Clear directional bias with strong volume and open interest confirmation across multiple timeframes."
+  },
+  "what_to_watch": [
+    "Global market performance, especially US and European openings, for directional cues.",
+    "FII/DII activity for tomorrow to gauge institutional sentiment.",
+    "Nifty's ability to hold the 22764.22 support level after a potential gap-down opening.",
+    "Crude oil price movements, given its significant drop today.",
+    "Any fresh news regarding global political stability or major corporate announcements."
+  ],
+  "risk_factors": [
+    "High market volatility, as indicated by the ATR% and market regime.",
+    "Uncertainty from global political events (e.g., French riots).",
+    "Lack of clear directional signals from technicals and inconclusive options data.",
+    "Potential for significant gap-down opening due to SGX Nifty's current position, leading to increased intraday volatility."
+  ]
+}
