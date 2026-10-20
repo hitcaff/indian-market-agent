@@ -1,0 +1,54 @@
+{
+  "session": "post_market",
+  "date": "2026-10-20",
+  "timestamp": "16:25 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "Global cues are predominantly negative with SGX Nifty, Nikkei, and Hang Seng all showing significant declines, and the KOSPI experiencing a severe crash. While Dow Futures are slightly positive, the overall sentiment from Asian markets and crude oil prices suggests caution.",
+    "technical_analysis": "Nifty 50 and Bank Nifty both witnessed a substantial fall today, with Nifty down over 1%. However, the Nifty RSI remains bullish at 59.49, and both indices are showing a 'neutral' trend, creating a significant divergence between price action and underlying momentum indicators. EMAs are at current price, suggesting a critical closing point.",
+    "options_analysis": "The options data is largely inconclusive with PCR at 1.0 for both indices, indicating a neutral stance. Crucially, Max Pain, Call Resistance, and Put Support data are missing, making a comprehensive options-based assessment impossible.",
+    "sentiment_analysis": "FII/DII flows are neutral for the day. Market news presents a mixed bag, with positive IPO and multibagger stories contrasting sharply with concerning global economic signals from China and the severe downturn in the South Korean market.",
+    "confluence_summary": "The market is in a high volatility, non-trending regime with a 'caution' signal. The strong contradiction between today's bearish price action and the neutral/bullish technical indicators, coupled with missing options data and mixed global sentiment, leads to a lack of clear directional conviction."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "22764.22 (Support)",
+      "23094.47 (Resistance)"
+    ],
+    "invalidation": "N/A"
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "55000 (Psychological Support)",
+      "56000 (Psychological Resistance)"
+    ],
+    "invalidation": "N/A"
+  },
+  "what_to_watch": [
+    "Global market stability, especially Asian markets and any further developments regarding the KOSPI crash.",
+    "FII/DII activity for the next trading session to gauge institutional sentiment.",
+    "Nifty and Bank Nifty's price action around the immediate support and resistance levels, particularly how they react to the EMA levels where they closed.",
+    "Build-up in the options chain for Nifty and Bank Nifty to identify potential support and resistance zones for the upcoming expiry."
+  ],
+  "risk_factors": [
+    "Potential contagion from the significant downturn in global equity markets, particularly the KOSPI.",
+    "High volatility regime (ATR% 1.41%) increases risk for directional trades.",
+    "Lack of clear directional cues due to conflicting technical indicators and missing options data.",
+    "Uncertainty regarding the impact of mixed economic news and geopolitical developments (e.g., US barring China's DeepSeek)."
+  ]
+}
