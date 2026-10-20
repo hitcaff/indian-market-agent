@@ -1,0 +1,57 @@
+{
+  "session": "mid_morning",
+  "date": "2026-10-20",
+  "timestamp": "10:35 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "Global cues are predominantly negative this morning, with SGX Nifty, Nikkei, and Hang Seng all trading lower. The significant 5% crash in Korea's KOSPI due to an 'AI rout' is a major overhang, alongside a sharp decline in crude oil prices. Dow Futures show a slight positive, but overall sentiment from Asia is bearish.",
+    "technical_analysis": "Nifty 50 and Bank Nifty are both trading in the red, down 1.11% and 0.64% respectively, indicating intraday weakness. While both indices show a 'neutral' trend and their EMAs are currently at the spot price (suggesting a sharp move or lack of clear short-term direction), Nifty's RSI at 59.49 remains 'bullish' despite the fall, presenting a divergence. Bank Nifty's RSI is neutral.",
+    "options_analysis": "Options data for both Nifty and Bank Nifty shows a PCR of 1.0, indicating a neutral stance. Crucially, Max Pain, Call Resistance, and Put Support values are all reported as 0, which means we lack sufficient open interest data to derive strong directional cues from the options chain for the current expiry.",
+    "sentiment_analysis": "FII/DII data is neutral for the day so far. Market news presents a mixed bag: the impending Jio IPO generates positive buzz, but the KOSPI crash is a significant negative sentiment driver. While some expert views suggest a potential relief rally, this is a broader outlook and doesn't negate the current intraday weakness and 'caution' signal.",
+    "confluence_summary": "The market is operating in a 'high_volatility' and 'caution' regime, with significant negative global cues weighing down the indices. Despite Nifty's bullish RSI divergence, the current price action is bearish, and the lack of clear direction from EMAs, neutral options data, and FII/DII makes for an uncertain environment. Insufficient confluence for a high-conviction directional trade is evident."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "22764.22 (Support 1)",
+      "22639.48 (Support 2)",
+      "23094.47 (Resistance 1)"
+    ],
+    "invalidation": "N/A"
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "55000 (Psychological Support)",
+      "55800 (Intraday Resistance)"
+    ],
+    "invalidation": "N/A"
+  },
+  "what_to_watch": [
+    "Global market recovery, especially in Asian indices, for any reversal in sentiment.",
+    "Intraday FII/DII activity for clearer directional flow.",
+    "Nifty's ability to hold the immediate support levels (22764, 22639) amidst current selling pressure.",
+    "Further developments regarding the KOSPI crash and its potential contagion effects on global tech stocks.",
+    "Crude oil price action, as its sharp fall could indicate broader economic concerns."
+  ],
+  "risk_factors": [
+    "High volatility and 'caution' signal from the market regime, increasing risk for directional trades.",
+    "Conflicting technical signals (Nifty RSI bullish vs. current price fall).",
+    "Lack of comprehensive options data (Max Pain, OI) to gauge market positioning.",
+    "Potential for sharp intraday reversals given the high volatility and mixed global cues.",
+    "Uncertainty stemming from the KOSPI crash and its impact on broader market sentiment."
+  ]
+}
