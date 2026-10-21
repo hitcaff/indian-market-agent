@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-10-21",
-  "timestamp": "16:40 IST",
+  "timestamp": "21:42 IST",
   "market_bias": "neutral",
-  "bias_strength": "weak",
+  "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global cues are mixed, with SGX Nifty showing a slight negative bias for tomorrow's open, while US futures are divergent (Dow flat, Nasdaq positive). Asian markets also lack strong directional conviction. Crude oil prices are down, which is generally positive for India, but overall global sentiment remains cautious.",
-    "technical_analysis": "Nifty closed marginally lower but maintains a bullish RSI at 60.99, though its trend remains neutral with EMAs converging at the current price, indicating indecision. Bank Nifty, however, showed significant weakness, closing down nearly 1% with a bearish RSI of 37.85, suggesting underlying selling pressure despite its neutral trend signal.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a perfectly neutral stance from the options market. However, the absence of Max Pain, Call Resistance, and Put Support data makes a comprehensive options-based directional analysis impossible, limiting its utility for conviction.",
-    "sentiment_analysis": "FII/DII flows are neutral for the day. Market news presents a mixed picture: positive corporate results and buy recommendations for specific stocks are balanced by concerns over elevated oil prices and global unrest impacting European markets. The reported 'CAS swings' highlight high intraday volatility, reinforcing a cautious sentiment.",
-    "confluence_summary": "The market is currently in a high volatility, non-trending regime with a caution signal. Technicals are mixed (Nifty's bullish RSI vs. Bank Nifty's bearish RSI) and options data is inconclusive due to missing key metrics. Global cues are also mixed, and FII/DII flows are absent, leading to a strong 'NO TRADE' recommendation due to lack of clear directional confluence."
+    "global_analysis": "Global cues are mixed, with US futures showing positivity (especially Nasdaq) while Asian markets like Hang Seng and Nikkei, along with SGX Nifty, are in the red. A significant drop in crude oil prices (-4.89%) is a notable factor that could impact inflation expectations and specific sectors.",
+    "technical_analysis": "Nifty 50 exhibits a neutral trend with a bullish RSI (60.99), indicating underlying strength despite the day's slight dip. Bank Nifty, however, shows clear weakness, dropping more significantly (-0.92%) with a bearish RSI (37.85). Both indices are currently hovering around their short-term EMAs, suggesting a lack of strong directional momentum in the very immediate term.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty stands at a neutral 1.0. The absence of specific Max Pain, Call Resistance, and Put Support data (all reported as 0) makes it challenging to pinpoint immediate expiry-specific levels or strong options-driven biases for tomorrow's session.",
+    "sentiment_analysis": "FII/DII data is neutral, offering no clear institutional flow direction. Market news presents a mixed bag, with positive reports on specific companies (Mahindra Finance, PC Jewellers) and strong subscription for the Jio IPO, potentially providing some underlying support. However, global tech weakness (Netflix) and a 'reduce' call on Persistent Systems add a note of caution.",
+    "confluence_summary": "The market is currently in a high-volatility, non-trending regime, signaling caution. While Nifty shows some bullish undertones from its RSI, Bank Nifty's distinct weakness and bearish RSI, coupled with mixed global cues and neutral institutional flows, prevent a strong directional conviction. The overall lack of clear confluence across multiple factors supports a cautious, 'wait and watch' approach."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -20,8 +20,8 @@
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "22600.53 (Support 1)",
-      "23071.53 (Resistance 1)"
+      "22600 (Support)",
+      "23071 (Resistance)"
     ],
     "invalidation": "N/A"
   },
@@ -40,17 +40,16 @@
     "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Global market performance overnight, especially US and Asian indices, for directional cues.",
-    "Crude oil price movements, as current decline is positive but 'elevated oil prices spur caution' was mentioned.",
-    "FII/DII activity for tomorrow to gauge institutional sentiment and flows.",
-    "Any major news or corporate earnings announcements impacting index heavyweights, particularly from the banking sector.",
-    "Volatility levels (ATR%) and whether a clear trend emerges from the current 'high_volatility' and 'not_trending' regime."
+    "Global market opening, especially US tech sector performance given Nasdaq futures strength.",
+    "Bank Nifty's relative performance; continued weakness could drag the broader market.",
+    "Any fresh FII/DII data for clearer institutional flow direction.",
+    "Nifty's ability to hold above 22600 support or break above 23071 resistance.",
+    "Crude oil price action, as the sharp fall could have broader economic implications."
   ],
   "risk_factors": [
-    "High market volatility, leading to sharp and unpredictable price swings, as indicated by the 'high_volatility' regime.",
-    "Lack of a clear directional trend in both Nifty and Bank Nifty, making directional trades highly risky.",
-    "Mixed global cues, which can lead to significant gap-up or gap-down openings, increasing overnight risk.",
-    "Inconclusive options data due to missing key metrics, making it difficult to gauge institutional positioning and potential expiry moves.",
-    "Potential for sector-specific news or events (e.g., banking sector results) to cause disproportionate impact on indices."
+    "High volatility and non-trending market regime increase the risk of whipsaws and false breakouts.",
+    "Conflicting signals from Nifty (bullish RSI) and Bank Nifty (bearish RSI) create uncertainty.",
+    "Mixed global cues could lead to erratic opening and intraday movements.",
+    "Lack of clear options data (Max Pain, OI levels) makes it harder to anticipate immediate expiry-related moves."
   ]
 }
