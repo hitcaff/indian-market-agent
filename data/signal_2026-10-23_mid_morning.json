@@ -1,0 +1,55 @@
+{
+  "session": "mid_morning",
+  "date": "2026-10-23",
+  "timestamp": "10:39 IST",
+  "market_bias": "bearish",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "Global cues are largely negative, with SGX Nifty, Dow Futures, and Nikkei all trading in the red, indicating a cautious sentiment. Crude oil's rise adds to inflationary concerns, while Gold is down. This mixed but predominantly negative global backdrop contributes to the current market weakness.",
+    "technical_analysis": "Both Nifty and Bank Nifty are trading significantly lower, with Nifty below 22,500 and Bank Nifty down over 1.25%. Crucially, both indices show an RSI of 0.0, indicating extremely oversold conditions, which often precedes a bounce or consolidation. However, the trend is marked as neutral, suggesting a lack of clear directional momentum despite the intraday fall.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a perfectly neutral stance from options participants. The reported Max Pain, Call Resistance, and Put Support are all 0, which means there are no clear actionable levels derived from options data at this moment, making options-based strategies difficult to formulate with precision.",
+    "sentiment_analysis": "Market news highlights a significant drop in Sensex and Nifty, with small and midcap indices plunging up to 3%, reflecting broad-market bearishness. FII/DII data is neutral, offering no directional cues from institutional flows. However, there's sector-specific strength in IT stocks, which could provide some cushion against the broader market decline.",
+    "confluence_summary": "The market is experiencing a sharp intraday decline, pushing both Nifty and Bank Nifty into extremely oversold territory. While global cues are largely negative and sentiment is bearish, the oversold RSI, neutral trend, and lack of clear options data confluence suggest caution for initiating fresh directional trades. The prevailing high volatility and 'caution' signal further reinforce a wait-and-watch approach."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "22334.65 (Support)",
+      "22714.85 (Resistance)"
+    ],
+    "invalidation": "N/A - No trade initiated due to lack of confluence and high risk."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "54000 (Psychological Support)",
+      "54500 (Minor Resistance)"
+    ],
+    "invalidation": "N/A - No trade initiated due to lack of confluence and high risk."
+  },
+  "what_to_watch": [
+    "Sustainability of the IT sector's strength, as it's showing resilience amidst broader market weakness.",
+    "Any signs of short covering or a technical bounce from the extremely oversold RSI levels.",
+    "Global market performance, particularly Dow Futures, for cues on evening sentiment.",
+    "FII/DII activity later in the day, as their net flows could influence market direction.",
+    "Nifty's ability to hold the immediate support zone around 22300-22350."
+  ],
+  "risk_factors": [
+    "Continued selling pressure in broader markets, especially small and midcap indices, which are already plunging.",
+    "Lack of clear institutional buying support (FII/DII neutral) could exacerbate declines.",
+    "High volatility leading to sharp, unpredictable reversals or further downside without clear support.",
+    "Absence of actionable options data (Max Pain, Call/Put Support/Resistance at 0) makes risk management challenging for derivatives."
+  ]
+}
