@@ -1,0 +1,57 @@
+{
+  "session": "mid_morning",
+  "date": "2026-10-27",
+  "timestamp": "10:51 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "Global cues are a mixed bag this morning; while Nikkei shows strong gains, Hang Seng is down, and US futures are divergent. Crude oil and gold are also showing slight weakness, indicating a cautious global sentiment that lacks a strong directional push for Indian markets.",
+    "technical_analysis": "Nifty is currently trading flat around its short-term EMAs with a neutral RSI, indicating indecision and a lack of clear trend. Bank Nifty, despite an oversold RSI of 23.11, also maintains a neutral trend, suggesting potential for a bounce but no confirmed directional move. Both indices are operating in a high volatility regime.",
+    "options_analysis": "The provided options data for PCR, Max Pain, and OI is unusual (showing 0), however, market news explicitly states 'Nifty F&O Expiry Today: 22,700 Emerges As Key Battleground, Sees Heavy OI Build-Up; 23,000 Call OI In Focus'. This indicates significant activity around 22700, suggesting a potential range-bound expiry or sharp moves around this pivot.",
+    "sentiment_analysis": "FII/DII flows are neutral, providing no clear directional bias. Market news is a mix of corporate results, with some stocks rallying (ITC Hotels, Bajel Projects, Ather Energy) and others plunging (Aequs), reflecting a stock-specific rather than broad market sentiment. The overall mood is cautious given the high volatility and expiry day dynamics.",
+    "confluence_summary": "The market is exhibiting high volatility with neutral technicals for Nifty and an oversold Bank Nifty, but no clear trend. Mixed global cues, absent FII/DII flow, and the Nifty F&O expiry today with 22700 as a crucial pivot point, all contribute to a highly uncertain and choppy environment. Confluence for a strong directional trade is currently insufficient."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "22700 (Expiry Battleground)",
+      "22835.77 (Immediate Resistance)",
+      "22684.47 (Immediate Support)"
+    ],
+    "invalidation": "A sustained break and hold above 22850 or below 22650 with conviction would change the current neutral outlook."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "54494.55 (Current Price)",
+      "54000 (Psychological Support)",
+      "54800 (Potential Resistance)"
+    ],
+    "invalidation": "A clear breakout above 54800 or breakdown below 54000 with significant volume would invalidate the neutral stance."
+  },
+  "what_to_watch": [
+    "Nifty's price action and volatility around the 22700 level as expiry approaches.",
+    "Bank Nifty's reaction to its oversold RSI; watch for any short covering or bounce attempts.",
+    "Any significant FII/DII activity that might emerge later in the session.",
+    "Global market sentiment, particularly the opening and performance of European and US markets.",
+    "Specific stock movements post Q2 results, especially in heavyweight sectors."
+  ],
+  "risk_factors": [
+    "High volatility and potential for sharp whipsaws, especially on Nifty expiry day.",
+    "Lack of clear directional cues from global markets and FII/DII flows.",
+    "Sudden news events or geopolitical developments that could trigger unexpected moves.",
+    "The 'caution' signal from the market regime itself, advising against aggressive directional bets."
+  ]
+}
