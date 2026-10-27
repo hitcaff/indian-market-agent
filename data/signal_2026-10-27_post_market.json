@@ -1,0 +1,56 @@
+{
+  "session": "post_market",
+  "date": "2026-10-27",
+  "timestamp": "17:06 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "Global cues are a mixed bag; positive US futures and a strong Nikkei are counterbalanced by a decline in Hang Seng and lower crude/gold prices. SGX Nifty remains flat, indicating no strong directional impetus from international markets for the upcoming session.",
+    "technical_analysis": "Nifty closed flat, hovering around its short-term EMAs, with a bearish RSI of 41.63 suggesting underlying weakness but no clear trend. Bank Nifty experienced a significant decline of 0.72% and is now deeply oversold with an RSI of 6.84, hinting at a potential bounce, yet the overall trend for both indices remains neutral amidst high volatility.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from options participants. The absence of specific Max Pain, Call Resistance, and Put Support data makes it challenging to derive strong directional cues from options, but the neutral PCR aligns with the current consolidation phase.",
+    "sentiment_analysis": "FII/DII activity was neutral with zero net flows, offering no directional conviction. Market news is a mixed bag, featuring positive stock-specific updates alongside reports of Maruti's profit fall and declining European shares. The prevailing 'high_volatility' and 'caution' signals from the market regime further underscore a cautious sentiment.",
+    "confluence_summary": "The market is characterized by high volatility and a non-trending regime, with mixed global signals and neutral institutional flows. Technically, Nifty shows slight bearishness while Bank Nifty is oversold. The confluence of these factors, combined with the system's 'NO TRADE' recommendation due to unfavorable R:R and confidence, points towards a cautious, range-bound outlook for the immediate future."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "0 - 0",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 20,
+    "risk_reward": "1:0",
+    "key_levels_to_watch": [
+      "22647.82 (Support 1)",
+      "22840.72 (Resistance 1)"
+    ],
+    "invalidation": "A sustained breakout above 22931.68 or below 22545.88 with significant volume would invalidate the current neutral stance."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "0 - 0",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 25,
+    "risk_reward": "1:0",
+    "key_levels_to_watch": [
+      "53974.90 (Current Level)",
+      "Previous day's low/high for range confirmation"
+    ],
+    "invalidation": "A strong directional move with significant volume, especially if it breaks key psychological levels or previous swing highs/lows, would invalidate the current no-trade view."
+  },
+  "what_to_watch": [
+    "Global market performance, particularly US and Asian indices, for fresh directional cues.",
+    "Crude oil price movements, as they significantly influence domestic inflation and the Rupee.",
+    "FII/DII flow data for signs of institutional conviction or reversal.",
+    "Nifty and Bank Nifty's ability to hold current support levels or break resistances, defining the immediate range.",
+    "Any significant domestic or international economic data releases that could impact market sentiment."
+  ],
+  "risk_factors": [
+    "High market volatility, leading to unpredictable and sharp price swings.",
+    "Mixed global cues, preventing a clear directional trend and increasing uncertainty.",
+    "Lack of strong institutional participation (neutral FII/DII), which can lead to range-bound trading.",
+    "Bank Nifty's deeply oversold condition (RSI 6.84) could lead to a sharp bounce or further capitulation.",
+    "Absence of clear and comprehensive options data (Max Pain, OI) for stronger conviction in market direction."
+  ]
+}
