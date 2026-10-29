@@ -1,0 +1,57 @@
+{
+  "session": "post_market",
+  "date": "2026-10-29",
+  "timestamp": "17:48 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "Global cues are mixed. While SGX Nifty and Nikkei show strength, suggesting a positive open for India, US futures (Dow, Nasdaq) are negative, which could cap upside or lead to profit booking. Crude oil's decline is a positive for India's economy.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed significantly higher, but their RSIs are in deeply overbought territory (Nifty 87.8, Bank Nifty 72.13), indicating a high probability of consolidation or reversal. The system's explicit 'Trend: neutral' and 'Trending: False' signals, despite the strong price action and closing exactly at EMAs, suggest a lack of sustained directional conviction.",
+    "options_analysis": "Post-monthly expiry, options data for PCR, Max Pain, Call Resistance, and Put Support are all at 0 or 1.0 (neutral). This data is largely inconclusive and unreliable for predicting tomorrow's direction, adding to the uncertainty.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. Market news presents a mixed bag of corporate results and sectoral themes, with no strong overarching sentiment driver. The 'high_volatility' regime and 'caution' signal from the system highlight the prevailing uncertainty.",
+    "confluence_summary": "Despite a strong positive close for both indices, the confluence of overbought RSIs, negative US futures, inconclusive options data post-expiry, and the system's explicit 'neutral trend' and 'caution' signal points towards a highly volatile and uncertain environment. A gap-up opening is plausible due to SGX Nifty, but sustaining it will be challenging, making directional trades extremely risky."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "23046.88 (Resistance 1)",
+      "22936.75 (Current/EMA level)",
+      "22741.68 (Support 1)"
+    ],
+    "invalidation": "N/A"
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "55000 (Psychological Resistance)",
+      "54909.65 (Current/EMA level)",
+      "54500 (Immediate Support)"
+    ],
+    "invalidation": "N/A"
+  },
+  "what_to_watch": [
+    "Global market performance, especially US markets tonight and Asian markets tomorrow morning for follow-through cues.",
+    "Nifty and Bank Nifty's ability to sustain any potential gap-up opening and hold above key psychological levels.",
+    "FII/DII activity in the coming days, as today's data was neutral post-monthly expiry.",
+    "Sectoral performance, particularly IT given the Nasdaq's weakness and the ongoing AI boom narrative.",
+    "Any fresh news or developments regarding SEBI's review of IPO/FPO rules or MSCI rejig impacts."
+  ],
+  "risk_factors": [
+    "Overbought conditions (high RSI) for both indices could lead to sharp profit booking or a quick reversal.",
+    "High volatility expected post-monthly expiry, making intraday trading challenging with potential for whipsaws.",
+    "Negative global cues from US markets could dampen sentiment and negate positive Asian cues.",
+    "Lack of a clear directional trend and 'caution' signal from the system increases uncertainty and risk for directional bets."
+  ]
+}
