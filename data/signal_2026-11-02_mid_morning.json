@@ -1,0 +1,57 @@
+{
+  "session": "mid_morning",
+  "date": "2026-11-02",
+  "timestamp": "12:04 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "Global cues are largely positive with SGX Nifty, Dow, and Nasdaq futures showing strength. A significant drop in crude oil prices is a positive for the Indian economy. However, Nikkei is slightly negative and BOJ's signal for a December rate hike adds a layer of global monetary policy uncertainty.",
+    "technical_analysis": "Both Nifty and Bank Nifty are trading in extremely overbought zones with RSI at 92.26 and 82.89 respectively, indicating potential for a pullback or consolidation. While EMAs are at current price, suggesting strong recent momentum, the 'neutral' trend signal contradicts the upward price action, highlighting caution. Key resistance levels for Nifty are 23373.2 and 23441.2.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a neutral 1.0. Crucially, Max Pain, Call Resistance, and Put Support data are all reported as 0, severely limiting our ability to gauge immediate derivative-based support and resistance levels or significant open interest build-up. This lack of clear options data reduces conviction for directional trades.",
+    "sentiment_analysis": "FII/DII data is neutral for the session. Market news highlights strong Q2 earnings from heavyweights like Reliance Industries and Jio Platforms, along with positive brokerage calls for HDFC Bank and Bajaj Finance, which could provide underlying support. The upcoming US midterm elections introduce a near-term geopolitical event to monitor.",
+    "confluence_summary": "Despite positive global cues and strong earnings from some large-cap stocks, the Indian indices are in extremely overbought territory as per RSI, and the trend is flagged as neutral. The critical absence of meaningful options data (Max Pain, OI levels) prevents a high-conviction directional trade. Therefore, a cautious 'NO TRADE' stance is prudent at this juncture."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": null,
+    "target_1": null,
+    "target_2": null,
+    "confidence_pct": 35,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "23373.2 (Resistance 1)",
+      "23441.2 (Resistance 2)",
+      "23224.5 (Support 1)",
+      "23143.8 (Support 2)"
+    ],
+    "invalidation": "N/A - Await clearer directional signals or a healthy correction from overbought levels."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": null,
+    "target_1": null,
+    "target_2": null,
+    "confidence_pct": 30,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "55000 (Psychological Resistance)",
+      "54500 (Potential Support)"
+    ],
+    "invalidation": "N/A - Await clearer directional signals or a healthy correction from overbought levels."
+  },
+  "what_to_watch": [
+    "Nifty and Bank Nifty RSI levels for signs of cooling off or divergence, indicating potential for a pullback.",
+    "Development of US midterm election results and their impact on global markets.",
+    "FII/DII cash market activity when reported later in the day for clearer sentiment.",
+    "Options chain build-up (OI, Max Pain, PCR) for Nifty and Bank Nifty to identify key support/resistance zones.",
+    "Crude oil price movements, especially given the recent volatility and the 'new normal' narrative."
+  ],
+  "risk_factors": [
+    "Extreme overbought conditions (RSI > 90 for Nifty, > 80 for Bank Nifty) significantly increase the risk of a sharp correction or profit booking.",
+    "Lack of clear options data (Max Pain, Call/Put Support/Resistance at 0) makes it difficult to assess derivative-led market structure and potential turning points.",
+    "Uncertainty surrounding the outcome of US midterm elections could lead to increased volatility.",
+    "The 'neutral' trend signal despite strong price action suggests underlying caution or potential for a range-bound movement."
+  ]
+}
