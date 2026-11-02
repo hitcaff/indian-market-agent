@@ -1,57 +1,56 @@
 {
   "session": "pre_market",
   "date": "2026-11-03",
-  "timestamp": "00:24 IST",
+  "timestamp": "02:26 IST",
   "market_bias": "bullish",
-  "bias_strength": "moderate",
+  "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are largely positive with SGX Nifty indicating a strong gap-up of over 2% for Indian markets, supported by positive Dow Futures and Hang Seng. A significant drop in crude oil prices by over 7% is a major positive for India's import bill. However, Nasdaq and Nikkei show some weakness, introducing a mixed element.",
-    "technical_analysis": "Both Nifty and Bank Nifty are in extremely overbought zones with RSI at 93.58 and 84.88 respectively, suggesting a high probability of immediate profit booking or consolidation after an expected gap-up. Nifty is poised to open above its immediate resistance of 23467.4, indicating a strong breakout attempt, but sustainability is key.",
-    "options_analysis": "PCR for both Nifty and Bank Nifty is neutral at 1.0. The absence of Max Pain, Call Resistance, and Put Support data (all showing 0) makes it difficult to gauge immediate options-based support and resistance levels or strong directional conviction from the derivatives segment for the opening session.",
-    "sentiment_analysis": "FII/DII flows are neutral for the day. Market news includes positive analyst recommendations for specific stocks, indicating selective buying interest. The system's 'trending' regime and 'favorable' signal suggest an underlying positive sentiment, but the overbought technicals warrant caution for aggressive long positions at open.",
-    "confluence_summary": "While strong global cues, particularly SGX Nifty and falling crude oil, point to a significant bullish gap-up opening, the extremely overbought RSI levels for both indices present a high risk of immediate profit booking or consolidation. The neutral FII/DII and inconclusive options data further complicate taking a high-conviction directional trade right at the open. Prudence dictates waiting for clearer price action post-gap to assess sustainability."
+    "global_analysis": "SGX Nifty indicates a strong bullish gap-up for the Indian market, supported by positive Dow Futures and Hang Seng. However, significant declines in Nikkei and negative Nasdaq Futures, alongside a sharp drop in crude oil and a rise in gold, suggest mixed global sentiment and underlying caution.",
+    "technical_analysis": "Both Nifty and Bank Nifty are showing extremely overbought RSI levels (93.58 and 84.88 respectively), indicating a high probability of profit booking or consolidation after the anticipated gap-up. Nifty is expected to open near its immediate resistance of 23467.4, further reinforcing caution for fresh long positions.",
+    "options_analysis": "The provided options data (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) is incomplete or zero, making it impossible to derive any meaningful insights regarding immediate option chain-based support or resistance. This significantly reduces the weight of this factor in our analysis.",
+    "sentiment_analysis": "FII/DII data is neutral for the day, offering no immediate directional cues from institutional flows. Market news is a mix of global macro concerns (inflation, El Nino) and stock-specific recommendations. The sharp retreat in crude oil is a positive for India as an importer, but the rebound in gold suggests some underlying risk aversion.",
+    "confluence_summary": "While SGX Nifty points to a strong bullish open, the extremely overbought RSI levels for both indices and Nifty opening near resistance strongly caution against initiating fresh long positions immediately. The mixed global cues and lack of actionable options data further reduce conviction for a sustained upward move post-gap. Profit booking or consolidation is a high probability, making a 'NO TRADE' stance prudent for the open."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": 0,
+    "entry_zone": "23440 - 23460",
+    "stop_loss": 23440,
     "target_1": 0,
     "target_2": 0,
     "confidence_pct": 0,
-    "risk_reward": "N/A",
+    "risk_reward": "0:0",
     "key_levels_to_watch": [
-      "23467.4 (immediate support if gapped above)",
-      "23500 (psychological resistance)",
-      "23026.5 (strong support)"
+      "23467.4 (Immediate Resistance)",
+      "23260.25 (Potential Support/Gap Fill)",
+      "23026.5 (Stronger Support/Full Gap Fill)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "Sustained move above 23500 without significant profit booking, or a sharp reversal below 23200 post-open."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": 0,
+    "entry_zone": "55000 - 55100",
+    "stop_loss": 55002,
     "target_1": 0,
     "target_2": 0,
     "confidence_pct": 0,
-    "risk_reward": "N/A",
+    "risk_reward": "0:0",
     "key_levels_to_watch": [
-      "55000 (psychological support)",
-      "55200 (immediate resistance)",
-      "54800 (support)"
+      "55200 (Potential Resistance)",
+      "54800 (Potential Support)",
+      "54500 (Stronger Support)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "Sustained move above 55200 or a sharp reversal below 54800 post-open."
   },
   "what_to_watch": [
-    "Sustainability of the gap-up opening for both Nifty and Bank Nifty.",
-    "Any signs of profit booking or consolidation after the initial surge, especially given the overbought RSI.",
-    "Global market performance during Indian trading hours, particularly US futures and European markets.",
-    "Crude oil price movement; continued weakness would be positive for India.",
-    "FII/DII activity post-market open for fresh directional cues and conviction."
+    "Sustainability of Nifty's gap-up above 23467.4 and any signs of rejection at this level.",
+    "Price action and volume post-open for signs of profit booking given the extreme overbought RSI levels.",
+    "Performance of global markets, especially US futures, after the Indian market opens.",
+    "Any fresh FII/DII data released during market hours for institutional flow insights."
   ],
   "risk_factors": [
-    "Extreme overbought conditions (RSI) could lead to sharp corrections or sideways consolidation, making long positions risky.",
-    "Global market volatility, particularly from negative Nasdaq/Nikkei cues, could dampen sentiment during the day.",
-    "Lack of clear options data (Max Pain, OI) makes immediate support/resistance less defined, increasing uncertainty.",
-    "Any unexpected news flow or geopolitical developments could quickly alter market sentiment."
+    "Extreme overbought RSI levels for both indices, increasing the probability of sharp reversals or significant profit booking.",
+    "Mixed global cues, particularly the negative Nikkei and Nasdaq futures, which could dampen bullish sentiment.",
+    "Lack of reliable options data (Max Pain, Call/Put OI) makes it difficult to gauge immediate option chain-based support and resistance.",
+    "Potential for the market to fill the gap created by the strong opening, especially if initial bullish momentum fades."
   ]
 }
