@@ -1,0 +1,56 @@
+{
+  "session": "post_market",
+  "date": "2026-11-02",
+  "timestamp": "20:16 IST",
+  "market_bias": "bullish",
+  "bias_strength": "moderate",
+  "reasoning": {
+    "global_analysis": "Global markets are largely positive with SGX Nifty, Dow, Nasdaq, and Hang Seng all showing gains. A significant drop in crude oil prices (-6.47%) is a strong positive for India, easing inflationary pressures and improving trade balance.",
+    "technical_analysis": "Nifty closed strongly up by 1.68% and Bank Nifty by 0.58%. Both indices are showing extremely overbought RSI levels (Nifty 93.58, Bank Nifty 84.88), indicating strong momentum but also potential for a pullback or consolidation.",
+    "options_analysis": "The provided options data (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) appears incomplete or reset for the next trading day, rendering it unreliable for current directional analysis.",
+    "sentiment_analysis": "Domestic sentiment is highly positive, driven by strong Q2 earnings from some companies and, more importantly, SEBI's recommendation to remove LTCG tax for foreign investors, which is a significant long-term positive catalyst. FII/DII data is neutral for the day.",
+    "confluence_summary": "Despite the technical overbought conditions, the confluence of strong positive global cues, a sharp decline in crude oil, and highly favorable domestic news (LTCG proposal) points to a bullish bias. However, the stretched technicals warrant a cautious approach, suggesting waiting for consolidation or a pullback for optimal entry rather than chasing the immediate rally."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "",
+    "key_levels_to_watch": [
+      "23518.72 (Resistance 1)",
+      "23596.63 (Resistance 2)",
+      "23284.97 (Support 1)"
+    ],
+    "invalidation": "Fresh long entries are invalidated if Nifty fails to sustain above 23400 after a potential gap-up or shows strong bearish reversal candles post-open, indicating profit booking."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "",
+    "key_levels_to_watch": [
+      "55200 (Psychological Resistance)",
+      "54800 (Immediate Support)"
+    ],
+    "invalidation": "Fresh long entries are invalidated if Bank Nifty fails to sustain above 54900 after a potential gap-up or shows strong bearish reversal candles post-open, indicating profit booking."
+  },
+  "what_to_watch": [
+    "Opening of Asian and European markets, and US futures for sustained global momentum.",
+    "Crude oil price action; further decline would be highly beneficial for India.",
+    "Price action around Nifty's immediate resistance levels (23518, 23596) and Bank Nifty's 55200 mark.",
+    "Any further updates or clarity on SEBI's LTCG tax removal recommendation for foreign investors.",
+    "FII/DII activity data for tomorrow to gauge institutional participation."
+  ],
+  "risk_factors": [
+    "Extremely overbought RSI levels in both Nifty and Bank Nifty, increasing the probability of a sharp correction or consolidation.",
+    "Potential for significant gap-up opening followed by profit booking, making immediate entry risky.",
+    "Lack of reliable options data (Max Pain, OI) for robust support/resistance analysis.",
+    "Any unexpected negative global news or geopolitical developments could quickly reverse sentiment."
+  ]
+}
