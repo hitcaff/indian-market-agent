@@ -1,0 +1,53 @@
+{
+  "session": "mid_morning",
+  "date": "2026-11-03",
+  "timestamp": "12:34 IST",
+  "market_bias": "weak bullish",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "Global cues are mixed, with SGX Nifty showing strong positive momentum (+1.01%) which is a significant tailwind for Indian markets. However, Dow futures are slightly negative, and Nikkei is also down, indicating some caution from other major markets.",
+    "technical_analysis": "Both Nifty 50 and Bank Nifty are showing strong upward momentum today, gaining over 1% each. However, the RSI for Nifty is at an extreme 100.0 and Bank Nifty at 87.05, indicating severely overbought conditions which warrant extreme caution for fresh long positions. The EMA9 and EMA21 being at the current price suggest a very strong, recent upward surge.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty is at 1.0 (neutral), and Max Pain, Call Resistance, and Put Support are all reported as 0. This lack of significant open interest data provides no clear directional conviction from the options chain, making it difficult to gauge underlying sentiment or potential turning points.",
+    "sentiment_analysis": "FII/DII data is neutral for the day, offering no clear institutional flow direction. Market news is generally positive, highlighting India's resilience, corporate earnings, and specific stock rallies, which contributes to a positive sentiment despite global uncertainties.",
+    "confluence_summary": "While the market is exhibiting strong upward momentum today, the extremely overbought RSI levels for both indices are a major red flag, suggesting a high probability of a pullback or consolidation. The neutral options data and FII/DII flows, coupled with Nifty's proximity to resistance, indicate insufficient confluence for initiating fresh directional trades at these elevated levels."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "23761.63 (Resistance 1)",
+      "23539.23 (Support 1)"
+    ],
+    "invalidation": "N/A - No trade initiated due to extreme overbought conditions and lack of clear confluence."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "55541.70 (Current/EMA)"
+    ],
+    "invalidation": "N/A - No trade initiated due to extreme overbought conditions and lack of clear confluence."
+  },
+  "what_to_watch": [
+    "Sustainability of the current upward momentum given the extreme overbought RSI levels.",
+    "Any signs of profit booking, especially as Nifty approaches its immediate resistance of 23761.63.",
+    "Fresh FII/DII data later in the day to gauge institutional participation.",
+    "Global market sentiment, particularly US futures, for any significant shifts."
+  ],
+  "risk_factors": [
+    "Sharp correction or consolidation due to the severely overbought RSI in both Nifty and Bank Nifty.",
+    "Lack of strong institutional buying (FII/DII neutral) to sustain the rally.",
+    "Potential global market volatility impacting domestic sentiment.",
+    "Nifty's inability to decisively break and sustain above immediate resistance levels."
+  ]
+}
