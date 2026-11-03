@@ -1,0 +1,55 @@
+{
+  "session": "pre_market",
+  "date": "2026-11-04",
+  "timestamp": "00:14 IST",
+  "market_bias": "bullish",
+  "bias_strength": "moderate",
+  "reasoning": {
+    "global_analysis": "SGX Nifty indicates a significant bullish gap-up for the Indian market, reflecting strong positive sentiment. Global cues are mixed, with Nasdaq futures positive, Dow futures slightly negative, and Asian markets showing a mixed trend, but the strong SGX Nifty is the dominant factor for the domestic open.",
+    "technical_analysis": "Both Nifty and Bank Nifty are poised for a substantial gap-up opening, as suggested by SGX Nifty's +3.29% surge. However, both indices are in extremely overbought territory (Nifty RSI 99.01, Bank Nifty RSI 87.04), signaling a high probability of profit booking or consolidation after the initial surge. The 'trending' regime indicates a directional move, but the extreme RSI warrants caution.",
+    "options_analysis": "The options data provided for PCR (1.0), Max Pain (0), Call Resistance (0), and Put Support (0) is insufficient for a meaningful pre-market analysis. This lack of actionable data makes it difficult to ascertain immediate support and resistance levels based on open interest, adding to the uncertainty for intraday positioning.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. Market news includes several positive analyst recommendations for individual stocks (HDFC Bank, Tejas Networks, Bajaj Finance, Diwali picks), which could support overall sentiment. However, cautionary news regarding crypto risks and regulatory penalties also exists, leading to a cautiously optimistic but not overwhelmingly bullish sentiment.",
+    "confluence_summary": "The market is set for a strong bullish gap-up, primarily driven by the robust SGX Nifty. Despite this initial bullish momentum, the extremely overbought RSI levels across both Nifty and Bank Nifty suggest that aggressive long positions immediately after the open carry significant risk of profit booking. The absence of clear options data further complicates immediate directional trades, making a cautious approach advisable."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "23906.2 (potential immediate support post-gap)",
+      "24000 (psychological resistance)",
+      "23673.5 (strong support if pullback extends)"
+    ],
+    "invalidation": "N/A (as it's no trade)"
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "55000 (psychological support)",
+      "56000 (psychological resistance)"
+    ],
+    "invalidation": "N/A (as it's no trade)"
+  },
+  "what_to_watch": [
+    "Sustainability of the gap-up opening and initial price action in the first 30-60 minutes.",
+    "Volume profile during the initial trading hours to gauge conviction behind the move.",
+    "Any signs of profit booking around the opening highs, especially given the overbought RSI.",
+    "Price action around key psychological levels like 24000 for Nifty and 56000 for Bank Nifty.",
+    "Fresh FII/DII activity data post-market for institutional flow insights."
+  ],
+  "risk_factors": [
+    "Extreme overbought RSI levels (Nifty 99.01, Bank Nifty 87.04) significantly increase the risk of sharp profit booking or a quick reversal after the gap-up.",
+    "Lack of meaningful options data for the day makes it challenging to identify strong intraday support and resistance levels, increasing volatility risk.",
+    "Mixed global cues could lead to increased intraday volatility and prevent a sustained upward move despite the strong open."
+  ]
+}
