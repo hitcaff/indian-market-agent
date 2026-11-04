@@ -1,0 +1,59 @@
+{
+  "session": "pre_market",
+  "date": "2026-11-05",
+  "timestamp": "00:27 IST",
+  "market_bias": "bullish",
+  "bias_strength": "moderate",
+  "reasoning": {
+    "global_analysis": "The strong positive cues from US markets, with Dow futures up nearly 3% following the Democrat sweep in midterms, set a robust bullish tone. SGX Nifty's significant gain (+2.22%) indicates a strong gap-up opening for Indian indices, further supported by a sharp decline in crude oil prices, which is favorable for India. Gold's rally suggests dollar weakness, a typical reaction to such political shifts.",
+    "technical_analysis": "Both Nifty and Bank Nifty are poised for a substantial gap-up, but their RSIs are in extremely overbought territory (Nifty 99.01, Bank Nifty 84.63), signaling potential for profit booking or consolidation after the initial surge. The EMA9 and EMA21 being at current price points to a very recent strong upward momentum, confirming the 'trending' market regime.",
+    "options_analysis": "The provided PCR for both Nifty and Bank Nifty is 1.0 (neutral), with Max Pain and OI data showing zero, indicating that the options chain is not yet updated or lacks sufficient data for a reliable pre-market analysis. This absence of clear options data limits insights into immediate support and resistance from an OI perspective, adding to the uncertainty.",
+    "sentiment_analysis": "Institutional FII/DII flows are neutral for the pre-market, offering no immediate directional bias. However, the market news is overwhelmingly positive, highlighting global equity rallies driven by US midterm results and specific bullish stock recommendations, reinforcing a generally optimistic sentiment among participants.",
+    "confluence_summary": "While global cues are strongly bullish, pointing to a significant gap-up, the extremely overbought RSI levels for both Nifty and Bank Nifty warrant caution for fresh long entries at the open. The high-risk environment due to the FED meeting and weekly expiry suggests potential for high volatility and profit booking, making a wait-and-watch approach prudent for the initial hours."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "0 - 0",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 70,
+    "risk_reward": "0:0",
+    "key_levels_to_watch": [
+      "23950 (previous resistance, now support)",
+      "24087 (next resistance)",
+      "23850 (potential dip support)"
+    ],
+    "invalidation": "Sustained break below 23800 without recovery or aggressive selling post-gap up."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "0 - 0",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 70,
+    "risk_reward": "0:0",
+    "key_levels_to_watch": [
+      "56000 (psychological resistance/support)",
+      "55500 (potential dip support)",
+      "55000 (strong psychological support)"
+    ],
+    "invalidation": "Sustained break below 55000 without recovery or aggressive selling post-gap up."
+  },
+  "what_to_watch": [
+    "Sustainability of the gap-up opening and initial price action.",
+    "Price action around Nifty's next resistance at 24087.",
+    "FII/DII flows during market hours for fresh institutional conviction.",
+    "Impact of the FED announcement later in the day, as markets may anticipate.",
+    "Option chain build-up and changes in Max Pain/PCR after market open.",
+    "Global market reaction to US midterm results beyond the initial euphoria."
+  ],
+  "risk_factors": [
+    "Extreme overbought RSI levels (Nifty 99.01, Bank Nifty 84.63) could trigger significant profit booking after the gap-up.",
+    "High volatility expected due to the FED meeting and weekly expiry, leading to whipsaw movements.",
+    "Lack of reliable pre-market options data makes immediate support/resistance assessment challenging.",
+    "Any unexpected hawkish tone from the FED could quickly reverse global sentiment.",
+    "Potential for a 'sell the news' event after the initial positive reaction to US midterms."
+  ]
+}

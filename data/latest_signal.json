@@ -1,59 +1,59 @@
 {
-  "session": "post_market",
-  "date": "2026-11-04",
-  "timestamp": "22:08 IST",
+  "session": "pre_market",
+  "date": "2026-11-05",
+  "timestamp": "00:27 IST",
   "market_bias": "bullish",
   "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global markets are showing strong positive momentum, with US indices (Dow, Nasdaq) surging significantly after the US midterm election results. The sharp drop in crude oil prices below $100 and a weakening dollar are particularly beneficial for India, while SGX Nifty and Hang Seng also indicate a positive sentiment, setting up a likely gap-up for Indian markets.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed in positive territory, with their current prices aligning with their short-term EMAs, suggesting underlying strength. However, the RSI for Nifty (99.01) is extremely overbought, and Bank Nifty (84.63) is also significantly overbought, signaling a high probability of profit booking or consolidation at higher levels.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from an options perspective. The absence of specific Max Pain, Call Resistance, and Put Support values prevents a detailed options chain analysis for immediate levels, limiting insights from this segment.",
-    "sentiment_analysis": "FII/DII data is neutral for the day. Market news is predominantly positive, driven by the favorable US midterm election outcome, falling crude oil prices (beneficial for India), and SEBI's relaxation of KYC rules for NRIs/OCIs, which could attract further foreign investment.",
-    "confluence_summary": "While strong global tailwinds, especially from the US markets and declining crude oil, point towards a positive opening for Indian indices, the extremely overbought RSI levels for both Nifty and Bank Nifty introduce significant caution. This confluence suggests a likely gap-up followed by potential profit booking or consolidation, making fresh directional trades risky without further confirmation or a healthy pullback."
+    "global_analysis": "The strong positive cues from US markets, with Dow futures up nearly 3% following the Democrat sweep in midterms, set a robust bullish tone. SGX Nifty's significant gain (+2.22%) indicates a strong gap-up opening for Indian indices, further supported by a sharp decline in crude oil prices, which is favorable for India. Gold's rally suggests dollar weakness, a typical reaction to such political shifts.",
+    "technical_analysis": "Both Nifty and Bank Nifty are poised for a substantial gap-up, but their RSIs are in extremely overbought territory (Nifty 99.01, Bank Nifty 84.63), signaling potential for profit booking or consolidation after the initial surge. The EMA9 and EMA21 being at current price points to a very recent strong upward momentum, confirming the 'trending' market regime.",
+    "options_analysis": "The provided PCR for both Nifty and Bank Nifty is 1.0 (neutral), with Max Pain and OI data showing zero, indicating that the options chain is not yet updated or lacks sufficient data for a reliable pre-market analysis. This absence of clear options data limits insights into immediate support and resistance from an OI perspective, adding to the uncertainty.",
+    "sentiment_analysis": "Institutional FII/DII flows are neutral for the pre-market, offering no immediate directional bias. However, the market news is overwhelmingly positive, highlighting global equity rallies driven by US midterm results and specific bullish stock recommendations, reinforcing a generally optimistic sentiment among participants.",
+    "confluence_summary": "While global cues are strongly bullish, pointing to a significant gap-up, the extremely overbought RSI levels for both Nifty and Bank Nifty warrant caution for fresh long entries at the open. The high-risk environment due to the FED meeting and weekly expiry suggests potential for high volatility and profit booking, making a wait-and-watch approach prudent for the initial hours."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 50,
-    "risk_reward": "N/A",
+    "entry_zone": "0 - 0",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 70,
+    "risk_reward": "0:0",
     "key_levels_to_watch": [
-      "24048.75 (Resistance 1)",
-      "24136.9 (Resistance 2)",
-      "23784.3 (Support 1)",
-      "23608.0 (Support 2)"
+      "23950 (previous resistance, now support)",
+      "24087 (next resistance)",
+      "23850 (potential dip support)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "Sustained break below 23800 without recovery or aggressive selling post-gap up."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 50,
-    "risk_reward": "N/A",
+    "entry_zone": "0 - 0",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 70,
+    "risk_reward": "0:0",
     "key_levels_to_watch": [
-      "56200 (Resistance)",
-      "56500 (Resistance)",
-      "55500 (Support)",
-      "55200 (Support)"
+      "56000 (psychological resistance/support)",
+      "55500 (potential dip support)",
+      "55000 (strong psychological support)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "Sustained break below 55000 without recovery or aggressive selling post-gap up."
   },
   "what_to_watch": [
-    "The magnitude and sustainability of the likely gap-up opening in Nifty and Bank Nifty.",
-    "Price action around key resistance levels, especially given the overbought RSI readings.",
-    "FII/DII activity in the coming sessions, as sustained foreign buying will be crucial for momentum.",
-    "Further developments in crude oil prices and broader global market sentiment.",
-    "Any fresh news or commentary regarding RBI's new Financial Markets Committee."
+    "Sustainability of the gap-up opening and initial price action.",
+    "Price action around Nifty's next resistance at 24087.",
+    "FII/DII flows during market hours for fresh institutional conviction.",
+    "Impact of the FED announcement later in the day, as markets may anticipate.",
+    "Option chain build-up and changes in Max Pain/PCR after market open.",
+    "Global market reaction to US midterm results beyond the initial euphoria."
   ],
   "risk_factors": [
-    "Significant profit booking due to the extremely overbought RSI levels in both indices, potentially leading to a sharp reversal after a gap-up.",
-    "Lack of sustained follow-through buying after a potential gap-up, causing the market to consolidate or drift lower.",
-    "Any unexpected negative global news flow that could quickly negate the current positive sentiment.",
-    "Increased volatility around the immediate resistance levels as traders react to the overbought conditions."
+    "Extreme overbought RSI levels (Nifty 99.01, Bank Nifty 84.63) could trigger significant profit booking after the gap-up.",
+    "High volatility expected due to the FED meeting and weekly expiry, leading to whipsaw movements.",
+    "Lack of reliable pre-market options data makes immediate support/resistance assessment challenging.",
+    "Any unexpected hawkish tone from the FED could quickly reverse global sentiment.",
+    "Potential for a 'sell the news' event after the initial positive reaction to US midterms."
   ]
 }
