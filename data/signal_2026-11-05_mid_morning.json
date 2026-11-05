@@ -1,0 +1,56 @@
+{
+  "session": "mid_morning",
+  "date": "2026-11-05",
+  "timestamp": "12:38 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "SGX Nifty's significant rally (+2.01%) suggests a strong positive opening/continuation for Indian markets, supported by a robust Hang Seng. However, mixed signals from Dow Futures (+0.39%) and Nasdaq Futures (-1.04%), along with a declining Nikkei, indicate a lack of uniform global bullishness. Falling crude oil prices are generally favorable for India.",
+    "technical_analysis": "Both Nifty and Bank Nifty are displaying strong bullish momentum today, with substantial gains. Critically, both indices are showing extremely overbought RSI levels (99.01), signaling a high probability of a pullback or consolidation. The EMA9 and EMA21 being at the current price reflect the sharp, almost vertical upward movement.",
+    "options_analysis": "The provided options data for both Nifty and Bank Nifty (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) is highly inconclusive or missing, making it impossible to derive any meaningful directional bias or support/resistance levels from the options chain. This lack of clear options confluence adds to the uncertainty.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. Market news is predominantly positive, with several stocks showing bullish patterns, strong earnings, and positive brokerage calls, particularly in the banking and financial sectors following US midterm election results. This indicates an underlying positive sentiment, but it's not backed by FII/DII flows today.",
+    "confluence_summary": "Despite strong intraday bullish momentum and positive news flow, the market is at an extremely overbought RSI level, making fresh long entries highly risky. Coupled with a high-risk day due to the FED meeting and weekly expiry, and the absence of clear options data, the environment is ripe for volatility and potential reversals. Therefore, a cautious 'NO TRADE' stance is warranted for fresh directional positions."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 30,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "24496.27 (Resistance 1)",
+      "24550.03 (Resistance 2)",
+      "24342.52 (Support 1)",
+      "24242.53 (Support 2)"
+    ],
+    "invalidation": "Any sustained break below 24342.52 could signal a deeper correction. A strong breakout above 24550.03 with volume might open further upside, but unlikely given RSI."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 30,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "57500 (Psychological Resistance)",
+      "57000 (Psychological Support)"
+    ],
+    "invalidation": "A sustained move below 57000 could trigger profit booking. A strong breakout above 57500 might indicate further upside, but highly improbable with current RSI."
+  },
+  "what_to_watch": [
+    "Outcome and commentary from the FED meeting for global market direction.",
+    "Price action around Nifty's immediate resistance of 24496.27 and Bank Nifty's psychological 57500 level.",
+    "Any signs of profit booking or reversal given the extremely overbought RSI levels.",
+    "Volatility spikes due to weekly expiry, especially in the afternoon session."
+  ],
+  "risk_factors": [
+    "Extreme overbought RSI (99.01) significantly increases the risk of a sharp pullback or correction.",
+    "High-risk day with FED meeting and weekly expiry, leading to potential unpredictable volatility.",
+    "Lack of clear options data makes gauging market sentiment and potential traps difficult.",
+    "Any negative surprises from the FED could trigger a global sell-off, impacting Indian markets."
+  ]
+}
