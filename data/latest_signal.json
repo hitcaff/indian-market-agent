@@ -1,15 +1,15 @@
 {
-  "session": "post_market",
-  "date": "2026-11-05",
-  "timestamp": "22:23 IST",
+  "session": "pre_market",
+  "date": "2026-11-06",
+  "timestamp": "00:39 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "SGX Nifty and Hang Seng show strong positive momentum, suggesting a bullish start for Indian markets. However, this is sharply contrasted by significant weakness in US futures (Dow, Nasdaq) and Nikkei, indicating potential global headwinds and risk-off sentiment that could spill over.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed with substantial gains, but their RSIs are at an extreme 99.01, signaling severely overbought conditions. Despite the strong upward move, the 'Trend' is marked as neutral, suggesting caution and potential for a sharp pullback or consolidation from these elevated levels.",
-    "options_analysis": "The PCR for both indices is 1.0, indicating a neutral options stance. Crucially, Max Pain, Call Resistance, and Put Support are all reported as 0, which means vital Open Interest data is missing. This absence makes a comprehensive options-based directional analysis impossible and significantly increases trading uncertainty.",
-    "sentiment_analysis": "FII/DII data is neutral. Market news presents a mixed bag with some positive corporate results and analyst upgrades, but also concerns over US tech and Asian AI stocks. The 'HIGH RISK DAY' flag due to the FED meeting and weekly expiry amplifies market uncertainty and potential for sharp, unpredictable moves.",
-    "confluence_summary": "The market is in a highly precarious state. While Indian indices show strong momentum, they are technically overextended (RSI 99.01). This bullishness is undermined by significant negative global cues from US futures, the high-risk FED event, and the complete lack of actionable options data. Prudence dictates a 'NO TRADE' approach given the extreme confluence of conflicting signals and elevated risk."
+    "global_analysis": "Global cues are highly divergent and complex. US futures (Dow, Nasdaq) and Nikkei are sharply negative, particularly in the tech sector, indicating significant global risk aversion and a major tech correction. Conversely, SGX Nifty and Hang Seng are showing strong positive momentum, suggesting a potential decoupling or specific regional strength for the Indian market. Crude oil and Gold are also up, adding to the mixed global sentiment.",
+    "technical_analysis": "Both Nifty and Bank Nifty are poised for a substantial gap-up open, indicated by SGX Nifty's +3.05% and Bank Nifty's +4.02%. However, both indices are flashing extremely overbought RSI readings (99.01), which strongly suggests a high probability of profit booking or consolidation immediately post-open. The stated 'neutral' trend in the data contradicts the implied strong gap-up, adding to the uncertainty.",
+    "options_analysis": "The provided options data for both Nifty and Bank Nifty shows a PCR of 1.0, with Max Pain, Call Resistance, and Put Support all at 0. This indicates a complete lack of actionable options chain data for the current pre-market session, making it impossible to derive any directional insights or key support/resistance levels from this factor.",
+    "sentiment_analysis": "FII/DII data is neutral (\u20b90 Cr), offering no fresh directional cues. Market news is a mixed bag: some positive corporate earnings and brokerage upgrades for specific stocks, but also significant negative news regarding a US tech market crash and Qualcomm's slump. The overall sentiment is cautious, balancing domestic optimism (implied by SGX Nifty) with global tech sector headwinds.",
+    "confluence_summary": "While the Indian market is set for a strong gap-up open, driven by positive Asian cues, the extremely overbought RSI levels for both Nifty and Bank Nifty are a major red flag. This, combined with the significant global tech sector weakness and the absence of reliable options data, creates a highly uncertain environment. Aggressive directional trades are not advisable at the open, favoring a wait-and-watch approach."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -17,15 +17,14 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
+    "confidence_pct": 20,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "24361.97 (Support)",
-      "24187.33 (Strong Support)",
-      "24645.57 (Resistance)",
-      "24754.53 (Strong Resistance)"
+      "24562 (immediate resistance/potential open level)",
+      "24261 (previous resistance, now potential support)",
+      "23977 (strong support)"
     ],
-    "invalidation": "N/A - Observing market dynamics for clearer signals."
+    "invalidation": "A clear breakdown below the opening range low or a sustained move above the opening range high without significant volume and follow-through."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -33,24 +32,26 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
+    "confidence_pct": 20,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "57773.65 (Current Level - Watch for breakdown/breakout)"
+      "57773 (potential open level)",
+      "Previous day's close",
+      "Levels established in the first 15-30 minutes of trading"
     ],
-    "invalidation": "N/A - Observing market dynamics for clearer signals."
+    "invalidation": "A clear breakdown below the opening range low or a sustained move above the opening range high without significant volume and follow-through."
   },
   "what_to_watch": [
-    "The outcome and commentary from the US Federal Reserve meeting and its implications for global liquidity and interest rates.",
-    "How US markets react to the significant weakness seen in their futures, and any potential spillover into Asian and Indian markets.",
-    "Nifty and Bank Nifty's price action around their extremely overbought RSI levels (99.01) \u2013 looking for signs of consolidation or correction.",
-    "Fresh Open Interest build-up for the next weekly expiry to gauge new support and resistance levels.",
-    "FII and DII activity post-FED announcement, as their flows will be crucial for market direction."
+    "The sustainability of the gap-up open and the extent of any immediate profit booking.",
+    "Global market reaction throughout the day, especially how US tech stocks perform during their trading hours.",
+    "FII/DII activity once the market opens and fresh data becomes available.",
+    "Sectoral performance, particularly how the IT and Banking sectors react to the mixed global cues.",
+    "Fresh options chain data for Nifty and Bank Nifty to gauge immediate support and resistance levels."
   ],
   "risk_factors": [
-    "High volatility expected due to the confluence of the FED meeting and weekly expiry, leading to potential whipsaws.",
-    "Significant risk of a sharp correction in Indian indices given the extremely overbought RSI levels, especially if global cues remain negative.",
-    "Contagion risk from weak US and Asian markets, potentially negating India's current positive momentum.",
-    "The complete absence of actionable options data (Max Pain, OI) makes risk assessment and directional conviction extremely challenging."
+    "Extreme overbought conditions (RSI 99.01) could lead to sharp profit booking or a significant reversal, especially after a large gap-up.",
+    "Potential contagion from the global tech market crash could eventually weigh on Indian equities despite the positive open.",
+    "High volatility is expected due to the conflicting global and domestic signals.",
+    "Lack of reliable options data makes gauging market sentiment and identifying key levels challenging for the initial hours."
   ]
 }

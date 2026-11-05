@@ -1,0 +1,57 @@
+{
+  "session": "pre_market",
+  "date": "2026-11-06",
+  "timestamp": "00:39 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "Global cues are highly divergent and complex. US futures (Dow, Nasdaq) and Nikkei are sharply negative, particularly in the tech sector, indicating significant global risk aversion and a major tech correction. Conversely, SGX Nifty and Hang Seng are showing strong positive momentum, suggesting a potential decoupling or specific regional strength for the Indian market. Crude oil and Gold are also up, adding to the mixed global sentiment.",
+    "technical_analysis": "Both Nifty and Bank Nifty are poised for a substantial gap-up open, indicated by SGX Nifty's +3.05% and Bank Nifty's +4.02%. However, both indices are flashing extremely overbought RSI readings (99.01), which strongly suggests a high probability of profit booking or consolidation immediately post-open. The stated 'neutral' trend in the data contradicts the implied strong gap-up, adding to the uncertainty.",
+    "options_analysis": "The provided options data for both Nifty and Bank Nifty shows a PCR of 1.0, with Max Pain, Call Resistance, and Put Support all at 0. This indicates a complete lack of actionable options chain data for the current pre-market session, making it impossible to derive any directional insights or key support/resistance levels from this factor.",
+    "sentiment_analysis": "FII/DII data is neutral (\u20b90 Cr), offering no fresh directional cues. Market news is a mixed bag: some positive corporate earnings and brokerage upgrades for specific stocks, but also significant negative news regarding a US tech market crash and Qualcomm's slump. The overall sentiment is cautious, balancing domestic optimism (implied by SGX Nifty) with global tech sector headwinds.",
+    "confluence_summary": "While the Indian market is set for a strong gap-up open, driven by positive Asian cues, the extremely overbought RSI levels for both Nifty and Bank Nifty are a major red flag. This, combined with the significant global tech sector weakness and the absence of reliable options data, creates a highly uncertain environment. Aggressive directional trades are not advisable at the open, favoring a wait-and-watch approach."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 20,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "24562 (immediate resistance/potential open level)",
+      "24261 (previous resistance, now potential support)",
+      "23977 (strong support)"
+    ],
+    "invalidation": "A clear breakdown below the opening range low or a sustained move above the opening range high without significant volume and follow-through."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 20,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "57773 (potential open level)",
+      "Previous day's close",
+      "Levels established in the first 15-30 minutes of trading"
+    ],
+    "invalidation": "A clear breakdown below the opening range low or a sustained move above the opening range high without significant volume and follow-through."
+  },
+  "what_to_watch": [
+    "The sustainability of the gap-up open and the extent of any immediate profit booking.",
+    "Global market reaction throughout the day, especially how US tech stocks perform during their trading hours.",
+    "FII/DII activity once the market opens and fresh data becomes available.",
+    "Sectoral performance, particularly how the IT and Banking sectors react to the mixed global cues.",
+    "Fresh options chain data for Nifty and Bank Nifty to gauge immediate support and resistance levels."
+  ],
+  "risk_factors": [
+    "Extreme overbought conditions (RSI 99.01) could lead to sharp profit booking or a significant reversal, especially after a large gap-up.",
+    "Potential contagion from the global tech market crash could eventually weigh on Indian equities despite the positive open.",
+    "High volatility is expected due to the conflicting global and domestic signals.",
+    "Lack of reliable options data makes gauging market sentiment and identifying key levels challenging for the initial hours."
+  ]
+}
