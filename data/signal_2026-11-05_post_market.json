@@ -1,0 +1,57 @@
+{
+  "session": "post_market",
+  "date": "2026-11-05",
+  "timestamp": "19:29 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "Global cues are mixed but generally positive with SGX Nifty showing a strong gap-up potential (+2.40%) and Dow Futures up, likely driven by the US election results. However, Nasdaq Futures and Nikkei are negative, indicating some underlying caution or sector rotation. Rising crude and gold prices could be inflationary concerns.",
+    "technical_analysis": "Nifty and Bank Nifty witnessed massive rallies today (+2.40% and +3.33% respectively), indicating strong bullish momentum. However, both indices are showing an extremely overbought RSI of 99.01, which is a significant red flag for immediate continuation without a correction or consolidation. The EMA data being identical to current price suggests a potential data anomaly or very short-term calculation, making it less reliable for trend assessment.",
+    "options_analysis": "The options data provided is severely limited and unreliable, with Max Pain, Call Resistance, and Put Support all at 0. While PCR is neutral at 1.0, the absence of Open Interest data, especially on a weekly expiry day, makes it impossible to gauge market positioning or derive meaningful insights for future direction. This lack of data significantly hampers conviction for any directional trade.",
+    "sentiment_analysis": "Sentiment is overwhelmingly positive due to the 'Terrific Thursday' rally, largely attributed to US election results and strong corporate earnings from bellwethers like Titan and Bharti Airtel. Analyst upgrades for HDFC Bank and Bajaj Finance further bolster confidence. However, the FII/DII net flow being \u20b90 Cr is highly unusual for such a strong up move, suggesting data might not be fully updated or institutional participation was muted, which is a point of caution.",
+    "confluence_summary": "Despite a powerful rally today driven by global events and strong earnings, the market is in an extremely overbought state (RSI 99.01). Coupled with unreliable options data, neutral FII/DII figures, and the fact that it was a high-risk FED and weekly expiry day, the confluence of factors points to extreme caution. The market is stretched, and a fresh directional derivative trade carries significant risk of immediate profit booking or consolidation."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "24361.97 (Support)",
+      "24187.33 (Support)",
+      "24645.57 (Resistance)",
+      "24754.53 (Resistance)"
+    ],
+    "invalidation": "N/A - No trade proposed due to high risk and insufficient confluence."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "57773.65 (Current Price - watch for consolidation/correction)"
+    ],
+    "invalidation": "N/A - No trade proposed due to high risk and insufficient confluence."
+  },
+  "what_to_watch": [
+    "Sustainability of the global rally, especially how US markets react to the election news in the coming days.",
+    "Fresh FII/DII data for tomorrow to gauge institutional participation after today's strong move.",
+    "How Nifty and Bank Nifty react to the extreme overbought RSI levels; watch for signs of profit booking or consolidation.",
+    "Build-up of Open Interest in the new weekly and monthly options series to get a clearer picture of market positioning.",
+    "Any further commentary from the FED and its impact on global liquidity and interest rate expectations."
+  ],
+  "risk_factors": [
+    "Extreme overbought conditions (RSI 99.01) significantly increase the probability of a sharp correction or profit booking.",
+    "Unreliable and missing options data (Max Pain 0, OI 0) makes risk assessment and directional conviction extremely difficult.",
+    "Global market volatility with mixed cues (Dow up, Nasdaq down) could lead to unpredictable movements.",
+    "Rising crude oil prices could reignite inflation concerns, potentially impacting central bank policies and market sentiment.",
+    "The market has already absorbed significant positive news; further upside might be limited in the immediate term without consolidation."
+  ]
+}
