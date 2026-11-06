@@ -1,0 +1,57 @@
+{
+  "session": "post_market",
+  "date": "2026-11-06",
+  "timestamp": "19:15 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "SGX Nifty's strong positive move (+2.01%) aligns with Nasdaq futures' rebound, indicating some positive sentiment from tech. However, significant declines in Nikkei (-5.96%) and Hang Seng (-1.27%), coupled with negative Dow futures, present a highly mixed and uncertain global backdrop.",
+    "technical_analysis": "Both Nifty and Bank Nifty experienced substantial rallies (+2.01% and +2.27% respectively), closing at their 9-day and 21-day EMAs, signaling strong bullish momentum. Critically, their RSIs are at an extreme 99.01, indicating severely overbought conditions and a high probability of a near-term correction or consolidation.",
+    "options_analysis": "The complete absence of actionable options data (PCR 1.0, Max Pain 0, Call/Put Support/Resistance 0) makes it impossible to derive any meaningful insights into market positioning, immediate support/resistance levels, or potential expiry dynamics from the derivatives segment.",
+    "sentiment_analysis": "While FII/DII data is neutral, market news highlights positive sentiment for Indian IT stocks as a 'safe AI trade' and several buy recommendations for large-cap Indian stocks. However, the overall market regime signals 'high_volatility' and 'caution,' suggesting underlying fragility despite the day's strong gains.",
+    "confluence_summary": "Despite a strong bullish close, the market is in an extremely overbought state with an RSI of 99.01. This, combined with mixed global cues and a critical lack of reliable options data, creates an environment of high uncertainty and poor risk-reward for initiating fresh directional trades. The 'NO TRADE' recommendation is thus validated."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 10,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "25244.45 (Resistance 1)",
+      "25000 (Psychological)",
+      "24602.15 (Support 1)"
+    ],
+    "invalidation": "Conditions for a high-conviction trade are not met due to extreme overbought RSI, mixed global cues, and lack of actionable options data."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 10,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "59500 (Psychological Resistance)",
+      "59086 (Current Level)",
+      "58500 (Psychological Support)"
+    ],
+    "invalidation": "Conditions for a high-conviction trade are not met due to extreme overbought RSI, mixed global cues, and lack of actionable options data."
+  },
+  "what_to_watch": [
+    "Global market performance, particularly US markets (Dow, Nasdaq) and Asian peers (Nikkei, Hang Seng) for directional cues.",
+    "Any fresh FII/DII activity to gauge institutional conviction.",
+    "Development of options chain data (OI, PCR, Max Pain) to better understand market structure and potential support/resistance.",
+    "Nifty's ability to sustain above 25000 or any signs of profit booking from the overbought levels.",
+    "Bank Nifty's reaction around the 59000-59100 zone."
+  ],
+  "risk_factors": [
+    "Extreme overbought conditions (RSI 99.01) suggesting a high probability of a pullback or consolidation.",
+    "Mixed global cues, especially the sharp fall in Nikkei and negative Dow futures, which could dampen domestic sentiment.",
+    "Lack of reliable options data makes it difficult to assess immediate support/resistance and potential traps.",
+    "The 'high_volatility' regime implies sharp moves in either direction, increasing trading risk."
+  ]
+}
