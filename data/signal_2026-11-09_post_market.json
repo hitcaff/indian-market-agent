@@ -1,0 +1,57 @@
+{
+  "session": "post_market",
+  "date": "2026-11-09",
+  "timestamp": "20:40 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "US futures (Dow, Nasdaq) show a strong recovery, providing a positive global sentiment after last week's 'AI rout'. However, Asian markets (Nikkei, Hang Seng) are mixed to negative, and SGX Nifty is flat, indicating a potentially cautious or flat start for India. Crude oil's significant decline is a domestic positive, easing inflation concerns.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed exactly at their 9-day and 21-day EMAs, signaling indecision at the close despite Bank Nifty's strong daily gain. Crucially, both indices are in extreme overbought territory with RSI at 100 for Nifty and 99.01 for Bank Nifty, indicating a high probability of a pullback or consolidation. Trend is neutral for both.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from the options market participants. The absence of Max Pain, Call Resistance, and Put Support data limits deeper options insights, reinforcing a lack of clear directional conviction for tomorrow's expiry.",
+    "sentiment_analysis": "Positive sentiment from the US market recovery is a tailwind, alongside domestic news of specific stocks hitting 52-week highs and a bond rally. However, FIIs cutting stakes in smallcaps and the 'caution' signal from the market regime temper overall bullishness, especially when juxtaposed with the extreme overbought technicals.",
+    "confluence_summary": "Despite positive global cues from the US, the extreme overbought RSI for both Nifty and Bank Nifty is a significant red flag, making fresh long positions highly risky. The neutral trend, PCR, and FII/DII data, coupled with a high volatility and caution signal, suggest a 'NO TRADE' stance is prudent until clearer direction emerges or a healthy correction/consolidation occurs. Aggressive directional plays are ill-advised."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 40,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "25139.55 (Immediate Resistance)",
+      "24894.25 (Immediate Support)",
+      "25000 (Psychological Level)"
+    ],
+    "invalidation": "A sustained close above 25234.45 or below 24743.85 with strong volume would invalidate the neutral stance and suggest a new trend."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 40,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "60000 (Psychological Resistance)",
+      "59741.25 (EMA Confluence)",
+      "59500 (Minor Support)"
+    ],
+    "invalidation": "A sustained close above 60000 with strong follow-through or a decisive break below 59000 would invalidate the neutral stance."
+  },
+  "what_to_watch": [
+    "Sustainability of the US market rally and its impact on Indian equities, especially if it leads to a gap-up opening.",
+    "Nifty and Bank Nifty's reaction to extreme overbought RSI levels; watch for consolidation, profit booking, or a sharp correction.",
+    "FII/DII flow data for clearer directional conviction, as today's data was neutral.",
+    "Key support and resistance levels for Nifty (24894-25139) and Bank Nifty (59000-60000) for potential range-bound movement.",
+    "Any fresh domestic or global news, particularly regarding inflation data, that could shift market sentiment."
+  ],
+  "risk_factors": [
+    "Extreme overbought conditions (RSI 100 for Nifty, 99.01 for Bank Nifty) indicating high risk for fresh long positions and potential for sharp corrections.",
+    "High volatility market regime and explicit 'caution' signal, suggesting unpredictable price swings.",
+    "Mixed global cues (positive US, negative Asia) creating uncertainty for the domestic market open.",
+    "Lack of strong directional conviction from options data due to missing OI details and neutral PCR, making expiry day trading challenging."
+  ]
+}
