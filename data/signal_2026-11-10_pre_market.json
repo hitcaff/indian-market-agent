@@ -1,0 +1,57 @@
+{
+  "session": "pre_market",
+  "date": "2026-11-10",
+  "timestamp": "00:45 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "Global cues are mixed but lean bullish for the Indian open, with US futures showing a strong rebound, especially in tech, driving SGX Nifty significantly higher. However, key Asian markets like Nikkei and Hang Seng are trading in negative territory, indicating regional divergence. Crude oil's decline is a positive for India.",
+    "technical_analysis": "Both Nifty and Bank Nifty are poised for substantial gap-up openings, pushing their RSIs into extremely overbought territory at 99.01. While this indicates strong momentum, it also signals a high probability of profit booking or consolidation post-open, making fresh long entries risky. The stated 'neutral' trend is contradictory to the expected move.",
+    "options_analysis": "The provided options data (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) is incomplete and offers no actionable insights for pre-market analysis. This severely limits the ability to gauge immediate option chain dynamics and potential support/resistance levels from derivatives data.",
+    "sentiment_analysis": "FII/DII data is neutral for the pre-market. Market news is a blend of strong positive sentiment from the US tech rebound and underlying concerns like the Nvidia controversy and 'perp' futures. Domestic stock-specific recommendations are generally positive, but overall sentiment is cautious due to extreme technicals.",
+    "confluence_summary": "Despite a strong bullish gap-up indicated by global cues and SGX Nifty, the extremely overbought RSI for both indices (99.01) and the 'caution' signal from the market regime present significant risks for initiating fresh directional trades at the open. The absence of reliable options data further reduces conviction, leading to a cautious 'NO TRADE' stance for the initial hours."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "25044.65 (Expected Open)",
+      "25130.02 (Resistance 1)",
+      "24884.72 (Support 1)"
+    ],
+    "invalidation": "A sustained break and hold above 25130 with strong volumes, or a sharp reversal below 24884 in the initial hour."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "59741.25 (Expected Open)",
+      "Intraday price action for support/resistance"
+    ],
+    "invalidation": "A sustained follow-through above the expected open with strong momentum, or a significant rejection from the open leading to a sharp decline."
+  },
+  "what_to_watch": [
+    "Initial 15-30 minute price action post-open for signs of profit booking or sustained momentum.",
+    "Real-time FII/DII activity and option chain buildup to identify fresh support/resistance.",
+    "Performance of US futures and broader Asian markets during Indian trading hours.",
+    "Any fresh news regarding the Nvidia controversy or 'perp' futures impact.",
+    "Crude oil price movements and their potential impact on Indian equities."
+  ],
+  "risk_factors": [
+    "Extreme overbought conditions (RSI 99.01) significantly increase the risk of sharp profit booking or a reversal.",
+    "The divergence between strong US/SGX cues and negative Asian markets creates uncertainty.",
+    "Incomplete options data limits the ability to accurately gauge market structure and potential turning points.",
+    "High volatility regime and 'caution' signal indicate increased market unpredictability.",
+    "Geopolitical developments and regulatory concerns (e.g., 'perp' futures) could introduce sudden shifts in sentiment."
+  ]
+}
