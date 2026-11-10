@@ -1,15 +1,15 @@
 {
-  "session": "pre_market",
+  "session": "afternoon",
   "date": "2026-11-10",
-  "timestamp": "03:11 IST",
+  "timestamp": "13:05 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "US futures (Dow, Nasdaq) and SGX Nifty indicate a strong bullish sentiment, pointing towards a significant gap-up opening for Indian markets. However, key Asian markets like Nikkei and Hang Seng are negative, and a sharp fall in crude oil, while positive for India's macro, adds to a mixed global picture.",
-    "technical_analysis": "Both Nifty and Bank Nifty are poised for substantial gap-ups, pushing their RSIs into extremely overbought territory (99.01). While the implied price is above EMAs, this extreme overbought condition signals a high probability of profit booking and potential reversal after the initial surge, making sustainability questionable. The stated 'neutral' trend is likely a default given the implied price action.",
-    "options_analysis": "The PCR of 1.0 and zero values for Max Pain, Call Resistance, and Put Support mean there is no actionable options data available at this pre-market stage. This significantly limits the ability to gauge immediate support/resistance from the derivatives segment, crucial for informed trading decisions.",
-    "sentiment_analysis": "US market news is largely positive, highlighting a rebound in tech and broader indices, while the significant drop in crude oil is a macro positive for India. However, the market regime signals 'high_volatility' and 'caution,' aligning with the extreme overbought technicals and suggesting prudence. FII/DII data is neutral at this pre-market stage.",
-    "confluence_summary": "Despite strong bullish global cues indicating a significant gap-up, the extremely overbought RSI for both indices, coupled with the 'high volatility' and 'caution' signals, suggests that sustaining the rally will be challenging. The complete absence of actionable options data further reduces confidence in taking directional trades, making a 'NO TRADE' stance prudent for the pre-market session due to insufficient confluence and conflicting signals."
+    "global_analysis": "Global markets are showing a mixed to positive sentiment, with Nikkei leading gains and Dow Futures also positive. Nasdaq Futures is slightly negative, and crude oil is down, but overall, the global backdrop provides a cautiously supportive tone for Indian equities.",
+    "technical_analysis": "Nifty is trading flat with its current price exactly at EMA9/21, indicating no clear short-term directional bias. Bank Nifty shows strong intraday momentum, up over 1%, but both indices are in extremely overbought territory (RSI 100 for Nifty, 99.01 for Bank Nifty), suggesting a high probability of consolidation or a pullback. The 'neutral' trend for both indices contradicts the strong RSI readings, possibly due to data anomalies or a very recent sharp move.",
+    "options_analysis": "Critical options data, including PCR, Max Pain, Call Resistance, and Put Support, is reported as 0 for both Nifty and Bank Nifty. This renders any options-based analysis impossible and significantly limits our ability to gauge market positioning, open interest dynamics, and potential support/resistance from option chains.",
+    "sentiment_analysis": "FII/DII activity is reported as neutral for the session. Market news indicates a rally in Asian stocks and Indian indices over the past five sessions, with some positive brokerage calls on specific stocks. However, the 'caution' signal from the market regime, coupled with the lack of FII/DII conviction, suggests underlying uncertainty.",
+    "confluence_summary": "Despite positive global cues and Bank Nifty's strong intraday performance, the market is presenting highly conflicting signals. The extremely overbought RSI levels, coupled with 'neutral' trend indications and critically missing options data, create an environment of significant uncertainty and high risk. The lack of clear confluence across technical, options, and sentiment indicators strongly supports a 'NO TRADE' stance."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -20,12 +20,10 @@
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "25044 (Anticipated Opening Price)",
-      "25130 (Immediate Resistance)",
-      "25229 (Next Resistance)",
-      "Gap-fill zone (as potential support)"
+      "25139.55 (Resistance)",
+      "24894.25 (Support)"
     ],
-    "invalidation": "Any clear breakdown below the opening range or strong bearish candlestick patterns forming within the first hour of trading would invalidate any potential bullish bias for the day."
+    "invalidation": "A clear directional bias emerges with supporting volume and reliable options data, and RSI normalizes from extreme levels."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -36,23 +34,22 @@
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "59741 (Anticipated Opening Price)",
-      "Previous day's close (as potential gap support)",
-      "New resistance levels to be established post-open"
+      "60000 (Psychological Resistance)",
+      "59500 (Immediate Support)"
     ],
-    "invalidation": "Similar to Nifty, a failure to hold the gap-up levels or aggressive profit booking leading to a sharp decline would invalidate any bullish conviction."
+    "invalidation": "A clear directional bias emerges with supporting volume and reliable options data, and RSI normalizes from extreme levels."
   },
   "what_to_watch": [
-    "Opening price action and sustainability of the gap-up in the first 30-60 minutes.",
-    "Fresh options chain data (OI build-up, PCR) after market open for immediate support and resistance.",
-    "Any signs of profit booking, especially around the initial resistance levels formed post-gap.",
-    "FII/DII activity post-open to gauge institutional sentiment and conviction.",
-    "Global market reaction to the US news during Indian market hours, particularly crude oil price movements and any further developments on the Nvidia controversy."
+    "Resolution of the extremely overbought RSI levels for both Nifty and Bank Nifty, which could lead to consolidation or a pullback.",
+    "Updates on FII/DII activity to gauge institutional sentiment and capital flows.",
+    "Any fresh or corrected options data to understand market positioning and potential Max Pain levels.",
+    "Global market performance, particularly US futures, as the session progresses.",
+    "Any significant news flow related to the banking sector or major index constituents."
   ],
   "risk_factors": [
-    "Extreme overbought conditions (RSI 99.01) leading to sharp profit booking and potential reversals after the initial gap-up.",
-    "High volatility regime, increasing the risk of stop-loss hunting and whipsaw movements, making trade management challenging.",
-    "Lack of reliable options data for immediate support/resistance, hindering informed decision-making for derivatives traders.",
-    "Uncertainty around the 'perp' futures and Nvidia espionage controversy potentially impacting global sentiment and leading to sudden shifts."
+    "Data Inconsistencies: The highly unusual EMA and RSI values, along with missing options data, introduce significant uncertainty and make reliable analysis challenging.",
+    "Extreme Overbought Conditions: RSI values near 100 for both indices suggest an imminent pullback or consolidation, increasing the risk of any directional long positions.",
+    "High Volatility Regime: The market is currently in a high volatility regime, which can lead to rapid and unpredictable price swings, making derivative trading inherently riskier.",
+    "Lack of Confluence: Conflicting signals (e.g., strong price action vs. neutral trend, overbought RSI vs. flat Nifty) prevent a clear and confident directional bias."
   ]
 }
