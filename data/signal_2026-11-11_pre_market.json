@@ -1,0 +1,54 @@
+{
+  "session": "pre_market",
+  "date": "2026-11-11",
+  "timestamp": "00:28 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "US futures are showing weakness, particularly Nasdaq, driven by inflation fears, potential rate hikes, and a significant sell-off in tech stocks like Nvidia. However, Asian markets are mixed to positive, with Nikkei showing exceptional strength (+5.27%) and crude oil prices declining, which is a positive for India.",
+    "technical_analysis": "Both Nifty 50 and Bank Nifty are exhibiting extremely overbought RSI levels (100 and 99.01 respectively), signaling a high probability of correction or profit booking. Despite these extreme readings, the stated trend for both indices is 'neutral', and EMAs are at current price, creating conflicting signals for immediate directional conviction.",
+    "options_analysis": "Crucial options data such as Max Pain, Call Resistance, and Put Support are reported as zero for both indices, rendering options analysis inconclusive for establishing a clear directional bias at this pre-market stage. PCR for both Nifty and Bank Nifty stands at a neutral 1.0.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. Market news presents a mixed bag, with global concerns over US inflation and tech sell-off contrasting with domestic positives like FPI inflows, falling crude oil benefiting OMCs, and specific buy recommendations for key stocks like HDFC Bank and Bajaj Finance.",
+    "confluence_summary": "The confluence of extremely overbought RSI levels on both Nifty and Bank Nifty, coupled with missing options data and mixed global cues, creates a highly uncertain and risky environment. The 'high_volatility' regime and 'caution' signal further reinforce the need for patience, making a 'NO TRADE' stance the most prudent approach for the market open."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "25139.55",
+      "24894.25"
+    ],
+    "invalidation": "Any sustained move without clear price action confirmation post-open, or significant shift in global sentiment."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "59741.25"
+    ],
+    "invalidation": "Any sustained move without clear price action confirmation post-open, especially given the overbought RSI."
+  },
+  "what_to_watch": [
+    "Opening price action and sustainability of any gap-up/down, especially for Bank Nifty.",
+    "Nifty's immediate reaction to the 25139.55 resistance and 24894.25 support levels.",
+    "Bank Nifty's ability to sustain above its current level given the extremely overbought RSI.",
+    "Fresh FII/DII activity and options chain build-up post-market open for clearer directional cues.",
+    "Global market stability, particularly the performance of US tech stocks and any fresh commentary on inflation/rate hikes."
+  ],
+  "risk_factors": [
+    "Sharp profit booking or a significant correction due to the extremely overbought RSI levels on both indices.",
+    "Continued global market volatility stemming from US inflation concerns and potential Fed rate hikes, impacting FPI flows.",
+    "Lack of clear options data (Max Pain, OI) leading to unpredictable price movements and difficulty in gauging market sentiment.",
+    "The 'high_volatility' regime increases the risk associated with any directional trades, demanding strict risk management."
+  ]
+}
