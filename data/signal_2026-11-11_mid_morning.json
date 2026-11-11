@@ -1,0 +1,56 @@
+{
+  "session": "mid_morning",
+  "date": "2026-11-11",
+  "timestamp": "12:23 IST",
+  "market_bias": "moderate_bullish",
+  "bias_strength": "moderate",
+  "reasoning": {
+    "global_analysis": "Global cues are largely positive with SGX Nifty, Dow, Nasdaq, and Nikkei all trading in the green, indicating a risk-on sentiment. This provides a supportive backdrop for the Indian markets, despite Hang Seng showing a minor dip.",
+    "technical_analysis": "Both Nifty and Bank Nifty have shown strong positive moves (+1.15% and +2.20% respectively) in the mid-morning session. However, the RSI for both indices is at an extreme 100.0, signaling severely overbought conditions which typically precede a pullback or consolidation. The 'neutral' trend and 'caution' signal from the market regime further advise prudence.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance in the options market. Crucially, the absence of Max Pain, Call Resistance, and Put Support data makes a comprehensive options analysis impossible, limiting conviction from this segment.",
+    "sentiment_analysis": "FII/DII data is neutral for the day, offering no immediate directional bias from institutional flows. Market news is generally positive, highlighting specific stock breakouts and sector-specific strength, though some cautionary notes regarding global AI stocks exist.",
+    "confluence_summary": "Despite strong positive price action and supportive global cues, the extreme overbought RSI for both Nifty and Bank Nifty (100.0) is a significant red flag. This, combined with the system's 'neutral' trend, 'caution' signal, and lack of robust options data, creates a high-risk environment for fresh directional trades. Prudence dictates waiting for better risk-reward setups or a healthy correction."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 30,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "25417.0 (Immediate Resistance)",
+      "25500.95 (Strong Resistance)",
+      "25256.45 (Immediate Support)"
+    ],
+    "invalidation": "Sustained break above 25500.95 without a significant pullback, or a sharp reversal below 25256.45."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 30,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "61053.55 (Current Price - potential profit booking zone)",
+      "Previous day's high/close (for potential support)"
+    ],
+    "invalidation": "Sustained break into uncharted territory without a significant pullback, or a sharp reversal below 60500."
+  },
+  "what_to_watch": [
+    "Sustainability of the current upward momentum given the extreme overbought RSI.",
+    "Any signs of profit booking or reversal from immediate resistance levels.",
+    "Fresh FII/DII data for clearer institutional flow direction.",
+    "Development in global markets, particularly US futures, for continued sentiment.",
+    "Any update on options chain data (OI, Max Pain) for better conviction."
+  ],
+  "risk_factors": [
+    "Sharp correction or consolidation highly probable due to severely overbought RSI (100.0) on both indices.",
+    "High volatility regime increases the risk of whipsaws and sudden price movements.",
+    "Lack of comprehensive options data (Max Pain, OI) reduces conviction and visibility for directional trades.",
+    "Potential for global market sentiment to shift quickly, triggering profit booking in domestic indices."
+  ]
+}
