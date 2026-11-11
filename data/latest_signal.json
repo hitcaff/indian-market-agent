@@ -1,15 +1,15 @@
 {
   "session": "post_market",
   "date": "2026-11-11",
-  "timestamp": "19:03 IST",
-  "market_bias": "neutral",
+  "timestamp": "22:11 IST",
+  "market_bias": "bullish",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed but largely positive, with SGX Nifty, Dow, Nasdaq, and Nikkei showing gains, particularly strong in Nasdaq futures (+2.01%) on AI optimism. However, a firming dollar due to hot inflation and hawkish Fed talk presents a potential headwind for emerging markets, tempering the overall bullish sentiment.",
-    "technical_analysis": "Both Nifty and Bank Nifty closed significantly higher, aligning with their 9-day and 21-day EMAs, indicating strong short-term momentum. Crucially, both indices are in extremely overbought territory with RSI at 100.0 and 99.01 respectively, signaling a high probability of a pullback, consolidation, or profit booking in the near term. Despite the strong move, the trend is indicated as 'neutral'.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at a neutral 1.0. However, the complete absence of meaningful data for Max Pain, Call Resistance, and Put Support (all reported as 0) severely limits our ability to gauge significant open interest build-up and derive actionable insights from the options chain.",
-    "sentiment_analysis": "FII/DII flows are neutral for the day, offering no clear institutional directional bias. Market news is a mix of positive specific stock recommendations and global tech optimism, contrasted with concerns about a hawkish Fed and a strong dollar, leading to a cautiously optimistic but not overwhelmingly bullish sentiment.",
-    "confluence_summary": "While the market exhibited strong positive momentum today, pushing both Nifty and Bank Nifty significantly higher, the extreme overbought RSI levels necessitate caution for fresh directional trades. The lack of reliable options data, neutral FII/DII flows, and the 'caution' signal from the market regime further contribute to a 'NO TRADE' stance, as a pullback or consolidation is highly probable."
+    "global_analysis": "Global cues are largely positive, with SGX Nifty, Dow, Nasdaq, and Nikkei showing significant gains, suggesting a strong opening for Indian markets. Crude oil also saw an uptick, indicating broader economic optimism.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed significantly higher, but their RSIs are extremely overbought (100 and 99 respectively), signaling a high probability of consolidation or a pullback. The current price aligning with EMA9 and EMA21 suggests strong recent momentum, but the overbought condition warrants caution.",
+    "options_analysis": "The PCR for both indices is neutral at 1.0. However, Max Pain, Call Resistance, and Put Support are all reported as 0, indicating either stale data or end-of-day/week expiry, rendering options data unreliable for immediate directional bias.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. Market news is predominantly positive, highlighting strong IPOs, rising US stocks, and analysts raising Nifty targets, which contributes to an underlying bullish sentiment despite some stock-specific concerns.",
+    "confluence_summary": "While strong global cues and positive news flow provide a bullish backdrop, the extremely overbought RSI levels for both Nifty and Bank Nifty are a significant red flag. This, combined with the system's 'neutral' trend, 'caution' signal, and unreliable options data, suggests that the current upward momentum is stretched and prone to profit booking or consolidation, leading to insufficient confluence for aggressive directional trades."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -17,15 +17,14 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
+    "confidence_pct": 20,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "25092.15 (Support 1)",
-      "24929.25 (Support 2)",
-      "25421.15 (Resistance 1)",
-      "25587.25 (Resistance 2)"
+      "25092.15 (Support)",
+      "25421.15 (Resistance)",
+      "25587.25 (Resistance)"
     ],
-    "invalidation": "Conditions for a fresh directional trade are not met due to extreme overbought levels and lack of clear confluence."
+    "invalidation": "Not applicable for NO TRADE. Any significant break below 25000 or sustained move above 25500 with volume would alter the short-term outlook."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -33,26 +32,26 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
+    "confidence_pct": 20,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "60792.40 (Current/EMA)",
       "60000 (Psychological Support)",
-      "61500 (Potential Resistance)"
+      "61000 (Immediate Resistance)"
     ],
-    "invalidation": "Conditions for a fresh directional trade are not met due to extreme overbought levels and lack of clear confluence."
+    "invalidation": "Not applicable for NO TRADE. A break below 60000 or a strong push above 61500 could change the immediate view."
   },
   "what_to_watch": [
-    "Global market performance overnight, especially US indices and the Dollar Index, for directional cues.",
-    "Any fresh FII/DII activity to gauge institutional sentiment and flows.",
-    "Development of Nifty and Bank Nifty options chain data for clearer Max Pain and Open Interest levels.",
-    "Crude oil prices and their potential impact on inflation expectations and market sentiment.",
-    "RSI levels for signs of cooling off or divergence, indicating potential reversals or consolidation."
+    "Global market performance, especially US and Asian markets, for sustained momentum or signs of weakness.",
+    "Any fresh FII/DII activity for the upcoming session to gauge institutional sentiment.",
+    "How Nifty and Bank Nifty react to their extremely overbought RSI levels; watch for signs of consolidation or profit booking.",
+    "Option chain build-up for the next expiry to get a clearer picture of immediate support and resistance from derivatives.",
+    "Key support levels (Nifty 25092, Bank Nifty 60000) for potential bounce or breakdown."
   ],
   "risk_factors": [
-    "Extreme overbought conditions (RSI 100/99) significantly increase the risk of a sharp correction or profit booking.",
-    "High market volatility (ATR% 1.4%) suggests rapid price swings and increased risk for directional trades.",
-    "Uncertainty from a hawkish Fed stance and a strong dollar could trigger FII outflows from emerging markets.",
-    "The complete absence of reliable options data (Max Pain, OI) hinders comprehensive risk assessment and support/resistance identification."
+    "Extreme overbought conditions (RSI 100/99) make both indices vulnerable to sharp profit booking or a corrective phase.",
+    "The 'high_volatility' regime indicates increased risk and potential for whipsaw movements.",
+    "Unreliable options data (Max Pain 0, PCR 1.0) reduces the ability to accurately gauge immediate market sentiment from derivatives.",
+    "Contradictory signals from 'Trend: neutral' for indices versus 'Trending: True' for the market regime, coupled with a 'caution' signal, highlight market uncertainty.",
+    "Any unexpected negative global news or domestic economic data could trigger a significant correction from these elevated levels."
   ]
 }
