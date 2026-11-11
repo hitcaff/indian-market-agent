@@ -1,0 +1,56 @@
+{
+  "session": "pre_market",
+  "date": "2026-11-12",
+  "timestamp": "00:26 IST",
+  "market_bias": "bullish",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "Strong positive cues from SGX Nifty, Dow, Nasdaq, and Nikkei indicate a significant gap-up opening for Indian markets. US tech stocks showing strength, though Nvidia faces some headwinds from China curbs.",
+    "technical_analysis": "Both Nifty and Bank Nifty are poised for substantial gap-ups, but their RSIs are at extremely overbought levels (99.01). This suggests a high probability of profit booking or consolidation post-open, despite the strong upward momentum, making sustainability questionable.",
+    "options_analysis": "PCR is neutral (1.0) for both indices. However, the absence of Max Pain, Call Resistance, and Put Support data pre-market makes a comprehensive options analysis impossible. This data will be crucial to monitor post-open, especially on a weekly expiry day.",
+    "sentiment_analysis": "FII/DII data is neutral. Market news presents a mixed bag, with some positive stock recommendations alongside concerns like Nvidia's China curbs and Yes Bank bonds. Overall sentiment is likely positive at open due to global cues, but caution is advised due to high volatility and expiry.",
+    "confluence_summary": "While global cues are strongly bullish, the extremely overbought RSI on both indices and the weekly expiry suggest extreme caution. A significant gap-up is expected, but sustainability is highly questionable, making aggressive directional trades risky initially. Waiting for price action confirmation is prudent."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "25280.88 (Initial Resistance)",
+      "25517.12 (Strong Resistance)",
+      "24951.88 (Initial Support)"
+    ],
+    "invalidation": "N/A (No trade proposed for immediate open)"
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "60792.40 (Current/Potential Resistance after gap)",
+      "60000 (Psychological Support)"
+    ],
+    "invalidation": "N/A (No trade proposed for immediate open)"
+  },
+  "what_to_watch": [
+    "Sustainability of the initial gap-up and subsequent price action in the first hour.",
+    "Open Interest (OI) build-up on Nifty and Bank Nifty options to identify Max Pain and key strike prices for expiry.",
+    "FII/DII cash market activity post-open for directional conviction.",
+    "Global market performance, particularly US and Asian indices, during Indian trading hours.",
+    "Any significant news flow impacting banking or IT sectors, especially regarding Yes Bank or Nvidia."
+  ],
+  "risk_factors": [
+    "Extreme overbought conditions (RSI 99.01) could lead to sharp profit booking or a quick reversal after the gap-up.",
+    "High volatility and potential for whipsaws due to weekly expiry, making stop-loss management challenging.",
+    "Lack of clear options data pre-market, hindering accurate assessment of immediate support/resistance from OI.",
+    "Any unexpected negative global news or domestic event could quickly reverse the positive sentiment."
+  ]
+}
