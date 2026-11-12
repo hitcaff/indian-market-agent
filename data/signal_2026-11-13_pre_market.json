@@ -1,0 +1,57 @@
+{
+  "session": "pre_market",
+  "date": "2026-11-13",
+  "timestamp": "00:45 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "SGX Nifty indicates a strong gap-up opening (+1.02%), suggesting initial bullishness. However, US futures are slightly negative, and Hang Seng is sharply down (-2.23%), creating a mixed global picture. Significant negative news surrounding Nvidia and global AI stocks could dampen overall sentiment.",
+    "technical_analysis": "Both Nifty and Bank Nifty are showing extremely overbought RSI (99.01), signaling a high probability of immediate profit booking or reversal post-gap-up. The provided EMA data is identical to the current price, rendering it unreliable for trend assessment, and the system indicates a 'neutral' trend despite the strong gap-up indication.",
+    "options_analysis": "The options data (PCR 1.0, Max Pain 0, Call/Put Support/Resistance 0) is incomplete and unreliable. This lack of meaningful data prevents any actionable insights into market positioning, potential turning points, or the strength of support/resistance levels from the options chain.",
+    "sentiment_analysis": "FII/DII data is neutral, offering no fresh directional cues. Market news is mixed, with global tech concerns (Nvidia CEO exit, stock crash) contrasting with some positive stock-specific recommendations in India. The overall market regime is explicitly 'high_volatility' with a 'caution' signal, reinforcing the need for prudence.",
+    "confluence_summary": "Despite a strong gap-up indicated by SGX Nifty and Bank Nifty, extreme overbought conditions (RSI 99.01) and a 'caution' signal in a 'high_volatility' regime suggest significant risk. The absence of reliable technical and options data, coupled with conflicting global cues and negative tech news, points to an unpredictable session with high potential for reversals or consolidation after the open, making directional trades highly risky."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "25378.92 (Resistance 1)",
+      "25502.79 (Resistance 2)",
+      "25137.07 (Support 1)"
+    ],
+    "invalidation": "N/A - No trade initiated due to insufficient confluence and high risk."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "61518.50 (Potential Open)",
+      "Previous day's high/low (critical for post-gap action)"
+    ],
+    "invalidation": "N/A - No trade initiated due to insufficient confluence and high risk."
+  },
+  "what_to_watch": [
+    "Sustainability of the gap-up post-open, especially given the overbought RSI and high volatility.",
+    "Global market sentiment, particularly the reaction of US tech stocks to the Nvidia news.",
+    "Any fresh FII/DII data released during market hours for institutional flow insights.",
+    "Price action around Nifty's immediate resistance levels (25378, 25502) if the gap-up holds.",
+    "Crude oil price movements and their potential impact on domestic inflation concerns."
+  ],
+  "risk_factors": [
+    "Extreme overbought conditions (RSI 99.01) significantly increase the likelihood of sharp reversals or profit booking after the gap-up.",
+    "The 'high_volatility' market regime suggests unpredictable and choppy price swings, making risk management challenging.",
+    "Unreliable technical and options data limits the ability to establish clear directional conviction or identify robust support/resistance.",
+    "Negative global tech sentiment stemming from Nvidia's issues could weigh heavily on Indian IT and broader market indices.",
+    "High potential for a 'gap-and-trap' scenario where the initial bullish gap-up is quickly sold into by profit-takers."
+  ]
+}
