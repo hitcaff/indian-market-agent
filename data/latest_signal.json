@@ -1,15 +1,15 @@
 {
-  "session": "pre_market",
+  "session": "mid_morning",
   "date": "2026-11-12",
-  "timestamp": "00:26 IST",
-  "market_bias": "bullish",
+  "timestamp": "12:59 IST",
+  "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Strong positive cues from SGX Nifty, Dow, Nasdaq, and Nikkei indicate a significant gap-up opening for Indian markets. US tech stocks showing strength, though Nvidia faces some headwinds from China curbs.",
-    "technical_analysis": "Both Nifty and Bank Nifty are poised for substantial gap-ups, but their RSIs are at extremely overbought levels (99.01). This suggests a high probability of profit booking or consolidation post-open, despite the strong upward momentum, making sustainability questionable.",
-    "options_analysis": "PCR is neutral (1.0) for both indices. However, the absence of Max Pain, Call Resistance, and Put Support data pre-market makes a comprehensive options analysis impossible. This data will be crucial to monitor post-open, especially on a weekly expiry day.",
-    "sentiment_analysis": "FII/DII data is neutral. Market news presents a mixed bag, with some positive stock recommendations alongside concerns like Nvidia's China curbs and Yes Bank bonds. Overall sentiment is likely positive at open due to global cues, but caution is advised due to high volatility and expiry.",
-    "confluence_summary": "While global cues are strongly bullish, the extremely overbought RSI on both indices and the weekly expiry suggest extreme caution. A significant gap-up is expected, but sustainability is highly questionable, making aggressive directional trades risky initially. Waiting for price action confirmation is prudent."
+    "global_analysis": "Global cues are mixed to slightly negative, with Asian markets down and US futures showing minor weakness, particularly in Nasdaq. Crude oil is slightly up, while gold is down, providing no strong directional conviction for the Indian market.",
+    "technical_analysis": "Both Nifty and Bank Nifty are exhibiting extreme overbought conditions with RSI above 99, typically signaling an imminent correction or consolidation. However, their current prices are precisely at their 9 and 21-period EMAs, and the trend is marked as 'neutral,' which creates a significant contradiction and suggests either a very tight intraday range or conflicting signals from the data.",
+    "options_analysis": "The PCR for both indices is neutral at 1.0. Crucially, Max Pain, Call Resistance, and Put Support are all reported as 0, indicating incomplete or unreliable options data. This severely limits the ability to derive any meaningful directional bias from the options chain, especially on a weekly expiry day.",
+    "sentiment_analysis": "FII/DII flows are neutral for the day. Market news indicates some positive sentiment with FIIs returning and several buy recommendations for specific stocks/sectors like financials and auto ancillaries. However, the overall market regime is high volatility with a caution signal, suggesting underlying apprehension despite stock-specific optimism.",
+    "confluence_summary": "The market presents a highly contradictory picture: extreme overbought RSI suggesting a potential pullback, yet neutral trend and EMAs at current price indicating a lack of immediate direction. This, coupled with unreliable options data, high volatility, and weekly expiry, creates an environment of significant uncertainty. Therefore, a 'NO TRADE' stance is prudent, prioritizing capital protection over directional bets."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -20,11 +20,12 @@
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "25280.88 (Initial Resistance)",
-      "25517.12 (Strong Resistance)",
-      "24951.88 (Initial Support)"
+      "25133.3 (Support)",
+      "25017.2 (Support)",
+      "25375.15 (Resistance)",
+      "25500.9 (Resistance)"
     ],
-    "invalidation": "N/A (No trade proposed for immediate open)"
+    "invalidation": "N/A"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -35,22 +36,20 @@
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "60792.40 (Current/Potential Resistance after gap)",
-      "60000 (Psychological Support)"
+      "61283.2 (Current Price - acting as pivot)"
     ],
-    "invalidation": "N/A (No trade proposed for immediate open)"
+    "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Sustainability of the initial gap-up and subsequent price action in the first hour.",
-    "Open Interest (OI) build-up on Nifty and Bank Nifty options to identify Max Pain and key strike prices for expiry.",
-    "FII/DII cash market activity post-open for directional conviction.",
-    "Global market performance, particularly US and Asian indices, during Indian trading hours.",
-    "Any significant news flow impacting banking or IT sectors, especially regarding Yes Bank or Nvidia."
+    "Price action around Nifty's immediate support (25133) and resistance (25375) levels.",
+    "Any fresh FII/DII data or significant institutional activity post-mid-morning.",
+    "Global market cues, especially US futures, for any significant shift in sentiment.",
+    "Sector-specific movements, particularly in financials and auto ancillaries, given the positive news flow."
   ],
   "risk_factors": [
-    "Extreme overbought conditions (RSI 99.01) could lead to sharp profit booking or a quick reversal after the gap-up.",
-    "High volatility and potential for whipsaws due to weekly expiry, making stop-loss management challenging.",
-    "Lack of clear options data pre-market, hindering accurate assessment of immediate support/resistance from OI.",
-    "Any unexpected negative global news or domestic event could quickly reverse the positive sentiment."
+    "High volatility and potential for sharp, unpredictable moves due to weekly expiry.",
+    "Conflicting technical signals (extreme overbought RSI vs. neutral trend/EMAs) creating uncertainty.",
+    "Unreliable and incomplete options data, making it difficult to gauge market positioning.",
+    "Potential for profit-booking from extreme overbought levels, leading to a quick correction."
   ]
 }

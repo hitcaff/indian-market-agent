@@ -1,0 +1,55 @@
+{
+  "session": "mid_morning",
+  "date": "2026-11-12",
+  "timestamp": "12:59 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "Global cues are mixed to slightly negative, with Asian markets down and US futures showing minor weakness, particularly in Nasdaq. Crude oil is slightly up, while gold is down, providing no strong directional conviction for the Indian market.",
+    "technical_analysis": "Both Nifty and Bank Nifty are exhibiting extreme overbought conditions with RSI above 99, typically signaling an imminent correction or consolidation. However, their current prices are precisely at their 9 and 21-period EMAs, and the trend is marked as 'neutral,' which creates a significant contradiction and suggests either a very tight intraday range or conflicting signals from the data.",
+    "options_analysis": "The PCR for both indices is neutral at 1.0. Crucially, Max Pain, Call Resistance, and Put Support are all reported as 0, indicating incomplete or unreliable options data. This severely limits the ability to derive any meaningful directional bias from the options chain, especially on a weekly expiry day.",
+    "sentiment_analysis": "FII/DII flows are neutral for the day. Market news indicates some positive sentiment with FIIs returning and several buy recommendations for specific stocks/sectors like financials and auto ancillaries. However, the overall market regime is high volatility with a caution signal, suggesting underlying apprehension despite stock-specific optimism.",
+    "confluence_summary": "The market presents a highly contradictory picture: extreme overbought RSI suggesting a potential pullback, yet neutral trend and EMAs at current price indicating a lack of immediate direction. This, coupled with unreliable options data, high volatility, and weekly expiry, creates an environment of significant uncertainty. Therefore, a 'NO TRADE' stance is prudent, prioritizing capital protection over directional bets."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "25133.3 (Support)",
+      "25017.2 (Support)",
+      "25375.15 (Resistance)",
+      "25500.9 (Resistance)"
+    ],
+    "invalidation": "N/A"
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "61283.2 (Current Price - acting as pivot)"
+    ],
+    "invalidation": "N/A"
+  },
+  "what_to_watch": [
+    "Price action around Nifty's immediate support (25133) and resistance (25375) levels.",
+    "Any fresh FII/DII data or significant institutional activity post-mid-morning.",
+    "Global market cues, especially US futures, for any significant shift in sentiment.",
+    "Sector-specific movements, particularly in financials and auto ancillaries, given the positive news flow."
+  ],
+  "risk_factors": [
+    "High volatility and potential for sharp, unpredictable moves due to weekly expiry.",
+    "Conflicting technical signals (extreme overbought RSI vs. neutral trend/EMAs) creating uncertainty.",
+    "Unreliable and incomplete options data, making it difficult to gauge market positioning.",
+    "Potential for profit-booking from extreme overbought levels, leading to a quick correction."
+  ]
+}
