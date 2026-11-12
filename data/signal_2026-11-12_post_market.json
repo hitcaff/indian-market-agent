@@ -1,0 +1,56 @@
+{
+  "session": "post_market",
+  "date": "2026-11-12",
+  "timestamp": "20:07 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "Global cues are predominantly negative, with Nasdaq futures significantly down (-1.46%) following Nvidia's CEO resignation and broader AI stock turbulence. Nikkei and Hang Seng also closed lower, indicating a cautious sentiment across Asian markets. This negative sentiment from global tech could weigh heavily on Indian markets, especially given the current elevated valuations.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed positive, with Bank Nifty showing strong gains (+1.19%). However, both indices are flashing an extremely overbought RSI of 99.01, indicating a high probability of a sharp pullback or consolidation. The 'neutral' trend despite the positive close and extreme RSI suggests a market at an inflection point, where sustaining further upside might be challenging.",
+    "options_analysis": "The provided options data for both Nifty and Bank Nifty (Max Pain: 0, Call Resistance: 0, Put Support: 0, PCR: 1.0) appears incomplete or erroneous. Consequently, no reliable insights regarding immediate support, resistance, or market sentiment can be derived from the options chain for this analysis. This significantly limits the ability to gauge derivative-led moves.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. While domestic news includes some positive corporate updates (HDFC Bank, Bajaj Finance, Oil India), the significant negative global tech news (Nvidia, Nasdaq) combined with the 'high_volatility' regime and 'caution' signal suggests underlying nervousness and potential for profit booking. The market is grappling with conflicting domestic strength and global headwinds.",
+    "confluence_summary": "The market is exhibiting conflicting signals. Strong positive closes for both indices are overshadowed by extremely overbought RSI levels and significant negative global tech cues. The high volatility and caution signal, coupled with unreliable options data, create an environment of high uncertainty, making directional trades highly risky for tomorrow's session."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "",
+    "key_levels_to_watch": [
+      "25166.6 (Immediate Support)",
+      "25408.45 (Immediate Resistance)",
+      "25033.85 (Strong Support)"
+    ],
+    "invalidation": "A clear break and sustain above 25408.45 with strong volume for long positions, or a clear break and sustain below 25166.6 for short positions, supported by global cues."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "",
+    "key_levels_to_watch": [
+      "61518.5 (Current Level)",
+      "Potential support/resistance levels from price action if options data remains unavailable"
+    ],
+    "invalidation": "A clear directional bias emerging with strong global cues and reliable options data, confirming a break of key price action levels."
+  },
+  "what_to_watch": [
+    "Performance of US markets overnight, especially the tech sector, following Nvidia's CEO resignation and AI stock turbulence.",
+    "Nifty's reaction to its immediate resistance at 25408.45 and support at 25166.6; watch for signs of profit booking.",
+    "Bank Nifty's ability to consolidate or correct from its extremely overbought levels, particularly around 61500.",
+    "Any fresh FII/DII flow data that could provide clearer directional cues for the coming sessions.",
+    "Resolution of the options data anomaly; reliable Max Pain and OI data are crucial for derivative traders."
+  ],
+  "risk_factors": [
+    "Extreme overbought conditions (RSI 99.01) for both indices, significantly increasing the risk of a sharp correction or profit booking.",
+    "Significant negative global cues from the tech sector, potentially leading to a gap-down opening or sustained selling pressure in Indian markets.",
+    "High volatility regime and 'caution' signal, implying unpredictable and sharp price movements, making risk management challenging.",
+    "Lack of reliable options data, hindering the assessment of immediate market sentiment, key support/resistance levels, and potential expiry dynamics."
+  ]
+}
