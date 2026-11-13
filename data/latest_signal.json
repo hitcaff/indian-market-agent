@@ -1,58 +1,58 @@
 {
-  "session": "post_market",
-  "date": "2026-11-13",
-  "timestamp": "22:19 IST",
-  "market_bias": "neutral",
-  "bias_strength": "weak",
+  "session": "pre_market",
+  "date": "2026-11-14",
+  "timestamp": "00:21 IST",
+  "market_bias": "bearish",
+  "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global cues are predominantly negative, with SGX Nifty, Dow Futures, Nasdaq Futures, and Hang Seng all in the red. The significant drop in Nasdaq Futures (-2.02%) suggests a potential drag on tech-heavy sectors globally, while concerns around Fed rate hikes and geopolitical tensions (Iran war, energy shock) add to the cautious sentiment.",
-    "technical_analysis": "Nifty 50 closed down 0.61%, with EMA9 and EMA21 converging at the current price, indicating a lack of clear directional momentum or consolidation. Its RSI at 63.44 is bullish but not overbought. Bank Nifty also fell 0.79%, exhibiting similar EMA convergence, but its RSI at 83.39 is deeply overbought, signaling a high probability of profit booking or a correction.",
-    "options_analysis": "Both Nifty and Bank Nifty show a PCR of 1.0, which is perfectly neutral, suggesting a balanced sentiment between call and put writers. However, the Max Pain, Call Resistance, and Put Support data are reported as 0, which limits a comprehensive options-based directional analysis and reinforces a 'wait and watch' approach.",
-    "sentiment_analysis": "FII/DII data is neutral with zero net flows, offering no institutional directional conviction. Market news is mixed; global headlines point to economic headwinds (Fed hikes, tech turmoil), while domestic news includes positive analyst recommendations for specific stocks and updates on upcoming IPOs, indicating stock-specific activity rather than broad market sentiment.",
-    "confluence_summary": "The market is in a high-volatility, non-trending regime with a 'caution' signal. Negative global cues are clashing with neutral domestic technicals (Nifty's bullish RSI vs. Bank Nifty's overbought RSI) and neutral options data. The absence of FII/DII flows and mixed news further contributes to a lack of clear directional conviction, making 'NO TRADE' the most prudent approach for now."
+    "global_analysis": "Negative global cues dominate, with SGX Nifty indicating a likely gap-down opening (-0.44%). US tech sector weakness (Nasdaq Futures -1.47%) and significant declines in Asian markets (Hang Seng -2.79%) point towards a cautious start. Hawkish signals from the Fed, despite Treasury chief's comments, add to the global uncertainty.",
+    "technical_analysis": "Nifty is expected to open below its immediate support of 25153.85, indicating weakness. Bank Nifty, while closing positive, shows a significantly overbought RSI at 83.39, suggesting potential for profit booking or consolidation. Both indices exhibit neutral trends and EMAs at current price, lacking clear short-term directional conviction.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty stands at a neutral 1.0. Crucially, the absence of specific Max Pain, Call Resistance, and Put Support data for key strike levels limits our ability to gauge precise option chain dynamics, rendering this segment largely neutral for directional bias.",
+    "sentiment_analysis": "FII/DII data is neutral for the day, offering no fresh directional cues. Global news highlights tech sector fragility and ongoing geopolitical risks (Iran war), which could weigh on sentiment. Domestic news is largely stock-specific and IPO-related, not providing strong market-wide directional impetus.",
+    "confluence_summary": "The strong negative global cues, particularly the SGX Nifty indicating a gap down below Nifty's immediate support, suggest a bearish opening. However, Bank Nifty's overbought RSI, the high volatility regime, non-trending market signal, and incomplete options data create conflicting signals, warranting extreme caution and a 'NO TRADE' stance for the initial hours."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 30,
-    "risk_reward": "N/A",
+    "entry_zone": "0",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "0",
     "key_levels_to_watch": [
-      "25050.48 (Support)",
-      "24956.67 (Strong Support)",
-      "25242.23 (Resistance)",
-      "25340.17 (Strong Resistance)"
+      "25153.85 (Support 1)",
+      "25008.35 (Support 2)",
+      "25345.6 (Resistance 1)"
     ],
-    "invalidation": "A sustained break and close above 25340 or below 24956 with significant volume would invalidate the neutral stance and indicate a potential directional move."
+    "invalidation": "Market opens with a significant gap up against global cues or sustains above 25300 in the first hour."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 30,
-    "risk_reward": "N/A",
+    "entry_zone": "0",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "0",
     "key_levels_to_watch": [
-      "61034.10 (Current Level)",
-      "RSI 83.39 (Overbought Zone)"
+      "61034.10 (Current Price)",
+      "60800 (Psychological Support)",
+      "61500 (Potential Resistance)"
     ],
-    "invalidation": "A clear break and sustained move above 61500 or below 60500 with strong volume would indicate a potential directional shift, but the overbought RSI suggests caution for long positions."
+    "invalidation": "Bank Nifty shows strong independent bullish momentum, breaking above previous day's high despite Nifty's weakness."
   },
   "what_to_watch": [
-    "Global market performance, particularly US tech stocks (Nasdaq) and Asian markets, for spillover effects.",
-    "Nifty's ability to hold the immediate support of 25050.48 and Bank Nifty's reaction to its overbought RSI.",
-    "Any fresh FII/DII activity for signs of institutional conviction.",
-    "Developments regarding US Fed policy, inflation data, and geopolitical events (Iran war) impacting crude oil prices.",
-    "Volume action around key support and resistance levels for both indices to confirm any potential breakout or breakdown."
+    "Nifty's reaction to the 25153.85 and 25008.35 support levels post-gap down. A sustained break below 25000 could trigger further selling.",
+    "Bank Nifty's behavior given its overbought RSI (83.39). Watch for profit booking or consolidation, especially if Nifty remains weak.",
+    "Global market stability, particularly US tech sector performance and any fresh developments regarding Fed policy or geopolitical tensions.",
+    "Initial FII/DII activity post-market open, as current data is neutral.",
+    "Crude oil price movements, given the mention of Iran war and its potential impact on inflation."
   ],
   "risk_factors": [
-    "Elevated global market volatility and potential for sharp corrections, especially in tech.",
-    "Geopolitical tensions (Iran war) could escalate, leading to increased crude oil prices and inflationary pressures.",
-    "Bank Nifty's deeply overbought RSI (83.39) poses a significant risk of a sharp correction or profit booking.",
-    "The 'high_volatility' and 'non-trending' market regime increases the risk of whipsaws and false signals.",
-    "Lack of clear directional cues from institutional flows (FII/DII) and options data makes conviction trades risky."
+    "High market volatility (ATR% 1.31%) implies choppy price action and potential for sharp reversals.",
+    "Geopolitical risks, specifically the 'Iran war' mentioned in news, could escalate and impact global markets.",
+    "Incomplete options data (Max Pain, Call/Put Support at 0) reduces visibility into potential expiry-related moves.",
+    "Conflicting signals between Nifty's bearish global cues and Bank Nifty's overbought but positive close, making a unified market view challenging.",
+    "The market is currently 'non-trending' which increases the risk of range-bound or whipsaw movements."
   ]
 }

@@ -1,0 +1,58 @@
+{
+  "session": "pre_market",
+  "date": "2026-11-14",
+  "timestamp": "00:21 IST",
+  "market_bias": "bearish",
+  "bias_strength": "moderate",
+  "reasoning": {
+    "global_analysis": "Negative global cues dominate, with SGX Nifty indicating a likely gap-down opening (-0.44%). US tech sector weakness (Nasdaq Futures -1.47%) and significant declines in Asian markets (Hang Seng -2.79%) point towards a cautious start. Hawkish signals from the Fed, despite Treasury chief's comments, add to the global uncertainty.",
+    "technical_analysis": "Nifty is expected to open below its immediate support of 25153.85, indicating weakness. Bank Nifty, while closing positive, shows a significantly overbought RSI at 83.39, suggesting potential for profit booking or consolidation. Both indices exhibit neutral trends and EMAs at current price, lacking clear short-term directional conviction.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty stands at a neutral 1.0. Crucially, the absence of specific Max Pain, Call Resistance, and Put Support data for key strike levels limits our ability to gauge precise option chain dynamics, rendering this segment largely neutral for directional bias.",
+    "sentiment_analysis": "FII/DII data is neutral for the day, offering no fresh directional cues. Global news highlights tech sector fragility and ongoing geopolitical risks (Iran war), which could weigh on sentiment. Domestic news is largely stock-specific and IPO-related, not providing strong market-wide directional impetus.",
+    "confluence_summary": "The strong negative global cues, particularly the SGX Nifty indicating a gap down below Nifty's immediate support, suggest a bearish opening. However, Bank Nifty's overbought RSI, the high volatility regime, non-trending market signal, and incomplete options data create conflicting signals, warranting extreme caution and a 'NO TRADE' stance for the initial hours."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "0",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "0",
+    "key_levels_to_watch": [
+      "25153.85 (Support 1)",
+      "25008.35 (Support 2)",
+      "25345.6 (Resistance 1)"
+    ],
+    "invalidation": "Market opens with a significant gap up against global cues or sustains above 25300 in the first hour."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "0",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "0",
+    "key_levels_to_watch": [
+      "61034.10 (Current Price)",
+      "60800 (Psychological Support)",
+      "61500 (Potential Resistance)"
+    ],
+    "invalidation": "Bank Nifty shows strong independent bullish momentum, breaking above previous day's high despite Nifty's weakness."
+  },
+  "what_to_watch": [
+    "Nifty's reaction to the 25153.85 and 25008.35 support levels post-gap down. A sustained break below 25000 could trigger further selling.",
+    "Bank Nifty's behavior given its overbought RSI (83.39). Watch for profit booking or consolidation, especially if Nifty remains weak.",
+    "Global market stability, particularly US tech sector performance and any fresh developments regarding Fed policy or geopolitical tensions.",
+    "Initial FII/DII activity post-market open, as current data is neutral.",
+    "Crude oil price movements, given the mention of Iran war and its potential impact on inflation."
+  ],
+  "risk_factors": [
+    "High market volatility (ATR% 1.31%) implies choppy price action and potential for sharp reversals.",
+    "Geopolitical risks, specifically the 'Iran war' mentioned in news, could escalate and impact global markets.",
+    "Incomplete options data (Max Pain, Call/Put Support at 0) reduces visibility into potential expiry-related moves.",
+    "Conflicting signals between Nifty's bearish global cues and Bank Nifty's overbought but positive close, making a unified market view challenging.",
+    "The market is currently 'non-trending' which increases the risk of range-bound or whipsaw movements."
+  ]
+}
