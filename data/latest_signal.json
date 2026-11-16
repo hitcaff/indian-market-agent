@@ -1,59 +1,55 @@
 {
   "session": "pre_market",
   "date": "2026-11-17",
-  "timestamp": "00:28 IST",
+  "timestamp": "02:50 IST",
   "market_bias": "bearish",
   "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global markets are showing significant weakness, with US futures down over 1-2% and Asian markets also in the red, setting a negative tone for the Indian market opening. Crude oil's sharp decline further adds to the risk-off sentiment globally. This strong negative backdrop will likely influence domestic sentiment.",
-    "technical_analysis": "Both Nifty and Bank Nifty are displaying neutral trends with flat EMAs, indicating a phase of consolidation. However, their RSIs are in overbought territory (Nifty 72.14, Bank Nifty 82.72), suggesting potential for a pullback or exhaustion, especially in Bank Nifty which is highly overextended.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from options participants at this juncture. The reported Max Pain, Call Resistance, and Put Support values as 0 suggest either very early data or a lack of significant directional open interest build-up at this precise moment, thus offering no clear bias.",
-    "sentiment_analysis": "FII/DII data is neutral, providing no directional cues from institutional flows. Market news is mixed; while global headlines are largely negative (US stocks, S&P target cut), there are several positive stock-specific recommendations for Indian equities, which might provide some selective buying interest or cushion a sharp fall.",
-    "confluence_summary": "The overwhelming negative global cues, coupled with overbought domestic technicals (especially Bank Nifty's RSI), strongly suggest a downside bias or at least significant profit booking potential. However, the neutral trend, flat EMAs, and ranging market regime indicate that any downside might be met with consolidation rather than a strong trending move, making aggressive directional trades risky."
+    "global_analysis": "Global cues are significantly negative, with Dow and Nasdaq futures down over 1.4% and 2.6% respectively, and major Asian markets like Nikkei and Hang Seng also showing sharp declines. Crude oil prices are also notably lower, indicating a broad risk-off sentiment across international markets.",
+    "technical_analysis": "Both Nifty and Bank Nifty are currently trading around their 9 and 21 EMAs, suggesting a neutral trend and indecision. However, their RSIs are deeply in overbought territory (Nifty at 72.14, Bank Nifty at an extreme 82.72), signaling a high probability of a pullback or consolidation. The market regime is also identified as 'ranging' and 'neutral'.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from the options market participants. Crucial data points like Max Pain, Call Resistance, and Put Support are currently zero, making it difficult to derive strong directional cues from options at this early pre-market stage.",
+    "sentiment_analysis": "FII/DII data is neutral for the day, offering no clear directional bias from institutional flows. Global market news is largely negative, highlighting concerns in US equities, while domestic news is mixed with some stock-specific analyst upgrades but no overarching positive market drivers.",
+    "confluence_summary": "The strong negative global sentiment, combined with the highly overbought RSI readings for both Nifty and Bank Nifty, points towards a bearish bias for the market opening. Despite neutral domestic technical trends and inconclusive options data, the external pressures and internal overextension suggest potential selling pressure or a gap-down opening. However, the 'ranging' market regime advises caution."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": null,
-    "stop_loss": null,
-    "target_1": null,
-    "target_2": null,
-    "confidence_pct": 70,
-    "risk_reward": "N/A",
+    "entry_zone": "",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "",
     "key_levels_to_watch": [
       "25098.4 (Support 1)",
       "25052.5 (Support 2)",
-      "25263.9 (Resistance 1)",
-      "25383.5 (Resistance 2)"
+      "25263.9 (Resistance 1)"
     ],
-    "invalidation": "N/A - Prudent to observe initial price action and wait for clearer directional cues post-open."
+    "invalidation": "Market opens significantly higher than expected or sustains above 25263.9, negating the global bearish sentiment."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": null,
-    "stop_loss": null,
-    "target_1": null,
-    "target_2": null,
-    "confidence_pct": 75,
-    "risk_reward": "N/A",
+    "entry_zone": "",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "",
     "key_levels_to_watch": [
-      "61200 (Immediate Support)",
-      "61000 (Strong Support)",
-      "61800 (Immediate Resistance)",
-      "62000 (Strong Resistance)"
+      "61575.9 (Current/EMA)",
+      "Watch for price action around this level for potential support/resistance"
     ],
-    "invalidation": "N/A - Extremely overbought RSI warrants caution; waiting for confirmation is key."
+    "invalidation": "Market opens significantly higher than expected or shows strong bullish momentum, despite the extremely overbought RSI."
   },
   "what_to_watch": [
-    "How Nifty and Bank Nifty react to the significant negative global cues at market open, particularly the extent of any potential gap down.",
-    "Price action around key support levels for Nifty (25098.4) and Bank Nifty (around 61200-61000) for signs of buying interest or further breakdown.",
-    "FII/DII activity post-market open, as their flows can significantly influence intraday trends.",
-    "Any significant build-up in Nifty/Bank Nifty options Open Interest during the day, which could provide fresh directional cues.",
-    "Movement in Crude Oil prices, as continued weakness could signal broader economic concerns."
+    "The actual opening gap and initial price action for Nifty and Bank Nifty to confirm the impact of global cues.",
+    "Nifty's reaction around the immediate support levels of 25098.4 and 25052.5 if a gap-down opening occurs.",
+    "Bank Nifty's ability to hold current levels, given its extremely overbought RSI of 82.72.",
+    "Any significant FII/DII activity post-market open, as current data is neutral.",
+    "Further developments in global markets during Indian trading hours."
   ],
   "risk_factors": [
-    "The '0' values for Max Pain, Call Resistance, and Put Support indicate incomplete options data, making a robust options-based analysis difficult and increasing uncertainty.",
-    "The market regime is 'ranging,' which implies quick reversals and choppy price action are possible, increasing risk for aggressive directional trades.",
-    "High volatility is expected at market open due to the pronounced negative global factors, which can lead to rapid price swings.",
-    "Overbought RSIs in both indices, especially Bank Nifty, could lead to sharp corrections or profit booking, making long positions risky."
+    "The 'ranging' market regime could lead to choppy and indecisive price action, making directional trades challenging.",
+    "Lack of clear options data (Max Pain, OI) at this early stage reduces the confluence for a strong directional bias.",
+    "While global cues are negative, the extent of their impact on the Indian market's opening is yet to be fully determined."
   ]
 }
