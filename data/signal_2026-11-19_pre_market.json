@@ -1,0 +1,57 @@
+{
+  "session": "pre_market",
+  "date": "2026-11-19",
+  "timestamp": "01:10 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "Global cues are predominantly negative, with Dow Futures, Nikkei, Hang Seng, Crude Oil, and Gold all showing significant declines. SGX Nifty also indicates a negative opening. Nasdaq Futures is the only major index showing positive momentum, but it's an outlier.",
+    "technical_analysis": "Nifty 50 exhibits a bearish RSI (43.6) and is trading near its support levels, with EMAs flatlining at the current price, suggesting a lack of clear direction. In contrast, Bank Nifty shows bullish momentum with an RSI of 63.28 and a positive change, though its EMAs are also flat, indicating a ranging market for both indices.",
+    "options_analysis": "The options data for both Nifty and Bank Nifty (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) is inconclusive at this early pre-market stage. This lack of significant Open Interest data makes it challenging to gauge immediate support and resistance from the options chain, especially on a weekly expiry day.",
+    "sentiment_analysis": "FII/DII activity is neutral at \u20b90 Cr, offering no directional cues. Market news is mixed, with global concerns about Fed rate hikes and some positive stock-specific recommendations, alongside news of significant global IPOs like Anthropic, which might influence sentiment but not directly Indian indices yet.",
+    "confluence_summary": "The market presents a highly mixed picture. Strong negative global cues and Nifty's bearish technicals are counterbalanced by Bank Nifty's bullish momentum. The overall market regime is ranging, and with it being a weekly expiry day, combined with inconclusive early options data, a cautious and neutral stance is warranted due to the high-risk environment and lack of clear directional conviction."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 20,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "25222.53 (Support 1)",
+      "25057.67 (Support 2)",
+      "25471.53 (Resistance 1)",
+      "25555.67 (Resistance 2)"
+    ],
+    "invalidation": "N/A - No trade proposed at this time."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 20,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "62038.65 (Current Price - key psychological level)",
+      "No specific S/R levels provided in data."
+    ],
+    "invalidation": "N/A - No trade proposed at this time."
+  },
+  "what_to_watch": [
+    "Opening price action relative to SGX Nifty and key support/resistance levels for both indices.",
+    "Real-time FII/DII data post-market open for any significant directional bias.",
+    "Option chain build-up for Nifty and Bank Nifty for expiry day, especially for Max Pain and significant OI concentrations at strikes.",
+    "Movement in Crude Oil and global markets (Dow Futures, Nasdaq) during Indian trading hours.",
+    "Any significant news flow or corporate announcements that could impact specific sectors or heavyweights."
+  ],
+  "risk_factors": [
+    "High volatility expected due to weekly expiry, leading to potential whipsaws and rapid premium decay.",
+    "Significant negative global cues could weigh heavily on market sentiment, despite Bank Nifty's current strength.",
+    "Lack of clear options data in pre-market makes gauging expiry-day dynamics challenging, increasing uncertainty.",
+    "The 'ranging' market regime suggests potential for choppy price action rather than a sustained trend, making directional trades difficult."
+  ]
+}
