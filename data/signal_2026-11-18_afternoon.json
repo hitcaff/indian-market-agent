@@ -1,0 +1,55 @@
+{
+  "session": "afternoon",
+  "date": "2026-11-18",
+  "timestamp": "13:18 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "Global cues are mixed with SGX Nifty and Hang Seng showing weakness, while Nasdaq and Nikkei are positive. Crude oil and gold are significantly down, which is generally favorable for India but also signals global risk-off sentiment in commodities. Overall, no strong directional conviction from the global front.",
+    "technical_analysis": "Nifty is down 0.77% with a bearish RSI of 40.89, while Bank Nifty is down 0.48% but shows a bullish RSI of 61.31. Both indices are explicitly in a 'neutral' trend and the market regime is 'ranging' with 'trending: false'. The provided EMA data appears to be the current price, offering no clear trend indication.",
+    "options_analysis": "Both Nifty and Bank Nifty show a PCR of 1.0, indicating a perfectly neutral stance from the options market participants. Crucially, Max Pain, Call Resistance, and Put Support data are all reported as 0, which means no actionable insights can be derived from these key options metrics at this time, further reinforcing neutrality.",
+    "sentiment_analysis": "FII/DII activity is neutral with zero net flow. Market news is a mixed bag, featuring some positive brokerage calls for specific stocks and general market commentary. The report on potential government tax tweaks to curb derivatives could be a long-term overhang but isn't an immediate market driver, while Navneet Munot's positive view on Indian equities offers some underlying support.",
+    "confluence_summary": "The market is firmly in a ranging regime with conflicting technical signals (Nifty bearish RSI, Bank Nifty bullish RSI) and neutral options data (PCR 1.0). Global cues are mixed, and FII/DII flows are non-committal. Given the lack of strong confluence across all factors, especially the explicit 'ranging' market regime, a 'NO TRADE' stance is the most prudent approach for derivatives."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 80,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "25091.67 (Support 1)",
+      "25340.67 (Resistance 1)"
+    ],
+    "invalidation": "N/A - Awaiting clear directional breakout or breakdown from the current range."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 80,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "61500 (Psychological Support)",
+      "62500 (Psychological Resistance)"
+    ],
+    "invalidation": "N/A - Awaiting clear directional breakout or breakdown from the current range."
+  },
+  "what_to_watch": [
+    "Any significant shift in FII/DII flows in the latter half of the session.",
+    "Nifty's ability to hold above 25091.67 or break below it for a potential downside move.",
+    "Bank Nifty's reaction around 62000 level, given its bullish RSI in a neutral trend.",
+    "Global market performance, especially US futures, for any late-day directional cues.",
+    "Any fresh news flow regarding the government's stance on derivatives taxation."
+  ],
+  "risk_factors": [
+    "The market is in a ranging regime, which can lead to whipsaws and false breakouts/breakdowns.",
+    "Lack of clear options data (Max Pain, Call/Put OI) reduces visibility into potential turning points.",
+    "Conflicting technical signals between Nifty and Bank Nifty can lead to indecision and choppy price action.",
+    "Sudden news events or global market shifts could trigger volatility without a clear underlying trend."
+  ]
+}
