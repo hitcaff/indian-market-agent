@@ -1,0 +1,55 @@
+{
+  "session": "post_market",
+  "date": "2026-11-18",
+  "timestamp": "20:36 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "Major global indices like Dow, Nikkei, and Hang Seng are showing weakness, with SGX Nifty also down, indicating a cautious global sentiment. Crude oil and gold prices are significantly lower, suggesting a broader risk-off environment. Nasdaq futures are marginally positive, offering a slight counterpoint but not enough to offset the overall negative global cues.",
+    "technical_analysis": "Nifty 50 closed negative with a bearish RSI of 43.6, suggesting underlying weakness, yet its trend is indicated as neutral with EMAs at the current price. Bank Nifty also closed in the red but showed relative strength with a bullish RSI of 63.28, though its trend is also neutral. Both indices are currently operating within a defined ranging market regime, lacking clear directional momentum.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a perfectly neutral stance from options market participants. The absence of specific Max Pain, Call Resistance, and Put Support data further reinforces this lack of directional conviction in the options chain, making it difficult to lean towards a bullish or bearish bias based on derivatives data.",
+    "sentiment_analysis": "FII/DII data shows zero net activity, implying no significant institutional flow to sway the market in either direction, contributing to the neutral sentiment. Market news is a mixed bag of positive corporate earnings and specific stock recommendations, with some positive momentum noted for Bank Nifty's recent rally. Nvidia's strong results could offer some tech-sector specific optimism globally, but its direct impact on Indian indices is yet to be seen.",
+    "confluence_summary": "The market presents a highly mixed picture with conflicting signals across various factors. Negative global cues are countered by a neutral domestic market regime and divergent technical indicators (Nifty bearish RSI vs. Bank Nifty bullish RSI, both with neutral trends). Options data is neutral, and institutional flows are absent. This lack of a clear directional bias across multiple factors strongly supports a 'NO TRADE' stance for the upcoming session."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "25116.23 (Support 1)",
+      "25004.52 (Support 2)",
+      "25365.23 (Resistance 1)",
+      "25502.52 (Resistance 2)"
+    ],
+    "invalidation": "N/A"
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "62000 (Psychological Level)",
+      "Recent Highs (for potential resistance)"
+    ],
+    "invalidation": "N/A"
+  },
+  "what_to_watch": [
+    "Global market opening, especially US and Asian markets, for any significant shifts in sentiment.",
+    "FII/DII activity for tomorrow to gauge institutional participation and potential directional bias.",
+    "Nifty's ability to hold its immediate support at 25116 or break its resistance at 25365, indicating a potential range breakout.",
+    "Bank Nifty's continued strength, given its bullish RSI, and whether it can sustain above the 62,000 mark."
+  ],
+  "risk_factors": [
+    "Sudden shifts in global sentiment or unexpected geopolitical events could trigger volatility.",
+    "The absence of clear directional cues and institutional flows could lead to choppy, range-bound trading, making intraday trades challenging.",
+    "Lack of comprehensive options data (Max Pain, OI) limits the ability to gauge precise support/resistance from the derivatives market."
+  ]
+}
