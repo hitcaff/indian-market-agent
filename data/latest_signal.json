@@ -1,15 +1,15 @@
 {
-  "session": "afternoon",
+  "session": "post_market",
   "date": "2026-11-19",
-  "timestamp": "13:14 IST",
-  "market_bias": "bullish",
-  "bias_strength": "weak",
+  "timestamp": "20:45 IST",
+  "market_bias": "neutral",
+  "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Major global indices like Dow, Nasdaq, Nikkei, and SGX Nifty are trading positively, providing a supportive backdrop for Indian markets. While Hang Seng is down and crude oil is declining, the overall sentiment from key global markets remains constructive, suggesting a risk-on appetite.",
-    "technical_analysis": "Nifty is showing bullish momentum with RSI at 69.81, but its current price is precisely at both 9-day and 21-day EMAs, indicating a short-term equilibrium or consolidation. Bank Nifty is significantly outperforming, up 0.90%, but its RSI at 88.45 is deeply in overbought territory, signaling potential for a pullback or consolidation. Both indices are flagged with a 'neutral' trend despite the broader 'trending' market regime.",
-    "options_analysis": "PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral sentiment from an options perspective. Crucially, Max Pain, Call Resistance, and Put Support data are unavailable (or zero), which severely limits the ability to gauge precise expiry-day positioning and potential price magnets, especially on a high-risk weekly expiry day.",
-    "sentiment_analysis": "FII/DII data is neutral for the day, offering no clear directional bias from institutional flows. Market news highlights positive sentiment around specific sectors like Auto and certain large-cap stocks (HDFC Bank, RIL, Bajaj Finance), with analysts upgrading targets. This suggests stock-specific action is driving much of the current move, but overall market sentiment lacks strong institutional conviction for a broad market push.",
-    "confluence_summary": "The market presents a mixed picture: positive global cues and strong Bank Nifty momentum are tempered by Bank Nifty's overbought RSI, Nifty's short-term EMA equilibrium, and neutral options data with critical missing metrics for expiry. The high-risk weekly expiry day, coupled with the system's low confidence for trades, strongly advises against taking fresh directional positions, favoring caution and observation."
+    "global_analysis": "Global cues are largely supportive, with SGX Nifty, US Dow/Nasdaq futures, and Nikkei all trading in positive territory, suggesting a firm opening for Indian markets. However, the notable decline in Hang Seng (-1.95%) introduces a degree of caution, preventing an outright bullish global outlook.",
+    "technical_analysis": "Both Nifty and Bank Nifty witnessed significant upward momentum today, closing +1.14% and +1.65% higher respectively. This strong move has pushed their RSIs deep into overbought zones (Nifty 76.85, Bank Nifty 90.61). Despite this, the 'trend' is indicated as neutral and the market regime as 'ranging', suggesting that while momentum is strong, a sustained directional move might be challenged by these overbought conditions or a broader consolidation phase.",
+    "options_analysis": "A critical observation is the complete absence of actionable options data for the next weekly expiry. PCR, Max Pain, Call Resistance, and Put Support are all showing default or zero values post-weekly expiry. This makes it impossible to gauge immediate market positioning, potential open interest build-up, or key strike-based support and resistance levels for tomorrow's session.",
+    "sentiment_analysis": "FII/DII activity was neutral today. Market news presents a mixed bag: Goldman Sachs turning bullish on India with a Nifty target of 28,500 and positive news around the Anthropic IPO and defence stocks are encouraging. Conversely, concerns over fintech stocks (Paytm, MobiKwik) and the 'ranging' market regime temper the overall sentiment, indicating underlying caution despite the day's strong gains.",
+    "confluence_summary": "While the market closed with strong positive momentum and global cues are largely favorable, the extremely overbought RSI levels, the stated 'neutral' trend, and the complete lack of actionable options data post-expiry create a high degree of uncertainty for immediate directional trades. The confluence of these factors strongly advises against initiating fresh positions, favoring a cautious 'wait and watch' approach for tomorrow's opening."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -20,12 +20,12 @@
     "confidence_pct": 50,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "25458.77 (Immediate Resistance)",
-      "25563.98 (Strong Resistance)",
-      "25300 (Immediate Support)",
-      "25176.57 (Strong Support)"
+      "25650.8 (Immediate Resistance)",
+      "25787.3 (Strong Resistance)",
+      "25241.3 (Immediate Support)",
+      "24968.3 (Strong Support)"
     ],
-    "invalidation": "Any sustained breakdown below 25176.57 or a decisive close above 25500 could indicate a new directional bias post-expiry."
+    "invalidation": "A clear establishment of fresh options data for the new expiry and a sustained breakout/breakdown from the current range with significant volume."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -36,23 +36,24 @@
     "confidence_pct": 50,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "62800 (Immediate Resistance)",
-      "63000 (Psychological Resistance)",
-      "62400 (Immediate Support)",
-      "62000 (Strong Support)"
+      "63063.0 (Current Price/EMA)",
+      "63500 (Psychological Resistance)",
+      "62500 (Psychological Support)",
+      "62000 (Potential Support)"
     ],
-    "invalidation": "A sustained break above 63000 or a sharp reversal and close below 62000 would invalidate the current neutral stance."
+    "invalidation": "A clear establishment of fresh options data for the new expiry and a sustained breakout/breakdown from the current range with significant volume."
   },
   "what_to_watch": [
-    "Expiry-related volatility and potential short covering/unwinding moves in the final hour of trading.",
-    "Nifty's ability to sustain above 25350 and Bank Nifty's reaction to its extremely overbought RSI.",
-    "Global market sentiment, especially US futures, for any significant shifts post-European close.",
-    "Crude oil price action, as continued decline could be positive for India but signal global demand concerns."
+    "Fresh FII/DII data for Friday's session to gauge institutional participation and conviction.",
+    "The development of options chain data for the next weekly expiry to identify new support/resistance zones and Max Pain levels.",
+    "Global market performance, particularly US markets, for follow-through cues and any shifts in sentiment.",
+    "Price action around the overbought RSI levels for signs of profit booking, consolidation, or continued strength.",
+    "Any further news flow regarding the AI sector, defence spending, or specific corporate actions that could impact market leaders."
   ],
   "risk_factors": [
-    "High volatility inherent in weekly expiry days, leading to unpredictable and sharp price swings.",
-    "Missing critical options data (Max Pain, Call/Put OI) for accurate expiry-day assessment, significantly increasing uncertainty.",
-    "Bank Nifty's extremely overbought RSI (88.45), increasing the risk of a sharp correction or profit booking.",
-    "Potential for sudden news flow or significant FII/DII activity post-data update, impacting market direction."
+    "Extreme overbought conditions in both Nifty and Bank Nifty, significantly increasing the probability of profit booking or a sharp pullback.",
+    "The complete lack of actionable options data post-expiry, making it challenging to assess immediate market structure and participant positioning for tomorrow.",
+    "The 'neutral' trend and 'ranging' regime signal, despite strong daily gains, indicates underlying uncertainty or a lack of sustained directional conviction.",
+    "Potential for increased volatility as fresh positions are built for the new weekly expiry, leading to whipsaws."
   ]
 }
