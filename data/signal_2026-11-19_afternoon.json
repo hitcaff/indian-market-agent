@@ -1,0 +1,58 @@
+{
+  "session": "afternoon",
+  "date": "2026-11-19",
+  "timestamp": "13:14 IST",
+  "market_bias": "bullish",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "Major global indices like Dow, Nasdaq, Nikkei, and SGX Nifty are trading positively, providing a supportive backdrop for Indian markets. While Hang Seng is down and crude oil is declining, the overall sentiment from key global markets remains constructive, suggesting a risk-on appetite.",
+    "technical_analysis": "Nifty is showing bullish momentum with RSI at 69.81, but its current price is precisely at both 9-day and 21-day EMAs, indicating a short-term equilibrium or consolidation. Bank Nifty is significantly outperforming, up 0.90%, but its RSI at 88.45 is deeply in overbought territory, signaling potential for a pullback or consolidation. Both indices are flagged with a 'neutral' trend despite the broader 'trending' market regime.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral sentiment from an options perspective. Crucially, Max Pain, Call Resistance, and Put Support data are unavailable (or zero), which severely limits the ability to gauge precise expiry-day positioning and potential price magnets, especially on a high-risk weekly expiry day.",
+    "sentiment_analysis": "FII/DII data is neutral for the day, offering no clear directional bias from institutional flows. Market news highlights positive sentiment around specific sectors like Auto and certain large-cap stocks (HDFC Bank, RIL, Bajaj Finance), with analysts upgrading targets. This suggests stock-specific action is driving much of the current move, but overall market sentiment lacks strong institutional conviction for a broad market push.",
+    "confluence_summary": "The market presents a mixed picture: positive global cues and strong Bank Nifty momentum are tempered by Bank Nifty's overbought RSI, Nifty's short-term EMA equilibrium, and neutral options data with critical missing metrics for expiry. The high-risk weekly expiry day, coupled with the system's low confidence for trades, strongly advises against taking fresh directional positions, favoring caution and observation."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 50,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "25458.77 (Immediate Resistance)",
+      "25563.98 (Strong Resistance)",
+      "25300 (Immediate Support)",
+      "25176.57 (Strong Support)"
+    ],
+    "invalidation": "Any sustained breakdown below 25176.57 or a decisive close above 25500 could indicate a new directional bias post-expiry."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 50,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "62800 (Immediate Resistance)",
+      "63000 (Psychological Resistance)",
+      "62400 (Immediate Support)",
+      "62000 (Strong Support)"
+    ],
+    "invalidation": "A sustained break above 63000 or a sharp reversal and close below 62000 would invalidate the current neutral stance."
+  },
+  "what_to_watch": [
+    "Expiry-related volatility and potential short covering/unwinding moves in the final hour of trading.",
+    "Nifty's ability to sustain above 25350 and Bank Nifty's reaction to its extremely overbought RSI.",
+    "Global market sentiment, especially US futures, for any significant shifts post-European close.",
+    "Crude oil price action, as continued decline could be positive for India but signal global demand concerns."
+  ],
+  "risk_factors": [
+    "High volatility inherent in weekly expiry days, leading to unpredictable and sharp price swings.",
+    "Missing critical options data (Max Pain, Call/Put OI) for accurate expiry-day assessment, significantly increasing uncertainty.",
+    "Bank Nifty's extremely overbought RSI (88.45), increasing the risk of a sharp correction or profit booking.",
+    "Potential for sudden news flow or significant FII/DII activity post-data update, impacting market direction."
+  ]
+}
