@@ -1,0 +1,56 @@
+{
+  "session": "post_market",
+  "date": "2026-11-20",
+  "timestamp": "20:23 IST",
+  "market_bias": "neutral",
+  "bias_strength": "moderate",
+  "reasoning": {
+    "global_analysis": "Global cues are mixed; SGX Nifty and Dow futures show positivity, but significant weakness in Asian markets (Nikkei, Hang Seng) and negative Nasdaq futures due to AI sector concerns introduce caution. Crude and Gold prices are also declining, indicating a risk-off sentiment in some asset classes.",
+    "technical_analysis": "Nifty and Bank Nifty closed strongly positive, with Bank Nifty significantly outperforming (+2.49%). However, both indices are in extremely overbought territory (Nifty RSI 80.75, Bank Nifty RSI 93.35), suggesting a high probability of consolidation or pullback. The provided 'neutral' trend and 'ranging' regime contradict the daily momentum, indicating potential for mean reversion from these stretched levels.",
+    "options_analysis": "PCR is neutral for both Nifty and Bank Nifty at 1.0. Crucial Max Pain, Call Resistance, and Put Support data are unavailable (0), making a comprehensive options-based directional analysis impossible and limiting conviction for fresh directional trades.",
+    "sentiment_analysis": "Domestic sentiment is buoyed by a strong Rupee, potential FPI easing, and HDFC Bank's significant recovery, which drove the financial sector. However, global tech sector weakness and potential negative impact on Indian IT earnings from Rupee appreciation introduce caution. FII/DII data is neutral for the day.",
+    "confluence_summary": "Despite strong domestic momentum, particularly in financials, the extreme overbought RSI levels across both Nifty and Bank Nifty, coupled with mixed global cues and a lack of clear options data, warrant a cautious 'NO TRADE' stance. The market is at a critical juncture where momentum could continue, but the risk of a sharp correction or consolidation from these stretched levels is very high, making fresh directional bets unfavorable."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": null,
+    "stop_loss": null,
+    "target_1": null,
+    "target_2": null,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "25957.87 (Immediate Resistance)",
+      "25494.27 (Immediate Support)",
+      "RSI cooling off below 70"
+    ],
+    "invalidation": "N/A"
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": null,
+    "stop_loss": null,
+    "target_1": null,
+    "target_2": null,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "64635.20 (Current level, watch for sustainability/reversal)",
+      "RSI cooling off below 80"
+    ],
+    "invalidation": "N/A"
+  },
+  "what_to_watch": [
+    "Global market sentiment, especially US tech sector performance and Asian market stability, for potential spillover effects.",
+    "Any further developments on FPI regulations and their potential impact on foreign inflows into Indian equities.",
+    "Movement of the Rupee and its implications for export-oriented sectors like IT, given the recent appreciation.",
+    "Price action around Nifty's immediate resistance (25957.87) and Bank Nifty's ability to sustain current elevated levels without significant profit booking.",
+    "Signs of RSI cooling off for both indices, which would indicate a healthy consolidation rather than a sharp reversal."
+  ],
+  "risk_factors": [
+    "Extreme overbought conditions (RSI > 80 for Nifty, > 93 for Bank Nifty) significantly increase the probability of a sharp correction or profit booking in the near term.",
+    "Mixed to negative global cues, particularly from Asian markets and US tech, could lead to a negative sentiment spillover into Indian markets.",
+    "Potential negative impact of Rupee appreciation on the earnings of India's large IT sector, which could weigh on Nifty.",
+    "Lack of comprehensive options data (Max Pain, OI) for a clearer understanding of market participant positioning and potential support/resistance levels, increasing uncertainty."
+  ]
+}
