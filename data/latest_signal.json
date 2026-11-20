@@ -1,55 +1,56 @@
 {
-  "session": "pre_market",
+  "session": "afternoon",
   "date": "2026-11-20",
-  "timestamp": "01:11 IST",
+  "timestamp": "13:06 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "SGX Nifty and Nikkei are showing positive momentum, suggesting a firm opening for Indian markets. However, significant weakness in US futures (Dow, Nasdaq) and a sharp decline in Hang Seng could introduce volatility and cap upside potential during the day. Crude and Gold are also trading lower.",
-    "technical_analysis": "Both Nifty and Bank Nifty are indicating a positive start, but their RSIs are deeply in overbought territory (Nifty 76.85, Bank Nifty 90.61). The 'Trend' is neutral and the 'Market Regime' is ranging, suggesting that despite initial strength, a period of consolidation or profit booking is likely. Nifty is expected to open above its immediate resistance of 25459.9.",
-    "options_analysis": "PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from options participants. Max Pain, Call Resistance, and Put Support are all at 0, which means there's no clear directional conviction from the options chain at this pre-market stage, reinforcing a wait-and-watch approach.",
-    "sentiment_analysis": "FII/DII data is neutral. The most significant sentiment booster is Goldman Sachs upgrading India to Overweight with an ambitious Nifty target of 28,500. While this provides a strong long-term bullish outlook, mixed global news and specific stock reports do not offer a clear short-term directional bias for the broader market.",
-    "confluence_summary": "Despite a positive SGX Nifty and strong long-term bullish sentiment from Goldman Sachs, the deeply overbought RSI for both indices, combined with a neutral trend, ranging market regime, and mixed global cues, warrants extreme caution. The lack of clear options data further supports a wait-and-watch approach, as the market might be prone to profit booking or consolidation after a potential gap-up."
+    "global_analysis": "Global cues are highly mixed; while SGX Nifty shows a strong positive lead, major Asian markets like Nikkei and Hang Seng are sharply down, and US tech futures are also indicating weakness. This divergence creates an uncertain backdrop, preventing a clear global directional bias for Indian markets.",
+    "technical_analysis": "Both Nifty and Bank Nifty have rallied significantly today, pushing their RSIs deep into extremely overbought territory (Nifty 79.04, Bank Nifty 92.87). Despite this intraday strength, the market regime is explicitly identified as 'ranging' and 'not trending,' with a 'neutral' signal, suggesting potential exhaustion or a move within a larger consolidation phase.",
+    "options_analysis": "The provided options data for Max Pain, Call Resistance, and Put Support is incomplete (showing 0), making it impossible to derive meaningful insights from open interest. The PCR for both indices stands at a neutral 1.0, offering no clear directional bias from the available options metrics.",
+    "sentiment_analysis": "FII/DII activity is neutral for the day, providing no fresh institutional flow signals. News flow presents a mixed picture with positive economic indicators like a strengthening Rupee and a bond rally, but also concerns regarding India's 'no AI play' and sector-specific weakness in metals and jewellery.",
+    "confluence_summary": "The current strong intraday rally has pushed both indices into extreme overbought zones, which directly contradicts the underlying 'ranging' market regime and 'neutral' trend signal. Coupled with highly mixed global cues and a critical lack of reliable options data, there is insufficient confluence for a high-conviction directional trade, warranting a cautious 'NO TRADE' approach."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
+    "entry_zone": "",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
     "confidence_pct": 0,
-    "risk_reward": "N/A",
+    "risk_reward": "",
     "key_levels_to_watch": [
-      "25459.9 (Resistance 1)",
-      "25691.85 (Resistance 2)",
-      "25050.4 (Support 1)"
+      "25870 (Immediate Resistance)",
+      "25732 (Current EMA levels)",
+      "25470 (Immediate Support)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "Sustained break and close above 26000 or below 25200 with significant volume."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
+    "entry_zone": "",
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
     "confidence_pct": 0,
-    "risk_reward": "N/A",
+    "risk_reward": "",
     "key_levels_to_watch": [
-      "63063.0 (Current Level)"
+      "64500 (Psychological Resistance)",
+      "64397 (Current EMA levels)",
+      "64000 (Psychological Support)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "Sustained break and close above 65000 or below 63500 with significant volume."
   },
   "what_to_watch": [
-    "Sustainability of any gap-up opening, especially for Nifty above 25459.9.",
-    "Intraday price action and volume confirmation given the overbought RSI levels.",
-    "Performance of US and European markets as the day progresses.",
-    "Any fresh FII/DII activity post-market opening for directional cues.",
-    "Crude oil price movements and the offshore Chinese Yuan's stability."
+    "Sustainability of the current rally given the extremely overbought RSI levels in both Nifty and Bank Nifty.",
+    "Global market sentiment, particularly how US futures evolve and if Asian markets show any recovery.",
+    "Any fresh FII/DII activity data that might emerge later in the session.",
+    "Development of more complete options chain data for clearer Max Pain and Open Interest levels to gauge market depth."
   ],
   "risk_factors": [
-    "Potential for profit booking due to deeply overbought technical indicators (RSI).",
-    "Negative sentiment spillover from weak US futures and Hang Seng during market hours.",
-    "Lack of strong institutional conviction (neutral FII/DII and options data).",
-    "The 'ranging' market regime suggests limited trending moves, increasing chop and whipsaws."
+    "Sharp reversal from current overbought conditions, leading to profit booking.",
+    "Negative spillover from weak Asian and US tech markets, despite SGX Nifty's strength.",
+    "Lack of clear institutional participation (FII/DII) to support any directional move.",
+    "Incomplete options data significantly reduces visibility into potential support and resistance zones from an OI perspective."
   ]
 }
