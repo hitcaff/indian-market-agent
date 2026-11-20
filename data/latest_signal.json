@@ -1,56 +1,52 @@
 {
   "session": "post_market",
   "date": "2026-11-20",
-  "timestamp": "20:23 IST",
-  "market_bias": "neutral",
-  "bias_strength": "moderate",
+  "timestamp": "22:53 IST",
+  "market_bias": "bullish",
+  "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed; SGX Nifty and Dow futures show positivity, but significant weakness in Asian markets (Nikkei, Hang Seng) and negative Nasdaq futures due to AI sector concerns introduce caution. Crude and Gold prices are also declining, indicating a risk-off sentiment in some asset classes.",
-    "technical_analysis": "Nifty and Bank Nifty closed strongly positive, with Bank Nifty significantly outperforming (+2.49%). However, both indices are in extremely overbought territory (Nifty RSI 80.75, Bank Nifty RSI 93.35), suggesting a high probability of consolidation or pullback. The provided 'neutral' trend and 'ranging' regime contradict the daily momentum, indicating potential for mean reversion from these stretched levels.",
-    "options_analysis": "PCR is neutral for both Nifty and Bank Nifty at 1.0. Crucial Max Pain, Call Resistance, and Put Support data are unavailable (0), making a comprehensive options-based directional analysis impossible and limiting conviction for fresh directional trades.",
-    "sentiment_analysis": "Domestic sentiment is buoyed by a strong Rupee, potential FPI easing, and HDFC Bank's significant recovery, which drove the financial sector. However, global tech sector weakness and potential negative impact on Indian IT earnings from Rupee appreciation introduce caution. FII/DII data is neutral for the day.",
-    "confluence_summary": "Despite strong domestic momentum, particularly in financials, the extreme overbought RSI levels across both Nifty and Bank Nifty, coupled with mixed global cues and a lack of clear options data, warrant a cautious 'NO TRADE' stance. The market is at a critical juncture where momentum could continue, but the risk of a sharp correction or consolidation from these stretched levels is very high, making fresh directional bets unfavorable."
+    "global_analysis": "Global markets present a mixed picture with significant weakness in US tech (Nasdaq futures down 3.66%) and broader Asian markets (Nikkei, Hang Seng down ~4%) due to 'AI trade concerns'. However, SGX Nifty is showing strong resilience, up over 1%, suggesting a potential gap-up for Indian markets, indicating a decoupling from global tech weakness.",
+    "technical_analysis": "Nifty and Bank Nifty are poised for a strong gap-up as per SGX Nifty, but both indices are showing extremely overbought RSI levels (Nifty 80.75, Bank Nifty 93.35). This indicates a high probability of profit booking or a pullback after the open, despite the strong implied momentum. The system's 'neutral' trend and 'ranging' regime contradict the implied strong positive move.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty is 1.0, indicating a neutral stance. However, crucial options data like Max Pain, Call Resistance, and Put Support are reported as 0, making a comprehensive and reliable options analysis impossible at this time.",
+    "sentiment_analysis": "Domestic sentiment is strongly positive, with news highlighting investors seeking shelter in Indian stocks, the Rupee climbing past 93/USD, and SEBI proposing FPI relief. This suggests robust local buying interest and potential FII inflows, which could be driving the resilience despite global headwinds. FII/DII data is currently neutral (missing for the day).",
+    "confluence_summary": "While strong domestic sentiment and a positive SGX Nifty point to a bullish open for Indian markets, the extremely overbought RSI levels for both Nifty and Bank Nifty introduce significant caution. The lack of reliable options and FII/DII data further reduces confluence for a high-conviction directional trade. Therefore, a cautious 'wait and watch' approach is warranted."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": null,
-    "stop_loss": null,
-    "target_1": null,
-    "target_2": null,
-    "confidence_pct": 0,
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 80,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
       "25957.87 (Immediate Resistance)",
-      "25494.27 (Immediate Support)",
-      "RSI cooling off below 70"
+      "25494.27 (Immediate Support)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "Any sharp reversal from the implied gap-up open or sustained weakness below 25700."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": null,
-    "stop_loss": null,
-    "target_1": null,
-    "target_2": null,
-    "confidence_pct": 0,
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 80,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "64635.20 (Current level, watch for sustainability/reversal)",
-      "RSI cooling off below 80"
+      "65000 (Psychological Resistance)",
+      "Previous day's high (for potential profit booking)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "Any sharp reversal from the implied gap-up open or sustained weakness below 64000."
   },
   "what_to_watch": [
-    "Global market sentiment, especially US tech sector performance and Asian market stability, for potential spillover effects.",
-    "Any further developments on FPI regulations and their potential impact on foreign inflows into Indian equities.",
-    "Movement of the Rupee and its implications for export-oriented sectors like IT, given the recent appreciation.",
-    "Price action around Nifty's immediate resistance (25957.87) and Bank Nifty's ability to sustain current elevated levels without significant profit booking.",
-    "Signs of RSI cooling off for both indices, which would indicate a healthy consolidation rather than a sharp reversal."
+    "How Nifty and Bank Nifty react after the potential gap-up open, specifically for signs of profit booking given the overbought RSIs.",
+    "FII/DII data for the day to confirm domestic buying strength and potential FII participation following the SEBI news.",
+    "Global market performance during Indian trading hours, particularly US futures, for any further deterioration or recovery in tech sentiment."
   ],
   "risk_factors": [
-    "Extreme overbought conditions (RSI > 80 for Nifty, > 93 for Bank Nifty) significantly increase the probability of a sharp correction or profit booking in the near term.",
-    "Mixed to negative global cues, particularly from Asian markets and US tech, could lead to a negative sentiment spillover into Indian markets.",
-    "Potential negative impact of Rupee appreciation on the earnings of India's large IT sector, which could weigh on Nifty.",
-    "Lack of comprehensive options data (Max Pain, OI) for a clearer understanding of market participant positioning and potential support/resistance levels, increasing uncertainty."
+    "Sharp profit booking due to extremely overbought RSI levels, especially if the gap-up is significant.",
+    "Further deterioration in global tech sentiment could eventually spill over to Indian markets, despite current resilience.",
+    "The lack of comprehensive options data makes it difficult to gauge the true extent of hedging or directional bets by institutional players."
   ]
 }
