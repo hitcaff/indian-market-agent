@@ -1,56 +1,52 @@
 {
-  "session": "afternoon",
+  "session": "post_market",
   "date": "2026-11-23",
-  "timestamp": "13:28 IST",
-  "market_bias": "bearish",
+  "timestamp": "22:54 IST",
+  "market_bias": "bullish",
   "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "SGX Nifty's significant drop (-1.36%) and Nikkei's sharp decline (-5.06%) set a bearish tone for Asian markets, despite strong positive cues from US Dow and Nasdaq futures, which present a divergence. Rising gold prices (+3.10%) further indicate a global risk-off sentiment, creating a mixed but overall cautious global backdrop for India.",
-    "technical_analysis": "Both Nifty and Bank Nifty are down sharply by -1.37% and -2.36% respectively, indicating strong intraday selling pressure. While EMAs are at current price and Nifty RSI is neutral, Bank Nifty's RSI shows bullishness (59.6) despite the fall, suggesting a potential divergence or underlying strength. Nifty is approaching its immediate support at 25261.47.",
-    "options_analysis": "PCR for both indices stands at 1.0, indicating a neutral balance between calls and puts. The absence of clear Max Pain or significant OI data means options are not providing strong directional conviction at this moment, leaving technical levels and price action as primary drivers.",
-    "sentiment_analysis": "Market news highlights widespread profit booking and a general decline, confirming the bearish intraday sentiment and caution among investors. FII/DII data is neutral for the day, offering no fresh institutional flow insights to counter the prevailing negative mood.",
-    "confluence_summary": "Despite some conflicting neutral technical and options data, the sharp intraday price action, negative SGX Nifty, and news of profit booking point towards a bearish bias. The market is in a high volatility regime with a caution signal, suggesting further downside or choppy action around support levels. However, strong US futures and Bank Nifty's RSI divergence temper aggressive shorting, advocating for a cautious 'NO TRADE' stance."
+    "global_analysis": "US markets, especially tech-heavy Nasdaq, staged a massive overnight rally (Nasdaq +6.92%, Dow +3.09%) driven by Jensen Huang's return to Nvidia. This provides a strong positive global cue, potentially offsetting the negative sentiment from Nikkei (-5.06%) and Hang Seng (-2.00%). Crude oil falling is also a positive for India as an importer.",
+    "technical_analysis": "Nifty and Bank Nifty experienced significant falls today (-1.75% and -3.17% respectively), pushing them towards immediate support levels. While RSI is neutral, the sharp decline suggests underlying weakness, but the provided EMA data (at current price) makes precise trend analysis challenging. The market regime is flagged as high volatility and non-trending, with a caution signal.",
+    "options_analysis": "The provided options data (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) is insufficient to draw any meaningful conclusions regarding open interest build-up or immediate support/resistance from options. This limits the conviction from an options perspective.",
+    "sentiment_analysis": "FII/DII data is neutral. Market news highlights Nifty's sharpest fall since July, but this is largely overshadowed by the highly positive US tech rally and Jensen Huang's return, which is expected to significantly boost Indian IT and overall market sentiment for tomorrow's opening.",
+    "confluence_summary": "Despite today's domestic weakness and negative Asian cues, the overwhelming positive sentiment from the US tech rally, particularly Nvidia, is a strong bullish factor for tomorrow's opening. However, the high volatility regime and the sharp domestic fall today suggest caution and potential for profit-booking after a gap-up, leading to a moderate bullish bias."
   },
   "nifty_trade": {
-    "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 40,
-    "risk_reward": "N/A",
+    "direction": "LONG",
+    "entry_zone": "25800 - 25850",
+    "stop_loss": 25690,
+    "target_1": 26000,
+    "target_2": 26200,
+    "confidence_pct": 65,
+    "risk_reward": "1:1.5",
     "key_levels_to_watch": [
-      "25261.47 (Support 1)",
-      "25813.62 (Resistance 1)",
-      "25448.05 (Current EMA confluence)"
+      "25780 (Resistance 1)",
+      "25350 (Today's Close)",
+      "26210 (Resistance 2)"
     ],
-    "invalidation": "N/A - No active trade"
+    "invalidation": "Nifty fails to open above 25700, or opens above 25700 but quickly breaks below 25690 and sustains."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": "N/A",
-    "target_1": "N/A",
-    "target_2": "N/A",
-    "confidence_pct": 35,
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
     "risk_reward": "N/A",
-    "key_levels_to_watch": [
-      "63109.50 (Current EMA confluence & psychological level)",
-      "62500 (Potential Support)",
-      "63500 (Potential Resistance)"
-    ],
-    "invalidation": "N/A - No active trade"
+    "key_levels_to_watch": [],
+    "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Nifty's reaction at the immediate support level of 25261.47 for potential bounce or breakdown.",
-    "Bank Nifty's price action given the bullish RSI divergence despite the sharp fall, indicating potential for a short covering rally.",
-    "Performance of US markets later today, as strong Dow and Nasdaq futures could influence global sentiment.",
-    "Any fresh FII/DII flow data or significant macro news that could shift market dynamics."
+    "Nifty's opening gap and sustainability above the 25780 resistance level.",
+    "Performance of Indian IT sector stocks, which are likely to benefit from the Nvidia news.",
+    "Any follow-through or reversal in Asian markets after factoring in the US rally.",
+    "FII/DII activity for the next trading session to gauge institutional conviction."
   ],
   "risk_factors": [
-    "Divergence in global cues (weak Asian markets vs. strong US futures) creating uncertainty.",
-    "High volatility regime (ATR% 1.5%) increasing the risk of whipsaws and sudden reversals.",
-    "Lack of clear directional conviction from options data (neutral PCR, no Max Pain).",
-    "Potential for a sharp short-covering rally given the significant intraday declines, especially in Bank Nifty due to RSI divergence."
+    "Profit booking after a significant gap-up, especially given Nifty's sharp fall today.",
+    "Failure of the global rally's positive sentiment to sustain or effectively spill over into Indian markets beyond the opening.",
+    "The 'high_volatility' regime could lead to whipsaws and increased intraday risk.",
+    "Persistent domestic selling pressure, particularly in financials, despite global cues."
   ]
 }
