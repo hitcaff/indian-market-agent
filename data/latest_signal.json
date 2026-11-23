@@ -1,52 +1,56 @@
 {
-  "session": "post_market",
-  "date": "2026-11-23",
-  "timestamp": "22:54 IST",
+  "session": "pre_market",
+  "date": "2026-11-24",
+  "timestamp": "02:08 IST",
   "market_bias": "bullish",
-  "bias_strength": "moderate",
+  "bias_strength": "strong",
   "reasoning": {
-    "global_analysis": "US markets, especially tech-heavy Nasdaq, staged a massive overnight rally (Nasdaq +6.92%, Dow +3.09%) driven by Jensen Huang's return to Nvidia. This provides a strong positive global cue, potentially offsetting the negative sentiment from Nikkei (-5.06%) and Hang Seng (-2.00%). Crude oil falling is also a positive for India as an importer.",
-    "technical_analysis": "Nifty and Bank Nifty experienced significant falls today (-1.75% and -3.17% respectively), pushing them towards immediate support levels. While RSI is neutral, the sharp decline suggests underlying weakness, but the provided EMA data (at current price) makes precise trend analysis challenging. The market regime is flagged as high volatility and non-trending, with a caution signal.",
-    "options_analysis": "The provided options data (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) is insufficient to draw any meaningful conclusions regarding open interest build-up or immediate support/resistance from options. This limits the conviction from an options perspective.",
-    "sentiment_analysis": "FII/DII data is neutral. Market news highlights Nifty's sharpest fall since July, but this is largely overshadowed by the highly positive US tech rally and Jensen Huang's return, which is expected to significantly boost Indian IT and overall market sentiment for tomorrow's opening.",
-    "confluence_summary": "Despite today's domestic weakness and negative Asian cues, the overwhelming positive sentiment from the US tech rally, particularly Nvidia, is a strong bullish factor for tomorrow's opening. However, the high volatility regime and the sharp domestic fall today suggest caution and potential for profit-booking after a gap-up, leading to a moderate bullish bias."
+    "global_analysis": "US markets witnessed an extraordinary rally overnight, with Nasdaq surging +7.04% and Dow Futures up +3.31%, primarily driven by positive news surrounding Nvidia and the AI sector. While Asian markets like Nikkei and Hang Seng showed declines, the powerful US rebound is expected to be the dominant factor influencing Indian markets, likely leading to a significant gap-up opening. The fall in crude oil prices is also a positive for India.",
+    "technical_analysis": "Nifty and Bank Nifty technicals currently show a neutral trend with RSI around mid-levels. The EMA9 and EMA21 values are identical to the 'current' price, making them uninformative for trend analysis. The provided support and resistance levels will need to be re-evaluated post-gap-up, as the anticipated strong opening will likely invalidate the current neutral readings and establish new immediate levels.",
+    "options_analysis": "The options data provided is largely uninformative, with PCR at 1.0 (neutral) and Max Pain, Call Resistance, and Put Support all showing 0. This lack of actionable data prevents a detailed options-based analysis for immediate support or resistance levels and overall market sentiment from the derivatives chain.",
+    "sentiment_analysis": "FII/DII data is neutral for the session. However, market news is overwhelmingly positive, dominated by the massive US tech rally and the return of Jensen Huang to Nvidia, which will significantly boost global and Indian market sentiment. Analyst recommendations are mixed but include several 'buy' calls, further supporting a positive outlook.",
+    "confluence_summary": "Despite neutral local technicals and unusable options data, the overwhelming bullish global sentiment, particularly from the US market's massive rebound, points towards a significant gap-up opening for Indian indices. The 'high_volatility' regime suggests sharp moves, but the directional bias is clearly positive. The SGX Nifty's negative value appears stale given the latest global developments."
   },
   "nifty_trade": {
     "direction": "LONG",
-    "entry_zone": "25800 - 25850",
-    "stop_loss": 25690,
-    "target_1": 26000,
-    "target_2": 26200,
+    "entry_zone": "25900 - 26000",
+    "stop_loss": 25750,
+    "target_1": 26080,
+    "target_2": 26300,
+    "confidence_pct": 70,
+    "risk_reward": "1:1.5",
+    "key_levels_to_watch": [
+      "25432 (strong support post-gap)",
+      "26080 (initial resistance)",
+      "26361 (next resistance)"
+    ],
+    "invalidation": "Nifty failing to sustain above 25750 after the open, or a significant reversal in global cues."
+  },
+  "banknifty_trade": {
+    "direction": "LONG",
+    "entry_zone": "63800 - 64200",
+    "stop_loss": 63500,
+    "target_1": 64800,
+    "target_2": 65500,
     "confidence_pct": 65,
     "risk_reward": "1:1.5",
     "key_levels_to_watch": [
-      "25780 (Resistance 1)",
-      "25350 (Today's Close)",
-      "26210 (Resistance 2)"
+      "62585 (previous close, now strong support)",
+      "64800 (estimated resistance)",
+      "65500 (further resistance)"
     ],
-    "invalidation": "Nifty fails to open above 25700, or opens above 25700 but quickly breaks below 25690 and sustains."
-  },
-  "banknifty_trade": {
-    "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 0,
-    "risk_reward": "N/A",
-    "key_levels_to_watch": [],
-    "invalidation": "N/A"
+    "invalidation": "Bank Nifty failing to sustain above 63500 after the open, or Nifty showing significant weakness."
   },
   "what_to_watch": [
-    "Nifty's opening gap and sustainability above the 25780 resistance level.",
-    "Performance of Indian IT sector stocks, which are likely to benefit from the Nvidia news.",
-    "Any follow-through or reversal in Asian markets after factoring in the US rally.",
-    "FII/DII activity for the next trading session to gauge institutional conviction."
+    "The magnitude of Nifty and Bank Nifty's gap-up opening and initial price action.",
+    "Sustainability of the positive momentum from US markets throughout the day.",
+    "Any signs of profit booking after the initial surge, especially around key resistance levels.",
+    "FII/DII activity once data is released later in the day."
   ],
   "risk_factors": [
-    "Profit booking after a significant gap-up, especially given Nifty's sharp fall today.",
-    "Failure of the global rally's positive sentiment to sustain or effectively spill over into Indian markets beyond the opening.",
-    "The 'high_volatility' regime could lead to whipsaws and increased intraday risk.",
-    "Persistent domestic selling pressure, particularly in financials, despite global cues."
+    "Potential for sharp profit booking after a significant gap-up, especially in a 'high_volatility' regime.",
+    "The divergence between strong US cues and negative Asian market performance could lead to intraday choppiness.",
+    "Lack of reliable local technical and options data makes precise level identification challenging.",
+    "Any unexpected negative global news or geopolitical developments."
   ]
 }
