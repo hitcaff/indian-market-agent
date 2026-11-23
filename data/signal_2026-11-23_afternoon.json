@@ -1,0 +1,56 @@
+{
+  "session": "afternoon",
+  "date": "2026-11-23",
+  "timestamp": "13:28 IST",
+  "market_bias": "bearish",
+  "bias_strength": "moderate",
+  "reasoning": {
+    "global_analysis": "SGX Nifty's significant drop (-1.36%) and Nikkei's sharp decline (-5.06%) set a bearish tone for Asian markets, despite strong positive cues from US Dow and Nasdaq futures, which present a divergence. Rising gold prices (+3.10%) further indicate a global risk-off sentiment, creating a mixed but overall cautious global backdrop for India.",
+    "technical_analysis": "Both Nifty and Bank Nifty are down sharply by -1.37% and -2.36% respectively, indicating strong intraday selling pressure. While EMAs are at current price and Nifty RSI is neutral, Bank Nifty's RSI shows bullishness (59.6) despite the fall, suggesting a potential divergence or underlying strength. Nifty is approaching its immediate support at 25261.47.",
+    "options_analysis": "PCR for both indices stands at 1.0, indicating a neutral balance between calls and puts. The absence of clear Max Pain or significant OI data means options are not providing strong directional conviction at this moment, leaving technical levels and price action as primary drivers.",
+    "sentiment_analysis": "Market news highlights widespread profit booking and a general decline, confirming the bearish intraday sentiment and caution among investors. FII/DII data is neutral for the day, offering no fresh institutional flow insights to counter the prevailing negative mood.",
+    "confluence_summary": "Despite some conflicting neutral technical and options data, the sharp intraday price action, negative SGX Nifty, and news of profit booking point towards a bearish bias. The market is in a high volatility regime with a caution signal, suggesting further downside or choppy action around support levels. However, strong US futures and Bank Nifty's RSI divergence temper aggressive shorting, advocating for a cautious 'NO TRADE' stance."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 40,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "25261.47 (Support 1)",
+      "25813.62 (Resistance 1)",
+      "25448.05 (Current EMA confluence)"
+    ],
+    "invalidation": "N/A - No active trade"
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 35,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "63109.50 (Current EMA confluence & psychological level)",
+      "62500 (Potential Support)",
+      "63500 (Potential Resistance)"
+    ],
+    "invalidation": "N/A - No active trade"
+  },
+  "what_to_watch": [
+    "Nifty's reaction at the immediate support level of 25261.47 for potential bounce or breakdown.",
+    "Bank Nifty's price action given the bullish RSI divergence despite the sharp fall, indicating potential for a short covering rally.",
+    "Performance of US markets later today, as strong Dow and Nasdaq futures could influence global sentiment.",
+    "Any fresh FII/DII flow data or significant macro news that could shift market dynamics."
+  ],
+  "risk_factors": [
+    "Divergence in global cues (weak Asian markets vs. strong US futures) creating uncertainty.",
+    "High volatility regime (ATR% 1.5%) increasing the risk of whipsaws and sudden reversals.",
+    "Lack of clear directional conviction from options data (neutral PCR, no Max Pain).",
+    "Potential for a sharp short-covering rally given the significant intraday declines, especially in Bank Nifty due to RSI divergence."
+  ]
+}

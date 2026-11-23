@@ -1,58 +1,56 @@
 {
-  "session": "pre_market",
-  "date": "2026-11-21",
-  "timestamp": "00:49 IST",
-  "market_bias": "bullish",
+  "session": "afternoon",
+  "date": "2026-11-23",
+  "timestamp": "13:28 IST",
+  "market_bias": "bearish",
   "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "Global markets are exhibiting significant weakness, with Nasdaq tumbling over 3% due to AI trade concerns and Asian indices also sharply lower. This indicates a broad risk-off sentiment globally. However, Indian markets are showing a strong divergence, with SGX Nifty indicating a substantial gap-up.",
-    "technical_analysis": "Nifty and Bank Nifty are poised for strong gap-ups, pushing their RSIs into extremely overbought territories (Nifty 80.75, Bank Nifty 93.35). While this suggests strong initial momentum, these extreme levels make them highly vulnerable to profit-booking or a fade post-open. The system's 'neutral trend' and 'ranging regime' indicate underlying caution despite the expected gap.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral options bias. Crucially, Max Pain, Call Resistance, and Put Support data are all reported as 0, providing no actionable insights from the options chain for immediate support or resistance levels.",
-    "sentiment_analysis": "Despite global market turmoil, Indian markets are showing remarkable resilience, with news highlighting 'Dalal Street extends winning run as global markets slide' and 'Rupee climbs as investors seek shelter in Indian stocks.' This suggests strong domestic buying interest and potential FII inflows, even though FII/DII net figures are currently neutral.",
-    "confluence_summary": "The market presents a complex picture: a strong bullish gap-up for Indian indices driven by domestic resilience, contrasting sharply with a global risk-off environment. The extreme overbought RSI levels, coupled with the lack of clear options data and the system's 'neutral' regime, suggest that while the opening will be bullish, the sustainability of the rally is highly questionable, making it a high-risk trading environment."
+    "global_analysis": "SGX Nifty's significant drop (-1.36%) and Nikkei's sharp decline (-5.06%) set a bearish tone for Asian markets, despite strong positive cues from US Dow and Nasdaq futures, which present a divergence. Rising gold prices (+3.10%) further indicate a global risk-off sentiment, creating a mixed but overall cautious global backdrop for India.",
+    "technical_analysis": "Both Nifty and Bank Nifty are down sharply by -1.37% and -2.36% respectively, indicating strong intraday selling pressure. While EMAs are at current price and Nifty RSI is neutral, Bank Nifty's RSI shows bullishness (59.6) despite the fall, suggesting a potential divergence or underlying strength. Nifty is approaching its immediate support at 25261.47.",
+    "options_analysis": "PCR for both indices stands at 1.0, indicating a neutral balance between calls and puts. The absence of clear Max Pain or significant OI data means options are not providing strong directional conviction at this moment, leaving technical levels and price action as primary drivers.",
+    "sentiment_analysis": "Market news highlights widespread profit booking and a general decline, confirming the bearish intraday sentiment and caution among investors. FII/DII data is neutral for the day, offering no fresh institutional flow insights to counter the prevailing negative mood.",
+    "confluence_summary": "Despite some conflicting neutral technical and options data, the sharp intraday price action, negative SGX Nifty, and news of profit booking point towards a bearish bias. The market is in a high volatility regime with a caution signal, suggesting further downside or choppy action around support levels. However, strong US futures and Bank Nifty's RSI divergence temper aggressive shorting, advocating for a cautious 'NO TRADE' stance."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 40,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "26019.7 (Resistance)",
-      "25800 (Psychological Open)",
-      "25767.0 (Immediate Support)",
-      "25303.4 (Strong Support)"
+      "25261.47 (Support 1)",
+      "25813.62 (Resistance 1)",
+      "25448.05 (Current EMA confluence)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "N/A - No active trade"
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
     "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
-    "confidence_pct": 0,
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 35,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "65000 (Psychological Resistance)",
-      "64635.20 (Expected Open)",
-      "64000 (Psychological Support)"
+      "63109.50 (Current EMA confluence & psychological level)",
+      "62500 (Potential Support)",
+      "63500 (Potential Resistance)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "N/A - No active trade"
   },
   "what_to_watch": [
-    "Sustainability of the initial gap-up in Nifty and Bank Nifty; watch for signs of profit booking.",
-    "Any attempts to fill the gap created at open, especially if global markets continue to weaken.",
-    "Intraday FII/DII activity for fresh directional cues, as current data is neutral.",
-    "Performance of key banking stocks given Bank Nifty's exceptionally strong expected open.",
-    "Global market sentiment during Indian trading hours, particularly US and European futures."
+    "Nifty's reaction at the immediate support level of 25261.47 for potential bounce or breakdown.",
+    "Bank Nifty's price action given the bullish RSI divergence despite the sharp fall, indicating potential for a short covering rally.",
+    "Performance of US markets later today, as strong Dow and Nasdaq futures could influence global sentiment.",
+    "Any fresh FII/DII flow data or significant macro news that could shift market dynamics."
   ],
   "risk_factors": [
-    "**Global Market Weakness:** The significant sell-off in major global indices could eventually drag down Indian markets, challenging the current divergence.",
-    "**Extreme Overbought Conditions:** Nifty and Bank Nifty RSIs are at unsustainable levels, significantly increasing the probability of a sharp correction or profit booking post-gap-up.",
-    "**Gap-up Fade:** Large gap-ups, especially into overbought territory, frequently see initial profit booking, leading to a fade or even a complete gap-fill during the session.",
-    "**Lack of Options Confluence:** The absence of meaningful options data (Max Pain, OI) makes it difficult to gauge immediate sentiment and potential turning points from derivative activity, adding to uncertainty."
+    "Divergence in global cues (weak Asian markets vs. strong US futures) creating uncertainty.",
+    "High volatility regime (ATR% 1.5%) increasing the risk of whipsaws and sudden reversals.",
+    "Lack of clear directional conviction from options data (neutral PCR, no Max Pain).",
+    "Potential for a sharp short-covering rally given the significant intraday declines, especially in Bank Nifty due to RSI divergence."
   ]
 }
