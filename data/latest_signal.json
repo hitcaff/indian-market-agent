@@ -1,59 +1,57 @@
 {
-  "session": "post_market",
-  "date": "2026-11-24",
-  "timestamp": "22:27 IST",
+  "session": "pre_market",
+  "date": "2026-11-25",
+  "timestamp": "01:15 IST",
   "market_bias": "bearish",
   "bias_strength": "moderate",
   "reasoning": {
-    "global_analysis": "SGX Nifty's significant drop of 1.75% and Nasdaq futures' sharp decline of 2.57% indicate strong negative global cues, pointing towards a likely gap-down opening for Indian markets. While Dow futures are slightly positive, the overall sentiment from major Asian markets (Nikkei, Hang Seng also down) remains cautious to negative.",
-    "technical_analysis": "Nifty and Bank Nifty witnessed substantial declines of 1.75% and 3.17% respectively, with EMAs converging at the current price, suggesting a potential shift in momentum or consolidation at lower levels. Despite RSI and trend being neutral post-fall, the magnitude of the drop, coupled with a 'high_volatility' regime and 'caution' signal, points to underlying weakness.",
-    "options_analysis": "PCR for both Nifty and Bank Nifty stands at a neutral 1.0. However, the critical Max Pain, Call Resistance, and Put Support data are unavailable, which prevents a clear options-based directional conviction for the upcoming session.",
-    "sentiment_analysis": "FII/DII data is neutral, offering no immediate directional insight from institutional flows. News flow is mixed; global tech weakness (Nasdaq, Anthropic crash) is a significant negative, while domestic positives like surging PE/VC investments and a shift of pension money into equities provide some long-term optimism, though inflation and rate hike concerns persist.",
-    "confluence_summary": "The substantial fall in both Nifty and Bank Nifty, combined with strong negative global cues, establishes a bearish bias for the immediate market opening. However, the 'high_volatility' regime, neutral technical indicators post-fall, and the potential for short-covering after a gap-down necessitate a cautious approach, favoring conditional short trades on bounces to retest breakdown levels or confirmed breaks of key supports."
+    "global_analysis": "SGX Nifty indicates a significant gap-down of 1.75% for Nifty, with Bank Nifty poised for an even sharper 3.17% fall. This bearish sentiment is amplified by sharp declines in Nasdaq futures (-1.99%), Nikkei (-1.35%), and Hang Seng (-0.85%), primarily driven by weakness in the global tech sector. While Dow futures show some resilience (+0.72%), it's insufficient to offset the broader negative Asian and tech cues.",
+    "technical_analysis": "Both Nifty and Bank Nifty are set for substantial gap-downs, likely opening well below their short-term EMAs (9 & 21). While current RSI and trend are neutral, the implied open will immediately test crucial support levels. Bank Nifty's larger projected fall suggests it will be particularly vulnerable, indicating strong bearish momentum at the open.",
+    "options_analysis": "The provided options data (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) is neutral and appears to be placeholder data, offering no actionable insights into current option chain sentiment or positioning. Therefore, this factor cannot contribute to the overall bias or trade decisions for the open.",
+    "sentiment_analysis": "FII/DII data is neutral (placeholder). Market news highlights significant crashes in global tech giants like Nvidia, HPE, and Anthropic, fueling bearish sentiment. Concerns over potential jumbo rate hikes and rising inflation also add to the cautious outlook, overshadowing positive news about PE/VC investments in India.",
+    "confluence_summary": "The market is poised for a significant bearish opening, primarily driven by weak global cues and a sharp sell-off in the tech sector. While domestic long-term sentiment remains somewhat positive, the immediate impact of the global downturn and potential rate hike fears suggests a cautious to bearish approach for the day's open. The 'high_volatility' regime and 'caution' signal reinforce the need for careful observation."
   },
   "nifty_trade": {
-    "direction": "SHORT",
-    "entry_zone": "25250 - 25350",
-    "stop_loss": 25450,
-    "target_1": 24913,
-    "target_2": 24700,
-    "confidence_pct": 60,
-    "risk_reward": "1:1.5",
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "25350 (Previous Close)",
-      "25131 (S1)",
-      "24913 (S2)",
-      "25780 (R1)"
+      "25349 (Expected Open)",
+      "25131 (Support 1)",
+      "25801 (Previous Close)"
     ],
-    "invalidation": "Sustained move above 25500 or strong reversal from 24900 without retesting higher levels."
+    "invalidation": "N/A"
   },
   "banknifty_trade": {
-    "direction": "SHORT",
-    "entry_zone": "62000 - 62500",
-    "stop_loss": 62700,
-    "target_1": 61000,
-    "target_2": 60000,
-    "confidence_pct": 65,
-    "risk_reward": "1:1.5",
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": "N/A",
+    "target_1": "N/A",
+    "target_2": "N/A",
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "62585 (Previous Close)",
-      "62000 (Psychological Support)",
-      "61000 (Psychological Support)",
-      "63000 (Resistance)"
+      "62585 (Expected Open)",
+      "64630 (Previous Close)",
+      "62000 (Psychological Support)"
     ],
-    "invalidation": "Sustained move above 63000 or strong reversal from 60500 without retesting higher levels."
+    "invalidation": "N/A"
   },
   "what_to_watch": [
-    "Opening of global markets, particularly US and European indices, for further directional cues.",
-    "Price action around Nifty's 25131 and 24913 support levels after the expected gap-down opening.",
-    "Any fresh FII/DII data to gauge institutional sentiment post-market fall.",
-    "Performance of key sectors, especially IT (due to global tech weakness) and Banking (due to Bank Nifty's sharp fall).",
-    "Crude oil price movements and any new statements regarding interest rates or inflation."
+    "Initial price action post-open for Nifty and Bank Nifty to gauge strength of selling/buying.",
+    "Global tech sector performance and any further news on inflation/rate hikes.",
+    "Nifty's ability to hold or break below its first support level of 25131.47.",
+    "Crude oil prices and their impact on energy stocks and inflation expectations.",
+    "FII/DII activity once actual data is available."
   ],
   "risk_factors": [
-    "High volatility (ATR% 1.58%) could lead to sharp whipsaws and quick reversals, making trade management challenging.",
-    "Significant gap-down openings often trigger short-covering rallies, which could invalidate immediate bearish setups.",
-    "Lack of comprehensive options data (Max Pain, OI) reduces conviction from the derivatives front.",
-    "Mixed domestic news flow, with some positive economic indicators, could provide underlying support and limit downside."
+    "High volatility post-gap down leading to sharp reversals or extended falls.",
+    "Uncertainty around global central bank actions regarding interest rates and inflation.",
+    "Continued weakness in the global technology sector impacting Indian IT stocks.",
+    "Lack of clear FII/DII data for directional conviction."
   ]
 }
