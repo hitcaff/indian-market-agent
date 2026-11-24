@@ -1,0 +1,53 @@
+{
+  "session": "post_market",
+  "date": "2026-11-24",
+  "timestamp": "15:42 IST",
+  "market_bias": "bearish",
+  "bias_strength": "moderate",
+  "reasoning": {
+    "global_analysis": "SGX Nifty's significant drop of -1.75% is a strong negative cue for tomorrow's Indian market open. While US futures are mixed to negative, the US market holiday limits fresh cues, making SGX Nifty the primary global driver for the immediate open. Nikkei's strong rally is an outlier, not influencing our market's immediate direction.",
+    "technical_analysis": "Both Nifty (-1.75%) and Bank Nifty (-3.17%) experienced sharp corrections today, with Bank Nifty showing pronounced weakness in the financial sector. The EMAs at current price suggest a strong bearish candle, likely breaking below short-term averages. Nifty is hovering just above its immediate support at 25131.47, while RSI remains neutral, indicating no immediate oversold conditions despite the fall.",
+    "options_analysis": "The PCR of 1.0 for both indices after such a sharp fall is perplexing, suggesting either a balance between calls and puts or significant unwinding on both sides. Crucially, Max Pain, Call Resistance, and Put Support are all reported as 0, rendering options data largely inconclusive for identifying specific actionable levels or strong conviction areas.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. However, the market news highlights a strong 11% rally in November, suggesting today's fall is likely profit booking or a healthy correction after significant gains. The market is operating in a high volatility regime with a caution signal, which is appropriate given the sharp moves and uncertainty.",
+    "confluence_summary": "A significant correction occurred today, particularly in Bank Nifty, following a robust November rally. Global cues from SGX Nifty are negative, pointing to a likely bearish open. However, the neutral RSI, high volatility regime, and critically, the absence of reliable options-derived support/resistance levels, make high-conviction directional trades difficult to establish for tomorrow's open. Prudence dictates caution and observation of initial price action."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 50,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "25131.47 (Immediate Support)",
+      "24913.28 (Strong Support)",
+      "25780.22 (Resistance)"
+    ],
+    "invalidation": "A strong gap up above 25500 or sustained buying interest above today's close, negating the bearish global cues."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 50,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "62585.35 (Immediate Reference)",
+      "62000 (Psychological Support)",
+      "63000 (Immediate Resistance)"
+    ],
+    "invalidation": "A strong gap up above 63000 or significant short covering from the open, negating the day's sharp fall."
+  },
+  "what_to_watch": [
+    "Tomorrow's Open: Crucial to observe if the SGX Nifty's negative cue translates into a significant gap down and how Nifty reacts around its immediate support.",
+    "Nifty's behavior around 25131.47: Whether it holds this support or breaks below it to test 24913.28, indicating further weakness.",
+    "Bank Nifty's relative strength/weakness: After today's sharp fall, watch for continuation of selling pressure or signs of short covering from lower levels."
+  ],
+  "risk_factors": [
+    "High Volatility Regime: The market is in a high volatility regime, which can lead to sharp, unpredictable moves and increased risk for directional trades.",
+    "Inconclusive Options Data: The absence of reliable Max Pain, Call/Put Resistance, and Put Support levels makes it challenging to identify precise entry/exit points and gauge market conviction from the options chain."
+  ]
+}
