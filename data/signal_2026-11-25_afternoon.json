@@ -1,0 +1,54 @@
+{
+  "session": "afternoon",
+  "date": "2026-11-25",
+  "timestamp": "14:27 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "SGX Nifty is showing strong positive momentum (+1.55%), which is a bullish cue. However, this is significantly contrasted by negative US futures (Dow -0.17%, Nasdaq -1.55%) and sharp declines in major Asian markets (Nikkei -2.78%, Hang Seng -1.14%). Crude oil is also down, indicating a mixed to cautious global sentiment overall.",
+    "technical_analysis": "Nifty and Bank Nifty are trading with strong positive daily gains (+1.55% and +1.50% respectively) and both exhibit bullish RSI readings (Nifty 68.15, Bank Nifty 63.29). However, the 'Trend' is explicitly neutral for both indices, and the market is operating in a 'high_volatility' regime with a 'caution' signal. The EMAs being identical to the current price suggest either a very recent strong move or a current equilibrium point, but without clear directional momentum from these indicators.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty stands at a neutral 1.0. Crucially, the absence of Max Pain, Call Resistance, and Put Support data (all reported as 0) severely limits any meaningful options-based analysis. This data deficiency makes it impossible to gauge immediate support/resistance or potential turning points from the derivatives chain.",
+    "sentiment_analysis": "FII/DII flows are flat for the day (\u20b90 Cr net), indicating no fresh institutional conviction or significant directional flow. Market news highlights a 'rollercoaster ride' with Nifty paring significant gains and Sensex crashing over 800 points from day's highs, coupled with traders pulling back from the closing auction. This points to significant intraday profit booking and heightened caution despite the overall positive daily close.",
+    "confluence_summary": "Despite the strong positive daily percentage change and bullish RSIs, the confluence of a neutral trend, high volatility, and a caution signal creates an uncertain trading environment. Mixed global cues and the critical lack of actionable options data, combined with news of significant intraday profit booking and traders pulling back, strongly suggest a lack of clear directional conviction and elevated risk, making a prudent 'NO TRADE' stance appropriate for the afternoon session."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "25590.02 (Support)",
+      "25922.67 (Resistance)"
+    ],
+    "invalidation": "N/A"
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "63523.30 (Current Level)",
+      "Intraday volatility spikes"
+    ],
+    "invalidation": "N/A"
+  },
+  "what_to_watch": [
+    "Global market performance, especially US futures and Asian markets, for any shifts in sentiment.",
+    "Any significant FII/DII flow data emerging towards the market close or post-market.",
+    "Nifty's ability to sustain above 25700 or its reaction to the immediate resistance at 25922.67.",
+    "Volatility index (VIX) movement, given the current 'high_volatility' regime, for clues on market stability."
+  ],
+  "risk_factors": [
+    "High volatility and the 'caution' signal indicate potential for sharp, unpredictable moves in either direction.",
+    "Conflicting global cues could lead to sudden shifts in market sentiment, overriding domestic factors.",
+    "The critical lack of comprehensive options data (OI, Max Pain) makes it difficult to assess underlying market structure and potential turning points.",
+    "News of significant intraday profit booking from highs suggests underlying weakness despite the overall positive daily close, indicating potential for further downside."
+  ]
+}
