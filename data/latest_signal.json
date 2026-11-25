@@ -1,15 +1,15 @@
 {
-  "session": "afternoon",
+  "session": "post_market",
   "date": "2026-11-25",
-  "timestamp": "14:27 IST",
+  "timestamp": "22:17 IST",
   "market_bias": "neutral",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "SGX Nifty is showing strong positive momentum (+1.55%), which is a bullish cue. However, this is significantly contrasted by negative US futures (Dow -0.17%, Nasdaq -1.55%) and sharp declines in major Asian markets (Nikkei -2.78%, Hang Seng -1.14%). Crude oil is also down, indicating a mixed to cautious global sentiment overall.",
-    "technical_analysis": "Nifty and Bank Nifty are trading with strong positive daily gains (+1.55% and +1.50% respectively) and both exhibit bullish RSI readings (Nifty 68.15, Bank Nifty 63.29). However, the 'Trend' is explicitly neutral for both indices, and the market is operating in a 'high_volatility' regime with a 'caution' signal. The EMAs being identical to the current price suggest either a very recent strong move or a current equilibrium point, but without clear directional momentum from these indicators.",
-    "options_analysis": "PCR for both Nifty and Bank Nifty stands at a neutral 1.0. Crucially, the absence of Max Pain, Call Resistance, and Put Support data (all reported as 0) severely limits any meaningful options-based analysis. This data deficiency makes it impossible to gauge immediate support/resistance or potential turning points from the derivatives chain.",
-    "sentiment_analysis": "FII/DII flows are flat for the day (\u20b90 Cr net), indicating no fresh institutional conviction or significant directional flow. Market news highlights a 'rollercoaster ride' with Nifty paring significant gains and Sensex crashing over 800 points from day's highs, coupled with traders pulling back from the closing auction. This points to significant intraday profit booking and heightened caution despite the overall positive daily close.",
-    "confluence_summary": "Despite the strong positive daily percentage change and bullish RSIs, the confluence of a neutral trend, high volatility, and a caution signal creates an uncertain trading environment. Mixed global cues and the critical lack of actionable options data, combined with news of significant intraday profit booking and traders pulling back, strongly suggest a lack of clear directional conviction and elevated risk, making a prudent 'NO TRADE' stance appropriate for the afternoon session."
+    "global_analysis": "SGX Nifty indicates a strong positive opening for Indian markets, but this is sharply contradicted by significant declines in US futures, particularly Nasdaq (-4.45%), driven by an intensifying AI rout and concerns over Fed rate hikes. Other Asian markets are mixed, creating a divergent global backdrop that suggests caution despite domestic strength.",
+    "technical_analysis": "Both Nifty and Bank Nifty closed with strong gains (+1.85% and +1.79% respectively) and bullish RSI readings (Nifty 69.8, Bank Nifty 64.44), suggesting upward momentum. However, Nifty is approaching its immediate resistance (25974), and the market regime is flagged as high volatility with a 'caution' signal, despite the strong daily move.",
+    "options_analysis": "Critical options data (PCR, Max Pain, Call Resistance, Put Support) is unavailable (zero values provided), making a comprehensive options-based analysis impossible. This significantly reduces confidence in any directional trade and limits our ability to gauge market participant positioning.",
+    "sentiment_analysis": "FII/DII data is neutral (zero values provided), offering no clear directional insight from institutional flows. Market news is mixed, with positive domestic cues (RBI actions, Nifty recovery) offset by global tech sector weakness and Fed rate hike concerns, contributing to overall market uncertainty.",
+    "confluence_summary": "The strong domestic momentum and SGX Nifty suggest a bullish open, but the severe weakness in US tech and broader global uncertainty create a significant overhang. The absence of crucial options and FII/DII data, coupled with a high volatility regime, leads to a lack of clear directional confluence, making 'NO TRADE' the most prudent approach for derivatives."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -20,10 +20,10 @@
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "25590.02 (Support)",
-      "25922.67 (Resistance)"
+      "25974.27 (Resistance 1)",
+      "25641.62 (Support 1)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "A clear directional bias with strong confluence from global, technical, and options data emerges."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -34,21 +34,22 @@
     "confidence_pct": 0,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "63523.30 (Current Level)",
-      "Intraday volatility spikes"
+      "63703.25 (Current Price - potential pivot)",
+      "64000 (Psychological Resistance)"
     ],
-    "invalidation": "N/A"
+    "invalidation": "A clear directional bias with strong confluence from global, technical, and options data emerges."
   },
   "what_to_watch": [
-    "Global market performance, especially US futures and Asian markets, for any shifts in sentiment.",
-    "Any significant FII/DII flow data emerging towards the market close or post-market.",
-    "Nifty's ability to sustain above 25700 or its reaction to the immediate resistance at 25922.67.",
-    "Volatility index (VIX) movement, given the current 'high_volatility' regime, for clues on market stability."
+    "How Nifty opens relative to SGX Nifty's indication and its reaction to the immediate resistance levels (25974).",
+    "Global market performance overnight, especially US futures and how they react to the 'AI rout' and Fed rate hike fears.",
+    "Any fresh FII/DII data that becomes available to gauge institutional sentiment and flows.",
+    "Option chain build-up for the upcoming expiry to identify significant Call and Put writing zones.",
+    "Crude oil price movements, as sustained increases could fuel inflationary concerns."
   ],
   "risk_factors": [
-    "High volatility and the 'caution' signal indicate potential for sharp, unpredictable moves in either direction.",
-    "Conflicting global cues could lead to sudden shifts in market sentiment, overriding domestic factors.",
-    "The critical lack of comprehensive options data (OI, Max Pain) makes it difficult to assess underlying market structure and potential turning points.",
-    "News of significant intraday profit booking from highs suggests underlying weakness despite the overall positive daily close, indicating potential for further downside."
+    "Sudden reversal from global market weakness, particularly the ongoing US tech sector correction, could negate domestic strength.",
+    "High volatility regime (ATR% 1.63%) increases the risk of whipsaws and rapid price swings, making directional trades challenging.",
+    "The complete absence of reliable options data (PCR, Max Pain, OI) makes it difficult to assess market positioning and potential support/resistance from derivatives participants.",
+    "Potential for profit booking after a strong positive day, especially if Nifty approaches key resistance levels."
   ]
 }
