@@ -1,0 +1,50 @@
+{
+  "session": "pre_market",
+  "date": "2026-11-26",
+  "timestamp": "00:22 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "Global cues are mixed but lean negative, primarily due to a significant rout in US tech stocks, with Nasdaq futures down 1.33% and news of Nasdaq 100 entering a bear market. While Dow futures are positive and Nikkei shows strength, the weakness in Hang Seng and the tech sector creates a cautious sentiment. Crude oil's rise adds a potential inflationary concern.",
+    "technical_analysis": "Nifty 50 is currently at 25819.25, showing a neutral trend with a bullish RSI of 69.8. It is trading precisely at its 9-day and 21-day EMAs, indicating consolidation. Bank Nifty, however, shows significant weakness, down 1.44% at 63703.25, despite a bullish RSI of 64.44 and a neutral trend. The divergence between the indices is a key observation.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from options traders. Max Pain, Call Resistance, and Put Support are all reported as 0, which suggests a lack of current, actionable options data for this specific expiry cycle or an incomplete data feed. This absence of clear options-based insights adds to the overall uncertainty for directional trades.",
+    "sentiment_analysis": "FII/DII flows are neutral at \u20b90 Cr. Market news highlights a major global tech sell-off, which could weigh on Indian IT stocks. Domestically, RBI's actions regarding gold and dollar reserves are noted. While some analyst calls are positive for specific large-cap stocks, the overarching sentiment is one of caution, driven by global tech weakness and the high-risk monthly expiry event.",
+    "confluence_summary": "The market is entering a highly volatile monthly expiry day with conflicting signals. Significant global tech weakness and Bank Nifty's underperformance are bearish factors, while Nifty's technical resilience and some domestic news offer mild support. The high volatility regime and the system's 'caution' signal, coupled with the lack of clear options data, strongly advocate for a non-directional or 'NO TRADE' approach."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 40,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [],
+    "invalidation": "N/A"
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [],
+    "invalidation": "N/A"
+  },
+  "what_to_watch": [
+    "Opening of US markets, especially Nasdaq, for further cues on global tech sentiment.",
+    "Bank Nifty's relative strength/weakness compared to Nifty 50 throughout the day.",
+    "Expiry day volatility and unwinding of positions, particularly around key strike prices.",
+    "Any intraday FII/DII activity that might emerge.",
+    "Movement in crude oil prices given the recent uptick."
+  ],
+  "risk_factors": [
+    "High volatility and potential for sharp, unpredictable moves due to monthly expiry.",
+    "Significant negative sentiment from the global tech sector (Nasdaq rout) impacting Indian IT stocks.",
+    "Divergence in performance between Nifty and Bank Nifty, creating uncertainty.",
+    "Lack of clear and actionable options data (Max Pain, OI) for the current expiry.",
+    "Geopolitical developments or unexpected news flow on a high-risk trading day."
+  ]
+}
