@@ -1,53 +1,48 @@
 {
-  "session": "pre_market",
+  "session": "afternoon",
   "date": "2026-11-26",
-  "timestamp": "02:15 IST",
+  "timestamp": "14:13 IST",
   "market_bias": "neutral",
-  "bias_strength": "moderate",
+  "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are highly mixed with a significant bearish tilt from the US tech sector (Nasdaq futures down 1.23%, with news of a 5% plunge in Nasdaq 100). While Dow futures and Nikkei show positivity, Hang Seng is sharply down, and rising crude and gold prices signal inflation concerns and safe-haven demand, indicating underlying global uncertainty.",
-    "technical_analysis": "Nifty is indicated for a flat open (+0.07%), while Bank Nifty is set for a significant gap down (-1.44%). Both indices show their current price exactly on EMA9 and EMA21, suggesting a very tight range or data anomaly for EMAs pre-market. RSI for both is in bullish territory (Nifty 69.8, Bank Nifty 64.44), but the 'neutral' trend and Bank Nifty's indicated fall contradict this, pointing to potential volatility.",
-    "options_analysis": "PCR for both Nifty and Bank Nifty stands at a neutral 1.0. Crucially, Max Pain, Call Resistance, and Put Support data are all showing zero, which severely limits options-based insights. However, today being a monthly expiry, we anticipate high volatility and aggressive positioning by option writers around key strikes.",
-    "sentiment_analysis": "FII/DII data is neutral for the pre-market session. Market news highlights global concerns with sticky inflation and a significant downturn in US tech, alongside a slump in copper. Domestic news includes some positive analyst calls on specific stocks, but the overarching global sentiment is cautious to negative.",
-    "confluence_summary": "The confluence of a high-risk monthly expiry, a high volatility regime, and mixed-to-negative global cues (especially from US tech and Bank Nifty's indicated gap down) strongly advises caution. While Nifty's open is flat, the overall environment suggests unpredictable moves and heightened risk, making directional trades challenging."
+    "global_analysis": "Global cues are mixed to positive, with Asian markets showing strength and US futures in the green. However, the surge in crude oil and gold, coupled with the rupee's depreciation and RBI's inflation warnings, introduces a cautious undertone, suggesting underlying economic headwinds despite the positive equity market sentiment abroad.",
+    "technical_analysis": "Both Nifty 50 and Bank Nifty are displaying a neutral trend, trading flat and hovering precisely at their 9-day and 21-day EMAs, indicating a lack of clear directional conviction. Nifty's RSI is mildly bullish at 62.18, while Bank Nifty's RSI is neutral at 53.95, reinforcing the indecisive technical picture.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, signaling a perfectly neutral options sentiment. Crucially, the absence of specific Max Pain, Call Resistance, and Put Support data (reported as 0) for a monthly expiry day severely limits the ability to derive concrete directional insights from the options chain, necessitating extreme caution.",
+    "sentiment_analysis": "FII and DII flows are reported as neutral, providing no clear institutional buying or selling pressure. Macro news highlights concerns such as a falling rupee, rising crude oil prices (above $95), and bond market weakness due to RBI's inflation risks. While there are some positive stock-specific recommendations, the broader economic sentiment is clouded by these macro headwinds.",
+    "confluence_summary": "The market is in a high-volatility, non-trending regime on a monthly expiry day, demanding utmost caution. The confluence of neutral technicals, ambiguous global cues (offset by macro concerns), lack of clear institutional flows, and the absence of reliable options data for expiry day strongly advocates for a non-directional approach. The system's 'NO TRADE' recommendation is prudent given these high-risk factors."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "entry_zone": null,
+    "stop_loss": null,
+    "target_1": null,
+    "target_2": null,
     "confidence_pct": 0,
-    "risk_reward": "N/A",
-    "key_levels_to_watch": [
-      "25972.75 (Resistance)",
-      "25661.2 (Resistance)",
-      "25328.55 (Support)",
-      "25307.45 (Support)"
-    ],
-    "invalidation": "N/A"
+    "risk_reward": null,
+    "key_levels_to_watch": [],
+    "invalidation": null
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
-    "entry_zone": "N/A",
-    "stop_loss": 0,
-    "target_1": 0,
-    "target_2": 0,
+    "entry_zone": null,
+    "stop_loss": null,
+    "target_1": null,
+    "target_2": null,
     "confidence_pct": 0,
-    "risk_reward": "N/A",
-    "key_levels_to_watch": [
-      "63703.25 (Current Price - potential pivot)"
-    ],
-    "invalidation": "N/A"
+    "risk_reward": null,
+    "key_levels_to_watch": [],
+    "invalidation": null
   },
   "what_to_watch": [
-    "Price action around Nifty's 25661.2 and Bank Nifty's 63703.25 levels post-open, especially after Bank Nifty's indicated gap down.",
-    "Global market performance, particularly the US tech sector, for potential contagion effects on Indian equities.",
-    "Option chain buildup and unwinding activity for both Nifty and Bank Nifty throughout the monthly expiry day."
+    "Global crude oil price movements and their impact on domestic inflation and the rupee.",
+    "Any significant FII/DII flow data released post-expiry, which could provide directional cues for the next series.",
+    "Performance of banking sector stocks, as Bank Nifty is currently underperforming Nifty 50.",
+    "Any fresh economic data or policy statements from the RBI regarding inflation management."
   ],
   "risk_factors": [
-    "Monthly expiry day leading to extreme volatility, whipsaws, and unpredictable price movements.",
-    "Significant negative global cues from the US tech market could weigh heavily on domestic sentiment.",
-    "Lack of detailed options data (Max Pain, OI) for pre-market analysis increases uncertainty."
+    "High volatility and potential for sharp, unpredictable moves in the last hour of monthly expiry.",
+    "Uncertainty surrounding global inflation trends and potential central bank responses.",
+    "Impact of rising crude oil prices on corporate margins and overall economic growth.",
+    "The falling rupee could lead to imported inflation and impact FII sentiment."
   ]
 }
