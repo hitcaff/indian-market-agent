@@ -1,15 +1,15 @@
 {
   "session": "pre_market",
   "date": "2026-11-27",
-  "timestamp": "00:11 IST",
+  "timestamp": "02:08 IST",
   "market_bias": "bullish",
-  "bias_strength": "moderate",
+  "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Indian markets are poised for a significant bullish gap-up, indicated by SGX Nifty's strong 2.11% surge, supported by positive Dow and Nasdaq futures. While Nikkei shows a decline, the overall global sentiment appears constructive, driving the initial optimism. Rising crude oil prices remain a potential headwind.",
-    "technical_analysis": "Nifty is expected to open significantly higher, potentially above its immediate resistance of 25951.63, with its RSI at a bullish 64.55. Bank Nifty also anticipates a strong gap-up. Both indices currently show a neutral trend, but the opening action will be crucial in establishing the day's direction, especially given the EMAs are at the current price, indicating a fresh start.",
-    "options_analysis": "The provided options data (PCR 1.0, Max Pain 0, Call Resistance 0, Put Support 0) offers no actionable insights for immediate support or resistance levels. This limitation means we cannot gauge immediate option chain sentiment or potential expiry levels, relying solely on technical levels and price action.",
-    "sentiment_analysis": "FII/DII data is neutral for the pre-market. Market news carries a positive undertone with brokerage upgrades and J.P. Morgan's bullish Nifty target of 29,000, suggesting institutional confidence. However, concerns over rising crude oil and RBI's inflation warnings temper the overall sentiment.",
-    "confluence_summary": "The market is set for a strong bullish opening driven by robust global cues and positive institutional outlooks. However, the 'high_volatility' regime and the system's 'caution' signal, coupled with neutral underlying technical trends and a lack of options data, suggest that while the opening is bullish, sustained upward momentum needs careful monitoring."
+    "global_analysis": "SGX Nifty indicates a strong gap-up opening for the Indian markets, supported by positive cues from Dow and Nasdaq futures. However, the rise in crude oil prices and gold suggests underlying inflation concerns and potential safe-haven demand, which could temper sustained bullishness. Nikkei's decline adds a mixed tone to Asian markets.",
+    "technical_analysis": "Both Nifty and Bank Nifty are poised for significant gap-up openings, with Nifty's RSI in bullish territory. Despite this, the trend for both indices is explicitly stated as 'neutral', and Nifty is approaching immediate resistance levels (25951-26084) right after the open, suggesting potential for profit-booking. The high volatility regime further cautions against aggressive directional bets.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty stands at a neutral 1.0, indicating a balanced sentiment from options traders. The absence of specific Max Pain, Call Resistance, and Put Support data prevents a detailed options-based directional conviction, reinforcing a cautious stance despite the implied gap-up.",
+    "sentiment_analysis": "FII/DII data is neutral, offering no fresh directional cues. Market news is a mixed bag, with positive long-term outlooks like J.P. Morgan's Nifty target contrasting sharply with immediate concerns over rising crude oil prices, RBI's inflation warnings, and the rupee's partial reversal. This mixed sentiment suggests a lack of strong conviction for a sustained move.",
+    "confluence_summary": "While global cues point to a strong gap-up, the underlying neutral technical trends, high volatility regime, and critical resistance levels immediately overhead suggest caution. The absence of strong options data and mixed sentiment from news further dampens conviction for a sustained directional move post-open, leading to a weak bullish bias for the open but not for sustained momentum."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -17,14 +17,14 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 40,
+    "confidence_pct": 80,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "25710.18 (Support)",
-      "25951.63 (Resistance)",
-      "26084.02 (Resistance)"
+      "25951.63 (Resistance 1)",
+      "26084.02 (Resistance 2)",
+      "25710.18 (Support 1)"
     ],
-    "invalidation": "Initial volatility and R:R ratio do not support a confident trade setup at the open."
+    "invalidation": "Any sustained break above 26100 or below 25700 with high volume could signal a new directional bias, but current conditions warrant patience."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -32,26 +32,25 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 40,
+    "confidence_pct": 75,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "63000 (Psychological Support)",
-      "64000 (Psychological Resistance)"
+      "63535.30 (Implied Open - likely resistance zone)",
+      "Need to identify fresh support/resistance levels post-open"
     ],
-    "invalidation": "High volatility and moderate confidence do not support a confident trade setup at the open."
+    "invalidation": "Any sustained break above 64000 or below 63000 with high volume could signal a new directional bias, but current conditions warrant patience."
   },
   "what_to_watch": [
-    "Sustainability of the initial gap-up and follow-through buying.",
-    "Price action around Nifty's immediate resistance levels (25950-26000 zone).",
-    "Crude oil price movements and their impact on Indian equities.",
-    "FII/DII activity post-market opening for directional cues.",
-    "Global market performance, especially US and European indices."
+    "Sustainability of the gap-up: Observe if buyers can maintain momentum above initial resistance levels or if profit-booking dominates.",
+    "Crude Oil prices: Continued upward movement in Brent crude will be a significant headwind for Indian markets due to inflation concerns.",
+    "FII/DII activity post-open: Significant institutional flows could provide clearer directional cues.",
+    "Nifty's reaction to the 25950-26000 zone: This will be a crucial test for the morning session.",
+    "Global market performance during Indian trading hours, especially European and US futures."
   ],
   "risk_factors": [
-    "Potential profit booking after a significant gap-up, leading to sharp reversals.",
-    "Elevated crude oil prices posing inflation risks and impacting corporate margins.",
-    "High volatility regime increasing the risk of whipsaws and stop-loss triggers.",
-    "Lack of clear options data for immediate support/resistance levels.",
-    "Any unexpected negative global news flow during market hours."
+    "High volatility regime: Increases the risk of sudden reversals and whipsaw movements, making directional trades challenging.",
+    "Rising crude oil prices: Poses inflationary risks, impacts corporate earnings, and could weaken the rupee.",
+    "Lack of clear trend: A neutral trend in a high-volatility environment can lead to choppy price action.",
+    "Mixed global cues: While SGX is positive, other factors like Nikkei and crude oil introduce uncertainty."
   ]
 }
