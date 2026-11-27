@@ -1,0 +1,56 @@
+{
+  "session": "afternoon",
+  "date": "2026-11-27",
+  "timestamp": "14:24 IST",
+  "market_bias": "bearish",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "Global cues are mixed. While US and Asian futures show strong positive momentum, SGX Nifty is down, indicating weakness for Indian markets. Rising crude oil prices are a concern for inflation, and a significant jump in Gold suggests underlying risk aversion or inflation hedging.",
+    "technical_analysis": "Both Nifty and Bank Nifty are trading in the red, with bearish RSIs (Nifty at 44.36, Bank Nifty at 30.51, nearing oversold). The trend for both indices is neutral, and the market regime is characterized by high volatility and non-trending behavior, signaling caution for directional trades.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from an options perspective. However, critical data points like Max Pain, specific Call Resistance, and Put Support levels are unavailable, which severely limits a comprehensive options-based directional assessment.",
+    "sentiment_analysis": "FII/DII data is neutral for the day. Market news highlights a falling Indian market due to inflation worries from elevated oil prices and concerns over a potential US Fed rate hike. Despite some positive stock-specific recommendations, the overarching sentiment is cautious and negative for the broader market.",
+    "confluence_summary": "The market is currently exhibiting a bearish undertone driven by negative price action, bearish RSIs, and macro concerns (oil, inflation, Fed). However, strong global futures and Bank Nifty's RSI nearing oversold levels suggest potential for a bounce or limited downside. Coupled with high volatility, a non-trending regime, and missing options data, a high-conviction directional trade is not prudent at this time."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "25569.05 (Support 1)",
+      "25834.55 (Resistance 1)",
+      "25664.50 (Current EMA levels)"
+    ],
+    "invalidation": "A clear and sustained breakout above 25834.55 or below 25569.05 with significant volume would warrant a re-evaluation."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": "N/A",
+    "stop_loss": 0,
+    "target_1": 0,
+    "target_2": 0,
+    "confidence_pct": 0,
+    "risk_reward": "N/A",
+    "key_levels_to_watch": [
+      "63206.65 (Current EMA levels)",
+      "RSI 30.51 (Potential oversold bounce)"
+    ],
+    "invalidation": "A clear and sustained directional move with strong momentum, especially if accompanied by fresh FII/DII data or significant global shifts."
+  },
+  "what_to_watch": [
+    "US market opening performance and any immediate reaction to strong futures.",
+    "Movement in crude oil prices and its impact on inflation sentiment.",
+    "Nifty's ability to hold the immediate support of 25569.05.",
+    "Bank Nifty's reaction from its near-oversold RSI levels (30.51).",
+    "Any fresh FII/DII data updates later in the day."
+  ],
+  "risk_factors": [
+    "Elevated crude oil prices continuing to fuel domestic inflation concerns.",
+    "Uncertainty surrounding the US Fed's December rate hike decision and its global market implications.",
+    "High volatility and the non-trending market regime increasing the risk of whipsaws and false breakouts.",
+    "Lack of comprehensive options data (Max Pain, OI) making it difficult to gauge immediate expiry-related moves."
+  ]
+}
