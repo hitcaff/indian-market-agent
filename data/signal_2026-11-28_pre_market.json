@@ -1,0 +1,57 @@
+{
+  "session": "pre_market",
+  "date": "2026-11-28",
+  "timestamp": "00:01 IST",
+  "market_bias": "neutral",
+  "bias_strength": "weak",
+  "reasoning": {
+    "global_analysis": "SGX Nifty indicates a potential gap-down opening for Indian markets, currently down by 0.82%. However, major global indices like Dow Futures (+1.21%), Nasdaq Futures (+2.55%), Nikkei (+2.98%), and Hang Seng (+3.32%) are showing strong positive momentum, suggesting a potential divergence or a quick recovery for Indian equities. Crude oil is slightly down, while gold is significantly up, indicating some underlying risk-off sentiment globally, yet equity markets are rallying strongly in other regions.",
+    "technical_analysis": "Nifty 50 shows a bearish RSI (42.34) and a neutral trend, with the indicative opening level (SGX Nifty) below its first support. Bank Nifty, however, is in an oversold zone with an RSI of 29.19, suggesting a potential bounce from lower levels. Both indices are currently showing neutral trends, and the market is operating in a high volatility regime, warranting caution.",
+    "options_analysis": "The PCR for both Nifty and Bank Nifty is 1.0, indicating a neutral stance from the options market participants. The absence of Max Pain, Call Resistance, and Put Support data (all showing 0) makes a detailed options-based directional analysis impossible, significantly contributing to the 'insufficient confluence' for directional trades.",
+    "sentiment_analysis": "FII/DII data is neutral (\u20b90 Cr), offering no clear directional bias from institutional flows. Market news includes positive analyst calls for HDFC Bank, Tejas Networks, and Bajaj Finance, and reports of US stocks logging weekly gains, aligning with the positive global cues. However, domestic news about India bonds slumping due to oil spike and RBI hike bets adds a layer of caution regarding interest rate sensitivity.",
+    "confluence_summary": "The strong positive global cues from US and Asian markets are a significant bullish factor, potentially overriding the SGX Nifty's negative indication. Bank Nifty's oversold RSI also supports a potential bounce. However, Nifty's bearish RSI, the neutral trend for both indices, high volatility regime, and lack of clear options data confluence suggest caution and limit strong directional conviction for pre-market directional trades."
+  },
+  "nifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": null,
+    "stop_loss": null,
+    "target_1": null,
+    "target_2": null,
+    "confidence_pct": 0,
+    "risk_reward": null,
+    "key_levels_to_watch": [
+      "25663.88 (Immediate Support)",
+      "25443.27 (Strong Support)",
+      "26007.13 (Immediate Resistance)",
+      "26129.77 (Strong Resistance)"
+    ],
+    "invalidation": "Conditions for a high-conviction directional trade are not met due to conflicting global signals, bearish Nifty RSI, neutral trend, and insufficient options data confluence. High volatility regime suggests waiting for market open confirmation."
+  },
+  "banknifty_trade": {
+    "direction": "NO TRADE",
+    "entry_zone": null,
+    "stop_loss": null,
+    "target_1": null,
+    "target_2": null,
+    "confidence_pct": 0,
+    "risk_reward": null,
+    "key_levels_to_watch": [
+      "63040.90 (Current/EMA levels)",
+      "Oversold RSI (29.19) as potential bounce zone"
+    ],
+    "invalidation": "Despite Bank Nifty's oversold RSI, the overall market is in a high volatility, caution regime. Neutral PCR and lack of detailed options data, combined with a neutral trend, prevent a high-conviction directional trade. Waiting for price action post-open is prudent."
+  },
+  "what_to_watch": [
+    "How Indian markets react to the strong positive global cues, especially if they override the SGX Nifty's negative indication.",
+    "Nifty's ability to hold the 25600-25660 support zone if it gaps down, and Bank Nifty's reaction from its oversold RSI zone.",
+    "FII/DII activity post-market open for fresh directional cues.",
+    "Any fresh news flow regarding capital gains tax relief or RBI's stance on interest rates amidst oil price concerns.",
+    "Price action around the EMA9 and EMA21 for both indices, which are currently at the indicative opening levels."
+  ],
+  "risk_factors": [
+    "High volatility regime leading to potential whipsaws and false breakouts/breakdowns.",
+    "Conflicting global signals (SGX Nifty vs. US/Asia) causing uncertainty and unpredictable opening behavior.",
+    "Lack of clear and comprehensive options data for strong conviction building.",
+    "Potential for domestic factors like rising crude oil prices and RBI hike bets to weigh on market sentiment, especially for banking stocks."
+  ]
+}
