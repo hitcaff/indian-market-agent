@@ -1,15 +1,15 @@
 {
-  "session": "afternoon",
+  "session": "post_market",
   "date": "2026-11-27",
-  "timestamp": "14:24 IST",
-  "market_bias": "bearish",
+  "timestamp": "21:38 IST",
+  "market_bias": "cautiously_bullish",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "Global cues are mixed. While US and Asian futures show strong positive momentum, SGX Nifty is down, indicating weakness for Indian markets. Rising crude oil prices are a concern for inflation, and a significant jump in Gold suggests underlying risk aversion or inflation hedging.",
-    "technical_analysis": "Both Nifty and Bank Nifty are trading in the red, with bearish RSIs (Nifty at 44.36, Bank Nifty at 30.51, nearing oversold). The trend for both indices is neutral, and the market regime is characterized by high volatility and non-trending behavior, signaling caution for directional trades.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty stands at 1.0, indicating a neutral stance from an options perspective. However, critical data points like Max Pain, specific Call Resistance, and Put Support levels are unavailable, which severely limits a comprehensive options-based directional assessment.",
-    "sentiment_analysis": "FII/DII data is neutral for the day. Market news highlights a falling Indian market due to inflation worries from elevated oil prices and concerns over a potential US Fed rate hike. Despite some positive stock-specific recommendations, the overarching sentiment is cautious and negative for the broader market.",
-    "confluence_summary": "The market is currently exhibiting a bearish undertone driven by negative price action, bearish RSIs, and macro concerns (oil, inflation, Fed). However, strong global futures and Bank Nifty's RSI nearing oversold levels suggest potential for a bounce or limited downside. Coupled with high volatility, a non-trending regime, and missing options data, a high-conviction directional trade is not prudent at this time."
+    "global_analysis": "Despite SGX Nifty indicating a negative opening, the broader global context is strongly positive with Dow and Nasdaq futures up over 1% and Asian markets (Nikkei, Hang Seng) soaring by 3%+. This rebound is primarily driven by a significant recovery in US tech and AI shares, setting a positive tone for the next trading session.",
+    "technical_analysis": "Nifty 50 closed down 1.07% with a bearish RSI of 42.34 and a neutral trend. Bank Nifty also saw a decline of 0.78%, but its RSI at 29.19 is firmly in the oversold territory, suggesting a potential bounce. Both indices are currently in a high volatility, non-trending regime, indicating choppy price action.",
+    "options_analysis": "The provided options data is incomplete, with Max Pain, Call Resistance, and Put Support all showing '0'. This critical lack of comprehensive options chain data severely limits our ability to gauge immediate support/resistance levels and overall market sentiment from the derivatives segment, making high-conviction directional calls challenging.",
+    "sentiment_analysis": "FII/DII flows are neutral for the day. Market news highlights a strong rebound in US tech stocks, which is a major positive for global sentiment. However, domestic concerns like Indian bonds slumping due to oil prices and RBI hike bets could act as a headwind, particularly for interest-rate sensitive sectors.",
+    "confluence_summary": "While strong positive global cues, especially from the US tech rebound and Asian markets, suggest a potential positive opening for Indian indices, the domestic technicals are mixed. Bank Nifty's oversold RSI offers a bullish signal, but Nifty's bearish RSI and the prevailing high volatility regime, coupled with the critical absence of comprehensive options data, prevent a high-conviction directional trade for the next session."
   },
   "nifty_trade": {
     "direction": "NO TRADE",
@@ -17,14 +17,14 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
+    "confidence_pct": 30,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "25569.05 (Support 1)",
-      "25834.55 (Resistance 1)",
-      "25664.50 (Current EMA levels)"
+      "25479 (Support 1)",
+      "25822 (Resistance 1)",
+      "26037 (Resistance 2)"
     ],
-    "invalidation": "A clear and sustained breakout above 25834.55 or below 25569.05 with significant volume would warrant a re-evaluation."
+    "invalidation": "No trade initiated due to insufficient confluence and high volatility."
   },
   "banknifty_trade": {
     "direction": "NO TRADE",
@@ -32,25 +32,24 @@
     "stop_loss": 0,
     "target_1": 0,
     "target_2": 0,
-    "confidence_pct": 0,
+    "confidence_pct": 35,
     "risk_reward": "N/A",
     "key_levels_to_watch": [
-      "63206.65 (Current EMA levels)",
-      "RSI 30.51 (Potential oversold bounce)"
+      "63040 (EMA9/21)",
+      "Potential bounce from oversold RSI"
     ],
-    "invalidation": "A clear and sustained directional move with strong momentum, especially if accompanied by fresh FII/DII data or significant global shifts."
+    "invalidation": "No trade initiated due to insufficient confluence, high volatility, and lack of options data."
   },
   "what_to_watch": [
-    "US market opening performance and any immediate reaction to strong futures.",
-    "Movement in crude oil prices and its impact on inflation sentiment.",
-    "Nifty's ability to hold the immediate support of 25569.05.",
-    "Bank Nifty's reaction from its near-oversold RSI levels (30.51).",
-    "Any fresh FII/DII data updates later in the day."
+    "How Indian markets react to the strong positive global cues, especially the US tech rebound, at opening.",
+    "Nifty's ability to sustain above its immediate resistance of 25822 if a gap-up opening occurs.",
+    "Bank Nifty's follow-through from its oversold RSI and its performance around the 63040 EMA levels.",
+    "Movement in crude oil prices and its potential impact on RBI's monetary policy outlook and bond yields."
   ],
   "risk_factors": [
-    "Elevated crude oil prices continuing to fuel domestic inflation concerns.",
-    "Uncertainty surrounding the US Fed's December rate hike decision and its global market implications.",
-    "High volatility and the non-trending market regime increasing the risk of whipsaws and false breakouts.",
-    "Lack of comprehensive options data (Max Pain, OI) making it difficult to gauge immediate expiry-related moves."
+    "The market is in a 'high_volatility' regime (ATR% 1.59%), which can lead to sharp, unpredictable moves.",
+    "The critical absence of comprehensive options data (Max Pain, Call/Put OI, Support/Resistance) significantly increases uncertainty for directional trades.",
+    "Potential for profit booking after a gap-up opening, especially in a non-trending market.",
+    "Domestic concerns regarding bond yields and potential RBI rate hikes could cap upside despite global positivity."
   ]
 }
