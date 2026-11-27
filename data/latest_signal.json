@@ -1,57 +1,56 @@
 {
   "session": "pre_market",
   "date": "2026-11-28",
-  "timestamp": "00:01 IST",
-  "market_bias": "neutral",
+  "timestamp": "01:54 IST",
+  "market_bias": "cautious_bullish",
   "bias_strength": "weak",
   "reasoning": {
-    "global_analysis": "SGX Nifty indicates a potential gap-down opening for Indian markets, currently down by 0.82%. However, major global indices like Dow Futures (+1.21%), Nasdaq Futures (+2.55%), Nikkei (+2.98%), and Hang Seng (+3.32%) are showing strong positive momentum, suggesting a potential divergence or a quick recovery for Indian equities. Crude oil is slightly down, while gold is significantly up, indicating some underlying risk-off sentiment globally, yet equity markets are rallying strongly in other regions.",
-    "technical_analysis": "Nifty 50 shows a bearish RSI (42.34) and a neutral trend, with the indicative opening level (SGX Nifty) below its first support. Bank Nifty, however, is in an oversold zone with an RSI of 29.19, suggesting a potential bounce from lower levels. Both indices are currently showing neutral trends, and the market is operating in a high volatility regime, warranting caution.",
-    "options_analysis": "The PCR for both Nifty and Bank Nifty is 1.0, indicating a neutral stance from the options market participants. The absence of Max Pain, Call Resistance, and Put Support data (all showing 0) makes a detailed options-based directional analysis impossible, significantly contributing to the 'insufficient confluence' for directional trades.",
-    "sentiment_analysis": "FII/DII data is neutral (\u20b90 Cr), offering no clear directional bias from institutional flows. Market news includes positive analyst calls for HDFC Bank, Tejas Networks, and Bajaj Finance, and reports of US stocks logging weekly gains, aligning with the positive global cues. However, domestic news about India bonds slumping due to oil spike and RBI hike bets adds a layer of caution regarding interest rate sensitivity.",
-    "confluence_summary": "The strong positive global cues from US and Asian markets are a significant bullish factor, potentially overriding the SGX Nifty's negative indication. Bank Nifty's oversold RSI also supports a potential bounce. However, Nifty's bearish RSI, the neutral trend for both indices, high volatility regime, and lack of clear options data confluence suggest caution and limit strong directional conviction for pre-market directional trades."
+    "global_analysis": "Major global indices (Dow, Nasdaq, Nikkei, Hang Seng) are showing significant strength, indicating a strong positive sentiment across international markets. This bullishness could provide tailwinds for Indian equities, potentially offsetting the negative SGX Nifty print and supporting a 'buy the dip' scenario.",
+    "technical_analysis": "Nifty's RSI is bearish (42.34) and its trend is neutral, suggesting underlying weakness. Conversely, Bank Nifty's RSI is deeply oversold (29.19) with a neutral trend, hinting at a potential bounce or short covering opportunity from any dip. Both indices are currently in a high volatility regime.",
+    "options_analysis": "PCR for both Nifty and Bank Nifty is 1.0 (neutral), and Max Pain/OI data is zero, offering no clear directional cues from the derivatives market. This lack of robust options data reduces overall confluence and makes options analysis inconclusive.",
+    "sentiment_analysis": "FII/DII data is neutral, providing no immediate directional bias. Market news is mixed, with some positive corporate actions and sector-specific recommendations, but no overarching sentiment driver. The 'caution' signal from the market regime suggests prudence, especially given the high volatility.",
+    "confluence_summary": "Despite SGX Nifty indicating a potential gap down, the overwhelming bullishness in global markets, coupled with Bank Nifty's oversold RSI, suggests that any initial weakness might be bought into. However, Nifty's bearish RSI, the high volatility regime, and lack of options data warrant caution, leading to a cautious bullish outlook for potential recovery on dips rather than an aggressive stance."
   },
   "nifty_trade": {
-    "direction": "NO TRADE",
-    "entry_zone": null,
-    "stop_loss": null,
-    "target_1": null,
-    "target_2": null,
-    "confidence_pct": 0,
-    "risk_reward": null,
+    "direction": "LONG",
+    "entry_zone": "25500 - 25550",
+    "stop_loss": 25400,
+    "target_1": 25800,
+    "target_2": 26000,
+    "confidence_pct": 40,
+    "risk_reward": "1:2.2",
     "key_levels_to_watch": [
-      "25663.88 (Immediate Support)",
-      "25443.27 (Strong Support)",
-      "26007.13 (Immediate Resistance)",
-      "26129.77 (Strong Resistance)"
+      "25443 (Strong Support)",
+      "25663 (Immediate Support/Resistance)",
+      "26007 (Resistance)"
     ],
-    "invalidation": "Conditions for a high-conviction directional trade are not met due to conflicting global signals, bearish Nifty RSI, neutral trend, and insufficient options data confluence. High volatility regime suggests waiting for market open confirmation."
+    "invalidation": "Nifty sustaining below 25400 or a significant negative shift in global sentiment."
   },
   "banknifty_trade": {
-    "direction": "NO TRADE",
-    "entry_zone": null,
-    "stop_loss": null,
-    "target_1": null,
-    "target_2": null,
-    "confidence_pct": 0,
-    "risk_reward": null,
+    "direction": "LONG",
+    "entry_zone": "62800 - 62900",
+    "stop_loss": 62600,
+    "target_1": 63300,
+    "target_2": 63600,
+    "confidence_pct": 50,
+    "risk_reward": "1:1.8",
     "key_levels_to_watch": [
-      "63040.90 (Current/EMA levels)",
-      "Oversold RSI (29.19) as potential bounce zone"
+      "63000 (Psychological Level)",
+      "62800 (Potential Support from dip)",
+      "63500 (Potential Resistance)"
     ],
-    "invalidation": "Despite Bank Nifty's oversold RSI, the overall market is in a high volatility, caution regime. Neutral PCR and lack of detailed options data, combined with a neutral trend, prevent a high-conviction directional trade. Waiting for price action post-open is prudent."
+    "invalidation": "Bank Nifty sustaining below 62600 or a significant negative shift in global sentiment."
   },
   "what_to_watch": [
-    "How Indian markets react to the strong positive global cues, especially if they override the SGX Nifty's negative indication.",
-    "Nifty's ability to hold the 25600-25660 support zone if it gaps down, and Bank Nifty's reaction from its oversold RSI zone.",
-    "FII/DII activity post-market open for fresh directional cues.",
-    "Any fresh news flow regarding capital gains tax relief or RBI's stance on interest rates amidst oil price concerns.",
-    "Price action around the EMA9 and EMA21 for both indices, which are currently at the indicative opening levels."
+    "Nifty and Bank Nifty opening behavior and price action around key support levels.",
+    "Sustained performance of global markets, especially US and Asian indices, throughout the day.",
+    "Any significant FII/DII flow data released during market hours.",
+    "Price action around the 25663 level for Nifty and 63000 for Bank Nifty."
   ],
   "risk_factors": [
-    "High volatility regime leading to potential whipsaws and false breakouts/breakdowns.",
-    "Conflicting global signals (SGX Nifty vs. US/Asia) causing uncertainty and unpredictable opening behavior.",
-    "Lack of clear and comprehensive options data for strong conviction building.",
-    "Potential for domestic factors like rising crude oil prices and RBI hike bets to weigh on market sentiment, especially for banking stocks."
+    "The divergence between SGX Nifty's negative indication and other global markets' strong positive cues could lead to unexpected opening or sustained price action.",
+    "The 'high_volatility' regime implies rapid price swings and increased risk, requiring strict risk management.",
+    "Lack of clear options data reduces conviction and increases uncertainty in market direction.",
+    "Any unforeseen domestic or international news events could quickly alter market sentiment."
   ]
 }
